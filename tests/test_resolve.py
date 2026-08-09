@@ -81,3 +81,21 @@ def test_resolves_from_canonical_url_without_channel_id_key(monkeypatch):
     calls = mock_fetch(monkeypatch, body=body)
     assert resolve_channel_id("@mkbhd") == MKBHD_ID
     assert calls == ["https://www.youtube.com/@mkbhd"]
+
+
+def test_canonical_link_wins_over_unrelated_channel_id(monkeypatch):
+    # Real pages often contain an unrelated/related channel's "channelId" key
+    # BEFORE the canonical link for the actual channel being viewed. The
+    # canonical/og:url channel URL must take priority over any bare
+    # "channelId" occurrence.
+    wrong_id = "UCzzzzzzzzzzzzzzzzzzzzzz"
+    body = (
+        "<html><head>"
+        f'<script>{{"channelId":"{wrong_id}"}}</script>'
+        '<link rel="canonical" href="https://www.youtube.com/channel/'
+        f'{MKBHD_ID}">'
+        "</head><body></body></html>"
+    )
+    calls = mock_fetch(monkeypatch, body=body)
+    assert resolve_channel_id("@mkbhd") == MKBHD_ID
+    assert calls == ["https://www.youtube.com/@mkbhd"]

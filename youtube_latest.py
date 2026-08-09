@@ -59,8 +59,15 @@ def _resolve_handle(h: str) -> str:
         if e.code == 404:
             raise ChannelNotFoundError(f"channel not found: {h}") from e
         raise
-    m = re.search(r'"channelId":"(UC[0-9A-Za-z_-]{22})"', html) or re.search(
-        r"youtube\.com/channel/(UC[0-9A-Za-z_-]{22})", html
+    # Priority matters: a channel page can embed OTHER channels' IDs (e.g. in
+    # related/recommended-channel data) under the "channelId" key before the
+    # real channel's ID appears. The canonical link / og:url and the
+    # "externalId" key reliably refer to the page's own channel, so they are
+    # tried first; the bare "channelId" key is only a last resort.
+    m = (
+        re.search(r"youtube\.com/channel/(UC[0-9A-Za-z_-]{22})", html)
+        or re.search(r'"externalId":"(UC[0-9A-Za-z_-]{22})"', html)
+        or re.search(r'"channelId":"(UC[0-9A-Za-z_-]{22})"', html)
     )
     if m is None:
         raise ChannelNotFoundError(f"could not find a channel ID on the page for {h}")
