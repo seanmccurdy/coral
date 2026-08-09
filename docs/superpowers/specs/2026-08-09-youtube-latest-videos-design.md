@@ -53,13 +53,23 @@ Runtime dependencies: **none** (stdlib only: `urllib.request`,
   doesn't resolve (HTTP 404 or no ID found in page).
 - Results cached per-process (`functools.lru_cache`).
 
-### `latest_videos(channels: list[str], n: int = 5, include_shorts: bool = False) -> list[dict]`
+### `latest_videos(channels: list[str], n: int = 5, include_shorts: bool = False, include_transcripts: bool = False) -> list[dict]`
 
 - `include_shorts=False` (default): fetch the long-form UULF playlist feed
   (with channel-feed fallback as described above) — results match the
   channel's "Videos" tab.
 - `include_shorts=True`: fetch the mixed `channel_id=UC...` feed directly —
   Shorts and clips appear alongside videos.
+- `include_transcripts=True` (CLI: `--transcripts`): each video element
+  additionally gets `transcript` (plain text, `None` if the video has no
+  captions or the fetch fails) and `transcript_language`. Sourced from
+  YouTube's unofficial internal player endpoint
+  (`youtubei/v1/player`, ANDROID client — the WEB client returns no caption
+  tracks unauthenticated) plus one timedtext XML fetch per video. Manual
+  caption tracks are preferred over auto-generated (`kind == "asr"`).
+  Opt-in because it costs 2 extra HTTP requests per video and rides the
+  most breakage-prone surface of the module. Off by default, the keys are
+  absent entirely.
 
 - Returns a **flat list with one dict per video** (not one dict per
   channel). Channels appear in input order; within a channel, videos are

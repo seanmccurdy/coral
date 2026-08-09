@@ -20,6 +20,11 @@ FEED_URL = "https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
 # playlist ID is derived from the channel ID by swapping the "UC" prefix for
 # "UULF".
 UULF_FEED_URL = "https://www.youtube.com/feeds/videos.xml?playlist_id=UULF{suffix}"
+# Unofficial internal endpoint (used by the YouTube apps themselves). Serves
+# caption-track metadata; the WEB client gets no tracks without auth, but the
+# ANDROID client does. Most breakage-prone part of this module.
+PLAYER_URL = "https://www.youtube.com/youtubei/v1/player"
+_PLAYER_CLIENT = {"clientName": "ANDROID", "clientVersion": "20.10.38"}
 _CHANNEL_ID_RE = re.compile(r"UC[0-9A-Za-z_-]{22}")
 _USER_AGENT = "Mozilla/5.0 (compatible; youtube-latest/0.1)"
 
@@ -38,6 +43,43 @@ def _fetch(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": _USER_AGENT})
     with urllib.request.urlopen(req, timeout=15) as resp:
         return resp.read().decode("utf-8", errors="replace")
+
+
+def _post_json(url: str, payload: dict) -> dict:
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode(),
+        headers={"Content-Type": "application/json", "User-Agent": _USER_AGENT},
+    )
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        return json.load(resp)
+
+
+def _fetch_transcript(video_id: str) -> tuple[str | None, str | None]:
+    """Return (transcript_text, language_code) for a video, or (None, None)
+    when the video has no captions or the (unofficial) endpoint fails."""
+    try:
+        data = _post_json(
+            PLAYER_URL, {"context": {"client": _PLAYER_CLIENT}, "videoId": video_id}
+        )
+        tracks = (
+            data.get("captions", {})
+            .get("playerCaptionsTracklistRenderer", {})
+            .get("captionTracks", [])
+        )
+        if not tracks:
+            return None, None
+        # kind == "asr" marks auto-generated captions; prefer a manual track.
+        track = min(tracks, key=lambda t: t.get("kind") == "asr")
+        root = ET.fromstring(_fetch(track["baseUrl"]))
+        parts = []
+        for p in root.iter("p"):
+            text = "".join(p.itertext()).strip()
+            if text:
+                parts.append(text)
+        return (" ".join(parts) or None), track.get("languageCode")
+    except Exception:
+        return None, None
 
 
 def _is_channel_id(s: str) -> bool:
@@ -151,7 +193,12 @@ def _channel_result(channel: str, n: int, include_shorts: bool) -> dict:
         return {"channel": norm, "error": str(e)}
 
 
-def latest_videos(channels: list[str], n: int = 5, include_shorts: bool = False) -> list[dict]:
+def latest_videos(
+    channels: list[str],
+    n: int = 5,
+    include_shorts: bool = False,
+    include_transcripts: bool = False,
+) -> list[dict]:
     """Return a flat list with one dict per video, channels in input order
     and newest-first within each channel. A failed channel contributes
     exactly one element: {"channel_handle": ..., "error": "<msg>"}.
@@ -190,6 +237,17 @@ def latest_videos(channels: list[str], n: int = 5, include_shorts: bool = False)
                     "views": v["views"],
                 }
             )
+
+    if include_transcripts:
+        # Two extra HTTP requests per video (player call + caption fetch),
+        # hence opt-in. Failures degrade to None rather than erroring the row.
+        vids = [r for r in flat if "error" not in r]
+        if vids:
+            with ThreadPoolExecutor(max_workers=min(_MAX_WORKERS, len(vids))) as ex:
+                transcripts = ex.map(lambda r: _fetch_transcript(r["video_id"]), vids)
+                for r, (text, lang) in zip(vids, transcripts):
+                    r["transcript"] = text
+                    r["transcript_language"] = lang
     return flat
 
 
@@ -207,6 +265,12 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("-n", type=int, default=5, help="videos per channel (max 15)")
     parser.add_argument("--json", action="store_true", dest="as_json", help="JSON output")
     parser.add_argument(
+        "--transcripts",
+        action="store_true",
+        dest="include_transcripts",
+        help="also fetch each video's transcript (2 extra requests per video)",
+    )
+    parser.add_argument(
         "--include-shorts",
         action="store_true",
         dest="include_shorts",
@@ -214,7 +278,12 @@ def main(argv: list[str] | None = None) -> int:
     )
     args = parser.parse_args(argv)
 
-    results = latest_videos(args.channels, n=args.n, include_shorts=args.include_shorts)
+    results = latest_videos(
+        args.channels,
+        n=args.n,
+        include_shorts=args.include_shorts,
+        include_transcripts=args.include_transcripts,
+    )
 
     if args.as_json:
         print(json.dumps(results, default=_json_default, indent=2))
