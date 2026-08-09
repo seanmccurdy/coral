@@ -14,6 +14,12 @@ from functools import lru_cache
 
 CHANNEL_URL = "https://www.youtube.com/{handle}"
 FEED_URL = "https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+# The channel Atom feed mixes Shorts/clips in with regular videos. YouTube
+# also publishes a long-form-only feed via the channel's "uploads, long-form"
+# (UULF) playlist, which matches what the channel's "Videos" tab shows. The
+# playlist ID is derived from the channel ID by swapping the "UC" prefix for
+# "UULF".
+UULF_FEED_URL = "https://www.youtube.com/feeds/videos.xml?playlist_id=UULF{suffix}"
 _CHANNEL_ID_RE = re.compile(r"UC[0-9A-Za-z_-]{22}")
 _USER_AGENT = "Mozilla/5.0 (compatible; youtube-latest/0.1)"
 
@@ -103,8 +109,15 @@ def _parse_feed(xml_text: str, n: int) -> dict:
                 "views": views,
             }
         )
+    # Channel feeds have the channel name in the root <title>. Playlist feeds
+    # (e.g. the UULF long-form playlist) put "Videos" (the playlist name) in
+    # <title> and the actual channel name in <author><name>. Prefer
+    # author/name when present so channel_title is correct for both.
+    channel_title = root.findtext("atom:author/atom:name", default=None, namespaces=_NS)
+    if not channel_title:
+        channel_title = root.findtext("atom:title", default="", namespaces=_NS)
     return {
-        "channel_title": root.findtext("atom:title", default="", namespaces=_NS),
+        "channel_title": channel_title,
         "videos": videos,
     }
 
@@ -112,23 +125,68 @@ def _parse_feed(xml_text: str, n: int) -> dict:
 _MAX_WORKERS = 8
 
 
-def _channel_result(channel: str, n: int) -> dict:
+def _channel_result(channel: str, n: int, include_shorts: bool) -> dict:
     norm = _normalize(channel)
     try:
         channel_id = resolve_channel_id(channel)
-        feed = _parse_feed(_fetch(FEED_URL.format(channel_id=channel_id)), n)
+        feed = None
+        if not include_shorts:
+            suffix = channel_id[2:]  # strip "UC" prefix for the UULF playlist ID
+            try:
+                uulf_feed = _parse_feed(_fetch(UULF_FEED_URL.format(suffix=suffix)), n)
+                if uulf_feed["videos"]:
+                    feed = uulf_feed
+            except Exception:
+                feed = None
+        if feed is None:
+            # Fall back to the mixed channel feed (Shorts/clips included) if
+            # the long-form-only UULF playlist feed is unavailable or empty,
+            # or directly when include_shorts=True was requested.
+            feed = _parse_feed(_fetch(FEED_URL.format(channel_id=channel_id)), n)
         return {"channel": norm, "channel_id": channel_id, **feed}
     except Exception as e:
         return {"channel": norm, "error": str(e)}
 
 
-def latest_videos(channels: list[str], n: int = 5) -> list[dict]:
+def latest_videos(channels: list[str], n: int = 5, include_shorts: bool = False) -> list[dict]:
+    """Return a flat list with one dict per video, channels in input order
+    and newest-first within each channel. A failed channel contributes
+    exactly one element: {"channel": ..., "error": "<msg>"}.
+
+    By default, fetches the long-form-only UULF playlist feed (falling back
+    to the mixed channel feed on error or if it's empty). If
+    include_shorts=True, fetches the mixed channel feed directly, so Shorts
+    and clips appear alongside videos.
+    """
     if not channels:
         return []
     n = max(1, min(n, 15))
     workers = min(_MAX_WORKERS, len(channels))
     with ThreadPoolExecutor(max_workers=workers) as ex:
-        return list(ex.map(lambda c: _channel_result(c, n), channels))
+        channel_results = list(
+            ex.map(lambda c: _channel_result(c, n, include_shorts), channels)
+        )
+
+    flat: list[dict] = []
+    for r in channel_results:
+        if "error" in r:
+            flat.append({"channel": r["channel"], "error": r["error"]})
+            continue
+        for v in r["videos"]:
+            flat.append(
+                {
+                    "channel": r["channel"],
+                    "channel_id": r["channel_id"],
+                    "channel_title": r["channel_title"],
+                    "video_id": v["video_id"],
+                    "title": v["title"],
+                    "url": v["url"],
+                    "published": v["published"],
+                    "thumbnail": v["thumbnail"],
+                    "views": v["views"],
+                }
+            )
+    return flat
 
 
 def _json_default(obj):
@@ -144,24 +202,36 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("channels", nargs="+", help="channel handles (@name) or UC... IDs")
     parser.add_argument("-n", type=int, default=5, help="videos per channel (max 15)")
     parser.add_argument("--json", action="store_true", dest="as_json", help="JSON output")
+    parser.add_argument(
+        "--include-shorts",
+        action="store_true",
+        dest="include_shorts",
+        help="include Shorts/clips (mixed feed) instead of long-form only",
+    )
     args = parser.parse_args(argv)
 
-    results = latest_videos(args.channels, n=args.n)
+    results = latest_videos(args.channels, n=args.n, include_shorts=args.include_shorts)
 
     if args.as_json:
         print(json.dumps(results, default=_json_default, indent=2))
     else:
+        current_channel = None
         for r in results:
             if "error" in r:
+                if current_channel is not None:
+                    print()
+                    current_channel = None
                 print(f"{r['channel']}: error: {r['error']}")
                 continue
-            print(f"{r['channel_title']} ({r['channel']})")
-            for v in r["videos"]:
-                date = v["published"].date().isoformat() if v["published"] else "?"
-                views = f"{v['views']:,} views" if v["views"] is not None else "views n/a"
-                print(f"  [{date}] {v['title']} — {views}")
-                print(f"          {v['url']}")
-            print()
+            if r["channel"] != current_channel:
+                if current_channel is not None:
+                    print()
+                print(f"{r['channel_title']} ({r['channel']})")
+                current_channel = r["channel"]
+            date = r["published"].date().isoformat() if r["published"] else "?"
+            views = f"{r['views']:,} views" if r["views"] is not None else "views n/a"
+            print(f"  [{date}] {r['title']} — {views}")
+            print(f"          {r['url']}")
 
     return 1 if any("error" in r for r in results) else 0
 

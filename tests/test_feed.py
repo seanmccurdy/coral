@@ -4,6 +4,7 @@ from pathlib import Path
 from youtube_latest import _parse_feed
 
 FEED = (Path(__file__).parent / "fixtures" / "feed.xml").read_text()
+PLAYLIST_FEED = (Path(__file__).parent / "fixtures" / "playlist_feed.xml").read_text()
 
 
 def test_parses_channel_title_and_all_fields():
@@ -32,3 +33,16 @@ def test_n_limits_entries():
 def test_missing_statistics_gives_none_views():
     videos = _parse_feed(FEED, n=15)["videos"]
     assert videos[2]["views"] is None
+
+
+def test_playlist_feed_prefers_author_name_over_title():
+    result = _parse_feed(PLAYLIST_FEED, n=15)
+    assert result["channel_title"] == "Marques Brownlee"
+    ids = [v["video_id"] for v in result["videos"]]
+    assert ids == ["vid00000001", "vid00000002"]
+
+
+def test_channel_feed_without_author_falls_back_to_title():
+    # feed.xml has no <author>, so channel_title should come from root <title>
+    result = _parse_feed(FEED, n=15)
+    assert result["channel_title"] == "Marques Brownlee"
