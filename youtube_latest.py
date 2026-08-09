@@ -1,7 +1,10 @@
 """Latest YouTube videos for a list of channels, via public Atom feeds."""
 from __future__ import annotations
 
+import argparse
+import json
 import re
+import sys
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -112,3 +115,42 @@ def latest_videos(channels: list[str], n: int = 5) -> list[dict]:
     workers = min(_MAX_WORKERS, len(channels))
     with ThreadPoolExecutor(max_workers=workers) as ex:
         return list(ex.map(lambda c: _channel_result(c, n), channels))
+
+
+def _json_default(obj):
+    if isinstance(obj, datetime):
+        return obj.isoformat()
+    raise TypeError(f"not JSON serializable: {type(obj)!r}")
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(
+        description="Show the latest videos for YouTube channels."
+    )
+    parser.add_argument("channels", nargs="+", help="channel handles (@name) or UC... IDs")
+    parser.add_argument("-n", type=int, default=5, help="videos per channel (max 15)")
+    parser.add_argument("--json", action="store_true", dest="as_json", help="JSON output")
+    args = parser.parse_args(argv)
+
+    results = latest_videos(args.channels, n=args.n)
+
+    if args.as_json:
+        print(json.dumps(results, default=_json_default, indent=2))
+    else:
+        for r in results:
+            if "error" in r:
+                print(f"{r['channel']}: error: {r['error']}")
+                continue
+            print(f"{r['channel_title']} ({r['channel']})")
+            for v in r["videos"]:
+                date = v["published"].date().isoformat() if v["published"] else "?"
+                views = f"{v['views']:,} views" if v["views"] is not None else "views n/a"
+                print(f"  [{date}] {v['title']} — {views}")
+                print(f"          {v['url']}")
+            print()
+
+    return 1 if any("error" in r for r in results) else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
