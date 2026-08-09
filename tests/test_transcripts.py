@@ -1,3 +1,5 @@
+import time
+
 import youtube_latest
 from youtube_latest import _fetch_transcript, latest_videos
 
@@ -123,6 +125,23 @@ def test_use_cache_false_bypasses_cache(monkeypatch):
     _fetch_transcript("vid00000001", use_cache=False)
     _fetch_transcript("vid00000001", use_cache=False)
     assert len(posts) == 2 and len(fetched) == 2
+
+
+def test_default_retention_is_about_one_year():
+    assert youtube_latest._CACHE_TTL_SECONDS == 365 * 24 * 60 * 60
+
+
+def test_expired_entries_are_refetched(monkeypatch):
+    posts, _ = mock_transcript_seams(
+        monkeypatch,
+        player_response([{"baseUrl": "https://captions.example/en", "languageCode": "en"}]),
+    )
+    monkeypatch.setattr(youtube_latest, "_CACHE_TTL_SECONDS", 0.05)
+    _fetch_transcript("vid00000001")
+    time.sleep(0.1)
+    _fetch_transcript("vid00000001")
+    # entry expired between calls, so the second call hit the network again
+    assert len(posts) == 2
 
 
 def test_missing_transcript_is_not_cached(monkeypatch):

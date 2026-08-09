@@ -37,10 +37,10 @@ channel feed:
 
 ## Module: `youtube_latest.py`
 
-Runtime dependencies: **none** (stdlib only: `urllib.request`,
-`xml.etree.ElementTree`, `concurrent.futures`, `re`, `json`, `argparse`,
-`datetime`). Project managed with uv (`pyproject.toml`); dev dependency:
-`pytest`.
+Runtime dependencies: `diskcache` (transcript cache with TTL retention);
+everything else is stdlib (`urllib.request`, `xml.etree.ElementTree`,
+`concurrent.futures`, `re`, `json`, `argparse`, `datetime`). Project
+managed with uv (`pyproject.toml`); dev dependency: `pytest`.
 
 ### `resolve_channel_id(handle: str) -> str`
 
@@ -71,14 +71,14 @@ Runtime dependencies: **none** (stdlib only: `urllib.request`,
   most breakage-prone surface of the module. Off by default, the keys are
   absent entirely.
 - **Transcript cache** (`use_cache=True` default; CLI `--no-cache` to
-  bypass): successful transcripts are cached on disk at
-  `~/.cache/youtube-latest/transcripts/<video_id>.json` — transcripts are
-  immutable once published, so cached copies are reused on later runs.
-  `(None, None)` results are never cached (captions can appear later on
-  fresh uploads), corrupt cache entries are refetched, and cache write
-  failures never break the fetch. Feed data (titles, views, ordering) is
-  deliberately not cached: one cheap request per channel, freshness is the
-  point.
+  bypass): successful transcripts are cached via `diskcache`
+  (SQLite-backed, at `~/.cache/youtube-latest/transcripts/`) keyed by
+  video ID, with **1-year retention** (`expire=365 days`; diskcache
+  drops expired entries on read and during culling). Missing transcripts
+  are never cached (captions can appear later on fresh uploads), and
+  cache read/write failures never break the fetch. Feed data (titles,
+  views, ordering) is deliberately not cached: one cheap request per
+  channel, freshness is the point.
 
 - Returns a **flat list with one dict per video** (not one dict per
   channel). Channels appear in input order; within a channel, videos are

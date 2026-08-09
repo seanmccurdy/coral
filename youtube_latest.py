@@ -13,6 +13,8 @@ from datetime import datetime
 from functools import lru_cache
 from pathlib import Path
 
+import diskcache
+
 CHANNEL_URL = "https://www.youtube.com/{handle}"
 FEED_URL = "https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
 # The channel Atom feed mixes Shorts/clips in with regular videos. YouTube
@@ -28,9 +30,21 @@ PLAYER_URL = "https://www.youtube.com/youtubei/v1/player"
 _PLAYER_CLIENT = {"clientName": "ANDROID", "clientVersion": "20.10.38"}
 # Transcripts are immutable once published and expensive to fetch (2 requests,
 # payloads in the hundreds of KB), so they are cached on disk keyed by video
-# ID. Feed data (titles, view counts) is deliberately NOT cached — one cheap
-# request per channel, and freshness is the point.
+# ID with ~1 year retention (diskcache evicts expired entries on read and
+# during culling). Feed data (titles, view counts) is deliberately NOT
+# cached — one cheap request per channel, and freshness is the point.
 _CACHE_DIR = Path.home() / ".cache" / "youtube-latest" / "transcripts"
+_CACHE_TTL_SECONDS = 365 * 24 * 60 * 60
+
+
+@lru_cache(maxsize=None)
+def _open_cache(directory: str) -> diskcache.Cache:
+    return diskcache.Cache(directory)
+
+
+def _transcript_cache() -> diskcache.Cache:
+    # Resolved per call so tests can repoint _CACHE_DIR at a temp directory.
+    return _open_cache(str(_CACHE_DIR))
 _CHANNEL_ID_RE = re.compile(r"UC[0-9A-Za-z_-]{22}")
 _USER_AGENT = "Mozilla/5.0 (compatible; youtube-latest/0.1)"
 
@@ -65,16 +79,16 @@ def _fetch_transcript(video_id: str, use_cache: bool = True) -> tuple[str | None
     """Return (transcript_text, language_code) for a video, or (None, None)
     when the video has no captions or the (unofficial) endpoint fails.
 
-    Successful results are cached on disk in _CACHE_DIR; (None, None) is
-    never cached, since captions can appear later (e.g. ASR still
-    processing a fresh upload)."""
-    cache_path = _CACHE_DIR / f"{video_id}.json"
-    if use_cache and cache_path.exists():
+    Successful results are cached on disk in _CACHE_DIR with
+    _CACHE_TTL_SECONDS retention; (None, None) is never cached, since
+    captions can appear later (e.g. ASR still processing a fresh upload)."""
+    if use_cache:
         try:
-            cached = json.loads(cache_path.read_text())
-            return cached["transcript"], cached["transcript_language"]
+            cached = _transcript_cache().get(video_id)
         except Exception:
-            pass  # corrupt cache entry: fall through and refetch
+            cached = None  # unreadable cache must not break the fetch
+        if cached is not None:
+            return cached["transcript"], cached["transcript_language"]
     try:
         data = _post_json(
             PLAYER_URL, {"context": {"client": _PLAYER_CLIENT}, "videoId": video_id}
@@ -98,11 +112,12 @@ def _fetch_transcript(video_id: str, use_cache: bool = True) -> tuple[str | None
         lang = track.get("languageCode")
         if use_cache and text is not None:
             try:
-                _CACHE_DIR.mkdir(parents=True, exist_ok=True)
-                cache_path.write_text(
-                    json.dumps({"transcript": text, "transcript_language": lang})
+                _transcript_cache().set(
+                    video_id,
+                    {"transcript": text, "transcript_language": lang},
+                    expire=_CACHE_TTL_SECONDS,
                 )
-            except OSError:
+            except Exception:
                 pass  # cache write failure must not break the fetch
         return text, lang
     except Exception:

@@ -3,7 +3,9 @@ name = "youtube-latest"
 version = "0.1.0"
 description = "Latest YouTube videos for a list of channels, via public Atom feeds"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "diskcache>=5.6",
+]
 
 [dependency-groups]
 dev = ["pytest>=8"]
