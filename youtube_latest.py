@@ -5,6 +5,7 @@ import re
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from functools import lru_cache
 
@@ -83,3 +84,31 @@ def _parse_feed(xml_text: str, n: int) -> dict:
         "channel_title": root.findtext("atom:title", default="", namespaces=_NS),
         "videos": videos,
     }
+
+
+_MAX_WORKERS = 8
+
+
+def _normalize(channel: str) -> str:
+    if _is_channel_id(channel) or channel.startswith("@"):
+        return channel
+    return "@" + channel
+
+
+def _channel_result(channel: str, n: int) -> dict:
+    norm = _normalize(channel)
+    try:
+        channel_id = resolve_channel_id(channel)
+        feed = _parse_feed(_fetch(FEED_URL.format(channel_id=channel_id)), n)
+        return {"channel": norm, "channel_id": channel_id, **feed}
+    except Exception as e:
+        return {"channel": norm, "error": str(e)}
+
+
+def latest_videos(channels: list[str], n: int = 5) -> list[dict]:
+    if not channels:
+        return []
+    n = max(1, min(n, 15))
+    workers = min(_MAX_WORKERS, len(channels))
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        return list(ex.map(lambda c: _channel_result(c, n), channels))
