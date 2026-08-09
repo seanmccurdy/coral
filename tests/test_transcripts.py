@@ -98,3 +98,63 @@ def test_latest_videos_omits_transcript_fields_by_default(monkeypatch):
     results = latest_videos(["@mkbhd"], n=1)
     assert "transcript" not in results[0]
     assert "transcript_language" not in results[0]
+
+
+def test_transcript_is_cached_on_disk_and_reused(monkeypatch):
+    posts, fetched = mock_transcript_seams(
+        monkeypatch,
+        player_response([{"baseUrl": "https://captions.example/en", "languageCode": "en"}]),
+    )
+    first = _fetch_transcript("vid00000001")
+    assert first == ("Hello world this is a test", "en")
+    assert len(posts) == 1 and len(fetched) == 1
+
+    second = _fetch_transcript("vid00000001")
+    assert second == first
+    # no additional network traffic: served from the disk cache
+    assert len(posts) == 1 and len(fetched) == 1
+
+
+def test_use_cache_false_bypasses_cache(monkeypatch):
+    posts, fetched = mock_transcript_seams(
+        monkeypatch,
+        player_response([{"baseUrl": "https://captions.example/en", "languageCode": "en"}]),
+    )
+    _fetch_transcript("vid00000001", use_cache=False)
+    _fetch_transcript("vid00000001", use_cache=False)
+    assert len(posts) == 2 and len(fetched) == 2
+
+
+def test_missing_transcript_is_not_cached(monkeypatch):
+    posts, _ = mock_transcript_seams(monkeypatch, player_response([]))
+    assert _fetch_transcript("vid00000001") == (None, None)
+    assert _fetch_transcript("vid00000001") == (None, None)
+    # captions can appear later (e.g. ASR still processing), so None is retried
+    assert len(posts) == 2
+
+
+def test_latest_videos_passes_use_cache_through(monkeypatch):
+    route_fetch(monkeypatch)
+    feed_fetch = youtube_latest._fetch
+    caption_fetches = []
+
+    def fetch_with_captions(url):
+        if url.startswith("https://captions.example/"):
+            caption_fetches.append(url)
+            return TIMEDTEXT_XML
+        return feed_fetch(url)
+
+    monkeypatch.setattr(youtube_latest, "_fetch", fetch_with_captions)
+    monkeypatch.setattr(
+        youtube_latest,
+        "_post_json",
+        lambda url, payload: player_response(
+            [{"baseUrl": "https://captions.example/en", "languageCode": "en"}]
+        ),
+    )
+    latest_videos(["@mkbhd"], n=1, include_transcripts=True)
+    latest_videos(["@mkbhd"], n=1, include_transcripts=True)
+    assert len(caption_fetches) == 1  # second run served from cache
+
+    latest_videos(["@mkbhd"], n=1, include_transcripts=True, use_cache=False)
+    assert len(caption_fetches) == 2

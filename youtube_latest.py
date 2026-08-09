@@ -11,6 +11,7 @@ import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from functools import lru_cache
+from pathlib import Path
 
 CHANNEL_URL = "https://www.youtube.com/{handle}"
 FEED_URL = "https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
@@ -25,6 +26,11 @@ UULF_FEED_URL = "https://www.youtube.com/feeds/videos.xml?playlist_id=UULF{suffi
 # ANDROID client does. Most breakage-prone part of this module.
 PLAYER_URL = "https://www.youtube.com/youtubei/v1/player"
 _PLAYER_CLIENT = {"clientName": "ANDROID", "clientVersion": "20.10.38"}
+# Transcripts are immutable once published and expensive to fetch (2 requests,
+# payloads in the hundreds of KB), so they are cached on disk keyed by video
+# ID. Feed data (titles, view counts) is deliberately NOT cached — one cheap
+# request per channel, and freshness is the point.
+_CACHE_DIR = Path.home() / ".cache" / "youtube-latest" / "transcripts"
 _CHANNEL_ID_RE = re.compile(r"UC[0-9A-Za-z_-]{22}")
 _USER_AGENT = "Mozilla/5.0 (compatible; youtube-latest/0.1)"
 
@@ -55,9 +61,20 @@ def _post_json(url: str, payload: dict) -> dict:
         return json.load(resp)
 
 
-def _fetch_transcript(video_id: str) -> tuple[str | None, str | None]:
+def _fetch_transcript(video_id: str, use_cache: bool = True) -> tuple[str | None, str | None]:
     """Return (transcript_text, language_code) for a video, or (None, None)
-    when the video has no captions or the (unofficial) endpoint fails."""
+    when the video has no captions or the (unofficial) endpoint fails.
+
+    Successful results are cached on disk in _CACHE_DIR; (None, None) is
+    never cached, since captions can appear later (e.g. ASR still
+    processing a fresh upload)."""
+    cache_path = _CACHE_DIR / f"{video_id}.json"
+    if use_cache and cache_path.exists():
+        try:
+            cached = json.loads(cache_path.read_text())
+            return cached["transcript"], cached["transcript_language"]
+        except Exception:
+            pass  # corrupt cache entry: fall through and refetch
     try:
         data = _post_json(
             PLAYER_URL, {"context": {"client": _PLAYER_CLIENT}, "videoId": video_id}
@@ -77,7 +94,17 @@ def _fetch_transcript(video_id: str) -> tuple[str | None, str | None]:
             text = "".join(p.itertext()).strip()
             if text:
                 parts.append(text)
-        return (" ".join(parts) or None), track.get("languageCode")
+        text = " ".join(parts) or None
+        lang = track.get("languageCode")
+        if use_cache and text is not None:
+            try:
+                _CACHE_DIR.mkdir(parents=True, exist_ok=True)
+                cache_path.write_text(
+                    json.dumps({"transcript": text, "transcript_language": lang})
+                )
+            except OSError:
+                pass  # cache write failure must not break the fetch
+        return text, lang
     except Exception:
         return None, None
 
@@ -198,6 +225,7 @@ def latest_videos(
     n: int = 5,
     include_shorts: bool = False,
     include_transcripts: bool = False,
+    use_cache: bool = True,
 ) -> list[dict]:
     """Return a flat list with one dict per video, channels in input order
     and newest-first within each channel. A failed channel contributes
@@ -244,7 +272,9 @@ def latest_videos(
         vids = [r for r in flat if "error" not in r]
         if vids:
             with ThreadPoolExecutor(max_workers=min(_MAX_WORKERS, len(vids))) as ex:
-                transcripts = ex.map(lambda r: _fetch_transcript(r["video_id"]), vids)
+                transcripts = ex.map(
+                    lambda r: _fetch_transcript(r["video_id"], use_cache=use_cache), vids
+                )
                 for r, (text, lang) in zip(vids, transcripts):
                     r["transcript"] = text
                     r["transcript_language"] = lang
@@ -271,6 +301,12 @@ def main(argv: list[str] | None = None) -> int:
         help="also fetch each video's transcript (2 extra requests per video)",
     )
     parser.add_argument(
+        "--no-cache",
+        action="store_false",
+        dest="use_cache",
+        help="bypass the on-disk transcript cache",
+    )
+    parser.add_argument(
         "--include-shorts",
         action="store_true",
         dest="include_shorts",
@@ -283,6 +319,7 @@ def main(argv: list[str] | None = None) -> int:
         n=args.n,
         include_shorts=args.include_shorts,
         include_transcripts=args.include_transcripts,
+        use_cache=args.use_cache,
     )
 
     if args.as_json:

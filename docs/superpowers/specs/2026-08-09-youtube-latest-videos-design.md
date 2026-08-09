@@ -70,6 +70,15 @@ Runtime dependencies: **none** (stdlib only: `urllib.request`,
   Opt-in because it costs 2 extra HTTP requests per video and rides the
   most breakage-prone surface of the module. Off by default, the keys are
   absent entirely.
+- **Transcript cache** (`use_cache=True` default; CLI `--no-cache` to
+  bypass): successful transcripts are cached on disk at
+  `~/.cache/youtube-latest/transcripts/<video_id>.json` — transcripts are
+  immutable once published, so cached copies are reused on later runs.
+  `(None, None)` results are never cached (captions can appear later on
+  fresh uploads), corrupt cache entries are refetched, and cache write
+  failures never break the fetch. Feed data (titles, views, ordering) is
+  deliberately not cached: one cheap request per channel, freshness is the
+  point.
 
 - Returns a **flat list with one dict per video** (not one dict per
   channel). Channels appear in input order; within a channel, videos are
