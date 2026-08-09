@@ -14,11 +14,17 @@ def test_parses_channel_title_and_all_fields():
     assert v == {
         "video_id": "vid00000001",
         "title": "Newest Video",
+        "description": "Newest video description.",
         "url": "https://www.youtube.com/watch?v=vid00000001",
         "published": datetime(2026, 8, 8, 15, 0, 0, tzinfo=timezone.utc),
         "thumbnail": "https://i.ytimg.com/vi/vid00000001/hqdefault.jpg",
         "views": 1234567,
     }
+
+
+def test_missing_description_gives_none():
+    videos = _parse_feed(FEED, n=15)["videos"]
+    assert videos[1]["description"] is None
 
 
 def test_preserves_newest_first_order():

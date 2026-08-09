@@ -15,6 +15,7 @@
     <published>2026-08-08T15:00:00+00:00</published>
     <media:group>
       <media:title>Newest Long-Form Video</media:title>
+      <media:description>A deep dive into the newest gadget.</media:description>
       <media:thumbnail url="https://i.ytimg.com/vi/vid00000001/hqdefault.jpg" width="480" height="360"/>
       <media:community>
         <media:statistics views="1234567"/>

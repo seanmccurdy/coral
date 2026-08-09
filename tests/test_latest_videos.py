@@ -47,12 +47,15 @@ def test_returns_flat_list_of_videos_in_channel_then_recency_order(monkeypatch):
     results = latest_videos(["@mkbhd", MKBHD_ID], n=2)
     # playlist_feed.xml has 2 videos per channel -> 2 channels * 2 videos = 4 elements
     assert len(results) == 4
-    assert [r["channel"] for r in results] == ["@mkbhd", "@mkbhd", MKBHD_ID, MKBHD_ID]
+    assert [r["channel_handle"] for r in results] == ["@mkbhd", "@mkbhd", MKBHD_ID, MKBHD_ID]
     for r in results:
         assert r["channel_id"] == MKBHD_ID
-        assert r["channel_title"] == "Marques Brownlee"
-        assert "video_id" in r and "title" in r and "url" in r
-        assert "published" in r and "thumbnail" in r and "views" in r
+        assert r["channel_name"] == "Marques Brownlee"
+        assert set(r.keys()) == {
+            "channel_handle", "channel_id", "channel_name",
+            "video_id", "title", "description", "url",
+            "published", "thumbnail", "views",
+        }
     # newest-first within each channel
     assert results[0]["video_id"] == "vid00000001"
     assert results[1]["video_id"] == "vid00000002"
@@ -62,18 +65,18 @@ def test_returns_flat_list_of_videos_in_channel_then_recency_order(monkeypatch):
 
 def test_bare_name_normalized_in_result(monkeypatch):
     route_fetch(monkeypatch)
-    assert latest_videos(["mkbhd"], n=1)[0]["channel"] == "@mkbhd"
+    assert latest_videos(["mkbhd"], n=1)[0]["channel_handle"] == "@mkbhd"
 
 
 def test_bad_handle_isolated_as_single_error_element(monkeypatch):
     route_fetch(monkeypatch)
     results = latest_videos(["@nosuchchannel", "@mkbhd"], n=1)
-    error_elements = [r for r in results if r["channel"] == "@nosuchchannel"]
+    error_elements = [r for r in results if r["channel_handle"] == "@nosuchchannel"]
     assert len(error_elements) == 1
     assert "error" in error_elements[0]
-    assert set(error_elements[0].keys()) == {"channel", "error"}
-    other = [r for r in results if r["channel"] == "@mkbhd"]
-    assert other[0]["channel_title"] == "Marques Brownlee"
+    assert set(error_elements[0].keys()) == {"channel_handle", "error"}
+    other = [r for r in results if r["channel_handle"] == "@mkbhd"]
+    assert other[0]["channel_name"] == "Marques Brownlee"
 
 
 def test_feed_fetch_failure_isolated_as_error(monkeypatch):

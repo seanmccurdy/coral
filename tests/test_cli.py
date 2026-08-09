@@ -22,7 +22,9 @@ def test_json_output_is_flat_list_and_iso_dates(monkeypatch, capsys):
     assert isinstance(data, list)
     assert data[0]["published"] == "2026-08-08T15:00:00+00:00"
     assert data[0]["video_id"] == "vid00000001"
-    assert data[0]["channel"] == "@mkbhd"
+    assert data[0]["channel_handle"] == "@mkbhd"
+    assert data[0]["channel_name"] == "Marques Brownlee"
+    assert data[0]["description"] == "A deep dive into the newest gadget."
 
 
 def test_exit_code_1_when_any_channel_errors(monkeypatch, capsys):

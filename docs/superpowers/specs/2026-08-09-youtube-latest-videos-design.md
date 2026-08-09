@@ -68,11 +68,12 @@ Runtime dependencies: **none** (stdlib only: `urllib.request`,
 ```python
 [
     {
-        "channel": "@mkbhd",          # as passed in (normalized)
+        "channel_handle": "@mkbhd",   # as passed in (normalized)
         "channel_id": "UC...",
-        "channel_title": "Marques Brownlee",
+        "channel_name": "Marques Brownlee",
         "video_id": "abc123",
         "title": "...",
+        "description": "...",         # str or None if absent
         "url": "https://www.youtube.com/watch?v=abc123",
         "published": datetime(...),   # timezone-aware
         "thumbnail": "https://i.ytimg.com/...",
@@ -82,11 +83,15 @@ Runtime dependencies: **none** (stdlib only: `urllib.request`,
 ]
 ```
 
+Keys are MECE: `channel_handle` (input identity), `channel_id` (canonical
+ID), `channel_name` (display name) never overlap in meaning; every
+video-level field the feed provides is exposed exactly once.
+
 - `n` clamped to what the feed provides (~15 max), applied per channel.
 - Channels fetched concurrently via `ThreadPoolExecutor` (bounded workers).
 - **Per-channel error isolation:** a channel that fails (unknown handle,
   network error, malformed feed) contributes exactly **one** element,
-  `{"channel": ..., "error": "<message>"}`, instead of raising; other
+  `{"channel_handle": ..., "error": "<message>"}`, instead of raising; other
   channels are unaffected.
 
 ## CLI

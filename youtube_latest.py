@@ -91,6 +91,7 @@ def _parse_feed(xml_text: str, n: int) -> dict:
         published = entry.findtext("atom:published", default=None, namespaces=_NS)
         thumbnail = None
         views = None
+        description = None
         group = entry.find("media:group", _NS)
         if group is not None:
             thumb = group.find("media:thumbnail", _NS)
@@ -99,10 +100,12 @@ def _parse_feed(xml_text: str, n: int) -> dict:
             stats = group.find("media:community/media:statistics", _NS)
             if stats is not None and stats.get("views") is not None:
                 views = int(stats.get("views"))
+            description = group.findtext("media:description", default=None, namespaces=_NS)
         videos.append(
             {
                 "video_id": video_id,
                 "title": entry.findtext("atom:title", default="", namespaces=_NS),
+                "description": description,
                 "url": f"https://www.youtube.com/watch?v={video_id}",
                 "published": datetime.fromisoformat(published) if published else None,
                 "thumbnail": thumbnail,
@@ -151,7 +154,7 @@ def _channel_result(channel: str, n: int, include_shorts: bool) -> dict:
 def latest_videos(channels: list[str], n: int = 5, include_shorts: bool = False) -> list[dict]:
     """Return a flat list with one dict per video, channels in input order
     and newest-first within each channel. A failed channel contributes
-    exactly one element: {"channel": ..., "error": "<msg>"}.
+    exactly one element: {"channel_handle": ..., "error": "<msg>"}.
 
     By default, fetches the long-form-only UULF playlist feed (falling back
     to the mixed channel feed on error or if it's empty). If
@@ -170,16 +173,17 @@ def latest_videos(channels: list[str], n: int = 5, include_shorts: bool = False)
     flat: list[dict] = []
     for r in channel_results:
         if "error" in r:
-            flat.append({"channel": r["channel"], "error": r["error"]})
+            flat.append({"channel_handle": r["channel"], "error": r["error"]})
             continue
         for v in r["videos"]:
             flat.append(
                 {
-                    "channel": r["channel"],
+                    "channel_handle": r["channel"],
                     "channel_id": r["channel_id"],
-                    "channel_title": r["channel_title"],
+                    "channel_name": r["channel_title"],
                     "video_id": v["video_id"],
                     "title": v["title"],
+                    "description": v["description"],
                     "url": v["url"],
                     "published": v["published"],
                     "thumbnail": v["thumbnail"],
@@ -221,13 +225,13 @@ def main(argv: list[str] | None = None) -> int:
                 if current_channel is not None:
                     print()
                     current_channel = None
-                print(f"{r['channel']}: error: {r['error']}")
+                print(f"{r['channel_handle']}: error: {r['error']}")
                 continue
-            if r["channel"] != current_channel:
+            if r["channel_handle"] != current_channel:
                 if current_channel is not None:
                     print()
-                print(f"{r['channel_title']} ({r['channel']})")
-                current_channel = r["channel"]
+                print(f"{r['channel_name']} ({r['channel_handle']})")
+                current_channel = r["channel_handle"]
             date = r["published"].date().isoformat() if r["published"] else "?"
             views = f"{r['views']:,} views" if r["views"] is not None else "views n/a"
             print(f"  [{date}] {r['title']} — {views}")
