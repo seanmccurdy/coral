@@ -38,11 +38,21 @@ def _is_channel_id(s: str) -> bool:
     return bool(_CHANNEL_ID_RE.fullmatch(s))
 
 
-@lru_cache(maxsize=None)
+def _normalize(channel: str) -> str:
+    if _is_channel_id(channel) or channel.startswith("@"):
+        return channel
+    return "@" + channel
+
+
 def resolve_channel_id(handle: str) -> str:
-    if _is_channel_id(handle):
-        return handle
-    h = handle if handle.startswith("@") else "@" + handle
+    normalized = _normalize(handle)
+    if _is_channel_id(normalized):
+        return normalized
+    return _resolve_handle(normalized)
+
+
+@lru_cache(maxsize=None)
+def _resolve_handle(h: str) -> str:
     try:
         html = _fetch(CHANNEL_URL.format(handle=h))
     except urllib.error.HTTPError as e:
@@ -55,6 +65,9 @@ def resolve_channel_id(handle: str) -> str:
     if m is None:
         raise ChannelNotFoundError(f"could not find a channel ID on the page for {h}")
     return m.group(1)
+
+
+resolve_channel_id.cache_clear = _resolve_handle.cache_clear
 
 
 def _parse_feed(xml_text: str, n: int) -> dict:
@@ -90,12 +103,6 @@ def _parse_feed(xml_text: str, n: int) -> dict:
 
 
 _MAX_WORKERS = 8
-
-
-def _normalize(channel: str) -> str:
-    if _is_channel_id(channel) or channel.startswith("@"):
-        return channel
-    return "@" + channel
 
 
 def _channel_result(channel: str, n: int) -> dict:

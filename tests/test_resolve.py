@@ -59,3 +59,25 @@ def test_resolution_is_cached(monkeypatch):
     resolve_channel_id("@mkbhd")
     resolve_channel_id("@mkbhd")
     assert len(calls) == 1
+
+
+def test_handle_and_bare_name_share_one_cache_entry(monkeypatch):
+    calls = mock_fetch(monkeypatch, body=(FIXTURES / "channel_page.html").read_text())
+    assert resolve_channel_id("@mkbhd") == MKBHD_ID
+    assert resolve_channel_id("mkbhd") == MKBHD_ID
+    assert len(calls) == 1
+
+
+def test_resolves_from_canonical_url_without_channel_id_key(monkeypatch):
+    body = (
+        "<html><head>"
+        '<meta property="og:url" content="https://www.youtube.com/channel/'
+        f'{MKBHD_ID}">'
+        '<link rel="canonical" href="https://www.youtube.com/channel/'
+        f'{MKBHD_ID}">'
+        "</head><body></body></html>"
+    )
+    assert '"channelId"' not in body
+    calls = mock_fetch(monkeypatch, body=body)
+    assert resolve_channel_id("@mkbhd") == MKBHD_ID
+    assert calls == ["https://www.youtube.com/@mkbhd"]
