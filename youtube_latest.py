@@ -296,6 +296,22 @@ def latest_videos(
     return flat
 
 
+def _read_channels_file(path: str | Path) -> list[str]:
+    """One channel per line; blank lines and #-comment lines are ignored."""
+    channels = []
+    for line in Path(path).read_text().splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            channels.append(line)
+    return channels
+
+
+def latest_videos_from_file(path: str | Path, **kwargs) -> list[dict]:
+    """Like latest_videos, but reads the channel list from a text file
+    (one handle or channel ID per line; blanks and # comments ignored)."""
+    return latest_videos(_read_channels_file(path), **kwargs)
+
+
 def _json_default(obj):
     if isinstance(obj, datetime):
         return obj.isoformat()
@@ -306,7 +322,12 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description="Show the latest videos for YouTube channels."
     )
-    parser.add_argument("channels", nargs="+", help="channel handles (@name) or UC... IDs")
+    parser.add_argument("channels", nargs="*", help="channel handles (@name) or UC... IDs")
+    parser.add_argument(
+        "-f",
+        "--file",
+        help="text file with one channel per line (# comments and blanks ignored)",
+    )
     parser.add_argument("-n", type=int, default=5, help="videos per channel (max 15)")
     parser.add_argument("--json", action="store_true", dest="as_json", help="JSON output")
     parser.add_argument(
@@ -329,8 +350,14 @@ def main(argv: list[str] | None = None) -> int:
     )
     args = parser.parse_args(argv)
 
+    channels = list(args.channels)
+    if args.file:
+        channels.extend(_read_channels_file(args.file))
+    if not channels:
+        parser.error("provide at least one channel or --file")
+
     results = latest_videos(
-        args.channels,
+        channels,
         n=args.n,
         include_shorts=args.include_shorts,
         include_transcripts=args.include_transcripts,

@@ -113,12 +113,23 @@ video-level field the feed provides is exposed exactly once.
   `{"channel_handle": ..., "error": "<message>"}`, instead of raising; other
   channels are unaffected.
 
+### `latest_videos_from_file(path, **kwargs) -> list[dict]`
+
+Reads the channel list from a text file — one handle or channel ID per
+line; blank lines and `#`-comment lines are ignored — then behaves exactly
+like `latest_videos` (all keyword arguments pass through). Raises
+`FileNotFoundError` for a missing file.
+
 ## CLI
 
 `python youtube_latest.py @mkbhd @veritasium -n 3 [--json] [--include-shorts]`
 
 - `--include-shorts`: pass `include_shorts=True` (mixed feed, Shorts
   included). Default is long-form only.
+- `-f/--file channels.txt`: read channels from a file (one per line,
+  `#` comments and blanks ignored); combines with positional channels
+  (positional first). At least one channel or `--file` is required
+  (argparse error, exit 2, otherwise).
 
 - Default output: readable summary, still visually grouped by channel (a
   channel header is printed once, followed by its videos) even though the
