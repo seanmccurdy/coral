@@ -15,5 +15,6 @@ def clear_resolve_cache():
 def isolated_transcript_cache(tmp_path, monkeypatch):
     """Keep tests away from the real on-disk caches."""
     monkeypatch.setattr(youtube_latest, "_CACHE_DIR", tmp_path / "transcripts")
+    monkeypatch.setattr(youtube_latest, "_HANDLE_CACHE_DIR", tmp_path / "handles")
     monkeypatch.setattr(youtube_search, "_VIDEO_META_CACHE_DIR", tmp_path / "videometa")
     monkeypatch.setattr(youtube_search, "_CHANNEL_CACHE_DIR", tmp_path / "channels")

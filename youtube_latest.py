@@ -35,6 +35,11 @@ _PLAYER_CLIENT = {"clientName": "ANDROID", "clientVersion": "20.10.38"}
 # cached — one cheap request per channel, and freshness is the point.
 _CACHE_DIR = Path.home() / ".cache" / "youtube-latest" / "transcripts"
 _CACHE_TTL_SECONDS = 365 * 24 * 60 * 60
+# Handle -> channel ID mappings are essentially stable (a rename mints a new
+# handle), so they persist across processes; this also makes exclusion lists
+# immune to transient resolution failures after the first successful run.
+_HANDLE_CACHE_DIR = Path.home() / ".cache" / "youtube-latest" / "handles"
+_HANDLE_TTL_SECONDS = 30 * 24 * 60 * 60
 
 
 @lru_cache(maxsize=None)
@@ -144,6 +149,12 @@ def resolve_channel_id(handle: str) -> str:
 @lru_cache(maxsize=None)
 def _resolve_handle(h: str) -> str:
     try:
+        cached = _open_cache(str(_HANDLE_CACHE_DIR)).get(h)
+        if cached is not None:
+            return cached
+    except Exception:
+        pass  # unreadable cache must not break resolution
+    try:
         html = _fetch(CHANNEL_URL.format(handle=h))
     except urllib.error.HTTPError as e:
         if e.code == 404:
@@ -161,6 +172,10 @@ def _resolve_handle(h: str) -> str:
     )
     if m is None:
         raise ChannelNotFoundError(f"could not find a channel ID on the page for {h}")
+    try:
+        _open_cache(str(_HANDLE_CACHE_DIR)).set(h, m.group(1), expire=_HANDLE_TTL_SECONDS)
+    except Exception:
+        pass  # cache write failure must not break resolution
     return m.group(1)
 
 

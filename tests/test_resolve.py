@@ -54,6 +54,16 @@ def test_page_without_id_raises(monkeypatch):
         resolve_channel_id("@mkbhd")
 
 
+def test_resolution_survives_process_cache_clear_via_disk(monkeypatch):
+    calls = mock_fetch(monkeypatch, body=(FIXTURES / "channel_page.html").read_text())
+    assert resolve_channel_id("@mkbhd") == MKBHD_ID
+    assert len(calls) == 1
+    # simulate a fresh process: in-memory cache gone, network now failing
+    resolve_channel_id.cache_clear()
+    mock_fetch(monkeypatch, exc=OSError("network down"))
+    assert resolve_channel_id("@mkbhd") == MKBHD_ID  # served from disk
+
+
 def test_resolution_is_cached(monkeypatch):
     calls = mock_fetch(monkeypatch, body=(FIXTURES / "channel_page.html").read_text())
     resolve_channel_id("@mkbhd")
