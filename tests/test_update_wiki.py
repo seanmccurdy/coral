@@ -68,9 +68,10 @@ def test_pipeline_stages_batches_and_marks_processed(monkeypatch):
     conn = connect()
     videos = [video(f"v{i}") for i in range(5)]
     summary = run_pipeline(videos, conn)
-    # batches of 3: 5 videos -> 2 invocations
-    assert len(calls) == 2
+    # batches of 3: 5 videos -> 2 invocations, plus one synthesis pass
+    assert len(calls) == 3
     assert summary["integrated"] == 5 and summary["failed_batches"] == 0
+    assert summary["synthesis_ok"] is True
     assert unprocessed(conn, videos) == []
     # staging cleaned up after success
     assert list(update_wiki.STAGING_DIR.glob("*.md")) == []
@@ -107,8 +108,39 @@ def test_prompt_names_staged_files_and_conventions():
     prompt = integration_prompt(paths)
     for p in paths:
         assert p in prompt
-    for needle in ["wiki/_index.md", "changelog.md", "[[", "frontmatter", "cite"]:
+    for needle in [
+        "wiki/_index.md",
+        "changelog.md",
+        "[[",
+        "frontmatter",
+        "cite",
+        "mermaid",
+        "Gaps & open questions",
+        "Practical implications",
+        "contrarian",
+    ]:
         assert needle in prompt
+
+
+def test_synthesis_prompt_covers_model_and_playbook():
+    for needle in [
+        "aging-model.md",
+        "practice-playbook.md",
+        "mermaid",
+        "postulat",
+        "daily / weekly / monthly",
+        "evidence-graded",
+    ]:
+        assert needle in update_wiki.SYNTHESIS_PROMPT
+
+
+def test_synthesis_skipped_when_nothing_integrated(monkeypatch):
+    calls = fake_claude(monkeypatch, fail_on_batch=1)
+    conn = connect()
+    summary = run_pipeline([video("v1")], conn)
+    assert summary["integrated"] == 0
+    assert len(calls) == 1  # the failed batch only — no synthesis pass
+    assert "synthesis_ok" not in summary
 
 
 def test_dry_run_invokes_nothing_and_marks_nothing(monkeypatch):
@@ -127,7 +159,7 @@ def test_limit_caps_videos(monkeypatch):
     videos = [video(f"v{i}") for i in range(5)]
     summary = run_pipeline(videos, conn, limit=2)
     assert summary["integrated"] == 2
-    assert len(calls) == 1
+    assert len(calls) == 2  # one batch + one synthesis pass
 
 
 def test_bootstrap_creates_index_and_changelog_once():

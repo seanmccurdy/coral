@@ -37,15 +37,32 @@ skincare, urbanism) live in each page's `tags` frontmatter.
 - `interventions/` — things you can do or take (e.g. rapamycin, creatine, hrt)
 - `people/` — researchers & recurring voices (e.g. peter-attia)
 - `debates/` — live disagreements (e.g. seed-oils)
+- `synthesis/` — big-picture pages maintained across all videos:
+  - `aging-model.md` — the grand causal map: how aging mechanisms connect
+    (mermaid diagrams), which interventions act on which nodes, clearly
+    labeled postulations about causality
+  - `practice-playbook.md` — what to actually do daily / weekly / monthly /
+    periodically, evidence-graded, linking to the pages that justify each
 
 ## Page conventions
 
-- Frontmatter: `type` (concept | intervention | person | debate), `title`,
-  `tags` (domains), `updated` (YYYY-MM-DD).
+- Frontmatter: `type` (concept | intervention | person | debate |
+  synthesis), `title`, `tags` (domains), `updated` (YYYY-MM-DD).
 - Link related pages with [[wikilinks]] (the target file's stem); keep a
   "Related" section of links at the bottom of each page.
 - Every claim cites its source inline:
   (Channel — "Video Title", YYYY-MM-DD, [link](url)).
+- **Diagrams**: when a mechanism, pathway, or system has structure (causal
+  chains, feedback loops, decision flows), draw it as a ```mermaid block
+  (flowchart or graph) rather than describing it only in prose.
+- **Gaps & open questions**: each substantive page keeps a section for
+  what is unknown, unmeasured, or understudied — distinct from debates
+  (contested claims); a gap is a question nobody has answered yet.
+- **Practical implications**: each concept/intervention page states what a
+  person should actually do with this knowledge (and at what cadence),
+  with the strength of evidence behind it.
+- **Unique perspectives**: contrarian or minority takes are captured and
+  attributed to their proponent, not averaged into consensus.
 - Conflicting claims are recorded as disagreements (prefer a debates/
   page), never silently overwritten.
 
@@ -97,7 +114,7 @@ def mark_processed(conn: sqlite3.Connection, videos: list[dict]) -> None:
 
 def bootstrap_wiki() -> None:
     """Create the wiki skeleton if absent; never clobber existing files."""
-    for sub in ("concepts", "interventions", "people", "debates"):
+    for sub in ("concepts", "interventions", "people", "debates", "synthesis"):
         (WIKI_DIR / sub).mkdir(parents=True, exist_ok=True)
     index = WIKI_DIR / "_index.md"
     if not index.exists():
@@ -138,11 +155,19 @@ Integrate the following new video transcripts into the wiki:
 Each staged file has frontmatter (channel, title, published date, url) and
 the full transcript. For each video:
 
-1. Identify the substantive claims, protocols, findings, and positions.
+1. Identify the substantive claims, protocols, findings, positions — and
+   the genuinely unique or contrarian perspectives, attributed to their
+   proponents.
 2. Update the relevant existing pages under wiki/concepts/,
    wiki/interventions/, wiki/people/, wiki/debates/ — or create new pages
-   where a topic has none. Follow the frontmatter conventions from
-   wiki/_index.md exactly.
+   where a topic has none. Follow the frontmatter and page conventions
+   from wiki/_index.md exactly, including per page:
+   - a ```mermaid diagram wherever a mechanism, pathway, feedback loop,
+     or decision flow has structure worth seeing (not decoration —
+     draw the actual causal/decision structure discussed)
+   - a "Gaps & open questions" section (what's unknown or unmeasured)
+   - a "Practical implications" section (what to do, at what cadence,
+     with the strength of evidence)
 3. Integrate, don't append: merge new information into the page's existing
    structure where it belongs. Every claim you add must cite its source
    inline as (Channel — "Video Title", YYYY-MM-DD, [link](url)) using the
@@ -156,6 +181,36 @@ the full transcript. For each video:
    one line with the pages it created/updated.
 
 Work through every staged file. Do not modify anything outside wiki/."""
+
+
+SYNTHESIS_PROMPT = """You maintain the coral knowledge wiki in wiki/. Read wiki/_index.md for
+conventions, then survey the current pages (concepts/, interventions/,
+debates/, people/) and update the two synthesis pages:
+
+1. wiki/synthesis/aging-model.md — the grand causal model. A mermaid
+   diagram (or several) mapping how the aging mechanisms described across
+   the wiki connect: upstream drivers, mediating pathways, outcomes, and
+   which [[interventions]] act on which nodes. Make explicit, clearly
+   labeled postulations about causal structure ("postulate: X because
+   pages A/B imply..."), and mark weak links honestly. This page is a
+   hypothesis under revision, not settled fact — revise it as pages accrue
+   and note in the page when new evidence strengthened or weakened a link.
+
+2. wiki/synthesis/practice-playbook.md — the actionable synthesis: what to
+   do daily / weekly / monthly / periodically (labs, screenings), each item
+   evidence-graded (strong / moderate / emerging / contested) and linked
+   via [[wikilinks]] to the pages that justify it. Note where experts
+   disagree rather than papering over it.
+
+Both pages use frontmatter type: synthesis. Create them if absent. Do not
+modify anything outside wiki/."""
+
+
+def run_synthesis() -> bool:
+    result = subprocess.run(
+        ["claude", "-p", SYNTHESIS_PROMPT, "--allowedTools", CLAUDE_ALLOWED_TOOLS]
+    )
+    return result.returncode == 0
 
 
 def _batches(items: list, size: int) -> list[list]:
@@ -206,6 +261,10 @@ def run_pipeline(
                 file=sys.stderr,
             )
             break  # don't churn further batches after a failure
+
+    if summary["integrated"] and not dry_run:
+        print("Updating synthesis pages (aging model, practice playbook)")
+        summary["synthesis_ok"] = run_synthesis()
     return summary
 
 

@@ -39,6 +39,20 @@ Page conventions (enforced by the integration prompt, seeded by `_index.md`):
 - Wiki growth is organic: no seeded skeleton pages; the first backfill run
   creates the initial pages.
 
+### v2 conventions (2026-08-10 revision)
+
+- Pages include **mermaid diagrams** wherever a mechanism/pathway/decision
+  flow has structure worth seeing; a **Gaps & open questions** section
+  (unknown/unmeasured — distinct from debates); a **Practical
+  implications** section (what to do, at what cadence, evidence strength);
+  and **unique perspectives** captured and attributed, not averaged away.
+- New `wiki/synthesis/` section with two agent-maintained pages:
+  `aging-model.md` (grand causal map with mermaid, explicit labeled
+  postulations, revised as evidence accrues) and `practice-playbook.md`
+  (daily/weekly/monthly/periodic actions, evidence-graded, wikilinked to
+  justifying pages). A synthesis pass runs after every pipeline run that
+  integrated at least one video.
+
 ## Seen-state store
 
 `coral.db` (stdlib `sqlite3`, repo root, git-ignored): table
