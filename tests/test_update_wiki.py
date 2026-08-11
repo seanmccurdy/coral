@@ -142,13 +142,14 @@ def test_synthesis_prompt_covers_model_and_playbook():
         assert needle in update_wiki.SYNTHESIS_PROMPT
 
 
-def test_formatter_runs_after_successful_run(monkeypatch):
+def test_no_formatter_invoked(monkeypatch):
+    # Width is the reader's (Obsidian's) concern — the pipeline must never
+    # rewrite md files to adjust wrapping.
     all_calls = []
     fake_claude(monkeypatch, all_calls=all_calls)
     conn = connect()
     run_pipeline([video("v1")], conn)
-    fmt = [c for c in all_calls if c[0] == "uv" and "mdformat" in c]
-    assert len(fmt) == 1 and "--wrap" in fmt[0]
+    assert all(c[0] == "claude" for c in all_calls)
 
 
 def test_synthesis_skipped_when_nothing_integrated(monkeypatch):
