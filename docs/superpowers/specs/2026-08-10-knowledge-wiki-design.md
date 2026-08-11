@@ -39,6 +39,16 @@ Page conventions (enforced by the integration prompt, seeded by `_index.md`):
 - Wiki growth is organic: no seeded skeleton pages; the first backfill run
   creates the initial pages.
 
+### v3 register (2026-08-11 revision)
+
+Pages are written as **textbook chapters**, not podcast digests: define
+the subject, explain mechanisms from first principles, structure what is
+known, weigh evidence — with videos as supporting references cited after
+claims, never as the narrative spine. No sections named after people or
+episodes outside `debates/`. Quotes must be verbatim transcript spans
+(paraphrases go unquoted). Prose is written one paragraph per line and
+never reflowed — width is the reader's (Obsidian's) concern.
+
 ### v2 conventions (2026-08-10 revision)
 
 - Pages include **mermaid diagrams** wherever a mechanism/pathway/decision

@@ -44,6 +44,25 @@ skincare, urbanism) live in each page's `tags` frontmatter.
   - `practice-playbook.md` — what to actually do daily / weekly / monthly /
     periodically, evidence-graded, linking to the pages that justify each
 
+## Register: this wiki is a textbook, not a podcast digest
+
+Every page teaches its subject the way a good textbook chapter does:
+define the thing, explain the mechanism from first principles, build up
+the structure of what is known, then weigh the evidence. The videos are
+**references that support the exposition** — cited after the claims they
+back — never the narrative spine. A page about NAD+ metabolism explains
+NAD+ metabolism; it does not recount what was said on a podcast about
+NAD+ metabolism. Extract the learning, then place it in the larger
+system: how does this mechanism connect to the rest of the causal map
+([[aging-model]]) and to the interventions that act on it?
+
+Concretely: no sections named after people or episodes ("X's argument",
+"Contrast: Y"), no play-by-play ("he goes on to say..."). Attribution
+belongs in two places only: `debates/` pages, where who-holds-which-view
+is the subject, and inline citations. A named expert's unique framing may
+be taught as a framework (with citation) when it is genuinely the best
+way to explain the material.
+
 ## Page conventions
 
 - Frontmatter: `type` (concept | intervention | person | debate |
@@ -158,6 +177,15 @@ Integrate the following new video transcripts into the wiki:
 Each staged file has frontmatter (channel, title, published date, url) and
 the full transcript. For each video:
 
+0. REGISTER — the most important rule: write like a textbook, not a
+   podcast digest. Each page TEACHES its subject: define it, explain the
+   mechanism from first principles, structure what is known, weigh the
+   evidence and say how strong it is. The video is a reference supporting
+   that exposition (cited after the claims it backs), never the narrative.
+   No sections named after people or episodes, no "X argues... Y responds"
+   play-by-play outside debates/ pages. Extract the learning; then relate
+   it to the whole system (which causal nodes it touches, which
+   interventions act on it).
 1. Identify the substantive claims, protocols, findings, positions — and
    the genuinely unique or contrarian perspectives, attributed to their
    proponents.
@@ -209,7 +237,9 @@ debates/, people/) and update the two synthesis pages:
    via [[wikilinks]] to the pages that justify it. Note where experts
    disagree rather than papering over it.
 
-Both pages use frontmatter type: synthesis. Create them if absent. Do not
+Both pages use frontmatter type: synthesis, and the wiki's textbook
+register (see _index.md): teach and explain; cite pages/sources as
+references, don't narrate who said what. Create them if absent. Do not
 modify anything outside wiki/."""
 
 

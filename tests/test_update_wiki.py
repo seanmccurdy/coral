@@ -126,6 +126,8 @@ def test_prompt_names_staged_files_and_conventions():
         "Gaps & open questions",
         "Practical implications",
         "contrarian",
+        "textbook",
+        "TEACHES",
     ]:
         assert needle in prompt
 
