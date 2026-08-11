@@ -174,6 +174,10 @@ the full transcript. For each video:
    structure where it belongs. Every claim you add must cite its source
    inline as (Channel — "Video Title", YYYY-MM-DD, [link](url)) using the
    staged file's frontmatter.
+   QUOTE INTEGRITY: text inside quotation marks must be a verbatim span
+   from the staged transcript — re-check the transcript before writing any
+   quote. If you are compressing or paraphrasing, write it WITHOUT
+   quotation marks. A paraphrase presented as a quote is a fabrication.
 4. When a new claim conflicts with something already on a page, record the
    disagreement explicitly (move contested points to a debates/ page if
    substantial) — never silently overwrite or drop either side.
