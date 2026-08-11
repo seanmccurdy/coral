@@ -8,4 +8,8 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = ["pytest>=8"]
+dev = [
+    "mdformat>=1.0.0",
+    "mdformat-frontmatter>=2.1.2",
+    "pytest>=8",
+]

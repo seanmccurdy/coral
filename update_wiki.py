@@ -65,6 +65,8 @@ skincare, urbanism) live in each page's `tags` frontmatter.
   attributed to their proponent, not averaged into consensus.
 - Conflicting claims are recorded as disagreements (prefer a debates/
   page), never silently overwritten.
+- Formatting: prose is wrapped at 80 columns. Don't fight this — a
+  formatter pass (mdformat) normalizes it after every run.
 
 ## Notable pages
 
@@ -206,6 +208,15 @@ Both pages use frontmatter type: synthesis. Create them if absent. Do not
 modify anything outside wiki/."""
 
 
+def format_wiki() -> bool:
+    """Deterministically normalize wiki formatting (prose wrapped at 80
+    columns) — agents don't wrap consistently, so a formatter pass does."""
+    result = subprocess.run(
+        ["uv", "run", "mdformat", "--wrap", "80", str(WIKI_DIR)]
+    )
+    return result.returncode == 0
+
+
 def run_synthesis() -> bool:
     result = subprocess.run(
         ["claude", "-p", SYNTHESIS_PROMPT, "--allowedTools", CLAUDE_ALLOWED_TOOLS]
@@ -265,6 +276,7 @@ def run_pipeline(
     if summary["integrated"] and not dry_run:
         print("Updating synthesis pages (aging model, practice playbook)")
         summary["synthesis_ok"] = run_synthesis()
+        format_wiki()
     return summary
 
 

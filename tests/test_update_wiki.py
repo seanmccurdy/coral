@@ -36,10 +36,18 @@ def isolated_paths(tmp_path, monkeypatch):
     monkeypatch.setattr(update_wiki, "WIKI_DIR", tmp_path / "wiki")
 
 
-def fake_claude(monkeypatch, fail_on_batch=None):
-    calls = []
+def fake_claude(monkeypatch, fail_on_batch=None, all_calls=None):
+    calls = []  # claude invocations only; formatter calls go to all_calls
 
     def fake_run(cmd, **kwargs):
+        if all_calls is not None:
+            all_calls.append(cmd)
+        if cmd[0] != "claude":
+
+            class OK:
+                returncode = 0
+
+            return OK()
         calls.append(cmd)
         code = 1 if fail_on_batch is not None and len(calls) == fail_on_batch else 0
 
@@ -132,6 +140,15 @@ def test_synthesis_prompt_covers_model_and_playbook():
         "evidence-graded",
     ]:
         assert needle in update_wiki.SYNTHESIS_PROMPT
+
+
+def test_formatter_runs_after_successful_run(monkeypatch):
+    all_calls = []
+    fake_claude(monkeypatch, all_calls=all_calls)
+    conn = connect()
+    run_pipeline([video("v1")], conn)
+    fmt = [c for c in all_calls if c[0] == "uv" and "mdformat" in c]
+    assert len(fmt) == 1 and "--wrap" in fmt[0]
 
 
 def test_synthesis_skipped_when_nothing_integrated(monkeypatch):
