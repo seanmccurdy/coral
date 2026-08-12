@@ -1,0 +1,3 @@
+# Environment and society
+
+This section covers upstream environments and systems that shape health, behavior, mobility, and technological change. [[environmental-pollution-and-health]] and [[microplastics-exposure-and-measurement]] establish exposure-to-dose-to-outcome reasoning. [[safe-streets-and-pedestrian-risk]], [[transit-capacity-and-service-design]], and [[intercity-travel-generalized-cost]] apply systems reasoning to the built environment. The AI and cultural chapters address learning, therapeutic discovery, and social coordination without treating technological possibility as validated benefit.

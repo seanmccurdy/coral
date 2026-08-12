@@ -1,0 +1,476 @@
+{
+  "doi:10.1001/jamanetworkopen.2021.44279": {
+    "doi": "10.1001/jamanetworkopen.2021.44279",
+    "pmid": "35050355",
+    "citation": "Liu S, D'Amico D, Shankland E, et al. “Effect of Urolithin A Supplementation on Muscle Endurance and Mitochondrial Health in Older Adults: A Randomized Clinical Trial.” *JAMA Network Open* (2022). [RCT]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35050355/) · [DOI](https://doi.org/10.1001/jamanetworkopen.2021.44279)",
+    "pages": [
+      "concepts/aging-biology/autophagy-and-lysosomal-quality-control.md",
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1002/emmm.201200245": {
+    "doi": "10.1002/emmm.201200245",
+    "pmid": null,
+    "citation": "Bernardes de Jesus B, Vera E, Schneeberger K, et al. “Telomerase gene therapy in adult and old mice delays aging and increases longevity without increasing cancer.” *EMBO Molecular Medicine*, 2012. [mouse gene-therapy experiment]. [DOI](https://doi.org/10.1002/emmm.201200245)",
+    "pages": [
+      "concepts/aging-biology/telomere-biology.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1016/j.arr.2018.09.002": {
+    "doi": "10.1016/j.arr.2018.09.002",
+    "pmid": null,
+    "citation": "Wang Q, Zhan Y, Pedersen NL, Fang F, Hägg S. “Telomere Length and All-Cause Mortality: A Meta-analysis.” *Ageing Research Reviews*, 2018. [systematic review and meta-analysis of cohort studies]. [DOI](https://doi.org/10.1016/j.arr.2018.09.002)",
+    "pages": [
+      "concepts/aging-biology/telomere-biology.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1016/j.bbabio.2016.03.018": {
+    "doi": "10.1016/j.bbabio.2016.03.018",
+    "pmid": "26997500",
+    "citation": "Sanz A. “Mitochondrial reactive oxygen species: Do they extend or shorten animal lifespan?” *Biochimica et Biophysica Acta - Bioenergetics* (2016). [mechanistic review of animal evidence]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/26997500/) · [DOI](https://doi.org/10.1016/j.bbabio.2016.03.018)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1016/j.cell.2016.11.052": {
+    "doi": "10.1016/j.cell.2016.11.052",
+    "pmid": null,
+    "citation": "Ocampo A, Reddy P, Martinez-Redondo P, et al. “In Vivo Amelioration of Age-Associated Hallmarks by Partial Reprogramming.” *Cell*, 2016. [transgenic mouse experiment]. [DOI](https://doi.org/10.1016/j.cell.2016.11.052)",
+    "pages": [
+      "concepts/aging-biology/epigenetic-alterations-and-reprogramming.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1016/j.cell.2022.11.001": {
+    "doi": "10.1016/j.cell.2022.11.001",
+    "pmid": "36599349",
+    "citation": "López-Otín C, Blasco MA, Partridge L, Serrano M, Kroemer G. “Hallmarks of aging: An expanding universe.” *Cell* (2023). [scientific consensus framework]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/36599349/) · [DOI](https://doi.org/10.1016/j.cell.2022.11.001)",
+    "pages": [
+      "concepts/aging-biology/genomic-instability-and-dna-repair.md",
+      "concepts/aging-biology/loss-of-proteostasis.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1016/j.cell.2024.05.059": {
+    "doi": "10.1016/j.cell.2024.05.059",
+    "pmid": "39121846",
+    "citation": "Ogrodnik M, Carlos Acosta J, Adams PD, et al. “Guidelines for minimal information on cellular senescence experimentation in vivo.” *Cell* (2024). [scientific consensus guideline]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/39121846/) · [DOI](https://doi.org/10.1016/j.cell.2024.05.059)",
+    "pages": [
+      "concepts/aging-biology/cellular-senescence.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1016/j.cmet.2017.02.009": {
+    "doi": "10.1016/j.cmet.2017.02.009",
+    "pmid": "28273480",
+    "citation": "Robinson MM, Dasari S, Konopka AR, et al. “Enhanced Protein Translation Underlies Improved Metabolic and Physical Adaptations to Different Exercise Training Modes in Young and Old Humans.” *Cell Metabolism* (2017). [randomized exercise trial with mechanistic human outcomes]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/28273480/) · [DOI](https://doi.org/10.1016/j.cmet.2017.02.009)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1016/j.dnarep.2011.04.025": {
+    "doi": "10.1016/j.dnarep.2011.04.025",
+    "pmid": "21680258",
+    "citation": "Diderich K, Alanazi M, Hoeijmakers JHJ. “Premature aging and cancer in nucleotide excision repair-disorders.” *DNA Repair* (2011). [scientific review of human genetic disorders and animal models]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21680258/) · [DOI](https://doi.org/10.1016/j.dnarep.2011.04.025)",
+    "pages": [
+      "concepts/aging-biology/genomic-instability-and-dna-repair.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1016/j.ebiom.2019.08.069": {
+    "doi": "10.1016/j.ebiom.2019.08.069",
+    "pmid": "31542391",
+    "citation": "Hickson LJ, Langhi Prata LGP, Bobart SA, et al. “Senolytics decrease senescent cells in humans: Preliminary report from a clinical trial of dasatinib plus quercetin in individuals with diabetic kidney disease.” *EBioMedicine* (2019). [uncontrolled human pilot study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/31542391/) · [DOI](https://doi.org/10.1016/j.ebiom.2019.08.069)",
+    "pages": [
+      "concepts/aging-biology/cellular-senescence.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1016/j.ebiom.2023.104481": {
+    "doi": "10.1016/j.ebiom.2023.104481",
+    "pmid": "36857968",
+    "citation": "Justice JN, Nambiar AM, Tchkonia T, et al. “Senolytics dasatinib and quercetin in idiopathic pulmonary fibrosis: results of a phase I, single-blind, single-center, randomized, placebo-controlled pilot trial on feasibility and tolerability.” *EBioMedicine* (2023). [phase-I pilot RCT]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/36857968/) · [DOI](https://doi.org/10.1016/j.ebiom.2023.104481)",
+    "pages": [
+      "concepts/aging-biology/cellular-senescence.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1016/j.mito.2016.07.003": {
+    "doi": "10.1016/j.mito.2016.07.003",
+    "pmid": "27423788",
+    "citation": "Picard M, Wallace DC, Burelle Y. “The rise of mitochondria in medicine.” *Mitochondrion* (2016). [mechanistic and clinical review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/27423788/) · [DOI](https://doi.org/10.1016/j.mito.2016.07.003)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1016/j.xcrm.2022.100633": {
+    "doi": "10.1016/j.xcrm.2022.100633",
+    "pmid": "35584623",
+    "citation": "Singh A, D'Amico D, Andreux PA, et al. “Urolithin A improves muscle strength, exercise performance, and biomarkers of mitochondrial health in a randomized trial in middle-aged adults.” *Cell Reports Medicine* (2022). [RCT]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35584623/) · [DOI](https://doi.org/10.1016/j.xcrm.2022.100633)",
+    "pages": [
+      "concepts/aging-biology/autophagy-and-lysosomal-quality-control.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1016/s2666-7568(21)00062-3": {
+    "doi": "10.1016/S2666-7568(21)00062-3",
+    "pmid": "33977284",
+    "citation": "Mannick JB, Teo G, Bernardo P, et al. “Targeting the biology of ageing with mTOR inhibitors to improve immune function in older adults: phase 2b and phase 3 randomised trials.” *The Lancet Healthy Longevity* (2021). [phase 2b and phase 3 RCTs]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/33977284/) · [DOI](https://doi.org/10.1016/S2666-7568(21)00062-3)",
+    "pages": [
+      "interventions/mtor-and-rapamycin.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1038/nature08221": {
+    "doi": "10.1038/nature08221",
+    "pmid": "19587680",
+    "citation": "Harrison DE, Strong R, Sharp ZD, et al. “Rapamycin fed late in life extends lifespan in genetically heterogeneous mice.” *Nature* (2009). [multisite randomized animal longevity study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/19587680/) · [DOI](https://doi.org/10.1038/nature08221)",
+    "pages": [
+      "interventions/mtor-and-rapamycin.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1038/nature11438": {
+    "doi": "10.1038/nature11438",
+    "pmid": null,
+    "citation": "Chakkalakal JV, Jones KM, Basson MA, Brack AS. “The aged niche disrupts muscle stem cell quiescence.” *Nature*, 2012. [mouse mechanistic study]. [DOI](https://doi.org/10.1038/nature11438)",
+    "pages": [
+      "concepts/aging-biology/stem-cell-exhaustion.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1038/nature16932": {
+    "doi": "10.1038/nature16932",
+    "pmid": null,
+    "citation": "Baker DJ, Childs BG, Durik M, et al. “Naturally occurring p16Ink4a-positive cells shorten healthy lifespan.” *Nature* (2016). [animal study]. [DOI](https://doi.org/10.1038/nature16932)",
+    "pages": [
+      "concepts/aging-biology/cellular-senescence.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1038/ncb2152": {
+    "doi": "10.1038/ncb2152",
+    "pmid": "21258367",
+    "citation": "Kim J, Kundu M, Viollet B, Guan KL. “AMPK and mTOR regulate autophagy through direct phosphorylation of Ulk1.” *Nature Cell Biology* (2011). [mechanistic cell and animal study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21258367/) · [DOI](https://doi.org/10.1038/ncb2152)",
+    "pages": [
+      "concepts/aging-biology/autophagy-and-lysosomal-quality-control.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1038/ncomms14532": {
+    "doi": "10.1038/ncomms14532",
+    "pmid": "28230051",
+    "citation": "Schafer MJ, White TA, Iijima K, et al. “Cellular senescence mediates fibrotic pulmonary disease.” *Nature Communications* (2017). [animal study with human tissue observations]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/28230051/) · [DOI](https://doi.org/10.1038/ncomms14532)",
+    "pages": [
+      "concepts/aging-biology/cellular-senescence.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1038/nrm.2016.171": {
+    "doi": "10.1038/nrm.2016.171",
+    "pmid": null,
+    "citation": "Maciejowski J, de Lange T. “Telomeres in cancer: tumour suppression and genome instability.” *Nature Reviews Molecular Cell Biology*, 2017. [narrative mechanistic review]. [DOI](https://doi.org/10.1038/nrm.2016.171)",
+    "pages": [
+      "concepts/aging-biology/telomere-biology.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1038/s41467-021-24956-2": {
+    "doi": "10.1038/s41467-021-24956-2",
+    "pmid": "34362885",
+    "citation": "Hinderling VB, Jörgensen JA, Moonen-Kornips E, et al. “Impact of aging and exercise on skeletal muscle mitochondrial capacity, energy metabolism, and physical function.” *Nature Communications* (2021). [cross-sectional mechanistic human study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/34362885/) · [DOI](https://doi.org/10.1038/s41467-021-24956-2)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1038/s41580-019-0199-y": {
+    "doi": "10.1038/s41580-019-0199-y",
+    "pmid": "31676858",
+    "citation": "Liu GY, Sabatini DM. “mTOR at the nexus of nutrition, growth, ageing and disease.” *Nature Reviews Molecular Cell Biology* (2020). [mechanistic review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/31676858/) · [DOI](https://doi.org/10.1038/s41580-019-0199-y)",
+    "pages": [
+      "interventions/mtor-and-rapamycin.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1038/s41586-021-03307-7": {
+    "doi": "10.1038/s41586-021-03307-7",
+    "pmid": "33911272",
+    "citation": "Schumacher B, Pothof J, Vijg J, Hoeijmakers JHJ. “The central role of DNA damage in the ageing process.” *Nature* (2021). [scientific review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/33911272/) · [DOI](https://doi.org/10.1038/s41586-021-03307-7)",
+    "pages": [
+      "concepts/aging-biology/genomic-instability-and-dna-repair.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1038/s41586-022-04618-z": {
+    "doi": "10.1038/s41586-022-04618-z",
+    "pmid": "35418684",
+    "citation": "Cagan A, Baez-Ortega A, Brzozowska N, et al. “Somatic mutation rates scale with lifespan across mammals.” *Nature* (2022). [comparative observational study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35418684/) · [DOI](https://doi.org/10.1038/s41586-022-04618-z)",
+    "pages": [
+      "concepts/aging-biology/genomic-instability-and-dna-repair.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1056/nejmoa1408617": {
+    "doi": "10.1056/NEJMoa1408617",
+    "pmid": null,
+    "citation": "Jaiswal S, Fontanillas P, Flannick J, et al. “Age-Related Clonal Hematopoiesis Associated with Adverse Outcomes.” *New England Journal of Medicine*, 2014. [human cohort sequencing study]. [DOI](https://doi.org/10.1056/NEJMoa1408617)",
+    "pages": [
+      "concepts/aging-biology/genomic-instability-and-dna-repair.md",
+      "concepts/aging-biology/stem-cell-exhaustion.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1073/pnas.0902882106": {
+    "doi": "10.1073/pnas.0902882106",
+    "pmid": "19706382",
+    "citation": "Ben-Zvi A, Miller EA, Morimoto RI. “Collapse of proteostasis represents an early molecular event in *Caenorhabditis elegans* aging.” *Proceedings of the National Academy of Sciences of the United States of America* (2009). [animal mechanistic study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/19706382/) · [DOI](https://doi.org/10.1073/pnas.0902882106)",
+    "pages": [
+      "concepts/aging-biology/loss-of-proteostasis.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1080/15548627.2020.1797280": {
+    "doi": "10.1080/15548627.2020.1797280",
+    "pmid": null,
+    "citation": "Klionsky DJ, Abdel-Aziz AK, Abdelfatah S, et al. “Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition).” *Autophagy* (2021). [scientific consensus guideline]. [DOI](https://doi.org/10.1080/15548627.2020.1797280)",
+    "pages": [
+      "concepts/aging-biology/autophagy-and-lysosomal-quality-control.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1093/aje/kwx346": {
+    "doi": "10.1093/aje/kwx346",
+    "pmid": null,
+    "citation": "Belsky DW, Moffitt TE, Cohen AA, et al. “Eleven Telomere, Epigenetic Clock, and Biomarker-Composite Quantifications of Biological Aging: Do They Measure the Same Thing?” *American Journal of Epidemiology*, 2018. [prospective cohort biomarker comparison]. [DOI](https://doi.org/10.1093/aje/kwx346)",
+    "pages": [
+      "concepts/aging-biology/epigenetic-alterations-and-reprogramming.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1111/acel.12194": {
+    "doi": "10.1111/acel.12194",
+    "pmid": "24341993",
+    "citation": "Miller RA, Harrison DE, Astle CM, et al. “Rapamycin-mediated lifespan increase in mice is dose and sex dependent and metabolically distinct from dietary restriction.” *Aging Cell* (2014). [randomized animal longevity study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/24341993/) · [DOI](https://doi.org/10.1111/acel.12194)",
+    "pages": [
+      "interventions/mtor-and-rapamycin.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1111/acel.13562": {
+    "doi": "10.1111/acel.13562",
+    "pmid": "35246937",
+    "citation": "Vougioukalaki M, Demmers J, Vermeij WP, et al. “Different responses to DNA damage determine ageing differences between organs.” *Aging Cell* (2022). [animal study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35246937/) · [DOI](https://doi.org/10.1111/acel.13562)",
+    "pages": [
+      "concepts/aging-biology/genomic-instability-and-dna-repair.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1111/acel.13603": {
+    "doi": "10.1111/acel.13603",
+    "pmid": "35349763",
+    "citation": "Rai M, Curley M, Coleman Z, Demontis F. “Contribution of proteases to the hallmarks of aging and to age-related neurodegeneration.” *Aging Cell* (2022). [scientific review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35349763/) · [DOI](https://doi.org/10.1111/acel.13603)",
+    "pages": [
+      "concepts/aging-biology/loss-of-proteostasis.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1111/acel.13874": {
+    "doi": "10.1111/acel.13874",
+    "pmid": null,
+    "citation": "Chen B, Yan Y, Wang H, Xu J. “Association between genetically determined telomere length and health-related outcomes: A systematic review and meta-analysis of Mendelian randomization studies.” *Aging Cell*, 2023. [systematic review and meta-analysis of Mendelian-randomization studies]. [DOI](https://doi.org/10.1111/acel.13874)",
+    "pages": [
+      "concepts/aging-biology/telomere-biology.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1113/jp281289": {
+    "doi": "10.1113/JP281289",
+    "pmid": "34032280",
+    "citation": "Distefano G, Standley RA, Dubé JJ, et al. “Preserved skeletal muscle oxidative capacity in older adults despite decreased cardiorespiratory fitness with ageing.” *The Journal of Physiology* (2021). [cross-sectional mechanistic human study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/34032280/) · [DOI](https://doi.org/10.1113/JP281289)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "verified-pubmed",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1126/scitranslmed.3009892": {
+    "doi": "10.1126/scitranslmed.3009892",
+    "pmid": "25540326",
+    "citation": "Mannick JB, Del Giudice G, Lattanzi M, et al. “mTOR inhibition improves immune function in the elderly.” *Science Translational Medicine* (2014). [RCT]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/25540326/) · [DOI](https://doi.org/10.1126/scitranslmed.3009892)",
+    "pages": [
+      "interventions/mtor-and-rapamycin.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1126/scitranslmed.aaq1564": {
+    "doi": "10.1126/scitranslmed.aaq1564",
+    "pmid": "29997249",
+    "citation": "Mannick JB, Morris M, Hockey HUP, et al. “TORC1 inhibition enhances immune function and reduces infections in the elderly.” *Science Translational Medicine* (2018). [phase 2a RCT]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/29997249/) · [DOI](https://doi.org/10.1126/scitranslmed.aaq1564)",
+    "pages": [
+      "interventions/mtor-and-rapamycin.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1152/ajpendo.00125.2015": {
+    "doi": "10.1152/ajpendo.00125.2015",
+    "pmid": "26037248",
+    "citation": "Porter C, Hurren NM, Cotter MV, et al. “Mitochondrial respiratory capacity and coupling control decline with age in human skeletal muscle.” *American Journal of Physiology-Endocrinology and Metabolism* (2015). [cross-sectional mechanistic human study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/26037248/) · [DOI](https://doi.org/10.1152/ajpendo.00125.2015)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1152/japplphysiol.00583.2016": {
+    "doi": "10.1152/japplphysiol.00583.2016",
+    "pmid": "27539499",
+    "citation": "Kent JA, Fitzgerald LF. “In vivo mitochondrial function in aging skeletal muscle: capacity, flux, and patterns of use.” *Journal of Applied Physiology* (2016). [human mechanistic review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/27539499/) · [DOI](https://doi.org/10.1152/japplphysiol.00583.2016)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1152/japplphysiol.01146.2017": {
+    "doi": "10.1152/japplphysiol.01146.2017",
+    "pmid": "30161009",
+    "citation": "Møller AB, Vendelbo MH, Christensen B, et al. “Training state and skeletal muscle autophagy in response to 36 h of fasting.” *Journal of Applied Physiology* (2019). [mechanistic human study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/30161009/) · [DOI](https://doi.org/10.1152/japplphysiol.01146.2017)",
+    "pages": [
+      "concepts/aging-biology/autophagy-and-lysosomal-quality-control.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1186/gb-2013-14-10-r115": {
+    "doi": "10.1186/gb-2013-14-10-r115",
+    "pmid": null,
+    "citation": "Horvath S. “DNA methylation age of human tissues and cell types.” *Genome Biology*, 2013. [human biomarker development study]. [DOI](https://doi.org/10.1186/gb-2013-14-10-r115)",
+    "pages": [
+      "concepts/aging-biology/epigenetic-alterations-and-reprogramming.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.1186/s13195-020-00641-2": {
+    "doi": "10.1186/s13195-020-00641-2",
+    "pmid": "32560738",
+    "citation": "Kepchia D, Huang L, Dargusch R, et al. “Diverse proteins aggregate in mild cognitive impairment and Alzheimer's disease brain.” *Alzheimer's Research & Therapy* (2020). [cross-sectional human postmortem study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/32560738/) · [DOI](https://doi.org/10.1186/s13195-020-00641-2)",
+    "pages": [
+      "concepts/aging-biology/loss-of-proteostasis.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "doi:10.3389/fphys.2015.00422": {
+    "doi": "10.3389/fphys.2015.00422",
+    "pmid": "26793123",
+    "citation": "Romanello V, Sandri M. “Mitochondrial Quality Control and Muscle Mass Maintenance.” *Frontiers in Physiology* (2016). [mechanistic review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/26793123/) · [DOI](https://doi.org/10.3389/fphys.2015.00422)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "pmid:21102320": {
+    "doi": null,
+    "pmid": "21102320",
+    "citation": "Shammas MA. “Telomeres, lifestyle, cancer, and aging.” *Current Opinion in Clinical Nutrition and Metabolic Care*, 2011. [narrative mechanistic review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21102320/)",
+    "pages": [
+      "concepts/aging-biology/telomere-biology.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "pmid:24531378": {
+    "doi": null,
+    "pmid": "24531378",
+    "citation": "Cosgrove BD, Gilbert PM, Porpiglia E, et al. “Rejuvenation of the muscle stem cell population restores strength to injured aged muscles.” *Nature Medicine*, 2014. [mouse cell-culture and transplantation experiment]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/24531378/)",
+    "pages": [
+      "concepts/aging-biology/stem-cell-exhaustion.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "pmid:35029144": {
+    "doi": null,
+    "pmid": "35029144",
+    "citation": "Belsky DW, Caspi A, Corcoran DL, et al. “DunedinPACE, a DNA methylation biomarker of the pace of aging.” *eLife*, 2022. [longitudinal human biomarker development and validation study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35029144/)",
+    "pages": [
+      "concepts/aging-biology/epigenetic-alterations-and-reprogramming.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "pmid:35235716": {
+    "doi": null,
+    "pmid": "35235716",
+    "citation": "Chondronasiou D, Gill D, Mosteiro L, et al. “Multi-omic rejuvenation of naturally aged tissues by a single cycle of transient reprogramming.” *Aging Cell*, 2022. [transgenic mouse experiment]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35235716/)",
+    "pages": [
+      "concepts/aging-biology/epigenetic-alterations-and-reprogramming.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "pmid:36599349": {
+    "doi": null,
+    "pmid": "36599349",
+    "citation": "López-Otín C, Blasco MA, Partridge L, Serrano M, Kroemer G. “Hallmarks of Aging: An Expanding Universe.” *Cell*, 2023. [expert narrative review and framework]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/36599349/)",
+    "pages": [
+      "concepts/aging-biology/epigenetic-alterations-and-reprogramming.md",
+      "concepts/aging-biology/stem-cell-exhaustion.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  },
+  "pmid:36871150": {
+    "doi": null,
+    "pmid": "36871150",
+    "citation": "Gill D, Parry A, Santos F. “Epigenetic rejuvenation by partial reprogramming.” *Aging Cell*, 2023. [narrative review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/36871150/)",
+    "pages": [
+      "concepts/aging-biology/epigenetic-alterations-and-reprogramming.md"
+    ],
+    "status": "verified",
+    "checked": "2026-08-12"
+  }
+}

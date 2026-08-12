@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "926c023775a1b20d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1c9b479c57a6536",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f20b75343bfbbba2",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/coral-header.png"
+              },
+              "icon": "lucide-image",
+              "title": "coral-header"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eb4a8a22fb740be8",
+    "type": "split",
+    "children": [
+      {
+        "id": "896528e096e5c2f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "176fa0482c4d289e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8fc41addbcc3450e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ded43bb231243cd1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "eda6bc0ac868e248",
+    "type": "split",
+    "children": [
+      {
+        "id": "315645b5ff0cbf3e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1da15b7817424a62",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "assets/coral-header.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "666d000df6a73a2a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "assets/coral-header.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "1c9490d3b56bb3eb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "da11dee12e6c7768",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b6b2f11bd9ecb003",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "assets/coral-header.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f20b75343bfbbba2",
+  "lastOpenFiles": [
+    "interventions/experimental-peptides.md",
+    "interventions/ezetimibe.md",
+    "concepts/skin-and-hair/hair-loss-diagnosis-and-scalp-health.md",
+    "hypotheses/performance-gated-recovery-progression.md",
+    "hypotheses/senescent-cell-lysosomal-exocytosis.md",
+    "hypotheses/_index.md",
+    "changelog.md",
+    "hypotheses/_idea-queue.md",
+    "hypotheses/_hypothesis-template.md",
+    "_research-queue.md",
+    "hypotheses",
+    "_review-queue.md",
+    "people/gayatri-devi.md",
+    "assets/coral-header.png",
+    "assets",
+    "synthesis/aging-model.md",
+    "_freshness-report.md",
+    "_index.md",
+    "debates/perimenopause-assessment-and-testing.md",
+    "_sources.json",
+    "_dependencies.json",
+    "concepts/exercise-and-movement/performance-nutrition-and-hydration.md",
+    "concepts/exercise-and-movement/hip-mobility-and-adductor-loading.md",
+    "concepts/cardiometabolic/cardiorespiratory-fitness.md",
+    "concepts/aging-biology/_index.md",
+    "concepts/brain-and-behavior/_index.md",
+    "concepts/brain-and-behavior/addiction-recovery-and-emotional-sobriety.md",
+    "concepts/environment-and-society/_index.md",
+    "concepts/skin-and-hair/_index.md",
+    "concepts/diagnostics-and-screening/_index.md",
+    "concepts/reproductive-health/_index.md",
+    "concepts/environment-and-society",
+    "concepts/skin-and-hair",
+    "concepts/diagnostics-and-screening",
+    "concepts/reproductive-health",
+    "concepts/nutrition-and-metabolism",
+    "concepts/exercise-and-movement"
+  ]
+}
