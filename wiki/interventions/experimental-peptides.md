@@ -5,7 +5,7 @@ tags: [longevity, fitness, hormones]
 updated: 2026-08-11
 evidence_reviewed: never
 evidence_cutoff: unknown
-review_status: review-due
+review_status: under-review
 review_interval: 180d
 ---
 

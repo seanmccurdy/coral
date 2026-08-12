@@ -11,12 +11,14 @@
             "id": "f20b75343bfbbba2",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/coral-header.png"
+                "file": "changelog.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "coral-header"
+              "icon": "lucide-file",
+              "title": "changelog"
             }
           }
         ]
@@ -97,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/coral-header.png",
+                "file": "changelog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/coral-header.png",
+                "file": "changelog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -159,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/coral-header.png",
+                "file": "changelog.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -186,44 +188,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "f20b75343bfbbba2",
+  "active": "176fa0482c4d289e",
   "lastOpenFiles": [
-    "interventions/experimental-peptides.md",
-    "interventions/ezetimibe.md",
-    "concepts/skin-and-hair/hair-loss-diagnosis-and-scalp-health.md",
-    "hypotheses/performance-gated-recovery-progression.md",
-    "hypotheses/senescent-cell-lysosomal-exocytosis.md",
-    "hypotheses/_index.md",
-    "changelog.md",
-    "hypotheses/_idea-queue.md",
-    "hypotheses/_hypothesis-template.md",
-    "_research-queue.md",
-    "hypotheses",
-    "_review-queue.md",
-    "people/gayatri-devi.md",
+    "_scientific-rigor-audit.md",
+    "concepts/immune-system/ebola-virus-disease-and-skin-signs.md",
+    "concepts/skin-and-hair/actinic-purpura-and-aging-skin-fragility.md",
+    "concepts/brain-and-behavior/cognitive-dissonance-and-narrative-protection.md",
+    "concepts/brain-and-behavior/attachment-threat-and-relational-regulation.md",
+    "concepts/brain-and-behavior/interpersonal-regulation-and-emotional-capacity.md",
+    "people/tracey-marks.md",
+    "concepts/brain-and-behavior/trust-repair-and-safety-learning.md",
+    "concepts/brain-and-behavior/emotional-memory-reactivation-and-rumination.md",
+    "concepts/brain-and-behavior/catastrophizing-and-uncertainty.md",
+    "interventions/caloric-restriction-and-meal-timing.md.tmp.49086.b8bb99915200",
+    "debates/programmed-versus-stochastic-aging.md",
+    "debates/programmed-versus-stochastic-aging.md.tmp.49086.30848e942d99",
+    "concepts/aging-biology/dream-complex-and-repair-capacity.md",
+    "concepts/environment-and-society/open-data-and-research-infrastructure.md",
+    "concepts/immune-system/engineered-cell-therapy-for-solid-tumors.md",
+    "concepts/aging-biology/stochastic-aging-and-molecular-noise.md",
+    "concepts/environment-and-society/replication-and-research-incentives.md",
+    "debates/pig-plasma-fraction-rejuvenation.md",
+    "interventions/plasma-derived-extracellular-particles.md",
+    "concepts/aging-biology/circulating-rejuvenation-signaling.md",
+    "concepts/aging-biology/engineered-reprogramming-factors.md",
+    "debates/cultural-legitimacy-versus-research-bottleneck.md",
+    "concepts/environment-and-society/public-trust-in-longevity-science.md",
     "assets/coral-header.png",
+    "debates/healthspan-versus-maximum-lifespan.md",
+    "interventions/therapeutic-plasma-exchange.md",
+    "concepts/aging-biology/extracellular-matrix-aging.md",
+    "concepts/aging-biology/hallmarks-of-aging.md",
+    "hypotheses",
     "assets",
-    "synthesis/aging-model.md",
-    "_freshness-report.md",
-    "_index.md",
-    "debates/perimenopause-assessment-and-testing.md",
     "_sources.json",
     "_dependencies.json",
-    "concepts/exercise-and-movement/performance-nutrition-and-hydration.md",
-    "concepts/exercise-and-movement/hip-mobility-and-adductor-loading.md",
-    "concepts/cardiometabolic/cardiorespiratory-fitness.md",
-    "concepts/aging-biology/_index.md",
-    "concepts/brain-and-behavior/_index.md",
-    "concepts/brain-and-behavior/addiction-recovery-and-emotional-sobriety.md",
-    "concepts/environment-and-society/_index.md",
-    "concepts/skin-and-hair/_index.md",
-    "concepts/diagnostics-and-screening/_index.md",
-    "concepts/reproductive-health/_index.md",
     "concepts/environment-and-society",
     "concepts/skin-and-hair",
     "concepts/diagnostics-and-screening",
-    "concepts/reproductive-health",
-    "concepts/nutrition-and-metabolism",
-    "concepts/exercise-and-movement"
+    "concepts/reproductive-health"
   ]
 }

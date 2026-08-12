@@ -3,15 +3,18 @@ type: debate
 title: Alzheimer's diagnosis — biological versus clinical-biological
 tags: [longevity, sleep-brain]
 updated: 2026-08-11
-evidence_reviewed: never
-evidence_cutoff: unknown
-review_status: review-due
+evidence_reviewed: 2026-08-12
+evidence_cutoff: 2026-08-12
+review_status: current
 review_interval: 180d
 ---
 
 # Alzheimer's diagnosis — biological versus clinical-biological
 
-The live institutional dispute is whether Alzheimer's disease can be diagnosed from biomarkers alone or requires biomarkers plus clinical symptoms and functional deficit. The Alzheimer's Association criteria diagnose primarily on the presence of amyloid, whether measured in blood or brain. The International Working Group (largely European but international, with National Institute on Aging participation and some major American centers) holds that because so many people harbor amyloid without ever developing disease, diagnosis should require amyloid plus tau plus symptoms—a clinical-biological condition rather than a primarily biological one. (Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
+> [!important] Evidence update — 2026-08-12
+> The finalized 2024 Alzheimer's Association criteria define Alzheimer's biologically using an abnormal, sufficiently accurate Core 1 biomarker, but not “amyloid in blood” generically: qualifying tests include amyloid PET and validated CSF or plasma assays, including phosphorylated-tau measures, that meet accuracy standards against accepted reference tests. Clinical stage and biological stage remain separate dimensions, and the criteria are principles rather than a step-by-step screening protocol. This corrects the earlier shorthand that the Association diagnoses disease from the presence of amyloid alone. ([Jack et al., 2024](https://doi.org/10.1002/alz.13859))
+
+The live institutional dispute is whether Alzheimer's disease can be diagnosed from biomarkers alone or requires biomarkers plus clinical symptoms and functional deficit. The 2024 Alzheimer's Association criteria permit a biological diagnosis from an abnormal, validated Core 1 biomarker with adequate diagnostic accuracy; they do not treat any positive blood amyloid result as sufficient, and they stage clinical impairment separately from biological disease. The International Working Group (largely European but international, with National Institute on Aging participation and some major American centers) holds that because many people harbor Alzheimer pathology without developing symptoms, a clinical diagnosis should require a characteristic phenotype plus biomarker confirmation. ([Jack et al., 2024](https://doi.org/10.1002/alz.13859); Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
 
 The base rates drive the disagreement: about 25% of community-dwelling people in their 70s, over 30% in their 80s, and roughly 44% at 90 have brain amyloid without symptoms, and current commercial blood assays are validated mostly against amyloid PET rather than against amyloid plus tau. A biomarker-only definition therefore risks creating what the International Working Group calls a large population of patients in waiting—people waiting to become patients who may meanwhile change their whole approach to living. (Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
 

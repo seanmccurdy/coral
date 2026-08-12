@@ -2,7 +2,7 @@
 type: concept
 title: Breathing mechanics and state regulation
 tags: [sleep-brain, fitness]
-updated: 2026-08-11
+updated: 2026-08-12
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -100,4 +100,4 @@ Wiersma’s starting protocol is an approximately ten-second cycle—about four 
 
 ## Related
 
-[[neuromodulators-and-state-control]] · [[stress-threat-discrimination]] · [[protective-threat-responses]] · [[mental-imagery-for-performance]] · [[daily-movement-mobility-and-pain]] · [[pre-sleep-routines-and-stimulus-control]] · [[sleep-quality-and-circadian-alignment]] · [[practice-playbook]]
+[[neuromodulators-and-state-control]] · [[stress-threat-discrimination]] · [[protective-threat-responses]] · [[mental-imagery-for-performance]] · [[daily-movement-mobility-and-pain]] · [[spinal-traction-and-fascial-decompression]] · [[pre-sleep-routines-and-stimulus-control]] · [[sleep-quality-and-circadian-alignment]] · [[practice-playbook]]

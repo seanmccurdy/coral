@@ -95,6 +95,8 @@ Those roles are not interchangeable. An expert discussion can surface an importa
 
 The textbook is maintained as a revisable system. New material is integrated into existing explanations, priority gaps receive dedicated research, and chapters record when their evidence was reviewed and through what cutoff date. Safety claims, clinical recommendations, contested topics, and chapters used by synthesis receive earlier review. DOI and PubMed records are checked for resolution and retraction signals, while reverse dependencies identify the chapters and synthesis pages that may need reconsideration when a claim changes.
 
+The [scientific-rigor audit](wiki/_scientific-rigor-audit.md) tracks corpus-wide fact-checking, confirmed corrections, and P0/P1/P2 priorities. A chapter marked `review-due` or `under-review` should not be treated as independently verified merely because its prose includes an evidence grade.
+
 Corrections are not silently overwritten. The current conclusion is revised, the reason for the change is recorded, useful historical context is retained, and affected synthesis pages are reconsidered. The [changelog](wiki/changelog.md) provides the ongoing record. In this way, maintenance is part of the textbook itself rather than an invisible process behind it.
 
 ## Contributing corrections

@@ -6,6 +6,8 @@ skincare, urbanism) live in each page's `tags` frontmatter.
 
 ## Sections
 
+- [[_scientific-rigor-audit|Scientific-rigor audit]] — corpus-wide fact-checking status, confirmed corrections, and P0/P1/P2 remediation priorities
+
 - `concepts/` — mechanisms & ideas (e.g. vo2-max, autophagy)
 - `interventions/` — things you can do or take (e.g. rapamycin, creatine, hrt)
 - `people/` — researchers & recurring voices (e.g. peter-attia)
@@ -89,6 +91,8 @@ way to explain the material.
 - [[ai-guided-therapeutic-design]] — target selection, antibody generation, filtering, experimental validation, and translation
 - [[stress-threat-discrimination]] — learned appraisal of effort versus danger and prediction-error updating
 - [[protective-threat-responses]] — fight, flight, freeze, and the less-settled fawn category
+- [[attachment-threat-and-relational-regulation]] — accelerated bonding, withdrawal distress, threat-driven caregiving, and anger that regulates closeness
+- [[interpersonal-regulation-and-emotional-capacity]] — shared social load, vigilance cost, depletion, and state-dependent availability
 - [[social-evaluative-threat-and-criticism]] — how criticism couples task information to acceptance and status threat
 - [[skin-barrier-and-moisturization]] — epidermal water balance, barrier disruption, and function-based moisturization
 - [[skincare-evidence-and-routine-design]] — formulation, layering, irritation load, marketing claims, and product value
@@ -97,6 +101,8 @@ way to explain the material.
 - [[photoprotection]] — real-world sunscreen film, reapplication, long-wear claims, and garment care
 - [[procedural-skin-remodeling]] — IPL, microneedling, radiofrequency, striae, and botulinum-toxin aftercare
 - [[dr-dray]] — dermatologist emphasizing diagnosis, routine simplicity, tolerability, and evidence over prestige
+- [[actinic-purpura-and-aging-skin-fragility]] — ultraviolet matrix damage, vessel support, easy bruising, healing, and intervention hierarchy
+- [[ebola-virus-disease-and-skin-signs]] — systemic inflammation, endothelial injury, coagulation failure, rash, and recovery signs
 - [[erectile-dysfunction-and-vascular-health]] — erectile physiology, vascular sentinel value, apolipoproteins, and cause-directed assessment
 - [[male-contraception]] — established and investigational transport-blocking, hormonal, and sperm-specific methods
 - [[male-fertility-and-exogenous-testosterone]] — reproductive-axis feedback, testosterone suppression of spermatogenesis, and fertility-preserving decisions
@@ -197,3 +203,25 @@ way to explain the material.
 - [[epigenetic-alterations-and-reprogramming]] — chromatin aging, clocks as biomarkers, partial reprogramming, and identity and cancer constraints
 - [[stem-cell-exhaustion]] — tissue-specific regenerative decline, niche effects, clonal selection, and intervention limits
 - [[telomere-biology]] — chromosome-end protection, replicative limits, short-telomere disorders, population evidence, and cancer tradeoffs
+- [[hallmarks-of-aging]] — enumerative versus coarse-grained frameworks, the 14-hallmark update, and what a framework forbids
+- [[extracellular-matrix-aging]] — slow-turnover matrix damage, elastin-fragment immune activation, and environment-imposed cell aging
+- [[healthspan-versus-maximum-lifespan]] — whether current rejuvenation therapies are bounded to healthspan, and the stable/unstable species argument
+- [[therapeutic-plasma-exchange]] — systemic-milieu replacement, biomarker endpoints, IVIG combination, and treatment burden
+- [[spinal-traction-and-fascial-decompression]] — traction versus compression, thoracolumbar fascia, breath-driven decompression, and the "release" terminology dispute
+- [[engineered-reprogramming-factors]] — model-designed Yamanaka factors, disordered-sequence design, potency versus rejuvenation, and route-dependent safety
+- [[circulating-rejuvenation-signaling]] — parabiosis, dilution and addition designs, aging-by-signaling theory, and what a soluble environment cannot reach
+- [[plasma-derived-extracellular-particles]] — preparation, acute tolerability, replication design, endpoints, and the compassionate-use boundary
+- [[pig-plasma-fraction-rejuvenation]] — whether a large reported epigenetic rejuvenation in rats is real, and what would settle it
+- [[replication-and-research-incentives]] — patents, novelty preference, negative results, and why consequential claims go unchecked
+- [[public-trust-in-longevity-science]] — measuring cultural sentiment, demographic clustering, narrative archetypes, and trust as a research input
+- [[cultural-legitimacy-versus-research-bottleneck]] — whether public legitimacy or scientific progress is the field's binding constraint
+- [[stochastic-aging-and-molecular-noise]] — accumulating regulatory dispersion, quasi-random damage distribution, buffering thresholds, and what noise clocks measure
+- [[dream-complex-and-repair-capacity]] — conserved repression of cell-cycle and repair genes, damage resistance on loss of function, and cross-species repair correlates
+- [[programmed-versus-stochastic-aging]] — whether developmental-pathway signatures in aging data reflect a running program or a selection effect on repressed genes
+- [[engineered-cell-therapy-for-solid-tumors]] — CAR architecture, the targeting, trafficking, and microenvironment failure tree, multiplex base editing, and persistence as a tunable window
+- [[open-data-and-research-infrastructure]] — articles as interpretations, dataset annotation levels, effort decay, and reward-side sharing incentives
+- [[catastrophizing-and-uncertainty]] — predictive threat completion, false certainty, working-memory load, and action-bounded alternatives
+- [[emotional-memory-reactivation-and-rumination]] — distributed autobiographical states, cue retrieval, repetitive rehearsal, and contextual updating
+- [[trust-repair-and-safety-learning]] — forgiveness versus trust, competing safety learning, apology, accountability, and behavioral repair
+- [[tracey-marks]] — psychiatrist teaching predictive appraisal, memory updating, and behavior-based trust repair
+- [[cognitive-dissonance-and-narrative-protection]] — conflict detection, identity-protective reinterpretation, reinforcement, and narrative auditing

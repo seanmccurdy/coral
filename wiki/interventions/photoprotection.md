@@ -2,10 +2,10 @@
 type: intervention
 title: Photoprotection
 tags: [skincare, longevity]
-updated: 2026-08-11
-evidence_reviewed: never
-evidence_cutoff: unknown
-review_status: review-due
+updated: 2026-08-12
+evidence_reviewed: 2026-08-12
+evidence_cutoff: 2026-08-12
+review_status: current
 review_interval: 180d
 ---
 
@@ -45,6 +45,8 @@ A stick may add some product over intact makeup without visibly disturbing it, m
 
 Claims of six-hour or longer wear lack a standardized long-wear test comparable to US water-resistance testing, which uses defined immersion procedures for 40- or 80-minute claims. Manufacturer testing may be informative, but without a common protocol it does not justify abandoning ordinary reapplication guidance. Dr Dray's precautionary position is to reapply about every two hours while outdoors and after heavy sweating or water activity, even when a product advertises longer wear. (@DrDrayzday (Dr Dray) — "Is Sugar Really Bad for Your Skin? | Dermatologist Q&A", 2026-08-09, [link](https://www.youtube.com/watch?v=c0tYCBtxRO4))
 
+The backs of the hands illustrate a site-specific film problem: washing, gripping, and friction remove sunscreen more often than they do from the face, while cumulative exposure contributes to collagen loss, vessel fragility, actinic keratoses, and [[actinic-purpura-and-aging-skin-fragility]]. Vehicle side windows can reduce UVB more effectively than UVA, so prolonged driving can still deliver photoaging exposure without obvious burning; sunscreen restoration or UPF gloves are practical controls. (@DrDrayzday (Dr Dray) — "Why Do My Hands Bruise So Easily? Dermatologist Explains", 2026-08-06, [link](https://www.youtube.com/watch?v=0o0bMXOL-Lo))
+
 ## Practical implications
 
 - **Whenever UV protection is indicated: combine sunscreen with shade, clothing, hats, and behavior — strong.** Choose a broad-spectrum product whose finish permits a generous, even application; product elegance affects adherence and therefore effective dose. Reapply about every two hours during sustained outdoor exposure and after swimming, heavy sweating, or rubbing. (@LabMuffinBeautyScience (Lab Muffin Beauty Science) — "Debunking this year's top sunscreen myths", 2026-05-23, [link](https://www.youtube.com/watch?v=wATBG1X7HX4))
@@ -52,6 +54,7 @@ Claims of six-hour or longer wear lack a standardized long-wear test comparable 
 - **For a makeup-preserving top-up: use a stick only as a limited fallback — weak, based on two-product self-testing.** It is most defensible when the original film remains largely intact; a measured lotion patted on with a sponge is a more complete option. (@LabMuffinBeautyScience (Lab Muffin Beauty Science) — "I was wrong about sunscreen sticks (kinda)", 2026-07-14, [link](https://www.youtube.com/watch?v=NyWP_a0rICQ))
 - **For melasma or visible-light-sensitive pigmentation: consider a well-tolerated tinted sunscreen with high UVA protection — moderate.** Iron-oxide tint, not mineral-filter status alone, supplies the relevant visible-light attenuation. (@LabMuffinBeautyScience (Lab Muffin Beauty Science) — "Debunking this year's top sunscreen myths", 2026-05-23, [link](https://www.youtube.com/watch?v=wATBG1X7HX4))
 - **For high-UV, sweaty, or water activity: match water resistance and supply chain to the use case — moderate.** Use a genuine, stable product from a reliable seller; do not leave it in a hot car. A lightweight imported daily sunscreen is not automatically weak, but may be poorly matched to hiking, sport, or beach exposure. (@LabMuffinBeautyScience (Lab Muffin Beauty Science) — "Debunking this year's top sunscreen myths", 2026-05-23, [link](https://www.youtube.com/watch?v=wATBG1X7HX4))
+- **For exposed hands: apply protection daily when UV exposure is meaningful and restore it after washing or rubbing — strong for lowering UV dose, moderate for preventing skin fragility.** Consider UPF gloves during long drives or outdoor work when repeated sunscreen application is impractical. (@DrDrayzday (Dr Dray) — "Why Do My Hands Bruise So Easily? Dermatologist Explains", 2026-08-06, [link](https://www.youtube.com/watch?v=0o0bMXOL-Lo))
 
 ## Gaps & open questions
 
@@ -63,4 +66,4 @@ Claims of six-hour or longer wear lack a standardized long-wear test comparable 
 
 ## Related
 
-[[mineral-and-organic-sunscreens]] · [[topical-retinoids]] · [[skin-barrier-and-moisturization]] · [[procedural-skin-remodeling]] · [[skincare-evidence-and-routine-design]] · [[aging-model]] · [[practice-playbook]]
+[[mineral-and-organic-sunscreens]] · [[topical-retinoids]] · [[skin-barrier-and-moisturization]] · [[procedural-skin-remodeling]] · [[actinic-purpura-and-aging-skin-fragility]] · [[skincare-evidence-and-routine-design]] · [[aging-model]] · [[practice-playbook]]

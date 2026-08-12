@@ -2,7 +2,7 @@
 type: concept
 title: Trunk training
 tags: [fitness]
-updated: 2026-08-11
+updated: 2026-08-12
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -77,4 +77,4 @@ The cue to flex and extend the spine one vertebra at a time may help some people
 
 ## Related
 
-[[abdominal-definition-and-training]] · [[exercise-program-design]] · [[resistance-training]] · [[performance-nutrition-and-hydration]] · [[satiety-oriented-diet-design]] · [[youth-resistance-training]] · [[practice-playbook]]
+[[abdominal-definition-and-training]] · [[spinal-traction-and-fascial-decompression]] · [[daily-movement-mobility-and-pain]] · [[exercise-program-design]] · [[resistance-training]] · [[performance-nutrition-and-hydration]] · [[satiety-oriented-diet-design]] · [[youth-resistance-training]] · [[practice-playbook]]

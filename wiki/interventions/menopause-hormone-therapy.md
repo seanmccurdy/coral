@@ -3,9 +3,9 @@ type: intervention
 title: Menopause hormone therapy
 tags: [hormones, longevity, sleep-brain]
 updated: 2026-08-11
-evidence_reviewed: never
-evidence_cutoff: unknown
-review_status: review-due
+evidence_reviewed: 2026-08-12
+evidence_cutoff: 2026-08-12
+review_status: current
 review_interval: 180d
 ---
 

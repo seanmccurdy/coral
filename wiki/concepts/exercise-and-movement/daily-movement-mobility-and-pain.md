@@ -2,7 +2,7 @@
 type: concept
 title: Daily movement, mobility, and pain
 tags: [fitness, longevity, sleep-brain]
-updated: 2026-08-11
+updated: 2026-08-12
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -34,6 +34,10 @@ flowchart TD
 Pain is produced by the nervous system from sensory input, context, prior experience, stress, sleep, and perceived threat; its intensity therefore does not map perfectly onto tissue damage. This supports curiosity and graded modification for ordinary soreness or load-related discomfort, but it does not justify dismissing pain. A clear traumatic mechanism, deformity, loss of function, progressive neurological symptoms, fever, night sweats, unexplained systemic illness, or persistent worsening calls for clinical assessment. Kelly Starrett's framing of pain as a request for change is useful as a self-management heuristic, not a diagnostic rule. (@FoundMyFitness (FoundMyFitness) — "The Scientific Formula for a 'Healthy Day' | Dr. Kelly Starrett", 2026-05-04, [link](https://www.youtube.com/watch?v=IXmOJsfebMM))
 
 For non-red-flag discomfort, a decision sequence can test whether changing load, range, tempo, technique, or recovery restores function. Soft-tissue pressure or foam rolling can transiently improve range, blood flow, soreness, and pain tolerance, creating a window for movement; it does not repair every tissue problem or replace progressive loading. The source proposes limiting work to about five minutes per muscle group, keeping intensity low enough to breathe, and using test–retest of the relevant movement. These are practitioner protocols with plausible mechanisms and short-term evidence, not proof of structural remodeling. (@FoundMyFitness (FoundMyFitness) — "The Scientific Formula for a 'Healthy Day' | Dr. Kelly Starrett", 2026-05-04, [link](https://www.youtube.com/watch?v=IXmOJsfebMM))
+
+Self-applied soft-tissue work is not one category, and treating it as one obscures a mechanically meaningful choice. Compression pushes tissue toward bone; traction lengthens or offloads a segment. The two load tissue in opposite directions, and an individual can respond well to one and negligibly to the other — the low back in particular is reported to respond far better to traction, with relief lasting hours rather than the seconds attributed to rolling, while other regions respond better to compression. This makes "rolling didn't help" an incomplete test. It also opens the option of a breath-driven, pain-free technique for people who cannot tolerate pressure-based work. The evidence remains practitioner protocol plus uncontrolled reports, and the test–retest rule below still governs whether to keep it. [[spinal-traction-and-fascial-decompression]] (@drandygalpin (Andy Galpin) — "How to Decompress your Spine for Lower Back Relief | Dr. Andy Galpin & Jill Miller", 2026-08-11, [link](https://www.youtube.com/watch?v=4pCDgzb12OU))
+
+A terminology caution travels with this literature. "Self-myofascial release" asserts a mechanism — that myofascial tissue releases — which the evidence does not establish, and both the physiologist and the practitioner in the source reject the term while proposing that only the verifiable part be named: massage, or manipulation. The subjective experience of release is real and often striking; its attribution to a specific tissue event is not. Expect part of the effect to run through slow breathing, supported rest, and reduced arousal rather than through tissue change. (@drandygalpin (Andy Galpin) — "How to Decompress your Spine for Lower Back Relief | Dr. Andy Galpin & Jill Miller", 2026-08-11, [link](https://www.youtube.com/watch?v=4pCDgzb12OU))
 
 ```mermaid
 flowchart TD
@@ -74,6 +78,7 @@ Shoulder exercise selection follows the same logic at greater anatomical complex
 - **Several times daily: change position or use a 5–10-minute movement snack — moderate for acute metabolic and functional benefit.** Choose brisk walking, stairs, controlled bodyweight work, play, or mobility practice according to capacity. (@FoundMyFitness (FoundMyFitness) — "The Scientific Formula for a 'Healthy Day' | Dr. Kelly Starrett", 2026-05-04, [link](https://www.youtube.com/watch?v=IXmOJsfebMM))
 - **Before a relevant task or during a movement break: test one controlled regional drill and retain it only when a standardized retest improves — limited for the specific hip and reverse-plank protocols.** An acute response is a programming clue, not a diagnosis or permanent correction. (@SquatUniversity (Squat University) — "Have Tight Hips? This One Exercises Fixes EVERYTHING!", 2026-08-08, [link](https://www.youtube.com/watch?v=cIg1I5WN4l4)) (@SquatUniversity (Squat University) — "Sitting All Day? This One Exercise Fixes Everything!", 2026-07-12, [link](https://www.youtube.com/watch?v=mwaEHn2mZsE))
 - **Most evenings or after demanding training: if helpful, use up to about 10 minutes of tolerable self-massage or mobility work, then retest a relevant movement — limited-to-moderate for short-term range and soreness.** Long-term capacity still requires graded loading. (@FoundMyFitness (FoundMyFitness) — "The Scientific Formula for a 'Healthy Day' | Dr. Kelly Starrett", 2026-05-04, [link](https://www.youtube.com/watch?v=IXmOJsfebMM))
+- **For low-back tension specifically: try traction before adding more compression — limited evidence, low risk.** A poor response to foam rolling does not predict a poor response to offloading; see [[spinal-traction-and-fascial-decompression]] for the setup and its cautions. (@drandygalpin (Andy Galpin) — "How to Decompress your Spine for Lower Back Relief | Dr. Andy Galpin & Jill Miller", 2026-08-11, [link](https://www.youtube.com/watch?v=4pCDgzb12OU))
 - **At each painful episode: screen for red flags and modify rather than automatically stop all activity — strong for triage principle, individualized for treatment.** Seek assessment when symptoms are severe, progressive, traumatic, systemic, neurologic, or fail to improve.
 
 ## Gaps & open questions
@@ -84,8 +89,9 @@ Shoulder exercise selection follows the same logic at greater anatomical complex
 - Which pain presentations benefit from self-directed graded movement, and which are most often delayed diagnoses?
 - Do floor transitions add benefit beyond equivalent strength, balance, and range training?
 - How much do transient mobility changes transfer to durable function and injury reduction?
+- Do traction and compression produce different durations of relief in controlled comparison, and does the tissue region predict which works?
 - Can immediate test–retest response predict long-term benefit from a mobility or corrective drill better than symptom-guided progressive exercise alone?
 
 ## Related
 
-[[aging-model]] · [[practice-playbook]] · [[hip-mobility-and-adductor-loading]] · [[shoulder-force-couples-and-exercise-selection]] · [[sedentary-posture-and-reverse-plank]] · [[strength-transfer-and-exercise-specificity]] · [[trunk-training]] · [[performance-nutrition-and-hydration]] · [[youth-resistance-training]] · [[stress-threat-discrimination]]
+[[aging-model]] · [[practice-playbook]] · [[spinal-traction-and-fascial-decompression]] · [[breathing-mechanics-and-state-regulation]] · [[hip-mobility-and-adductor-loading]] · [[shoulder-force-couples-and-exercise-selection]] · [[sedentary-posture-and-reverse-plank]] · [[strength-transfer-and-exercise-specificity]] · [[trunk-training]] · [[performance-nutrition-and-hydration]] · [[youth-resistance-training]] · [[stress-threat-discrimination]]

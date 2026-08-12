@@ -2,16 +2,19 @@
 type: intervention
 title: Anti-amyloid immunotherapy
 tags: [longevity, sleep-brain]
-updated: 2026-08-11
-evidence_reviewed: never
-evidence_cutoff: unknown
-review_status: review-due
+updated: 2026-08-12
+evidence_reviewed: 2026-08-12
+evidence_cutoff: 2026-08-12
+review_status: under-review
 review_interval: 180d
 ---
 
 # Anti-amyloid immunotherapy
 
 Anti-amyloid monoclonal antibodies are the first approved drugs that alter the biology of Alzheimer's disease rather than only its symptoms. Aducanumab (approved July 2021, later withdrawn from the market), lecanemab (intravenous, once every two weeks), and donanemab (once monthly) clear amyloid plaque from the brain; although they target amyloid, they also produce downstream reduction in tau. The central tension is that biomarker clearance is dramatic while average clinical benefit in trial populations has been small, and the vascular side-effect profile is serious—especially in APOE4 homozygotes, the group most likely to progress and most in need of treatment. (Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
+
+> [!CAUTION]
+> This treatment is approved for selected patients with **early symptomatic** Alzheimer's disease and confirmed amyloid pathology. It is not a general longevity or prevention treatment. Selection, dosing, MRI surveillance, management of amyloid-related imaging abnormalities (ARIA), and decisions about antithrombotic therapy require a specialist program. The off-label slow-titration and steroid strategies described below are hypotheses or practice experience, not established standards of care.
 
 ## Mechanism of benefit and of harm
 
@@ -36,17 +39,19 @@ flowchart TD
 
 ## Evidence and its limits
 
-Aducanumab's FDA approval went against its advisory board, which objected that plaque clearance did not translate into significant clinical benefit while carrying serious brain-bleeding and swelling risk (reported ARIA incidence above 40%) at an initial cost in the mid-$50,000s per year; it was ultimately withdrawn, per Devi, because required pulse monitoring made it commercially unfeasible rather than for new efficacy or safety findings. For lecanemab and donanemab, the drug-versus-placebo difference on the CDR sum-of-boxes is about 0.3–0.4 points out of 18—small—and early donanemab data showed essentially no CDR-SB difference, which Devi attributes to enrolling moderate-to-severe patients. Treating earlier—before extensive tau pathology and synaptic loss—has shown greater benefit, and treating amyloid-positive people before any symptoms is an open question with no trial answer. Individual responses span the spectrum: one woman in her 70s on lecanemab cleared amyloid, then had a negative tau scan, and is doing remarkably well clinically; a treated identical twin fared much better than her institutionalized untreated twin. Anecdotes from a single open-label practice cannot establish efficacy. (Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
+Aducanumab's approval was controversial and it was later discontinued commercially. The two pivotal phase 3 trials provide the relevant clinical estimates for current agents. In CLARITY-AD, lecanemab produced a placebo-adjusted difference of **−0.45 points on the 18-point CDR-SB at 18 months**. In TRAILBLAZER-ALZ 2, donanemab produced a difference of **−0.70 points at 76 weeks** in the combined population. Both results were statistically significant and represent slowing—not reversal—of decline; whether the average differences are clinically meaningful remains debated. Trial eligibility was limited to early symptomatic disease with biomarker-confirmed amyloid, so these results cannot be extrapolated to cognitively normal people or moderate-to-severe dementia. ARIA, including symptomatic and rarely fatal events, is a central risk rather than a monitoring inconvenience.
+
+Individual dramatic responses and comparisons between treated and untreated relatives are anecdotes. They can generate hypotheses but cannot estimate treatment efficacy or identify a responder subgroup. (Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
 
 Attia frames the underlying logic: like LDL-lowering and atherosclerosis, chronic-disease benefit is about time and area under the curve, so short trials late in disease may understate what early, sustained amyloid lowering could do—an alternative explanation to the drugs don't work, but one that remains unproven pending the low-slow-early trial nobody has yet funded. (Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
 
-## The slow-titration position (Devi, contrarian)
+## Investigational practice: slow titration and steroids
 
-Standard practice generally excludes APOE4/4 patients because of ARIA risk. Devi's contrarian protocol treats them anyway, on the reasoning that amyloid accumulated over decades does not need to be cleared in eighteen months: begin at low dose and titrate very slowly, accept clearing plaque in two years instead of one and a half. Her published series reports about 4% ARIA in such patients versus the much higher conventional incidence, and in over five years of use only one symptomatic ARIA case—everything else was caught on protocol MRI surveillance in asymptomatic patients. After ARIA is diagnosed she premedicates with steroids before subsequent doses, as one would treat CAA-related inflammation, and reduces dose rather than necessarily stopping. Practical frictions: donanemab's approved 350→700→1050→1400 mg titration permits lingering at low doses, but lecanemab starts at 10 mg/kg, and insurers will not reimburse off-protocol lower starts—so a safer schedule becomes an out-of-pocket cost; she has seen severe ARIA in 4/4 patients at just 3 mg/kg lecanemab. This is open-label practice evidence, not randomized; the trial that would test low-slow-early treatment in high-risk 50-to-60-year-olds has not been done, likely for cost reasons. (Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
+The podcast describes a clinician's off-label approach of starting below labeled doses, titrating slowly, and sometimes using corticosteroids around ARIA. These observations are not sufficient to establish that the strategy reduces ARIA, preserves efficacy, or is safe in APOE ε4 homozygotes. FDA labeling and published appropriate-use recommendations—not a single-practice series—should anchor care. The claim of an approximately 4% ARIA rate requires verification against the underlying peer-reviewed report before it is used quantitatively. Treatment of asymptomatic, amyloid-positive adults outside a clinical trial is not supported by the pivotal efficacy trials. (Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
 
 ## Cost, logistics, and eligibility engineering
 
-The drugs themselves cost about $26,000 per year, with administration fees from roughly $400 per infusion at an infusion center to as much as $10,000 in institutional settings, plus surveillance MRIs and amyloid imaging. Anticoagulation is a relative contraindication because ARIA-H on a blood thinner can be catastrophic; in patients anticoagulated for atrial fibrillation, Devi arranges a left-atrial-appendage occlusion (Watchman) so the anticoagulant can be stopped and the monoclonal started—also used in vascular-dementia patients at fall risk. (Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
+Total cost includes drug, infusion or injection services, specialist assessment, amyloid confirmation, and serial MRI. Exact prices vary by agent, payer, site, and year and should not be treated as durable clinical facts. FDA labeling warns that anticoagulant exposure may increase intracerebral-hemorrhage risk and calls for additional caution; lecanemab appropriate-use recommendations advise against treatment in patients who require anticoagulants pending better data. Replacing indicated anticoagulation with left-atrial-appendage occlusion solely to enable an anti-amyloid antibody is not an established general protocol. That decision has independent procedural risks and must be made through cardiology, neurology, and shared decision-making based on the patient's competing stroke and bleeding risks. (Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
 
 ## Precedent and pipeline
 
@@ -54,11 +59,12 @@ IVIG (pooled immunoglobulin, studied by Norman Relkin's group at Cornell) was ab
 
 ## Practical implications
 
-- **Eligibility first: biomarker-confirmed disease (amyloid plus tau or CSF), APOE genotype, anticoagulation review, and baseline MRI — strong procedural requirement.** [[alzheimers-diagnosis-biological-vs-clinical]]
-- **For APOE4/4 carriers who proceed: a very slow titration protocol materially reduces ARIA in one published open-label series (~4%) — moderate-to-low evidence strength (no RCT), and insurance may not cover off-label schedules.**
-- **During treatment: scheduled MRI surveillance regardless of symptoms; nearly all ARIA is radiographic before it is clinical — strong within this practice's experience.**
-- **Expect modest average clinical effect (CDR-SB ~0.3–0.4/18) in trial-like late populations; the strongest case for treatment is early disease — moderate.**
-- **Do not combine with anticoagulation; resolve the indication (e.g., appendage occlusion) first — strong safety position from this source.**
+- **Use only for the labeled early symptomatic population after amyloid confirmation and specialist assessment.** Tau confirmation is not universally required by US labeling. [[alzheimers-diagnosis-biological-vs-clinical]]
+- **Discuss APOE genotype before treatment.** APOE ε4 homozygotes have substantially higher ARIA risk, but US labeling frames this as risk information rather than an automatic exclusion.
+- **Obtain baseline and label-specified surveillance MRI.** New neurologic symptoms require urgent assessment; management depends on symptoms and radiographic severity.
+- **Describe benefit as modest average slowing of decline, not stabilization, improvement, or prevention.** Pivotal placebo-adjusted CDR-SB differences were −0.45 for lecanemab and −0.70 for donanemab over roughly 18 months.
+- **Do not turn antithrombotic decisions into a wiki protocol.** Anticoagulation and thrombolysis raise serious hemorrhage concerns; agent-specific labeling and specialist appropriate-use guidance differ in force and must be applied to the individual patient.
+- **Treat slow titration, routine steroid premedication, and use in asymptomatic adults as investigational unless supported by an applicable trial and regulatory guidance.**
 
 ## Gaps & open questions
 
@@ -67,6 +73,13 @@ IVIG (pooled immunoglobulin, studied by Norman Relkin's group at Cornell) was ab
 - How much of the clinical-benefit shortfall reflects late treatment and trial-population misdiagnosis (~30% historically) versus a wrong or incomplete amyloid hypothesis?
 - Which patients account for dramatic responses (amyloid- and tau-negative after treatment), and can immune phenotype predict them?
 - Will neuroinflammation-targeted drugs outperform or complement amyloid clearance?
+
+## References
+
+1. van Dyck CH, et al. Lecanemab in Early Alzheimer's Disease. *N Engl J Med*. 2023;388:9-21. [doi:10.1056/NEJMoa2212948](https://doi.org/10.1056/NEJMoa2212948)
+2. Sims JR, et al. Donanemab in Early Symptomatic Alzheimer Disease: The TRAILBLAZER-ALZ 2 Randomized Clinical Trial. *JAMA*. 2023;330:512-527. [PMID: 37459141](https://pubmed.ncbi.nlm.nih.gov/37459141/)
+3. US Food and Drug Administration. *LEQEMBI (lecanemab-irmb) Prescribing Information*. Revised 2025. [FDA label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761269s005lbl.pdf)
+4. Cummings J, et al. Lecanemab: Appropriate Use Recommendations. *J Prev Alzheimers Dis*. 2023;10:362-377. [PMID: 37357276](https://pubmed.ncbi.nlm.nih.gov/37357276/)
 
 ## Related
 

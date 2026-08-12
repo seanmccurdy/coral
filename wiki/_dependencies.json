@@ -1,42 +1,43 @@
 {
   "abbie-smith-ryan": {
     "inbound": [
-      "aging-model",
-      "changelog",
-      "practice-playbook"
+      "changelog"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "abdominal-definition-and-training": {
     "inbound": [
-      "aging-model",
       "changelog",
-      "practice-playbook",
       "satiety-oriented-diet-design",
       "trunk-training"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
+  },
+  "actinic-purpura-and-aging-skin-fragility": {
+    "inbound": [
+      "changelog",
+      "dr-dray",
+      "photoprotection",
+      "procedural-skin-remodeling",
+      "topical-retinoids"
+    ],
+    "synthesis": []
   },
   "addiction-recovery-and-emotional-sobriety": {
     "inbound": [
+      "aging-model",
       "changelog",
       "mental-strength-and-behavioral-skills",
       "myth-moral-injury-and-homecoming",
       "practice-playbook"
     ],
     "synthesis": [
+      "aging-model",
       "practice-playbook"
     ]
   },
   "adenomyosis": {
     "inbound": [
-      "aging-model",
       "changelog",
       "endometriosis",
       "oocyte-aneuploidy-and-reproductive-aging",
@@ -45,24 +46,18 @@
       "proactive-health-monitoring"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "adhd-and-reproductive-hormone-transitions": {
     "inbound": [
-      "aging-model",
       "changelog",
       "endometriosis",
       "menopause-related-cognitive-impairment",
       "neuromodulators-and-state-control",
-      "perimenopause-assessment-and-testing",
-      "practice-playbook"
+      "perimenopause-assessment-and-testing"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "advanced-glycation-end-products": {
     "inbound": [
@@ -72,6 +67,7 @@
       "changelog",
       "colorectal-cancer-prevention-and-screening",
       "enzymatic-deglycation",
+      "extracellular-matrix-aging",
       "free-sugars-and-glycemic-response",
       "loss-of-proteostasis"
     ],
@@ -83,7 +79,17 @@
     "inbound": [
       "aging-model",
       "ai-guided-therapeutic-design",
-      "changelog"
+      "biological-age-biomarkers",
+      "changelog",
+      "circulating-rejuvenation-signaling",
+      "epigenetic-alterations-and-reprogramming",
+      "hallmarks-of-aging",
+      "healthspan-versus-maximum-lifespan",
+      "mtor-and-rapamycin",
+      "performance-gated-recovery-progression",
+      "programmed-versus-stochastic-aging",
+      "stochastic-aging-and-molecular-noise",
+      "therapeutic-plasma-exchange"
     ],
     "synthesis": [
       "aging-model"
@@ -109,14 +115,19 @@
       "cardiorespiratory-fitness",
       "cellular-senescence",
       "changelog",
+      "circulating-rejuvenation-signaling",
       "cognitive-reserve-and-brain-health",
       "colorectal-cancer-prevention-and-screening",
       "coronary-ct-angiography",
       "creatine",
+      "cultural-legitimacy-versus-research-bottleneck",
       "daily-movement-mobility-and-pain",
       "dietary-fiber",
+      "dream-complex-and-repair-capacity",
       "endometriosis",
       "energy-balance-and-calorie-counting",
+      "engineered-cell-therapy-for-solid-tumors",
+      "engineered-reprogramming-factors",
       "environmental-pollution-and-health",
       "enzymatic-deglycation",
       "epigenetic-alterations-and-reprogramming",
@@ -124,12 +135,15 @@
       "evolutionary-mismatch-and-weight-regulation",
       "exercise-enhanced-learning",
       "exercise-program-design",
+      "extracellular-matrix-aging",
       "ezetimibe",
       "food-label-literacy-and-health-halos",
       "food-patterns-and-gut-ecology",
       "free-sugars-and-glycemic-response",
       "genomic-instability-and-dna-repair",
       "glp-1-receptor-agonists",
+      "hallmarks-of-aging",
+      "healthspan-versus-maximum-lifespan",
       "hip-mobility-and-adductor-loading",
       "immune-aging-and-rejuvenation",
       "immune-recognition-and-trafficking",
@@ -154,17 +168,24 @@
       "nattokinase",
       "nmr-blood-analysis",
       "oocyte-aneuploidy-and-reproductive-aging",
+      "open-data-and-research-infrastructure",
       "ovarian-aging-and-tissue-cryopreservation",
       "pcsk9-inhibition",
+      "performance-gated-recovery-progression",
       "performance-nutrition-and-hydration",
       "perimenopause-assessment-and-testing",
       "peter-attia",
       "photoprotection",
+      "pig-plasma-fraction-rejuvenation",
+      "plasma-derived-extracellular-particles",
       "practice-playbook",
       "pre-sleep-routines-and-stimulus-control",
       "proactive-health-monitoring",
       "probiotics-prebiotics-and-postbiotics",
+      "programmed-versus-stochastic-aging",
       "protective-threat-responses",
+      "public-trust-in-longevity-science",
+      "replication-and-research-incentives",
       "resistance-training",
       "satiety-oriented-diet-design",
       "sedentary-posture-and-reverse-plank",
@@ -172,13 +193,16 @@
       "skeletal-muscle-hypertrophy",
       "sleep-quality-and-circadian-alignment",
       "social-evaluative-threat-and-criticism",
+      "spinal-traction-and-fascial-decompression",
       "statins-and-glycemic-risk",
       "stem-cell-exhaustion",
+      "stochastic-aging-and-molecular-noise",
       "strength-transfer-and-exercise-specificity",
       "stress-threat-discrimination",
       "supplement-evidence-and-safety",
       "telomere-biology",
       "tendon-adaptation-and-rehabilitation",
+      "therapeutic-plasma-exchange",
       "thymus-regeneration",
       "training-frequency-and-hypertrophy",
       "visceral-and-ectopic-fat",
@@ -192,14 +216,14 @@
   "ai-guided-therapeutic-design": {
     "inbound": [
       "aging-dynamics-and-resilience",
-      "aging-model",
       "changelog",
+      "engineered-cell-therapy-for-solid-tumors",
+      "engineered-reprogramming-factors",
+      "epigenetic-alterations-and-reprogramming",
       "human-centered-ai-and-learning",
       "immune-aging-and-rejuvenation"
     ],
-    "synthesis": [
-      "aging-model"
-    ]
+    "synthesis": []
   },
   "alzheimers-diagnosis-biological-vs-clinical": {
     "inbound": [
@@ -237,7 +261,6 @@
   },
   "anti-amyloid-immunotherapy": {
     "inbound": [
-      "aging-model",
       "alzheimers-diagnosis-biological-vs-clinical",
       "alzheimers-spectrum-and-diagnosis",
       "brain-cholesterol-homeostasis",
@@ -245,25 +268,30 @@
       "cognitive-reserve-and-brain-health",
       "gayatri-devi",
       "lewy-body-disease-and-synucleinopathies",
-      "loss-of-proteostasis",
-      "practice-playbook"
+      "loss-of-proteostasis"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "arm-hypertrophy-specialization": {
     "inbound": [
-      "aging-model",
       "changelog",
-      "practice-playbook",
       "resistance-training",
       "tendon-adaptation-and-rehabilitation",
       "training-frequency-and-hypertrophy"
     ],
+    "synthesis": []
+  },
+  "attachment-threat-and-relational-regulation": {
+    "inbound": [
+      "changelog",
+      "cognitive-dissonance-and-narrative-protection",
+      "interpersonal-regulation-and-emotional-capacity",
+      "practice-playbook",
+      "protective-threat-responses",
+      "tracey-marks",
+      "trust-repair-and-safety-learning"
+    ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
@@ -280,11 +308,15 @@
   "autophagy-and-lysosomal-quality-control": {
     "inbound": [
       "aging-model",
+      "caloric-restriction-and-meal-timing",
       "cellular-senescence",
       "changelog",
+      "engineered-reprogramming-factors",
+      "hallmarks-of-aging",
       "loss-of-proteostasis",
       "mitochondrial-dysfunction",
-      "mtor-and-rapamycin"
+      "mtor-and-rapamycin",
+      "stochastic-aging-and-molecular-noise"
     ],
     "synthesis": [
       "aging-model"
@@ -300,16 +332,28 @@
       "breast-cancer-screening",
       "cellular-senescence",
       "changelog",
+      "circulating-rejuvenation-signaling",
+      "dream-complex-and-repair-capacity",
       "epigenetic-alterations-and-reprogramming",
       "genomic-instability-and-dna-repair",
+      "hallmarks-of-aging",
+      "healthspan-versus-maximum-lifespan",
       "immune-aging-and-rejuvenation",
       "longevity-clinics-and-evidence",
       "muscle-strength-and-mortality",
       "nmr-blood-analysis",
+      "open-data-and-research-infrastructure",
       "peter-attia",
+      "pig-plasma-fraction-rejuvenation",
+      "plasma-derived-extracellular-particles",
       "practice-playbook",
       "proactive-health-monitoring",
-      "telomere-biology"
+      "programmed-versus-stochastic-aging",
+      "replication-and-research-incentives",
+      "stem-cell-exhaustion",
+      "stochastic-aging-and-molecular-noise",
+      "telomere-biology",
+      "therapeutic-plasma-exchange"
     ],
     "synthesis": [
       "aging-model",
@@ -325,36 +369,37 @@
       "biological-age-biomarkers",
       "cellular-senescence",
       "changelog",
+      "cultural-legitimacy-versus-research-bottleneck",
+      "engineered-reprogramming-factors",
       "enzymatic-deglycation",
       "epigenetic-alterations-and-reprogramming",
+      "healthspan-versus-maximum-lifespan",
       "immune-aging-and-rejuvenation",
       "muscle-strength-and-mortality",
-      "practice-playbook",
+      "pig-plasma-fraction-rejuvenation",
+      "plasma-derived-extracellular-particles",
+      "programmed-versus-stochastic-aging",
+      "public-trust-in-longevity-science",
+      "replication-and-research-incentives",
+      "therapeutic-plasma-exchange",
       "thymus-regeneration"
     ],
     "synthesis": [
-      "aging-model",
-      "practice-playbook"
+      "aging-model"
     ]
   },
   "brain-cholesterol-homeostasis": {
     "inbound": [
-      "aging-model",
       "autophagy-and-lysosomal-quality-control",
       "changelog",
       "ezetimibe",
       "omega-3-fatty-acids",
-      "peter-attia",
-      "practice-playbook"
+      "peter-attia"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "breast-cancer-screening": {
     "inbound": [
-      "aging-model",
       "changelog",
       "multi-cancer-early-detection",
       "peter-attia",
@@ -362,41 +407,39 @@
       "proactive-health-monitoring"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "breathing-mechanics-and-state-regulation": {
     "inbound": [
       "changelog",
+      "daily-movement-mobility-and-pain",
       "mental-imagery-for-performance",
-      "practice-playbook",
-      "pre-sleep-routines-and-stimulus-control"
+      "pre-sleep-routines-and-stimulus-control",
+      "spinal-traction-and-fascial-decompression"
     ],
-    "synthesis": [
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "caloric-restriction-and-meal-timing": {
     "inbound": [
       "aging-dynamics-and-resilience",
-      "aging-model",
       "autophagy-and-lysosomal-quality-control",
       "changelog",
       "energy-balance-and-calorie-counting",
       "evolutionary-mismatch-and-weight-regulation",
       "glp-1-receptor-agonists",
+      "healthspan-versus-maximum-lifespan",
       "ketogenic-diet-apob-and-atherosclerosis",
       "mtor-and-rapamycin",
       "nmr-blood-analysis",
       "nutrition-evidence-and-personalization",
       "performance-nutrition-and-hydration",
       "practice-playbook",
+      "stochastic-aging-and-molecular-noise",
       "supplement-evidence-and-safety",
       "visceral-and-ectopic-fat"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
@@ -421,23 +464,70 @@
       "practice-playbook"
     ]
   },
+  "catastrophizing-and-uncertainty": {
+    "inbound": [
+      "aging-model",
+      "changelog",
+      "cognitive-dissonance-and-narrative-protection",
+      "emotional-memory-reactivation-and-rumination",
+      "practice-playbook",
+      "stress-threat-discrimination",
+      "tracey-marks"
+    ],
+    "synthesis": [
+      "aging-model",
+      "practice-playbook"
+    ]
+  },
   "cellular-senescence": {
     "inbound": [
       "aging-model",
       "autophagy-and-lysosomal-quality-control",
       "changelog",
+      "dream-complex-and-repair-capacity",
+      "epigenetic-alterations-and-reprogramming",
+      "extracellular-matrix-aging",
       "genomic-instability-and-dna-repair",
+      "hallmarks-of-aging",
+      "healthspan-versus-maximum-lifespan",
+      "immune-aging-and-rejuvenation",
       "loss-of-proteostasis",
       "mtor-and-rapamycin",
+      "practice-playbook",
       "stem-cell-exhaustion",
-      "telomere-biology"
+      "telomere-biology",
+      "therapeutic-plasma-exchange"
+    ],
+    "synthesis": [
+      "aging-model",
+      "practice-playbook"
+    ]
+  },
+  "changelog": {
+    "inbound": [],
+    "synthesis": []
+  },
+  "circulating-rejuvenation-signaling": {
+    "inbound": [
+      "aging-model",
+      "biological-age-reversal",
+      "changelog",
+      "epigenetic-alterations-and-reprogramming",
+      "healthspan-versus-maximum-lifespan",
+      "pig-plasma-fraction-rejuvenation",
+      "plasma-derived-extracellular-particles",
+      "stem-cell-exhaustion",
+      "therapeutic-plasma-exchange"
     ],
     "synthesis": [
       "aging-model"
     ]
   },
-  "changelog": {
-    "inbound": [],
+  "cognitive-dissonance-and-narrative-protection": {
+    "inbound": [
+      "changelog",
+      "tracey-marks"
+    ],
     "synthesis": []
   },
   "cognitive-reserve-and-brain-health": {
@@ -475,7 +565,6 @@
   },
   "colorectal-cancer-prevention-and-screening": {
     "inbound": [
-      "aging-model",
       "breast-cancer-screening",
       "changelog",
       "dietary-fiber",
@@ -486,7 +575,6 @@
       "probiotics-prebiotics-and-postbiotics"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
@@ -499,27 +587,23 @@
   },
   "coronary-ct-angiography": {
     "inbound": [
-      "aging-model",
       "changelog",
       "coronary-cta-screening-asymptomatic",
       "practice-playbook",
       "proactive-health-monitoring"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "coronary-cta-screening-asymptomatic": {
     "inbound": [
-      "aging-model",
       "changelog",
       "coronary-ct-angiography",
       "practice-playbook",
       "proactive-health-monitoring"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
@@ -541,16 +625,23 @@
   },
   "creatine-for-depression": {
     "inbound": [
-      "aging-model",
       "changelog",
       "creatine",
       "practice-playbook",
       "supplement-evidence-and-safety"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
+  },
+  "cultural-legitimacy-versus-research-bottleneck": {
+    "inbound": [
+      "changelog",
+      "open-data-and-research-infrastructure",
+      "public-trust-in-longevity-science",
+      "replication-and-research-incentives"
+    ],
+    "synthesis": []
   },
   "daily-movement-mobility-and-pain": {
     "inbound": [
@@ -568,9 +659,11 @@
       "practice-playbook",
       "sedentary-posture-and-reverse-plank",
       "shoulder-force-couples-and-exercise-selection",
+      "spinal-traction-and-fascial-decompression",
       "strength-transfer-and-exercise-specificity",
       "tendon-adaptation-and-rehabilitation",
       "training-frequency-and-hypertrophy",
+      "trunk-training",
       "youth-resistance-training"
     ],
     "synthesis": [
@@ -580,7 +673,6 @@
   },
   "dietary-fat-quality-and-cardiovascular-risk": {
     "inbound": [
-      "aging-model",
       "changelog",
       "food-label-literacy-and-health-halos",
       "layne-norton",
@@ -591,13 +683,11 @@
       "seed-oils"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "dietary-fiber": {
     "inbound": [
-      "aging-model",
       "changelog",
       "colorectal-cancer-prevention-and-screening",
       "energy-balance-and-calorie-counting",
@@ -610,17 +700,30 @@
       "satiety-oriented-diet-design"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "dr-dray": {
     "inbound": [
+      "actinic-purpura-and-aging-skin-fragility",
       "changelog",
+      "ebola-virus-disease-and-skin-signs",
       "nutrition-evidence-and-personalization",
       "supplement-evidence-and-safety"
     ],
     "synthesis": []
+  },
+  "dream-complex-and-repair-capacity": {
+    "inbound": [
+      "aging-model",
+      "changelog",
+      "genomic-instability-and-dna-repair",
+      "programmed-versus-stochastic-aging",
+      "stochastic-aging-and-molecular-noise"
+    ],
+    "synthesis": [
+      "aging-model"
+    ]
   },
   "durable-well-being-and-hedonic-adaptation": {
     "inbound": [
@@ -629,18 +732,35 @@
       "changelog",
       "mental-strength-and-behavioral-skills",
       "myth-moral-injury-and-homecoming",
-      "practice-playbook",
       "self-schema-updating-after-achievement"
     ],
-    "synthesis": [
-      "practice-playbook"
-    ]
+    "synthesis": []
+  },
+  "ebola-virus-disease-and-skin-signs": {
+    "inbound": [
+      "changelog",
+      "dr-dray",
+      "hair-loss-diagnosis-and-scalp-health"
+    ],
+    "synthesis": []
   },
   "elite-endurance-development": {
     "inbound": [
       "cardiorespiratory-fitness",
+      "changelog"
+    ],
+    "synthesis": []
+  },
+  "emotional-memory-reactivation-and-rumination": {
+    "inbound": [
+      "attachment-threat-and-relational-regulation",
+      "catastrophizing-and-uncertainty",
       "changelog",
-      "practice-playbook"
+      "cognitive-dissonance-and-narrative-protection",
+      "practice-playbook",
+      "stress-threat-discrimination",
+      "tracey-marks",
+      "trust-repair-and-safety-learning"
     ],
     "synthesis": [
       "practice-playbook"
@@ -649,7 +769,6 @@
   "endometriosis": {
     "inbound": [
       "adenomyosis",
-      "aging-model",
       "changelog",
       "immune-recognition-and-trafficking",
       "oocyte-aneuploidy-and-reproductive-aging",
@@ -658,14 +777,12 @@
       "proactive-health-monitoring"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "energy-balance-and-calorie-counting": {
     "inbound": [
       "abdominal-definition-and-training",
-      "aging-model",
       "changelog",
       "dietary-fat-quality-and-cardiovascular-risk",
       "evolutionary-mismatch-and-weight-regulation",
@@ -680,13 +797,34 @@
       "trunk-training"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
+    ]
+  },
+  "engineered-cell-therapy-for-solid-tumors": {
+    "inbound": [
+      "ai-guided-therapeutic-design",
+      "changelog",
+      "immune-aging-and-rejuvenation",
+      "immune-recognition-and-trafficking"
+    ],
+    "synthesis": []
+  },
+  "engineered-reprogramming-factors": {
+    "inbound": [
+      "aging-model",
+      "ai-guided-therapeutic-design",
+      "autophagy-and-lysosomal-quality-control",
+      "changelog",
+      "epigenetic-alterations-and-reprogramming",
+      "healthspan-versus-maximum-lifespan",
+      "stem-cell-exhaustion"
+    ],
+    "synthesis": [
+      "aging-model"
     ]
   },
   "environmental-pollution-and-health": {
     "inbound": [
-      "aging-model",
       "changelog",
       "colorectal-cancer-prevention-and-screening",
       "microplastics-exposure-and-measurement",
@@ -696,7 +834,6 @@
       "pre-sleep-routines-and-stimulus-control"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
@@ -714,27 +851,40 @@
   },
   "epigenetic-alterations-and-reprogramming": {
     "inbound": [
-      "changelog",
-      "stem-cell-exhaustion"
-    ],
-    "synthesis": []
-  },
-  "erectile-dysfunction-and-vascular-health": {
-    "inbound": [
+      "aging-dynamics-and-resilience",
       "aging-model",
+      "ai-guided-therapeutic-design",
       "changelog",
-      "male-fertility-and-exogenous-testosterone",
+      "circulating-rejuvenation-signaling",
+      "dream-complex-and-repair-capacity",
+      "engineered-reprogramming-factors",
+      "hallmarks-of-aging",
+      "healthspan-versus-maximum-lifespan",
+      "open-data-and-research-infrastructure",
+      "pig-plasma-fraction-rejuvenation",
       "practice-playbook",
-      "proactive-health-monitoring"
+      "programmed-versus-stochastic-aging",
+      "stem-cell-exhaustion",
+      "stochastic-aging-and-molecular-noise"
     ],
     "synthesis": [
       "aging-model",
       "practice-playbook"
     ]
   },
+  "erectile-dysfunction-and-vascular-health": {
+    "inbound": [
+      "changelog",
+      "male-fertility-and-exogenous-testosterone",
+      "practice-playbook",
+      "proactive-health-monitoring"
+    ],
+    "synthesis": [
+      "practice-playbook"
+    ]
+  },
   "evolutionary-mismatch-and-weight-regulation": {
     "inbound": [
-      "aging-model",
       "changelog",
       "dietary-fiber",
       "endometriosis",
@@ -743,13 +893,10 @@
       "nutrition-evidence-and-personalization",
       "satiety-oriented-diet-design"
     ],
-    "synthesis": [
-      "aging-model"
-    ]
+    "synthesis": []
   },
   "exercise-enhanced-learning": {
     "inbound": [
-      "aging-model",
       "changelog",
       "cognitive-reserve-and-brain-health",
       "human-centered-ai-and-learning",
@@ -758,39 +905,57 @@
       "youth-resistance-training"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "exercise-program-design": {
     "inbound": [
       "abdominal-definition-and-training",
-      "aging-model",
       "changelog",
+      "performance-gated-recovery-progression",
       "practice-playbook",
       "trunk-training"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "experimental-peptides": {
     "inbound": [
-      "aging-model",
       "ai-guided-therapeutic-design",
       "changelog",
+      "circulating-rejuvenation-signaling",
       "glp-1-receptor-agonists",
       "immune-recognition-and-trafficking",
       "longevity-clinics-and-evidence",
       "peter-attia",
+      "plasma-derived-extracellular-particles",
       "practice-playbook",
       "supplement-evidence-and-safety",
       "thymus-regeneration"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
+    ]
+  },
+  "extracellular-matrix-aging": {
+    "inbound": [
+      "actinic-purpura-and-aging-skin-fragility",
+      "aging-dynamics-and-resilience",
+      "aging-model",
+      "cellular-senescence",
+      "changelog",
+      "circulating-rejuvenation-signaling",
+      "hallmarks-of-aging",
+      "healthspan-versus-maximum-lifespan",
+      "immune-aging-and-rejuvenation",
+      "mtor-and-rapamycin",
+      "open-data-and-research-infrastructure",
+      "stem-cell-exhaustion",
+      "therapeutic-plasma-exchange"
+    ],
+    "synthesis": [
+      "aging-model"
     ]
   },
   "ezetimibe": {
@@ -813,7 +978,6 @@
   },
   "food-label-literacy-and-health-halos": {
     "inbound": [
-      "aging-model",
       "changelog",
       "dietary-fat-quality-and-cardiovascular-risk",
       "food-patterns-and-gut-ecology",
@@ -823,13 +987,11 @@
       "practice-playbook"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "food-patterns-and-gut-ecology": {
     "inbound": [
-      "aging-model",
       "changelog",
       "dietary-fiber",
       "food-label-literacy-and-health-halos",
@@ -838,52 +1000,53 @@
       "probiotics-prebiotics-and-postbiotics"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "free-sugars-and-glycemic-response": {
     "inbound": [
-      "aging-model",
       "changelog",
       "dietary-fiber",
       "evolutionary-mismatch-and-weight-regulation",
       "food-label-literacy-and-health-halos",
       "nutrition-evidence-and-personalization",
-      "practice-playbook",
       "proactive-health-monitoring",
       "satiety-oriented-diet-design",
       "seed-oils"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "gayatri-devi": {
     "inbound": [
-      "aging-model",
       "alzheimers-diagnosis-biological-vs-clinical",
       "alzheimers-spectrum-and-diagnosis",
       "anti-amyloid-immunotherapy",
       "changelog",
       "lewy-body-disease-and-synucleinopathies",
-      "menopause-related-cognitive-impairment",
-      "practice-playbook"
+      "menopause-related-cognitive-impairment"
+    ],
+    "synthesis": []
+  },
+  "genomic-instability-and-dna-repair": {
+    "inbound": [
+      "aging-dynamics-and-resilience",
+      "aging-model",
+      "changelog",
+      "dream-complex-and-repair-capacity",
+      "engineered-cell-therapy-for-solid-tumors",
+      "engineered-reprogramming-factors",
+      "epigenetic-alterations-and-reprogramming",
+      "hallmarks-of-aging",
+      "practice-playbook",
+      "programmed-versus-stochastic-aging",
+      "stem-cell-exhaustion",
+      "stochastic-aging-and-molecular-noise",
+      "telomere-biology"
     ],
     "synthesis": [
       "aging-model",
       "practice-playbook"
     ]
-  },
-  "genomic-instability-and-dna-repair": {
-    "inbound": [
-      "changelog",
-      "epigenetic-alterations-and-reprogramming",
-      "stem-cell-exhaustion",
-      "telomere-biology"
-    ],
-    "synthesis": []
   },
   "glp-1-receptor-agonists": {
     "inbound": [
@@ -893,8 +1056,11 @@
       "anti-amyloid-immunotherapy",
       "caloric-restriction-and-meal-timing",
       "changelog",
+      "cultural-legitimacy-versus-research-bottleneck",
+      "dr-dray",
       "evolutionary-mismatch-and-weight-regulation",
       "experimental-peptides",
+      "hair-loss-diagnosis-and-scalp-health",
       "inflammaging-and-il-6",
       "longevity-intervention-prioritization",
       "low-energy-availability-and-menstrual-function",
@@ -911,30 +1077,73 @@
   },
   "hair-loss-diagnosis-and-scalp-health": {
     "inbound": [
-      "aging-model",
       "changelog",
       "dr-dray",
+      "ebola-virus-disease-and-skin-signs",
+      "glp-1-receptor-agonists",
       "male-fertility-and-exogenous-testosterone",
       "practice-playbook",
       "skincare-evidence-and-routine-design",
       "supplement-evidence-and-safety"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
+    ]
+  },
+  "hallmarks-of-aging": {
+    "inbound": [
+      "aging-dynamics-and-resilience",
+      "aging-model",
+      "ai-guided-therapeutic-design",
+      "cellular-senescence",
+      "changelog",
+      "circulating-rejuvenation-signaling",
+      "dream-complex-and-repair-capacity",
+      "engineered-reprogramming-factors",
+      "epigenetic-alterations-and-reprogramming",
+      "extracellular-matrix-aging",
+      "healthspan-versus-maximum-lifespan",
+      "longevity-intervention-prioritization",
+      "open-data-and-research-infrastructure",
+      "programmed-versus-stochastic-aging",
+      "stem-cell-exhaustion",
+      "stochastic-aging-and-molecular-noise"
+    ],
+    "synthesis": [
+      "aging-model"
+    ]
+  },
+  "healthspan-versus-maximum-lifespan": {
+    "inbound": [
+      "aging-dynamics-and-resilience",
+      "aging-model",
+      "biological-age-biomarkers",
+      "cellular-senescence",
+      "changelog",
+      "circulating-rejuvenation-signaling",
+      "cultural-legitimacy-versus-research-bottleneck",
+      "engineered-reprogramming-factors",
+      "epigenetic-alterations-and-reprogramming",
+      "hallmarks-of-aging",
+      "longevity-intervention-prioritization",
+      "mtor-and-rapamycin",
+      "pig-plasma-fraction-rejuvenation",
+      "plasma-derived-extracellular-particles",
+      "programmed-versus-stochastic-aging",
+      "public-trust-in-longevity-science",
+      "stochastic-aging-and-molecular-noise",
+      "therapeutic-plasma-exchange"
+    ],
+    "synthesis": [
+      "aging-model"
     ]
   },
   "hip-mobility-and-adductor-loading": {
     "inbound": [
-      "aging-model",
       "changelog",
-      "daily-movement-mobility-and-pain",
-      "practice-playbook"
+      "daily-movement-mobility-and-pain"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "human-centered-ai-and-learning": {
     "inbound": [
@@ -943,7 +1152,9 @@
       "changelog",
       "cognitive-reserve-and-brain-health",
       "exercise-program-design",
-      "mental-strength-and-behavioral-skills"
+      "mental-strength-and-behavioral-skills",
+      "open-data-and-research-infrastructure",
+      "public-trust-in-longevity-science"
     ],
     "synthesis": []
   },
@@ -954,29 +1165,27 @@
       "biological-age-biomarkers",
       "cellular-senescence",
       "changelog",
+      "engineered-cell-therapy-for-solid-tumors",
+      "extracellular-matrix-aging",
       "genomic-instability-and-dna-repair",
       "immune-recognition-and-trafficking",
       "mtor-and-rapamycin",
-      "practice-playbook",
-      "stem-cell-exhaustion"
+      "stem-cell-exhaustion",
+      "therapeutic-plasma-exchange"
     ],
     "synthesis": [
-      "aging-model",
-      "practice-playbook"
+      "aging-model"
     ]
   },
   "immune-recognition-and-trafficking": {
     "inbound": [
-      "aging-model",
       "changelog",
+      "ebola-virus-disease-and-skin-signs",
       "endometriosis",
-      "immune-aging-and-rejuvenation",
-      "practice-playbook"
+      "engineered-cell-therapy-for-solid-tumors",
+      "immune-aging-and-rejuvenation"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "inflammaging-and-il-6": {
     "inbound": [
@@ -985,6 +1194,8 @@
       "anti-amyloid-immunotherapy",
       "cellular-senescence",
       "changelog",
+      "engineered-cell-therapy-for-solid-tumors",
+      "extracellular-matrix-aging",
       "ezetimibe",
       "food-patterns-and-gut-ecology",
       "genomic-instability-and-dna-repair",
@@ -994,13 +1205,13 @@
       "loss-of-proteostasis",
       "muscle-strength-and-mortality",
       "perimenopause-assessment-and-testing",
-      "practice-playbook",
+      "programmed-versus-stochastic-aging",
       "stem-cell-exhaustion",
+      "stochastic-aging-and-molecular-noise",
       "visceral-and-ectopic-fat"
     ],
     "synthesis": [
-      "aging-model",
-      "practice-playbook"
+      "aging-model"
     ]
   },
   "intercity-travel-generalized-cost": {
@@ -1011,24 +1222,33 @@
     ],
     "synthesis": []
   },
-  "jennifer-pearlman": {
+  "interpersonal-regulation-and-emotional-capacity": {
     "inbound": [
       "aging-model",
+      "attachment-threat-and-relational-regulation",
       "changelog",
-      "menopause-hormone-therapy",
-      "ovarian-aging-and-tissue-cryopreservation",
-      "perimenopause-assessment-and-testing",
+      "cognitive-dissonance-and-narrative-protection",
       "practice-playbook",
-      "whi-and-menopause-hormone-therapy"
+      "protective-threat-responses",
+      "tracey-marks"
     ],
     "synthesis": [
       "aging-model",
       "practice-playbook"
     ]
   },
+  "jennifer-pearlman": {
+    "inbound": [
+      "changelog",
+      "menopause-hormone-therapy",
+      "ovarian-aging-and-tissue-cryopreservation",
+      "perimenopause-assessment-and-testing",
+      "whi-and-menopause-hormone-therapy"
+    ],
+    "synthesis": []
+  },
   "ketogenic-diet-apob-and-atherosclerosis": {
     "inbound": [
-      "aging-model",
       "changelog",
       "dietary-fat-quality-and-cardiovascular-risk",
       "ezetimibe",
@@ -1037,7 +1257,6 @@
       "practice-playbook"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
@@ -1085,39 +1304,62 @@
   },
   "longevity-clinics-and-evidence": {
     "inbound": [
+      "aging-model",
       "biological-age-biomarkers",
       "changelog",
+      "circulating-rejuvenation-signaling",
+      "cultural-legitimacy-versus-research-bottleneck",
       "experimental-peptides",
       "longevity-intervention-prioritization",
       "nad-supplementation",
+      "pig-plasma-fraction-rejuvenation",
+      "plasma-derived-extracellular-particles",
       "practice-playbook",
-      "proactive-health-monitoring"
+      "proactive-health-monitoring",
+      "public-trust-in-longevity-science",
+      "replication-and-research-incentives",
+      "therapeutic-plasma-exchange"
     ],
     "synthesis": [
+      "aging-model",
       "practice-playbook"
     ]
   },
   "longevity-intervention-prioritization": {
     "inbound": [
+      "aging-model",
       "changelog",
+      "cultural-legitimacy-versus-research-bottleneck",
+      "engineered-reprogramming-factors",
+      "hallmarks-of-aging",
+      "healthspan-versus-maximum-lifespan",
       "multi-cancer-early-detection",
-      "practice-playbook"
+      "open-data-and-research-infrastructure",
+      "plasma-derived-extracellular-particles",
+      "practice-playbook",
+      "public-trust-in-longevity-science",
+      "replication-and-research-incentives",
+      "therapeutic-plasma-exchange"
     ],
     "synthesis": [
+      "aging-model",
       "practice-playbook"
     ]
   },
   "loss-of-proteostasis": {
     "inbound": [
+      "aging-model",
       "changelog",
-      "epigenetic-alterations-and-reprogramming"
+      "epigenetic-alterations-and-reprogramming",
+      "hallmarks-of-aging"
     ],
-    "synthesis": []
+    "synthesis": [
+      "aging-model"
+    ]
   },
   "low-energy-availability-and-menstrual-function": {
     "inbound": [
       "abbie-smith-ryan",
-      "aging-model",
       "changelog",
       "ovarian-aging-and-tissue-cryopreservation",
       "performance-nutrition-and-hydration",
@@ -1127,51 +1369,35 @@
       "youth-resistance-training"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "lunge-biomechanics-and-programming": {
     "inbound": [
-      "aging-model",
       "changelog",
       "hip-mobility-and-adductor-loading",
-      "practice-playbook",
       "resistance-training",
       "tendon-adaptation-and-rehabilitation"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "male-contraception": {
     "inbound": [
-      "aging-model",
       "changelog",
       "male-fertility-and-exogenous-testosterone",
-      "oocyte-aneuploidy-and-reproductive-aging",
-      "practice-playbook"
+      "oocyte-aneuploidy-and-reproductive-aging"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "male-fertility-and-exogenous-testosterone": {
     "inbound": [
-      "aging-model",
       "changelog",
       "erectile-dysfunction-and-vascular-health",
       "male-contraception",
       "oocyte-aneuploidy-and-reproductive-aging",
-      "practice-playbook",
       "proactive-health-monitoring"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "menopause-hormone-therapy": {
     "inbound": [
@@ -1198,30 +1424,25 @@
       "menopause-hormone-therapy",
       "oocyte-aneuploidy-and-reproductive-aging",
       "perimenopause-assessment-and-testing",
-      "practice-playbook",
       "whi-and-menopause-hormone-therapy"
     ],
     "synthesis": [
-      "aging-model",
-      "practice-playbook"
+      "aging-model"
     ]
   },
   "mental-imagery-for-performance": {
     "inbound": [
       "breathing-mechanics-and-state-regulation",
       "changelog",
-      "mental-strength-and-behavioral-skills",
-      "practice-playbook"
+      "mental-strength-and-behavioral-skills"
     ],
-    "synthesis": [
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "mental-strength-and-behavioral-skills": {
     "inbound": [
       "addiction-recovery-and-emotional-sobriety",
-      "aging-model",
       "automation-employment-and-population",
+      "catastrophizing-and-uncertainty",
       "changelog",
       "combat-sports-as-controlled-stress-training",
       "durable-well-being-and-hedonic-adaptation",
@@ -1232,45 +1453,33 @@
       "self-schema-updating-after-achievement"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "microbiome-directed-cancer-therapy": {
     "inbound": [
-      "aging-model",
       "changelog",
+      "engineered-cell-therapy-for-solid-tumors",
       "immune-recognition-and-trafficking",
-      "practice-playbook",
       "probiotics-prebiotics-and-postbiotics"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "microplastics-exposure-and-measurement": {
     "inbound": [
-      "aging-model",
       "changelog",
       "environmental-pollution-and-health",
-      "nutrition-evidence-and-personalization",
-      "practice-playbook"
+      "nutrition-evidence-and-personalization"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "mineral-and-organic-sunscreens": {
     "inbound": [
-      "aging-model",
       "changelog",
       "photoprotection",
       "practice-playbook"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
@@ -1279,6 +1488,7 @@
       "aging-model",
       "changelog",
       "genomic-instability-and-dna-repair",
+      "hallmarks-of-aging",
       "loss-of-proteostasis",
       "stem-cell-exhaustion"
     ],
@@ -1288,28 +1498,32 @@
   },
   "mtor-and-rapamycin": {
     "inbound": [
+      "aging-dynamics-and-resilience",
       "aging-model",
-      "changelog"
-    ],
-    "synthesis": [
-      "aging-model"
-    ]
-  },
-  "multi-cancer-early-detection": {
-    "inbound": [
-      "aging-model",
+      "caloric-restriction-and-meal-timing",
       "changelog",
+      "extracellular-matrix-aging",
+      "healthspan-versus-maximum-lifespan",
       "practice-playbook",
-      "proactive-health-monitoring"
+      "stochastic-aging-and-molecular-noise"
     ],
     "synthesis": [
       "aging-model",
       "practice-playbook"
     ]
   },
+  "multi-cancer-early-detection": {
+    "inbound": [
+      "changelog",
+      "practice-playbook",
+      "proactive-health-monitoring"
+    ],
+    "synthesis": [
+      "practice-playbook"
+    ]
+  },
   "muscle-damage-and-hypertrophy": {
     "inbound": [
-      "aging-model",
       "changelog",
       "practice-playbook",
       "resistance-training",
@@ -1317,7 +1531,6 @@
       "training-frequency-and-hypertrophy"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
@@ -1330,6 +1543,7 @@
       "dietary-fat-quality-and-cardiovascular-risk",
       "exercise-program-design",
       "nutrition-evidence-and-personalization",
+      "performance-gated-recovery-progression",
       "performance-nutrition-and-hydration",
       "peter-attia",
       "practice-playbook",
@@ -1349,17 +1563,15 @@
   "myth-moral-injury-and-homecoming": {
     "inbound": [
       "addiction-recovery-and-emotional-sobriety",
-      "changelog",
-      "practice-playbook"
+      "changelog"
     ],
-    "synthesis": [
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "nad-supplementation": {
     "inbound": [
       "aging-model",
       "changelog",
+      "healthspan-versus-maximum-lifespan",
       "longevity-clinics-and-evidence",
       "longevity-intervention-prioritization",
       "practice-playbook",
@@ -1372,7 +1584,6 @@
   },
   "nattokinase": {
     "inbound": [
-      "aging-model",
       "changelog",
       "nutrition-evidence-and-personalization",
       "practice-playbook",
@@ -1380,7 +1591,6 @@
       "supplement-evidence-and-safety"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
@@ -1388,6 +1598,7 @@
     "inbound": [
       "adhd-and-reproductive-hormone-transitions",
       "breathing-mechanics-and-state-regulation",
+      "catastrophizing-and-uncertainty",
       "changelog",
       "cognitive-reserve-and-brain-health",
       "durable-well-being-and-hedonic-adaptation",
@@ -1398,7 +1609,6 @@
   },
   "nmr-blood-analysis": {
     "inbound": [
-      "aging-model",
       "biological-age-biomarkers",
       "brain-cholesterol-homeostasis",
       "changelog",
@@ -1407,19 +1617,14 @@
       "ketogenic-diet-apob-and-atherosclerosis",
       "perimenopause-assessment-and-testing",
       "peter-attia",
-      "practice-playbook",
       "proactive-health-monitoring",
       "visceral-and-ectopic-fat"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "nutrition-evidence-and-personalization": {
     "inbound": [
       "adhd-and-reproductive-hormone-transitions",
-      "aging-model",
       "caloric-restriction-and-meal-timing",
       "changelog",
       "colorectal-cancer-prevention-and-screening",
@@ -1447,13 +1652,11 @@
       "visceral-and-ectopic-fat"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "olive-oil-and-cognitive-aging": {
     "inbound": [
-      "aging-model",
       "changelog",
       "cognitive-reserve-and-brain-health",
       "dietary-fat-quality-and-cardiovascular-risk",
@@ -1461,13 +1664,11 @@
       "practice-playbook"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "omega-3-fatty-acids": {
     "inbound": [
-      "aging-model",
       "brain-cholesterol-homeostasis",
       "changelog",
       "cognitive-reserve-and-brain-health",
@@ -1477,7 +1678,6 @@
       "supplement-evidence-and-safety"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
@@ -1497,18 +1697,28 @@
       "practice-playbook"
     ]
   },
+  "open-data-and-research-infrastructure": {
+    "inbound": [
+      "aging-model",
+      "changelog",
+      "cultural-legitimacy-versus-research-bottleneck",
+      "public-trust-in-longevity-science",
+      "replication-and-research-incentives"
+    ],
+    "synthesis": [
+      "aging-model"
+    ]
+  },
   "ovarian-aging-and-tissue-cryopreservation": {
     "inbound": [
       "aging-model",
       "changelog",
       "jennifer-pearlman",
       "menopause-hormone-therapy",
-      "perimenopause-assessment-and-testing",
-      "practice-playbook"
+      "perimenopause-assessment-and-testing"
     ],
     "synthesis": [
-      "aging-model",
-      "practice-playbook"
+      "aging-model"
     ]
   },
   "pcsk9-inhibition": {
@@ -1533,10 +1743,13 @@
       "practice-playbook"
     ]
   },
+  "performance-gated-recovery-progression": {
+    "inbound": [],
+    "synthesis": []
+  },
   "performance-nutrition-and-hydration": {
     "inbound": [
       "abdominal-definition-and-training",
-      "aging-model",
       "arm-hypertrophy-specialization",
       "changelog",
       "creatine",
@@ -1548,7 +1761,6 @@
       "nutrition-evidence-and-personalization",
       "omega-3-fatty-acids",
       "peter-attia",
-      "practice-playbook",
       "pre-sleep-protein-feeding",
       "resistance-training",
       "skeletal-muscle-hypertrophy",
@@ -1560,10 +1772,7 @@
       "womens-exercise-across-the-lifespan",
       "youth-resistance-training"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "perimenopause-assessment-and-testing": {
     "inbound": [
@@ -1591,7 +1800,6 @@
   },
   "peter-attia": {
     "inbound": [
-      "aging-model",
       "brain-cholesterol-homeostasis",
       "breast-cancer-screening",
       "cardiorespiratory-fitness",
@@ -1599,20 +1807,19 @@
       "dietary-fat-quality-and-cardiovascular-risk",
       "layne-norton",
       "muscle-strength-and-mortality",
-      "practice-playbook",
       "resistance-training",
       "seed-oils"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "photoprotection": {
     "inbound": [
+      "actinic-purpura-and-aging-skin-fragility",
       "aging-model",
       "changelog",
       "dr-dray",
+      "dream-complex-and-repair-capacity",
+      "extracellular-matrix-aging",
       "genomic-instability-and-dna-repair",
       "mineral-and-organic-sunscreens",
       "practice-playbook",
@@ -1627,9 +1834,46 @@
       "practice-playbook"
     ]
   },
+  "pig-plasma-fraction-rejuvenation": {
+    "inbound": [
+      "aging-model",
+      "biological-age-biomarkers",
+      "biological-age-reversal",
+      "changelog",
+      "circulating-rejuvenation-signaling",
+      "healthspan-versus-maximum-lifespan",
+      "plasma-derived-extracellular-particles",
+      "replication-and-research-incentives",
+      "therapeutic-plasma-exchange"
+    ],
+    "synthesis": [
+      "aging-model"
+    ]
+  },
+  "plasma-derived-extracellular-particles": {
+    "inbound": [
+      "aging-model",
+      "biological-age-biomarkers",
+      "biological-age-reversal",
+      "changelog",
+      "circulating-rejuvenation-signaling",
+      "healthspan-versus-maximum-lifespan",
+      "longevity-clinics-and-evidence",
+      "pig-plasma-fraction-rejuvenation",
+      "practice-playbook",
+      "replication-and-research-incentives",
+      "stem-cell-exhaustion",
+      "therapeutic-plasma-exchange"
+    ],
+    "synthesis": [
+      "aging-model",
+      "practice-playbook"
+    ]
+  },
   "practice-playbook": {
     "inbound": [
       "abdominal-definition-and-training",
+      "actinic-purpura-and-aging-skin-fragility",
       "addiction-recovery-and-emotional-sobriety",
       "adenomyosis",
       "adhd-and-reproductive-hormone-transitions",
@@ -1638,23 +1882,28 @@
       "alzheimers-spectrum-and-diagnosis",
       "anti-amyloid-immunotherapy",
       "arm-hypertrophy-specialization",
+      "attachment-threat-and-relational-regulation",
       "biological-age-biomarkers",
       "breast-cancer-screening",
       "breathing-mechanics-and-state-regulation",
       "caloric-restriction-and-meal-timing",
       "cardiorespiratory-fitness",
+      "catastrophizing-and-uncertainty",
       "changelog",
+      "cognitive-dissonance-and-narrative-protection",
       "cognitive-reserve-and-brain-health",
       "colorectal-cancer-prevention-and-screening",
       "combat-sports-as-controlled-stress-training",
       "coronary-ct-angiography",
       "coronary-cta-screening-asymptomatic",
       "creatine",
+      "cultural-legitimacy-versus-research-bottleneck",
       "daily-movement-mobility-and-pain",
       "dietary-fat-quality-and-cardiovascular-risk",
       "dietary-fiber",
       "durable-well-being-and-hedonic-adaptation",
       "elite-endurance-development",
+      "emotional-memory-reactivation-and-rumination",
       "endometriosis",
       "energy-balance-and-calorie-counting",
       "environmental-pollution-and-health",
@@ -1670,8 +1919,11 @@
       "free-sugars-and-glycemic-response",
       "glp-1-receptor-agonists",
       "hair-loss-diagnosis-and-scalp-health",
+      "hallmarks-of-aging",
+      "healthspan-versus-maximum-lifespan",
       "hip-mobility-and-adductor-loading",
       "inflammaging-and-il-6",
+      "interpersonal-regulation-and-emotional-capacity",
       "ketogenic-diet-apob-and-atherosclerosis",
       "lewy-body-disease-and-synucleinopathies",
       "lipoprotein-retention-and-atherogenesis",
@@ -1693,6 +1945,7 @@
       "olive-oil-and-cognitive-aging",
       "omega-3-fatty-acids",
       "oocyte-aneuploidy-and-reproductive-aging",
+      "open-data-and-research-infrastructure",
       "pcsk9-inhibition",
       "performance-nutrition-and-hydration",
       "perimenopause-assessment-and-testing",
@@ -1703,6 +1956,7 @@
       "proactive-health-monitoring",
       "probiotics-prebiotics-and-postbiotics",
       "protective-threat-responses",
+      "public-trust-in-longevity-science",
       "resistance-training",
       "resistant-starch",
       "satiety-oriented-diet-design",
@@ -1714,6 +1968,7 @@
       "skin-barrier-and-moisturization",
       "sleep-quality-and-circadian-alignment",
       "social-evaluative-threat-and-criticism",
+      "spinal-traction-and-fascial-decompression",
       "statins-and-glycemic-risk",
       "stem-cell-exhaustion",
       "strength-transfer-and-exercise-specificity",
@@ -1724,6 +1979,7 @@
       "topical-retinoids",
       "training-frequency-and-hypertrophy",
       "trunk-training",
+      "trust-repair-and-safety-learning",
       "visceral-and-ectopic-fat",
       "womens-exercise-across-the-lifespan",
       "youth-resistance-training"
@@ -1745,7 +2001,6 @@
   },
   "pre-sleep-routines-and-stimulus-control": {
     "inbound": [
-      "aging-model",
       "breathing-mechanics-and-state-regulation",
       "changelog",
       "mental-imagery-for-performance",
@@ -1754,14 +2009,12 @@
       "sleep-quality-and-circadian-alignment"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "proactive-health-monitoring": {
     "inbound": [
       "adenomyosis",
-      "aging-model",
       "alzheimers-diagnosis-biological-vs-clinical",
       "alzheimers-spectrum-and-diagnosis",
       "breast-cancer-screening",
@@ -1784,13 +2037,11 @@
       "whi-and-menopause-hormone-therapy"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "probiotics-prebiotics-and-postbiotics": {
     "inbound": [
-      "aging-model",
       "changelog",
       "colorectal-cancer-prevention-and-screening",
       "dietary-fiber",
@@ -1798,12 +2049,12 @@
       "practice-playbook"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "procedural-skin-remodeling": {
     "inbound": [
+      "actinic-purpura-and-aging-skin-fragility",
       "aging-model",
       "changelog",
       "dr-dray",
@@ -1819,22 +2070,67 @@
       "practice-playbook"
     ]
   },
-  "protective-threat-responses": {
+  "programmed-versus-stochastic-aging": {
     "inbound": [
       "aging-model",
+      "biological-age-biomarkers",
+      "changelog",
+      "dream-complex-and-repair-capacity",
+      "epigenetic-alterations-and-reprogramming",
+      "genomic-instability-and-dna-repair",
+      "stochastic-aging-and-molecular-noise"
+    ],
+    "synthesis": [
+      "aging-model"
+    ]
+  },
+  "protective-threat-responses": {
+    "inbound": [
+      "attachment-threat-and-relational-regulation",
       "breathing-mechanics-and-state-regulation",
+      "catastrophizing-and-uncertainty",
       "changelog",
       "cognitive-reserve-and-brain-health",
       "combat-sports-as-controlled-stress-training",
+      "interpersonal-regulation-and-emotional-capacity",
       "mental-strength-and-behavioral-skills",
       "neuromodulators-and-state-control",
       "practice-playbook",
       "social-evaluative-threat-and-criticism",
-      "stress-threat-discrimination"
+      "stress-threat-discrimination",
+      "tracey-marks",
+      "trust-repair-and-safety-learning"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
+    ]
+  },
+  "public-trust-in-longevity-science": {
+    "inbound": [
+      "changelog",
+      "cultural-legitimacy-versus-research-bottleneck",
+      "longevity-clinics-and-evidence",
+      "open-data-and-research-infrastructure",
+      "replication-and-research-incentives"
+    ],
+    "synthesis": []
+  },
+  "replication-and-research-incentives": {
+    "inbound": [
+      "aging-model",
+      "ai-guided-therapeutic-design",
+      "biological-age-reversal",
+      "changelog",
+      "circulating-rejuvenation-signaling",
+      "cultural-legitimacy-versus-research-bottleneck",
+      "longevity-clinics-and-evidence",
+      "open-data-and-research-infrastructure",
+      "pig-plasma-fraction-rejuvenation",
+      "plasma-derived-extracellular-particles",
+      "public-trust-in-longevity-science"
+    ],
+    "synthesis": [
+      "aging-model"
     ]
   },
   "resistance-training": {
@@ -1851,11 +2147,13 @@
       "mitochondrial-dysfunction",
       "muscle-damage-and-hypertrophy",
       "muscle-strength-and-mortality",
+      "performance-gated-recovery-progression",
       "performance-nutrition-and-hydration",
       "peter-attia",
       "practice-playbook",
       "pre-sleep-protein-feeding",
       "skeletal-muscle-hypertrophy",
+      "spinal-traction-and-fascial-decompression",
       "strength-transfer-and-exercise-specificity",
       "tendon-adaptation-and-rehabilitation",
       "time-efficient-concurrent-training",
@@ -1871,7 +2169,6 @@
   },
   "resistant-starch": {
     "inbound": [
-      "aging-model",
       "changelog",
       "dietary-fiber",
       "food-patterns-and-gut-ecology",
@@ -1881,7 +2178,6 @@
       "visceral-and-ectopic-fat"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
@@ -1896,37 +2192,27 @@
   "satiety-oriented-diet-design": {
     "inbound": [
       "abdominal-definition-and-training",
-      "aging-model",
       "changelog",
       "energy-balance-and-calorie-counting",
       "evolutionary-mismatch-and-weight-regulation",
       "food-label-literacy-and-health-halos",
       "glp-1-receptor-agonists",
       "nutrition-evidence-and-personalization",
-      "practice-playbook",
       "seed-oils",
       "trunk-training"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "sedentary-posture-and-reverse-plank": {
     "inbound": [
-      "aging-model",
       "changelog",
       "daily-movement-mobility-and-pain",
-      "practice-playbook"
+      "spinal-traction-and-fascial-decompression"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "seed-oils": {
     "inbound": [
-      "aging-model",
       "changelog",
       "dietary-fat-quality-and-cardiovascular-risk",
       "layne-norton",
@@ -1935,7 +2221,6 @@
       "practice-playbook"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
@@ -1943,32 +2228,24 @@
     "inbound": [
       "changelog",
       "durable-well-being-and-hedonic-adaptation",
+      "emotional-memory-reactivation-and-rumination",
       "mental-imagery-for-performance",
       "mental-strength-and-behavioral-skills",
-      "myth-moral-injury-and-homecoming",
-      "practice-playbook"
+      "myth-moral-injury-and-homecoming"
     ],
-    "synthesis": [
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "shoulder-force-couples-and-exercise-selection": {
     "inbound": [
-      "aging-model",
       "changelog",
       "daily-movement-mobility-and-pain",
-      "practice-playbook",
       "resistance-training",
       "sedentary-posture-and-reverse-plank"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "skeletal-muscle-hypertrophy": {
     "inbound": [
-      "aging-model",
       "autophagy-and-lysosomal-quality-control",
       "changelog",
       "loss-of-proteostasis",
@@ -1981,15 +2258,16 @@
       "training-frequency-and-hypertrophy"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "skin-barrier-and-moisturization": {
     "inbound": [
+      "actinic-purpura-and-aging-skin-fragility",
       "aging-model",
       "changelog",
       "dr-dray",
+      "ebola-virus-disease-and-skin-signs",
       "hair-loss-diagnosis-and-scalp-health",
       "photoprotection",
       "practice-playbook",
@@ -2005,7 +2283,6 @@
   },
   "skincare-evidence-and-routine-design": {
     "inbound": [
-      "aging-model",
       "changelog",
       "dr-dray",
       "hair-loss-diagnosis-and-scalp-health",
@@ -2019,66 +2296,93 @@
       "topical-retinoids"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "sleep-quality-and-circadian-alignment": {
     "inbound": [
-      "aging-model",
+      "aging-dynamics-and-resilience",
       "breathing-mechanics-and-state-regulation",
       "changelog",
+      "healthspan-versus-maximum-lifespan",
+      "interpersonal-regulation-and-emotional-capacity",
+      "performance-gated-recovery-progression",
       "practice-playbook",
       "pre-sleep-protein-feeding",
       "pre-sleep-routines-and-stimulus-control"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "social-evaluative-threat-and-criticism": {
     "inbound": [
       "adhd-and-reproductive-hormone-transitions",
-      "aging-model",
+      "catastrophizing-and-uncertainty",
       "changelog",
       "cognitive-reserve-and-brain-health",
       "durable-well-being-and-hedonic-adaptation",
+      "interpersonal-regulation-and-emotional-capacity",
       "mental-strength-and-behavioral-skills",
       "myth-moral-injury-and-homecoming",
-      "practice-playbook",
       "protective-threat-responses",
       "self-schema-updating-after-achievement",
-      "stress-threat-discrimination"
-    ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
-  },
-  "statins-and-glycemic-risk": {
-    "inbound": [
-      "aging-model",
-      "changelog",
-      "ezetimibe",
-      "practice-playbook"
-    ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
-  },
-  "stem-cell-exhaustion": {
-    "inbound": [
-      "changelog",
-      "epigenetic-alterations-and-reprogramming",
-      "telomere-biology"
+      "stress-threat-discrimination",
+      "tracey-marks",
+      "trust-repair-and-safety-learning"
     ],
     "synthesis": []
   },
-  "strength-transfer-and-exercise-specificity": {
+  "spinal-traction-and-fascial-decompression": {
+    "inbound": [
+      "breathing-mechanics-and-state-regulation",
+      "changelog",
+      "daily-movement-mobility-and-pain",
+      "trunk-training"
+    ],
+    "synthesis": []
+  },
+  "statins-and-glycemic-risk": {
+    "inbound": [
+      "changelog",
+      "ezetimibe"
+    ],
+    "synthesis": []
+  },
+  "stem-cell-exhaustion": {
     "inbound": [
       "aging-model",
+      "changelog",
+      "circulating-rejuvenation-signaling",
+      "engineered-reprogramming-factors",
+      "epigenetic-alterations-and-reprogramming",
+      "extracellular-matrix-aging",
+      "hallmarks-of-aging",
+      "telomere-biology",
+      "therapeutic-plasma-exchange"
+    ],
+    "synthesis": [
+      "aging-model"
+    ]
+  },
+  "stochastic-aging-and-molecular-noise": {
+    "inbound": [
+      "aging-model",
+      "biological-age-biomarkers",
+      "caloric-restriction-and-meal-timing",
+      "changelog",
+      "dream-complex-and-repair-capacity",
+      "epigenetic-alterations-and-reprogramming",
+      "genomic-instability-and-dna-repair",
+      "mtor-and-rapamycin",
+      "programmed-versus-stochastic-aging"
+    ],
+    "synthesis": [
+      "aging-model"
+    ]
+  },
+  "strength-transfer-and-exercise-specificity": {
+    "inbound": [
       "arm-hypertrophy-specialization",
       "changelog",
       "daily-movement-mobility-and-pain",
@@ -2095,7 +2399,6 @@
       "training-frequency-and-hypertrophy"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
@@ -2104,19 +2407,26 @@
       "addiction-recovery-and-emotional-sobriety",
       "adhd-and-reproductive-hormone-transitions",
       "aging-model",
+      "attachment-threat-and-relational-regulation",
       "breathing-mechanics-and-state-regulation",
+      "catastrophizing-and-uncertainty",
       "changelog",
       "cognitive-reserve-and-brain-health",
       "combat-sports-as-controlled-stress-training",
       "daily-movement-mobility-and-pain",
       "elite-endurance-development",
+      "emotional-memory-reactivation-and-rumination",
+      "interpersonal-regulation-and-emotional-capacity",
       "mental-imagery-for-performance",
       "mental-strength-and-behavioral-skills",
       "neuromodulators-and-state-control",
       "practice-playbook",
       "protective-threat-responses",
       "self-schema-updating-after-achievement",
-      "social-evaluative-threat-and-criticism"
+      "social-evaluative-threat-and-criticism",
+      "spinal-traction-and-fascial-decompression",
+      "tracey-marks",
+      "trust-repair-and-safety-learning"
     ],
     "synthesis": [
       "aging-model",
@@ -2134,6 +2444,7 @@
       "cognitive-reserve-and-brain-health",
       "creatine",
       "creatine-for-depression",
+      "cultural-legitimacy-versus-research-bottleneck",
       "dr-dray",
       "hair-loss-diagnosis-and-scalp-health",
       "immune-recognition-and-trafficking",
@@ -2149,6 +2460,8 @@
       "practice-playbook",
       "proactive-health-monitoring",
       "probiotics-prebiotics-and-postbiotics",
+      "public-trust-in-longevity-science",
+      "replication-and-research-incentives",
       "resistant-starch",
       "skincare-evidence-and-routine-design",
       "statins-and-glycemic-risk"
@@ -2160,25 +2473,48 @@
   },
   "telomere-biology": {
     "inbound": [
-      "changelog"
+      "aging-model",
+      "changelog",
+      "circulating-rejuvenation-signaling",
+      "hallmarks-of-aging"
     ],
-    "synthesis": []
+    "synthesis": [
+      "aging-model"
+    ]
   },
   "tendon-adaptation-and-rehabilitation": {
     "inbound": [
-      "aging-model",
       "arm-hypertrophy-specialization",
       "changelog",
       "elite-endurance-development",
+      "extracellular-matrix-aging",
       "hip-mobility-and-adductor-loading",
       "lunge-biomechanics-and-programming",
       "muscle-damage-and-hypertrophy",
       "muscle-strength-and-mortality",
-      "practice-playbook",
       "resistance-training",
       "shoulder-force-couples-and-exercise-selection",
+      "spinal-traction-and-fascial-decompression",
       "training-frequency-and-hypertrophy",
       "womens-exercise-across-the-lifespan"
+    ],
+    "synthesis": []
+  },
+  "therapeutic-plasma-exchange": {
+    "inbound": [
+      "aging-dynamics-and-resilience",
+      "aging-model",
+      "biological-age-biomarkers",
+      "changelog",
+      "circulating-rejuvenation-signaling",
+      "extracellular-matrix-aging",
+      "healthspan-versus-maximum-lifespan",
+      "immune-aging-and-rejuvenation",
+      "longevity-intervention-prioritization",
+      "pig-plasma-fraction-rejuvenation",
+      "plasma-derived-extracellular-particles",
+      "practice-playbook",
+      "stem-cell-exhaustion"
     ],
     "synthesis": [
       "aging-model",
@@ -2205,6 +2541,7 @@
       "cardiorespiratory-fitness",
       "changelog",
       "mitochondrial-dysfunction",
+      "performance-gated-recovery-progression",
       "peter-attia",
       "practice-playbook",
       "resistance-training",
@@ -2218,19 +2555,15 @@
   },
   "topical-pdrn-and-centella": {
     "inbound": [
-      "aging-model",
       "changelog",
-      "practice-playbook",
       "skincare-evidence-and-routine-design",
       "topical-retinoids"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "topical-retinoids": {
     "inbound": [
+      "actinic-purpura-and-aging-skin-fragility",
       "aging-model",
       "changelog",
       "dr-dray",
@@ -2246,16 +2579,26 @@
       "practice-playbook"
     ]
   },
+  "tracey-marks": {
+    "inbound": [
+      "attachment-threat-and-relational-regulation",
+      "changelog",
+      "cognitive-dissonance-and-narrative-protection",
+      "emotional-memory-reactivation-and-rumination",
+      "interpersonal-regulation-and-emotional-capacity",
+      "stress-threat-discrimination",
+      "trust-repair-and-safety-learning"
+    ],
+    "synthesis": []
+  },
   "training-frequency-and-hypertrophy": {
     "inbound": [
-      "aging-model",
       "arm-hypertrophy-specialization",
       "changelog",
       "elite-endurance-development",
       "exercise-program-design",
       "muscle-damage-and-hypertrophy",
       "muscle-strength-and-mortality",
-      "practice-playbook",
       "pre-sleep-protein-feeding",
       "resistance-training",
       "shoulder-force-couples-and-exercise-selection",
@@ -2263,10 +2606,7 @@
       "tendon-adaptation-and-rehabilitation",
       "time-efficient-concurrent-training"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   },
   "transit-capacity-and-service-design": {
     "inbound": [
@@ -2279,19 +2619,31 @@
   "trunk-training": {
     "inbound": [
       "abdominal-definition-and-training",
-      "aging-model",
       "changelog",
       "daily-movement-mobility-and-pain",
       "exercise-program-design",
       "performance-nutrition-and-hydration",
-      "practice-playbook",
       "resistance-training",
       "sedentary-posture-and-reverse-plank",
+      "spinal-traction-and-fascial-decompression",
       "strength-transfer-and-exercise-specificity",
       "youth-resistance-training"
     ],
+    "synthesis": []
+  },
+  "trust-repair-and-safety-learning": {
+    "inbound": [
+      "attachment-threat-and-relational-regulation",
+      "changelog",
+      "cognitive-dissonance-and-narrative-protection",
+      "emotional-memory-reactivation-and-rumination",
+      "interpersonal-regulation-and-emotional-capacity",
+      "practice-playbook",
+      "social-evaluative-threat-and-criticism",
+      "stress-threat-discrimination",
+      "tracey-marks"
+    ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
@@ -2336,7 +2688,6 @@
   "womens-exercise-across-the-lifespan": {
     "inbound": [
       "abbie-smith-ryan",
-      "aging-model",
       "cardiorespiratory-fitness",
       "changelog",
       "creatine",
@@ -2351,13 +2702,11 @@
       "youth-resistance-training"
     ],
     "synthesis": [
-      "aging-model",
       "practice-playbook"
     ]
   },
   "youth-resistance-training": {
     "inbound": [
-      "aging-model",
       "changelog",
       "cognitive-reserve-and-brain-health",
       "daily-movement-mobility-and-pain",
@@ -2367,15 +2716,11 @@
       "lunge-biomechanics-and-programming",
       "muscle-strength-and-mortality",
       "performance-nutrition-and-hydration",
-      "practice-playbook",
       "resistance-training",
       "strength-transfer-and-exercise-specificity",
       "trunk-training",
       "womens-exercise-across-the-lifespan"
     ],
-    "synthesis": [
-      "aging-model",
-      "practice-playbook"
-    ]
+    "synthesis": []
   }
 }

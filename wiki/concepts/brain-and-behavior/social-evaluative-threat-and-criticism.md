@@ -57,4 +57,4 @@ This distinction also prevents two opposite errors. Treating every painful react
 
 ## Related
 
-[[stress-threat-discrimination]] · [[protective-threat-responses]] · [[cognitive-reserve-and-brain-health]] · [[aging-model]] · [[practice-playbook]]
+[[stress-threat-discrimination]] · [[protective-threat-responses]] · [[trust-repair-and-safety-learning]] · [[cognitive-reserve-and-brain-health]] · [[aging-model]] · [[practice-playbook]]

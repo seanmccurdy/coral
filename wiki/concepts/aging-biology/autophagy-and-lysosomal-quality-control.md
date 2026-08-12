@@ -2,7 +2,7 @@
 type: concept
 title: Autophagy and lysosomal quality control
 tags: [longevity, nutrition, fitness, sleep-brain]
-updated: 2026-08-11
+updated: 2026-08-12
 evidence_reviewed: 2026-08-11
 evidence_cutoff: 2026-08-11
 review_status: current
@@ -58,6 +58,8 @@ Exercise and fasting alter nutrient sensing and autophagy-related proteins, but 
 Urolithin A is a microbiome-derived metabolite marketed as a mitophagy activator. In a double-blind RCT of 66 adults aged 65–90, 1,000 mg/day for four months did not significantly improve the co-primary outcomes of six-minute walk distance or maximal hand-muscle ATP production versus placebo. Some muscle-endurance measures and plasma acylcarnitines improved, but these secondary findings do not demonstrate whole-body mitophagic flux, disease prevention, or longevity.[^liu-2022] A separate industry-funded RCT in middle-aged adults reported some gains in muscle strength and mitochondrial or mitophagy-related biomarkers after four months, while several performance outcomes were not different from placebo; replication independent of the manufacturer and clinical endpoints remain necessary.[^singh-2022]
 
 Rapamycin, caloric restriction, and time-restricted eating are often described as autophagy interventions, but each has effects far beyond this pathway. Animal longevity after an intervention cannot be assigned wholly to autophagy without causal mediation experiments, and human biomarker changes cannot establish longer life. Those intervention-specific benefits, risks, and dosing questions belong in their own chapters.
+
+Direct pharmacological targeting of the pathway has nonetheless entered company development portfolios: a small-molecule autophagy booster is being developed for Alzheimer's disease, positioned as an in-place tissue-rejuvenation approach alongside cell-replacement programmes. This is a drug-development commitment rather than evidence, and it inherits the measurement problem described above — a compound that raises an autophagy marker has not been shown to raise flux, and raising flux has not been shown to alter neurodegeneration. [[engineered-reprogramming-factors]] (@TheSheekeyScienceShow (The Sheekey Science Show) — "OpenAI Meets Longevity: Inside the Retro Biosciences Partnership That Beat Evolution", 2025-09-12, [link](https://www.youtube.com/watch?v=dwWjpKzBNnY))
 
 ## Practical implications
 

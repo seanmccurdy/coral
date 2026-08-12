@@ -2,10 +2,10 @@
 type: intervention
 title: Topical retinoids
 tags: [skincare]
-updated: 2026-08-11
-evidence_reviewed: never
-evidence_cutoff: unknown
-review_status: review-due
+updated: 2026-08-12
+evidence_reviewed: 2026-08-12
+evidence_cutoff: 2026-08-12
+review_status: current
 review_interval: 180d
 ---
 
@@ -37,12 +37,15 @@ Irritation may emerge only after weeks of apparently easy use. Increasing produc
 
 Melasma has epidermal and dermal components. Retinoids can improve epidermal pigment, thereby revealing persistent deeper pigment that was already present; this apparent worsening is not migration of hidden melasma. By contrast, retinoid dermatitis can genuinely worsen pigmentation through inflammation. Retinoids may also modestly improve early red stretch marks by supporting collagen, but established white striae are less responsive and often require procedural approaches. (@DrDrayzday (Dr Dray) — "Is Sugar Really Bad for Your Skin? | Dermatologist Q&A", 2026-08-09, [link](https://www.youtube.com/watch?v=c0tYCBtxRO4)) (@DrDrayzday (Dr Dray) — "Copper Peptides, Hair Loss & Retinol Questions Answered", 2026-08-08, [link](https://www.youtube.com/watch?v=0sxHRZPDvss))
 
+On chronically sun-damaged, fragile dorsal-hand skin, tretinoin may gradually increase collagen and thickness, lighten mottled photodamage, and reduce formation of actinic keratoses; a direct reduction in bruising is plausible but less firmly established. Adapalene and other retinoids share parts of the signaling mechanism, while cosmetic retinol and retinaldehyde have less direct treatment evidence. Retinoids complement rather than replace [[photoprotection]], and irritation can itself worsen fragility or adherence. [[actinic-purpura-and-aging-skin-fragility]] (@DrDrayzday (Dr Dray) — "Why Do My Hands Bruise So Easily? Dermatologist Explains", 2026-08-06, [link](https://www.youtube.com/watch?v=0o0bMXOL-Lo))
+
 ## Practical implications
 
 - **Evening or according to the product/prescription: use the least expensive tolerated retinoid you can sustain — moderate-to-strong for acne and photoaging, depending on agent.** Consistency over months matters more than choosing retinol versus retinaldehyde by conversion-step count.
 - **At initiation: start at a tolerable frequency and monitor for delayed redness, itch, burning, and sensitivity — strong safety practice.** Reduce frequency, simplify other actives, and support the [[skin-barrier-and-moisturization|skin barrier]] if irritation develops.
 - **After an adequate trial: reassess the diagnosis, dose, adherence, and need for combination therapy if acne remains active — strong.** Do not automatically label recurrent lesions as purging.
 - **For melasma: pair tolerable treatment with rigorous [[photoprotection]] and avoid inflammation — moderate.** Deeper pigment may remain after epidermal clearing and may need clinician-directed treatment.
+- **For photoaged, fragile dorsal-hand skin: consider a clinician-guided or over-the-counter retinoid only after establishing tolerability — moderate for photoaging, limited for direct bruise reduction.** Use over months, protect the site from UV, and reduce frequency if inflammation develops. (@DrDrayzday (Dr Dray) — "Why Do My Hands Bruise So Easily? Dermatologist Explains", 2026-08-06, [link](https://www.youtube.com/watch?v=0o0bMXOL-Lo))
 
 ## Gaps & open questions
 
@@ -53,4 +56,4 @@ Melasma has epidermal and dermal components. Retinoids can improve epidermal pig
 
 ## Related
 
-[[skin-barrier-and-moisturization]] · [[skincare-evidence-and-routine-design]] · [[topical-pdrn-and-centella]] · [[photoprotection]] · [[procedural-skin-remodeling]] · [[practice-playbook]]
+[[skin-barrier-and-moisturization]] · [[skincare-evidence-and-routine-design]] · [[topical-pdrn-and-centella]] · [[photoprotection]] · [[procedural-skin-remodeling]] · [[actinic-purpura-and-aging-skin-fragility]] · [[practice-playbook]]

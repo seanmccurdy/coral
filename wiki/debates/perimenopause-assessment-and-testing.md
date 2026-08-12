@@ -3,13 +3,16 @@ type: debate
 title: Perimenopause assessment and testing
 tags: [hormones, longevity, sleep-brain]
 updated: 2026-08-11
-evidence_reviewed: never
-evidence_cutoff: unknown
-review_status: review-due
+evidence_reviewed: 2026-08-12
+evidence_cutoff: 2026-08-12
+review_status: current
 review_interval: 180d
 ---
 
 # Perimenopause assessment and testing
+
+> [!important] Evidence update — 2026-08-12
+> The completed review aligned diagnostic testing with the 2024-amended NICE guideline: in people aged 45 or older with a typical presentation, do not use estradiol or other ovarian tests to identify perimenopause or menopause, and reserve FSH confirmation mainly for ages 40–45 with symptoms or suspected ovarian insufficiency under 40. Difficulty interpreting bleeding during hormonal treatment warrants clinical assessment; it does not by itself validate a serum estradiol threshold. This narrows the earlier, source-reported suggestion that estradiol testing after hysterectomy or with a progestin IUD can confirm the transition. ([NICE NG23 recommendations](https://www.nice.org.uk/guidance/ng23/chapter/Recommendations))
 
 Perimenopause is the variable transition before the final menstrual period, during which ovarian hormone patterns and bleeding become less predictable. Menopause is identified retrospectively after twelve months without menstruation when no other cause explains the absence. The central testing problem is that symptoms are real but nonspecific, while fluctuating reproductive hormones make a single apparently normal result poor evidence against perimenopause. Testing is useful when it answers a defined differential-diagnosis or risk-management question, not when it attempts to prove every symptom is hormonal. (@drmaryclaire (Dr. Mary Claire Haver, MD) — "Menopause Masterclass: When 'Normal Labs' Are Lying to You", 2026-07-28, [link](https://www.youtube.com/watch?v=c8jUaFBCudc))
 

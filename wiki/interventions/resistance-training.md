@@ -3,13 +3,16 @@ type: intervention
 title: Resistance training
 tags: [fitness, longevity]
 updated: 2026-08-11
-evidence_reviewed: never
-evidence_cutoff: unknown
-review_status: review-due
+evidence_reviewed: 2026-08-12
+evidence_cutoff: 2026-08-12
+review_status: current
 review_interval: 180d
 ---
 
 # Resistance training
+
+> [!important] Evidence update — 2026-08-12
+> The 2026 ACSM position stand synthesized 137 systematic reviews and shifts the general-health emphasis from complex optimization to consistent participation: train all major muscle groups at least twice weekly; tailor load and volume to the goal; and do not present momentary failure, a particular equipment type, or complex periodization as necessary for the average healthy adult. For optimization, ACSM highlights heavier loading near 80% 1RM for strength, about 10 weekly sets per muscle group for hypertrophy, and fast concentric work with roughly 30–70% 1RM for power. This supersedes the page's stronger source-reported implication that mostly 1–2 RIR and one hard weekly exposure are the default evidence-based prescription. ([ACSM 2026 position-stand summary](https://acsm.org/resistance-training-guidelines-update-2026/))
 
 Resistance training is progressive loading of skeletal muscle to force adaptation in force production (strength), tissue size (hypertrophy), force-times-velocity (power), or fatigue resistance (muscular endurance). Which adaptation dominates depends on how the same underlying levers are set: a powerlifter preparing for competition (maximal strength) and a bodybuilder training for maximal hypertrophy are both lifting heavy in a gym yet doing visibly different things, and most people should sit between those extremes — strength-biased but not one-rep-max training. Three requirements underlie all of it: progressive overload recruiting progressively higher-threshold motor units (spanning type 1 slow-twitch and type 2 fast-twitch fibers), amino-acid substrate for muscle protein synthesis, and time for neurologic adaptation — motor units must learn to fire, synchronize, and be controlled, and the nervous system fatigues even when muscles feel willing. (Peter Attia MD — "Building strength and muscle mass: optimize training & nutrition for longevity (AMA #71 rebroadcast)", 2026-07-06, [link](https://www.youtube.com/watch?v=CqNqfb37gig))
 
@@ -82,7 +85,7 @@ When only about an hour weekly is available for lifting, two 30-minute whole-bod
 
 ## Practical implications
 
-- **Train each major body part hard 1–3 times weekly at mostly 1–2 RIR in the 6–15 rep range, progressing one overload lever at a time — strong for resistance training generally; the specific templates are expert protocol.** Novices: three full-body hours weekly with opposing-muscle supersets; experienced: deeper splits allowed, one hard weekly exposure per body part can suffice. (Peter Attia MD — "Building strength and muscle mass: optimize training & nutrition for longevity (AMA #71 rebroadcast)", 2026-07-06, [link](https://www.youtube.com/watch?v=CqNqfb37gig))
+- **Train all major muscle groups at least twice weekly with a repeatable progressive program — strong.** Many loads, equipment types, and set structures work. For goal-specific optimization, emphasize heavier loading for strength, roughly 10 weekly sets per muscle group for hypertrophy, and moderate-load fast concentric work for power; training to momentary failure is optional rather than required. The 1–2 RIR, 6–15-repetition, and split-routine templates remain workable expert protocols, not universal requirements. ([ACSM 2026 position-stand summary](https://acsm.org/resistance-training-guidelines-update-2026/))
 - **Control every eccentric; add deliberate slow-eccentric or time-under-tension work when joints limit load — moderate mechanistic evidence for hypertrophy, strong injury-prevention rationale.** (Peter Attia MD — "Building strength and muscle mass: optimize training & nutrition for longevity (AMA #71 rebroadcast)", 2026-07-06, [link](https://www.youtube.com/watch?v=CqNqfb37gig))
 - **Include weekly explosive-concentric power work at submaximal load after warming up — moderate (13-study review for power specificity, mechanistic aging rationale).** (Peter Attia MD — "Building strength and muscle mass: optimize training & nutrition for longevity (AMA #71 rebroadcast)", 2026-07-06, [link](https://www.youtube.com/watch?v=CqNqfb37gig))
 - **Use post-warm-up willingness to train, unresolving soreness, logged-performance decline, and use-worsened pain as back-off signals; compare HRV only to your own accurate baseline — expert heuristic, low formal evidence.** (Peter Attia MD — "Building strength and muscle mass: optimize training & nutrition for longevity (AMA #71 rebroadcast)", 2026-07-06, [link](https://www.youtube.com/watch?v=CqNqfb37gig))

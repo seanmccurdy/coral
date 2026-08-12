@@ -3,13 +3,16 @@ type: intervention
 title: Time-efficient concurrent training
 tags: [fitness, longevity]
 updated: 2026-08-11
-evidence_reviewed: never
-evidence_cutoff: unknown
-review_status: review-due
+evidence_reviewed: 2026-08-12
+evidence_cutoff: 2026-08-12
+review_status: current
 review_interval: 180d
 ---
 
 # Time-efficient concurrent training
+
+> [!important] Evidence update — 2026-08-12
+> A 2026 umbrella review and newer human trial evidence reinforce that concurrent aerobic and resistance training usually preserves hypertrophy and maximal-strength adaptation; the practically important residual concern is explosive-strength or power development, especially when hard modalities are crowded together. Sequence should therefore follow the priority outcome, while separating demanding sessions when power quality or recovery is limiting. This narrows older blanket warnings about an aerobic–strength “interference effect.” ([PubMed: umbrella review](https://pubmed.ncbi.nlm.nih.gov/41762427/); [human concurrent-training trial](https://doi.org/10.1152/japplphysiol.00642.2025))
 
 Time-efficient concurrent training combines resistance and aerobic work within a small weekly time budget. The design problem is allocation: strength, lean tissue, aerobic base, and high-end cardiorespiratory capacity require different stimuli, while adherence and recovery cap how much intensity can be concentrated. When volume is scarce, intensity carries more of the adaptation burden; when time is abundant, more low-intensity volume can be used without abandoning vigorous work. (@PeterAttiaMD (Peter Attia MD) — "How Busy Moms Can Build Strength and Cardio Fitness | Abbie Smith-Ryan, Ph.D.", 2026-01-07, [link](https://www.youtube.com/watch?v=9Rxp2a0m8wM))
 
