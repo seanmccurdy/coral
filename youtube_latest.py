@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import subprocess
 import sys
 import urllib.error
 import urllib.request
@@ -51,7 +52,14 @@ def _transcript_cache() -> diskcache.Cache:
     # Resolved per call so tests can repoint _CACHE_DIR at a temp directory.
     return _open_cache(str(_CACHE_DIR))
 _CHANNEL_ID_RE = re.compile(r"UC[0-9A-Za-z_-]{22}")
-_USER_AGENT = "Mozilla/5.0 (compatible; youtube-latest/0.1)"
+# YouTube returns misleading 404/500 responses to explicitly bot-labeled
+# clients even for public channel pages. Use a normal browser identity for
+# the public HTML/feed/caption requests made by this tool.
+_USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/140.0.0.0 Safari/537.36"
+)
 
 _NS = {
     "atom": "http://www.w3.org/2005/Atom",
@@ -244,10 +252,70 @@ def _channel_result(channel: str, n: int, include_shorts: bool) -> dict:
             # Fall back to the mixed channel feed (Shorts/clips included) if
             # the long-form-only UULF playlist feed is unavailable or empty,
             # or directly when include_shorts=True was requested.
-            feed = _parse_feed(_fetch(FEED_URL.format(channel_id=channel_id)), n)
+            try:
+                feed = _parse_feed(_fetch(FEED_URL.format(channel_id=channel_id)), n)
+            except urllib.error.HTTPError:
+                # YouTube has intermittently retired or blocked public Atom
+                # feeds while its Videos tab remains available. yt-dlp is a
+                # maintained parser for that public page and is the fallback.
+                feed = _yt_dlp_channel(channel, channel_id, n, include_shorts)
         return {"channel": norm, "channel_id": channel_id, **feed}
     except Exception as e:
         return {"channel": norm, "error": str(e)}
+
+
+def _yt_dlp_channel(
+    channel: str, channel_id: str, n: int, include_shorts: bool
+) -> dict:
+    """Read recent channel entries through yt-dlp when Atom feeds fail."""
+    normalized = _normalize(channel)
+    base = (
+        f"https://www.youtube.com/channel/{channel_id}"
+        if _is_channel_id(normalized)
+        else f"https://www.youtube.com/{normalized}"
+    )
+    tab = "" if include_shorts else "/videos"
+    result = subprocess.run(
+        [
+            "yt-dlp",
+            "--dump-json",
+            "--skip-download",
+            "--no-warnings",
+            "--playlist-end",
+            str(n),
+            base + tab,
+        ],
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(result.stderr.strip() or "yt-dlp channel retrieval failed")
+
+    entries = [json.loads(line) for line in result.stdout.splitlines() if line.strip()]
+    videos = []
+    channel_title = ""
+    for entry in entries[:n]:
+        channel_title = channel_title or entry.get("channel") or entry.get("uploader") or ""
+        upload_date = entry.get("upload_date")
+        published = (
+            datetime.strptime(upload_date, "%Y%m%d").astimezone()
+            if upload_date
+            else None
+        )
+        video_id = entry["id"]
+        videos.append(
+            {
+                "video_id": video_id,
+                "title": entry.get("title") or "",
+                "description": entry.get("description"),
+                "url": entry.get("webpage_url")
+                or f"https://www.youtube.com/watch?v={video_id}",
+                "published": published,
+                "thumbnail": entry.get("thumbnail"),
+                "views": entry.get("view_count"),
+            }
+        )
+    return {"channel_title": channel_title, "videos": videos}
 
 
 def latest_videos(

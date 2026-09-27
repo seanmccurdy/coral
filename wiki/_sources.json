@@ -1,0 +1,1142 @@
+{
+  "doi:10.1001/jama.2020.22258": {
+    "doi": "10.1001/jama.2020.22258",
+    "pmid": null,
+    "citation": "Nicholls SJ, et al. “Effect of High-Dose Omega-3 Fatty Acids vs Corn Oil on Major Adverse Cardiovascular Events.” *JAMA*, 2020. [RCT]. [doi:10.1001/jama.2020.22258](https://doi.org/10.1001/jama.2020.22258)",
+    "pages": [
+      "interventions/omega-3-fatty-acids.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1001/jamadermatol.2016.0018": {
+    "doi": "10.1001/jamadermatol.2016.0018",
+    "pmid": null,
+    "citation": "Klassen AF, Cano SJ, Schwitzer JA, et al. “Development and Psychometric Validation of the FACE-Q Skin, Lips, and Facial Rhytids Appearance Scales and Adverse Effects Checklists for Cosmetic Procedures.” *JAMA Dermatology*, 2016. [psychometric validation study]. [doi:10.1001/jamadermatol.2016.0018](https://doi.org/10.1001/jamadermatol.2016.0018)",
+    "pages": [
+      "concepts/skin-and-hair/visible-aging-outcomes-and-evidence.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1001/jamanetworkopen.2021.44279": {
+    "doi": "10.1001/jamanetworkopen.2021.44279",
+    "pmid": "35050355",
+    "citation": "Liu S, D'Amico D, Shankland E, et al. “Effect of Urolithin A Supplementation on Muscle Endurance and Mitochondrial Health in Older Adults: A Randomized Clinical Trial.” *JAMA Network Open* (2022). [RCT]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35050355/) · [DOI](https://doi.org/10.1001/jamanetworkopen.2021.44279)",
+    "pages": [
+      "concepts/aging-biology/autophagy-and-lysosomal-quality-control.md",
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1002/14651858.cd003177.pub5": {
+    "doi": "10.1002/14651858.CD003177.pub5",
+    "pmid": null,
+    "citation": "Abdelhamid AS, et al. “Omega-3 Fatty Acids for the Primary and Secondary Prevention of Cardiovascular Disease.” *Cochrane Database of Systematic Reviews*, 2020. [systematic review]. [doi:10.1002/14651858.CD003177.pub5](https://doi.org/10.1002/14651858.CD003177.pub5)",
+    "pages": [
+      "interventions/omega-3-fatty-acids.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1002/14651858.cd011301.pub2": {
+    "doi": "10.1002/14651858.CD011301.pub2",
+    "pmid": null,
+    "citation": "Camargo CP, Xia J, Costa CS, et al. “Botulinum Toxin Type A for Facial Wrinkles.” *Cochrane Database of Systematic Reviews*, 2021. [Cochrane systematic review of RCTs]. [doi:10.1002/14651858.CD011301.pub2](https://doi.org/10.1002/14651858.CD011301.pub2)",
+    "pages": [
+      "concepts/skin-and-hair/procedures-injectables-and-structural-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1002/emmm.201200245": {
+    "doi": "10.1002/emmm.201200245",
+    "pmid": null,
+    "citation": "Bernardes de Jesus B, Vera E, Schneeberger K, et al. “Telomerase gene therapy in adult and old mice delays aging and increases longevity without increasing cancer.” *EMBO Molecular Medicine*, 2012. [mouse gene-therapy experiment]. [DOI](https://doi.org/10.1002/emmm.201200245)",
+    "pages": [
+      "concepts/aging-biology/telomere-biology.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1002/jcsm.70274": {
+    "doi": "10.1002/jcsm.70274",
+    "pmid": "41985884",
+    "citation": "Stanfield B, Leroux B, Kaeberlein M, Jones J, Lucas R. “Exercise and Weekly Sirolimus (Rapamycin) in Older Adults: RAPA-EX-01 Randomised, Double-Blind, Placebo-Controlled Trial.” *Journal of Cachexia, Sarcopenia and Muscle* (2026). [exploratory RCT]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/41985884/) · [DOI](https://doi.org/10.1002/jcsm.70274)",
+    "pages": [
+      "interventions/mtor-and-rapamycin.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1002/lsm.23506": {
+    "doi": "10.1002/lsm.23506",
+    "pmid": null,
+    "citation": "Austin GK, Struble SL, Quatela VC. “Evaluating the Effectiveness and Safety of Radiofrequency for Face and Neck Rejuvenation: A Systematic Review.” *Lasers in Surgery and Medicine*, 2022. [systematic review]. [doi:10.1002/lsm.23506](https://doi.org/10.1002/lsm.23506)",
+    "pages": [
+      "concepts/skin-and-hair/procedures-injectables-and-structural-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1007/s00266-020-01612-6": {
+    "doi": "10.1007/s00266-020-01612-6",
+    "pmid": null,
+    "citation": "Lv Q, Li X, Qi Y, Gu Y, Liu Z, Ma GE. “Volume Retention After Facial Fat Grafting and Relevant Factors: A Systematic Review and Meta-analysis.” *Aesthetic Plastic Surgery*, 2020. [systematic review and meta-analysis]. [doi:10.1007/s00266-020-01612-6](https://doi.org/10.1007/s00266-020-01612-6)",
+    "pages": [
+      "concepts/skin-and-hair/procedures-injectables-and-structural-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1007/s00266-020-01823-x": {
+    "doi": "10.1007/s00266-020-01823-x",
+    "pmid": null,
+    "citation": "Mendelson B, Wong CH. “Changes in the Facial Skeleton With Aging: Implications and Clinical Applications in Facial Rejuvenation.” *Aesthetic Plastic Surgery*, 2020. [anatomical review]. [doi:10.1007/s00266-020-01823-x](https://doi.org/10.1007/s00266-020-01823-x)",
+    "pages": [
+      "concepts/skin-and-hair/visible-skin-and-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1007/s00266-023-03384-1": {
+    "doi": "10.1007/s00266-023-03384-1",
+    "pmid": null,
+    "citation": "Ling J, Zhao H. “A Systematic Review and Meta-Analysis of the Clinical Efficacy and Patients' Satisfaction of Micro-focused Ultrasound Treatment for Facial Rejuvenation and Tightening.” *Aesthetic Plastic Surgery*, 2023. [systematic review and meta-analysis]. [doi:10.1007/s00266-023-03384-1](https://doi.org/10.1007/s00266-023-03384-1)",
+    "pages": [
+      "concepts/skin-and-hair/procedures-injectables-and-structural-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1007/s00266-025-04972-z": {
+    "doi": "10.1007/s00266-025-04972-z",
+    "pmid": null,
+    "citation": "Foppiani JA, et al. “Microneedling for Facial Rejuvenation: A Systematic Review.” *Aesthetic Plastic Surgery*, 2025. [systematic review]. [doi:10.1007/s00266-025-04972-z](https://doi.org/10.1007/s00266-025-04972-z)",
+    "pages": [
+      "concepts/skin-and-hair/procedures-injectables-and-structural-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1007/s00403-021-02283-2": {
+    "doi": "10.1007/s00403-021-02283-2",
+    "pmid": null,
+    "citation": "Sales AFS, Pandolfo IL, Cruz MA, et al. “Intense Pulsed Light on Skin Rejuvenation: A Systematic Review.” *Archives of Dermatological Research*, 2022. [systematic review]. [doi:10.1007/s00403-021-02283-2](https://doi.org/10.1007/s00403-021-02283-2)",
+    "pages": [
+      "concepts/skin-and-hair/procedures-injectables-and-structural-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1007/s10103-026-04862-z": {
+    "doi": "10.1007/s10103-026-04862-z",
+    "pmid": null,
+    "citation": "Zakhary I, Goldstein M, Carniol PJ. “Facial Laser Complications (A Five Year Review).” *Lasers in Medical Science*, 2026. [systematic review with FDA adverse-event contextualization]. [doi:10.1007/s10103-026-04862-z](https://doi.org/10.1007/s10103-026-04862-z)",
+    "pages": [
+      "concepts/skin-and-hair/procedures-injectables-and-structural-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1007/s11892-024-01557-z": {
+    "doi": "10.1007/s11892-024-01557-z",
+    "pmid": null,
+    "citation": "Chen X, et al. “Effect of Nicotinamide Mononucleotide Supplementation on Metabolic Parameters: A Systematic Review and Meta-analysis.” *Current Diabetes Reports*, 2024. [systematic review and meta-analysis]. [doi:10.1007/s11892-024-01557-z](https://doi.org/10.1007/s11892-024-01557-z)",
+    "pages": [
+      "debates/nad-precursors-and-healthy-aging.md",
+      "interventions/nad-supplementation.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1007/s40257-024-00893-w": {
+    "doi": "10.1007/s40257-024-00893-w",
+    "pmid": null,
+    "citation": "Siddiqui Z, et al. “Comparing Tretinoin to Other Topical Therapies in the Treatment of Skin Photoaging: A Systematic Review.” *American Journal of Clinical Dermatology*, 2024. [systematic review]. [doi:10.1007/s40257-024-00893-w](https://doi.org/10.1007/s40257-024-00893-w)",
+    "pages": [
+      "concepts/skin-and-hair/topical-visible-aging-interventions.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1016/j.arr.2018.09.002": {
+    "doi": "10.1016/j.arr.2018.09.002",
+    "pmid": null,
+    "citation": "Wang Q, Zhan Y, Pedersen NL, Fang F, Hägg S. “Telomere Length and All-Cause Mortality: A Meta-analysis.” *Ageing Research Reviews*, 2018. [systematic review and meta-analysis of cohort studies]. [DOI](https://doi.org/10.1016/j.arr.2018.09.002)",
+    "pages": [
+      "concepts/aging-biology/telomere-biology.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1016/j.bbabio.2016.03.018": {
+    "doi": "10.1016/j.bbabio.2016.03.018",
+    "pmid": "26997500",
+    "citation": "Sanz A. “Mitochondrial reactive oxygen species: Do they extend or shorten animal lifespan?” *Biochimica et Biophysica Acta - Bioenergetics* (2016). [mechanistic review of animal evidence]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/26997500/) · [DOI](https://doi.org/10.1016/j.bbabio.2016.03.018)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1016/j.cell.2016.11.052": {
+    "doi": "10.1016/j.cell.2016.11.052",
+    "pmid": null,
+    "citation": "Ocampo A, Reddy P, Martinez-Redondo P, et al. “In Vivo Amelioration of Age-Associated Hallmarks by Partial Reprogramming.” *Cell*, 2016. [transgenic mouse experiment]. [DOI](https://doi.org/10.1016/j.cell.2016.11.052)",
+    "pages": [
+      "concepts/aging-biology/epigenetic-alterations-and-reprogramming.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1016/j.cell.2022.11.001": {
+    "doi": "10.1016/j.cell.2022.11.001",
+    "pmid": "36599349",
+    "citation": "López-Otín C, Blasco MA, Partridge L, Serrano M, Kroemer G. “Hallmarks of aging: An expanding universe.” *Cell* (2023). [scientific consensus framework]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/36599349/) · [DOI](https://doi.org/10.1016/j.cell.2022.11.001)",
+    "pages": [
+      "concepts/aging-biology/genomic-instability-and-dna-repair.md",
+      "concepts/aging-biology/loss-of-proteostasis.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1016/j.cell.2024.05.059": {
+    "doi": "10.1016/j.cell.2024.05.059",
+    "pmid": "39121846",
+    "citation": "Ogrodnik M, Carlos Acosta J, Adams PD, et al. “Guidelines for minimal information on cellular senescence experimentation in vivo.” *Cell* (2024). [scientific consensus guideline]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/39121846/) · [DOI](https://doi.org/10.1016/j.cell.2024.05.059)",
+    "pages": [
+      "concepts/aging-biology/cellular-senescence.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1016/j.cmet.2017.02.009": {
+    "doi": "10.1016/j.cmet.2017.02.009",
+    "pmid": "28273480",
+    "citation": "Robinson MM, Dasari S, Konopka AR, et al. “Enhanced Protein Translation Underlies Improved Metabolic and Physical Adaptations to Different Exercise Training Modes in Young and Old Humans.” *Cell Metabolism* (2017). [randomized exercise trial with mechanistic human outcomes]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/28273480/) · [DOI](https://doi.org/10.1016/j.cmet.2017.02.009)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1016/j.dnarep.2011.04.025": {
+    "doi": "10.1016/j.dnarep.2011.04.025",
+    "pmid": "21680258",
+    "citation": "Diderich K, Alanazi M, Hoeijmakers JHJ. “Premature aging and cancer in nucleotide excision repair-disorders.” *DNA Repair* (2011). [scientific review of human genetic disorders and animal models]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21680258/) · [DOI](https://doi.org/10.1016/j.dnarep.2011.04.025)",
+    "pages": [
+      "concepts/aging-biology/genomic-instability-and-dna-repair.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1016/j.ebiom.2019.08.069": {
+    "doi": "10.1016/j.ebiom.2019.08.069",
+    "pmid": "31542391",
+    "citation": "Hickson LJ, Langhi Prata LGP, Bobart SA, et al. “Senolytics decrease senescent cells in humans: Preliminary report from a clinical trial of dasatinib plus quercetin in individuals with diabetic kidney disease.” *EBioMedicine* (2019). [uncontrolled human pilot study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/31542391/) · [DOI](https://doi.org/10.1016/j.ebiom.2019.08.069)",
+    "pages": [
+      "concepts/aging-biology/cellular-senescence.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1016/j.ebiom.2023.104481": {
+    "doi": "10.1016/j.ebiom.2023.104481",
+    "pmid": "36857968",
+    "citation": "Justice JN, Nambiar AM, Tchkonia T, et al. “Senolytics dasatinib and quercetin in idiopathic pulmonary fibrosis: results of a phase I, single-blind, single-center, randomized, placebo-controlled pilot trial on feasibility and tolerability.” *EBioMedicine* (2023). [phase-I pilot RCT]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/36857968/) · [DOI](https://doi.org/10.1016/j.ebiom.2023.104481)",
+    "pages": [
+      "concepts/aging-biology/cellular-senescence.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1016/j.jesf.2025.07.006": {
+    "doi": "10.1016/j.jesf.2025.07.006",
+    "pmid": "40791980",
+    "citation": "Huang Z, Sun J, Li D, et al. “Autoregulated resistance training for maximal strength enhancement: A systematic review and network meta-analysis.” *Journal of Exercise Science & Fitness* (2025). [systematic review and network meta-analysis]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/40791980/) · [DOI](https://doi.org/10.1016/j.jesf.2025.07.006)",
+    "pages": [
+      "hypotheses/performance-gated-recovery-progression.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1016/j.mito.2016.07.003": {
+    "doi": "10.1016/j.mito.2016.07.003",
+    "pmid": "27423788",
+    "citation": "Picard M, Wallace DC, Burelle Y. “The rise of mitochondria in medicine.” *Mitochondrion* (2016). [mechanistic and clinical review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/27423788/) · [DOI](https://doi.org/10.1016/j.mito.2016.07.003)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1016/j.xcrm.2022.100633": {
+    "doi": "10.1016/j.xcrm.2022.100633",
+    "pmid": "35584623",
+    "citation": "Singh A, D'Amico D, Andreux PA, et al. “Urolithin A improves muscle strength, exercise performance, and biomarkers of mitochondrial health in a randomized trial in middle-aged adults.” *Cell Reports Medicine* (2022). [RCT]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35584623/) · [DOI](https://doi.org/10.1016/j.xcrm.2022.100633)",
+    "pages": [
+      "concepts/aging-biology/autophagy-and-lysosomal-quality-control.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1016/s2666-7568(21)00062-3": {
+    "doi": "10.1016/S2666-7568(21)00062-3",
+    "pmid": "33977284",
+    "citation": "Mannick JB, Teo G, Bernardo P, et al. “Targeting the biology of ageing with mTOR inhibitors to improve immune function in older adults: phase 2b and phase 3 randomised trials.” *The Lancet Healthy Longevity* (2021). [phase 2b and phase 3 RCTs]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/33977284/) · [DOI](https://doi.org/10.1016/S2666-7568(21)00062-3)",
+    "pages": [
+      "interventions/mtor-and-rapamycin.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1038/nature08221": {
+    "doi": "10.1038/nature08221",
+    "pmid": "19587680",
+    "citation": "Harrison DE, Strong R, Sharp ZD, et al. “Rapamycin fed late in life extends lifespan in genetically heterogeneous mice.” *Nature* (2009). [multisite randomized animal longevity study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/19587680/) · [DOI](https://doi.org/10.1038/nature08221)",
+    "pages": [
+      "interventions/mtor-and-rapamycin.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1038/nature11438": {
+    "doi": "10.1038/nature11438",
+    "pmid": null,
+    "citation": "Chakkalakal JV, Jones KM, Basson MA, Brack AS. “The aged niche disrupts muscle stem cell quiescence.” *Nature*, 2012. [mouse mechanistic study]. [DOI](https://doi.org/10.1038/nature11438)",
+    "pages": [
+      "concepts/aging-biology/stem-cell-exhaustion.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1038/nature16932": {
+    "doi": "10.1038/nature16932",
+    "pmid": null,
+    "citation": "Baker DJ, Childs BG, Durik M, et al. “Naturally occurring p16Ink4a-positive cells shorten healthy lifespan.” *Nature* (2016). [animal study]. [DOI](https://doi.org/10.1038/nature16932)",
+    "pages": [
+      "concepts/aging-biology/cellular-senescence.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1038/ncb2152": {
+    "doi": "10.1038/ncb2152",
+    "pmid": "21258367",
+    "citation": "Kim J, Kundu M, Viollet B, Guan KL. “AMPK and mTOR regulate autophagy through direct phosphorylation of Ulk1.” *Nature Cell Biology* (2011). [mechanistic cell and animal study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21258367/) · [DOI](https://doi.org/10.1038/ncb2152)",
+    "pages": [
+      "concepts/aging-biology/autophagy-and-lysosomal-quality-control.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1038/ncomms14532": {
+    "doi": "10.1038/ncomms14532",
+    "pmid": "28230051",
+    "citation": "Schafer MJ, White TA, Iijima K, et al. “Cellular senescence mediates fibrotic pulmonary disease.” *Nature Communications* (2017). [animal study with human tissue observations]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/28230051/) · [DOI](https://doi.org/10.1038/ncomms14532)",
+    "pages": [
+      "concepts/aging-biology/cellular-senescence.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1038/nrm.2016.171": {
+    "doi": "10.1038/nrm.2016.171",
+    "pmid": null,
+    "citation": "Maciejowski J, de Lange T. “Telomeres in cancer: tumour suppression and genome instability.” *Nature Reviews Molecular Cell Biology*, 2017. [narrative mechanistic review]. [DOI](https://doi.org/10.1038/nrm.2016.171)",
+    "pages": [
+      "concepts/aging-biology/telomere-biology.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1038/s41467-021-24956-2": {
+    "doi": "10.1038/s41467-021-24956-2",
+    "pmid": "34362885",
+    "citation": "Hinderling VB, Jörgensen JA, Moonen-Kornips E, et al. “Impact of aging and exercise on skeletal muscle mitochondrial capacity, energy metabolism, and physical function.” *Nature Communications* (2021). [cross-sectional mechanistic human study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/34362885/) · [DOI](https://doi.org/10.1038/s41467-021-24956-2)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1038/s41467-023-43514-6": {
+    "doi": "10.1038/s41467-023-43514-6",
+    "pmid": null,
+    "citation": "Berven H, et al. “Safety and Tolerability of High-dose Nicotinamide Riboside: The NR-SAFE Study.” *Nature Communications*, 2023. [phase 1 RCT]. [doi:10.1038/s41467-023-43514-6](https://doi.org/10.1038/s41467-023-43514-6)",
+    "pages": [
+      "interventions/nad-supplementation.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1038/s41467-024-49092-5": {
+    "doi": "10.1038/s41467-024-49092-5",
+    "pmid": null,
+    "citation": "McDermott MM, et al. “Nicotinamide Riboside for Peripheral Artery Disease: The NICE Randomized Clinical Trial.” *Nature Communications*, 2024. [phase 2 RCT]. [doi:10.1038/s41467-024-49092-5](https://doi.org/10.1038/s41467-024-49092-5)",
+    "pages": [
+      "debates/nad-precursors-and-healthy-aging.md",
+      "interventions/nad-supplementation.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1038/s41580-019-0199-y": {
+    "doi": "10.1038/s41580-019-0199-y",
+    "pmid": "31676858",
+    "citation": "Liu GY, Sabatini DM. “mTOR at the nexus of nutrition, growth, ageing and disease.” *Nature Reviews Molecular Cell Biology* (2020). [mechanistic review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/31676858/) · [DOI](https://doi.org/10.1038/s41580-019-0199-y)",
+    "pages": [
+      "interventions/mtor-and-rapamycin.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1038/s41586-021-03307-7": {
+    "doi": "10.1038/s41586-021-03307-7",
+    "pmid": "33911272",
+    "citation": "Schumacher B, Pothof J, Vijg J, Hoeijmakers JHJ. “The central role of DNA damage in the ageing process.” *Nature* (2021). [scientific review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/33911272/) · [DOI](https://doi.org/10.1038/s41586-021-03307-7)",
+    "pages": [
+      "concepts/aging-biology/genomic-instability-and-dna-repair.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1038/s41586-022-04618-z": {
+    "doi": "10.1038/s41586-022-04618-z",
+    "pmid": "35418684",
+    "citation": "Cagan A, Baez-Ortega A, Brzozowska N, et al. “Somatic mutation rates scale with lifespan across mammals.” *Nature* (2022). [comparative observational study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35418684/) · [DOI](https://doi.org/10.1038/s41586-022-04618-z)",
+    "pages": [
+      "concepts/aging-biology/genomic-instability-and-dna-repair.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1055/s-0036-1582234": {
+    "doi": "10.1055/s-0036-1582234",
+    "pmid": null,
+    "citation": "Cotofana S, Fratila AAM, Schenck TL, Redka-Swoboda W, Zilinsky I, Pavicic T. “The Anatomy of the Aging Face: A Review.” *Facial Plastic Surgery*, 2016. [narrative review]. [doi:10.1055/s-0036-1582234](https://doi.org/10.1055/s-0036-1582234)",
+    "pages": [
+      "concepts/skin-and-hair/visible-skin-and-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1056/nejmoa1408617": {
+    "doi": "10.1056/NEJMoa1408617",
+    "pmid": null,
+    "citation": "Jaiswal S, Fontanillas P, Flannick J, et al. “Age-Related Clonal Hematopoiesis Associated with Adverse Outcomes.” *New England Journal of Medicine*, 2014. [human cohort sequencing study]. [DOI](https://doi.org/10.1056/NEJMoa1408617)",
+    "pages": [
+      "concepts/aging-biology/genomic-instability-and-dna-repair.md",
+      "concepts/aging-biology/stem-cell-exhaustion.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1056/nejmoa1811403": {
+    "doi": "10.1056/NEJMoa1811403",
+    "pmid": null,
+    "citation": "Manson JE, et al. “Marine n−3 Fatty Acids and Prevention of Cardiovascular Disease and Cancer.” *New England Journal of Medicine*, 2019. [RCT]. [doi:10.1056/NEJMoa1811403](https://doi.org/10.1056/NEJMoa1811403)",
+    "pages": [
+      "interventions/omega-3-fatty-acids.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1056/nejmoa1812792": {
+    "doi": "10.1056/NEJMoa1812792",
+    "pmid": null,
+    "citation": "Bhatt DL, et al. “Cardiovascular Risk Reduction with Icosapent Ethyl for Hypertriglyceridemia.” *New England Journal of Medicine*, 2019. [RCT]. [doi:10.1056/NEJMoa1812792](https://doi.org/10.1056/NEJMoa1812792)",
+    "pages": [
+      "interventions/omega-3-fatty-acids.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1056/nejmoa2215025": {
+    "doi": "10.1056/NEJMoa2215025",
+    "pmid": null,
+    "citation": "Lincoff AM, et al. “Cardiovascular Safety of Testosterone-Replacement Therapy.” *New England Journal of Medicine*, 2023. [RCT]. [doi:10.1056/NEJMoa2215025](https://doi.org/10.1056/NEJMoa2215025)",
+    "pages": [
+      "interventions/testosterone-replacement-therapy.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1056/nejmoa2308836": {
+    "doi": "10.1056/NEJMoa2308836",
+    "pmid": null,
+    "citation": "Snyder PJ, et al. “Testosterone Treatment and Fractures in Men with Hypogonadism.” *New England Journal of Medicine*, 2024. [RCT substudy]. [doi:10.1056/NEJMoa2308836](https://doi.org/10.1056/NEJMoa2308836)",
+    "pages": [
+      "interventions/testosterone-replacement-therapy.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1073/pnas.0902882106": {
+    "doi": "10.1073/pnas.0902882106",
+    "pmid": "19706382",
+    "citation": "Ben-Zvi A, Miller EA, Morimoto RI. “Collapse of proteostasis represents an early molecular event in *Caenorhabditis elegans* aging.” *Proceedings of the National Academy of Sciences of the United States of America* (2009). [animal mechanistic study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/19706382/) · [DOI](https://doi.org/10.1073/pnas.0902882106)",
+    "pages": [
+      "concepts/aging-biology/loss-of-proteostasis.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1080/15548627.2020.1797280": {
+    "doi": "10.1080/15548627.2020.1797280",
+    "pmid": null,
+    "citation": "Klionsky DJ, Abdel-Aziz AK, Abdelfatah S, et al. “Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition).” *Autophagy* (2021). [scientific consensus guideline]. [DOI](https://doi.org/10.1080/15548627.2020.1797280)",
+    "pages": [
+      "concepts/aging-biology/autophagy-and-lysosomal-quality-control.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1093/aje/kwx346": {
+    "doi": "10.1093/aje/kwx346",
+    "pmid": null,
+    "citation": "Belsky DW, Moffitt TE, Cohen AA, et al. “Eleven Telomere, Epigenetic Clock, and Biomarker-Composite Quantifications of Biological Aging: Do They Measure the Same Thing?” *American Journal of Epidemiology*, 2018. [prospective cohort biomarker comparison]. [DOI](https://doi.org/10.1093/aje/kwx346)",
+    "pages": [
+      "concepts/aging-biology/epigenetic-alterations-and-reprogramming.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1093/asj/sjaa339": {
+    "doi": "10.1093/asj/sjaa339",
+    "pmid": null,
+    "citation": "Swift A, Liew S, Weinkle S, Garcia JK, Silberberg MB. “The Facial Aging Process From the ‘Inside Out.’” *Aesthetic Surgery Journal*, 2021. [commercially affiliated narrative review]. [doi:10.1093/asj/sjaa339](https://doi.org/10.1093/asj/sjaa339)",
+    "pages": [
+      "concepts/skin-and-hair/visible-skin-and-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1093/asj/sjad141": {
+    "doi": "10.1093/asj/sjad141",
+    "pmid": null,
+    "citation": "Gallo L, Kim P, Yuan M, et al. “Best Practices for FACE-Q Aesthetics Research: A Systematic Review of Study Methodology.” *Aesthetic Surgery Journal*, 2023. [systematic review]. [doi:10.1093/asj/sjad141](https://doi.org/10.1093/asj/sjad141)",
+    "pages": [
+      "concepts/skin-and-hair/visible-aging-outcomes-and-evidence.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1093/eurheartj/ehaf190": {
+    "doi": "10.1093/eurheartj/ehaf190",
+    "pmid": null,
+    "citation": "European Society of Cardiology and European Atherosclerosis Society. “2025 Focused Update of the ESC/EAS Guidelines for the Management of Dyslipidaemias.” *European Heart Journal*, 2025. [professional guideline]. [doi:10.1093/eurheartj/ehaf190](https://doi.org/10.1093/eurheartj/ehaf190)",
+    "pages": [
+      "interventions/omega-3-fatty-acids.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1093/humupd/dmt038": {
+    "doi": "10.1093/humupd/dmt038",
+    "pmid": null,
+    "citation": "Zimmerman Y, et al. “The Effect of Combined Oral Contraception on Testosterone Levels in Healthy Women: A Systematic Review and Meta-analysis.” *Human Reproduction Update*, 2014. [systematic review and meta-analysis]. [doi:10.1093/humupd/dmt038](https://doi.org/10.1093/humupd/dmt038)",
+    "pages": [
+      "interventions/hormonal-contraception.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1097/dss.0000000000000494": {
+    "doi": "10.1097/DSS.0000000000000494",
+    "pmid": null,
+    "citation": "Sadick NS, Dorizas AS, Krueger N, Nassar AH. “The Facial Adipose System: Its Role in Facial Aging and Approaches to Volume Restoration.” *Dermatologic Surgery*, 2015. [anatomical review]. [doi:10.1097/DSS.0000000000000494](https://doi.org/10.1097/DSS.0000000000000494)",
+    "pages": [
+      "concepts/skin-and-hair/visible-skin-and-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1097/dss.0000000000000847": {
+    "doi": "10.1097/DSS.0000000000000847",
+    "pmid": null,
+    "citation": "Carruthers J, Donofrio L, Hardas B, et al. “Development and Validation of a Photonumeric Scale for Evaluation of Facial Fine Lines.” *Dermatologic Surgery*, 2016. [manufacturer-affiliated live-subject measurement validation study]. [doi:10.1097/DSS.0000000000000847](https://doi.org/10.1097/DSS.0000000000000847)",
+    "pages": [
+      "concepts/skin-and-hair/visible-aging-outcomes-and-evidence.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1097/dss.0000000000003733": {
+    "doi": "10.1097/DSS.0000000000003733",
+    "pmid": null,
+    "citation": "Syder NC, Chen A, Elbuluk N. “Radiofrequency and Radiofrequency Microneedling in Skin of Color: A Review of Usage, Safety, and Efficacy.” *Dermatologic Surgery*, 2023. [systematic review]. [doi:10.1097/DSS.0000000000003733](https://doi.org/10.1097/DSS.0000000000003733)",
+    "pages": [
+      "concepts/skin-and-hair/procedures-injectables-and-structural-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1097/gme.0000000000002028": {
+    "doi": "10.1097/GME.0000000000002028",
+    "pmid": null,
+    "citation": "The North American Menopause Society. “The 2022 Hormone Therapy Position Statement.” *Menopause*, 2022. [professional position statement]. [doi:10.1097/GME.0000000000002028](https://doi.org/10.1097/GME.0000000000002028)",
+    "pages": [
+      "debates/whi-and-menopause-hormone-therapy.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1097/gox.0000000000005538": {
+    "doi": "10.1097/GOX.0000000000005538",
+    "pmid": null,
+    "citation": "Brucato D, Ülgür II, Alberti A, Weinzierl A, Harder Y. “Complications Associated with Facial Autologous Fat Grafting for Aesthetic Purposes: A Systematic Review of the Literature.” *Plastic and Reconstructive Surgery Global Open*, 2024. [systematic review of complication reports]. [doi:10.1097/GOX.0000000000005538](https://doi.org/10.1097/GOX.0000000000005538)",
+    "pages": [
+      "concepts/skin-and-hair/procedures-injectables-and-structural-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1097/jw9.0000000000000003": {
+    "doi": "10.1097/JW9.0000000000000003",
+    "pmid": null,
+    "citation": "Sitohang IBS, et al. “Topical Tretinoin for Treating Photoaging: A Systematic Review of Randomized Controlled Trials.” *International Journal of Women's Dermatology*, 2022. [systematic review of RCTs]. [doi:10.1097/JW9.0000000000000003](https://doi.org/10.1097/JW9.0000000000000003)",
+    "pages": [
+      "concepts/skin-and-hair/topical-visible-aging-interventions.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1101/cshperspect.a015370": {
+    "doi": "10.1101/cshperspect.a015370",
+    "pmid": null,
+    "citation": "Rittié L, Fisher GJ. “Natural and Sun-Induced Aging of Human Skin.” *Cold Spring Harbor Perspectives in Medicine*, 2015. [review of human mechanistic and histologic evidence]. [doi:10.1101/cshperspect.a015370](https://doi.org/10.1101/cshperspect.a015370)",
+    "pages": [
+      "concepts/skin-and-hair/visible-skin-and-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1111/1471-0528.18026": {
+    "doi": "10.1111/1471-0528.18026",
+    "pmid": "39688600",
+    "citation": "Ge R, et al. “Effect of Gonadotropin-Releasing Hormone Agonist Pre-Treatment on Outcomes of Fresh and Frozen Embryo Transfers in Women With Adenomyosis.” *BJOG* (2024). [retrospective cohort and literature review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/39688600/) · [DOI](https://doi.org/10.1111/1471-0528.18026)",
+    "pages": [
+      "concepts/reproductive-health/adenomyosis.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1111/acel.12194": {
+    "doi": "10.1111/acel.12194",
+    "pmid": "24341993",
+    "citation": "Miller RA, Harrison DE, Astle CM, et al. “Rapamycin-mediated lifespan increase in mice is dose and sex dependent and metabolically distinct from dietary restriction.” *Aging Cell* (2014). [randomized animal longevity study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/24341993/) · [DOI](https://doi.org/10.1111/acel.12194)",
+    "pages": [
+      "interventions/mtor-and-rapamycin.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1111/acel.13562": {
+    "doi": "10.1111/acel.13562",
+    "pmid": "35246937",
+    "citation": "Vougioukalaki M, Demmers J, Vermeij WP, et al. “Different responses to DNA damage determine ageing differences between organs.” *Aging Cell* (2022). [animal study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35246937/) · [DOI](https://doi.org/10.1111/acel.13562)",
+    "pages": [
+      "concepts/aging-biology/genomic-instability-and-dna-repair.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1111/acel.13603": {
+    "doi": "10.1111/acel.13603",
+    "pmid": "35349763",
+    "citation": "Rai M, Curley M, Coleman Z, Demontis F. “Contribution of proteases to the hallmarks of aging and to age-related neurodegeneration.” *Aging Cell* (2022). [scientific review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35349763/) · [DOI](https://doi.org/10.1111/acel.13603)",
+    "pages": [
+      "concepts/aging-biology/loss-of-proteostasis.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1111/acel.13874": {
+    "doi": "10.1111/acel.13874",
+    "pmid": null,
+    "citation": "Chen B, Yan Y, Wang H, Xu J. “Association between genetically determined telomere length and health-related outcomes: A systematic review and meta-analysis of Mendelian randomization studies.” *Aging Cell*, 2023. [systematic review and meta-analysis of Mendelian-randomization studies]. [DOI](https://doi.org/10.1111/acel.13874)",
+    "pages": [
+      "concepts/aging-biology/telomere-biology.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1111/head.14692": {
+    "doi": "10.1111/head.14692",
+    "pmid": null,
+    "citation": "Charles AC, Digre KB, Goadsby PJ, Robbins MS, Hershey A. “Calcitonin gene-related peptide-targeting therapies are a first-line option for the prevention of migraine: An American Headache Society position statement update.” *Headache*. 2024;64:333–341. [professional-society position statement]. [doi:10.1111/head.14692](https://doi.org/10.1111/head.14692)",
+    "pages": [
+      "concepts/brain-and-behavior/primary-headache-disorders.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1111/j.1600-0536.1996.tb02258.x": {
+    "doi": "10.1111/j.1600-0536.1996.tb02258.x",
+    "pmid": null,
+    "citation": "Fullerton A, Fischer T, Lahti A, Wilhelm KP, Takiwaki H, Serup J. “Guidelines for Measurement of Skin Colour and Erythema.” *Contact Dermatitis*, 1996. [professional measurement guideline and review]. [doi:10.1111/j.1600-0536.1996.tb02258.x](https://doi.org/10.1111/j.1600-0536.1996.tb02258.x)",
+    "pages": [
+      "concepts/skin-and-hair/visible-aging-outcomes-and-evidence.md",
+      "concepts/skin-and-hair/visible-skin-and-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1111/jocd.14465": {
+    "doi": "10.1111/jocd.14465",
+    "pmid": null,
+    "citation": "Enescu CD, et al. “Vitamin C Derivatives in Cosmetic Formulations.” *Journal of Cosmetic Dermatology*, 2022. [review]. [doi:10.1111/jocd.14465](https://doi.org/10.1111/jocd.14465)",
+    "pages": [
+      "interventions/topical-vitamin-c.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1111/jocd.15644": {
+    "doi": "10.1111/jocd.15644",
+    "pmid": null,
+    "citation": "Quinlan DJ, Ghanem AM, Hassan H. “Topical Growth Factor Preparations for Facial Skin Rejuvenation: A Systematic Review.” *Journal of Cosmetic Dermatology*, 2023. [systematic review]. [doi:10.1111/jocd.15644](https://doi.org/10.1111/jocd.15644)",
+    "pages": [
+      "concepts/skin-and-hair/topical-visible-aging-interventions.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1111/jocd.15748": {
+    "doi": "10.1111/jocd.15748",
+    "pmid": null,
+    "citation": "Correia G, Magina S. “Efficacy of Topical Vitamin C in Melasma and Photoaging: A Systematic Review.” *Journal of Cosmetic Dermatology*, 2023. [systematic review]. [doi:10.1111/jocd.15748](https://doi.org/10.1111/jocd.15748)",
+    "pages": [
+      "interventions/topical-vitamin-c.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1111/srt.13113": {
+    "doi": "10.1111/srt.13113",
+    "pmid": null,
+    "citation": "Hadi H, Awadh AI, Hanif NM, Md Sidik NF, Mohd Rani MR, Suhaimi MS. “Skin Measurement Devices to Assess Skin Quality: A Systematic Review on Reliability and Validity.” *Skin Research and Technology*, 2022. [systematic review]. [doi:10.1111/srt.13113](https://doi.org/10.1111/srt.13113)",
+    "pages": [
+      "concepts/skin-and-hair/visible-aging-outcomes-and-evidence.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1113/jp281289": {
+    "doi": "10.1113/JP281289",
+    "pmid": "34032280",
+    "citation": "Distefano G, Standley RA, Dubé JJ, et al. “Preserved skeletal muscle oxidative capacity in older adults despite decreased cardiorespiratory fitness with ageing.” *The Journal of Physiology* (2021). [cross-sectional mechanistic human study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/34032280/) · [DOI](https://doi.org/10.1113/JP281289)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1126/science.aap9559": {
+    "doi": "10.1126/science.aap9559",
+    "pmid": null,
+    "citation": "Vosoughi S, Roy D, Aral S. “The spread of true and false news online.” *Science*. 2018;359:1146–1151. [retrospective observational diffusion study]. [doi:10.1126/science.aap9559](https://doi.org/10.1126/science.aap9559)",
+    "pages": [
+      "concepts/environment-and-society/health-misinformation-and-media-incentives.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1126/scitranslmed.3009892": {
+    "doi": "10.1126/scitranslmed.3009892",
+    "pmid": "25540326",
+    "citation": "Mannick JB, Del Giudice G, Lattanzi M, et al. “mTOR inhibition improves immune function in the elderly.” *Science Translational Medicine* (2014). [RCT]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/25540326/) · [DOI](https://doi.org/10.1126/scitranslmed.3009892)",
+    "pages": [
+      "interventions/mtor-and-rapamycin.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1126/scitranslmed.aaq1564": {
+    "doi": "10.1126/scitranslmed.aaq1564",
+    "pmid": "29997249",
+    "citation": "Mannick JB, Morris M, Hockey HUP, et al. “TORC1 inhibition enhances immune function and reduces infections in the elderly.” *Science Translational Medicine* (2018). [phase 2a RCT]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/29997249/) · [DOI](https://doi.org/10.1126/scitranslmed.aaq1564)",
+    "pages": [
+      "interventions/mtor-and-rapamycin.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1152/ajpendo.00125.2015": {
+    "doi": "10.1152/ajpendo.00125.2015",
+    "pmid": "26037248",
+    "citation": "Porter C, Hurren NM, Cotter MV, et al. “Mitochondrial respiratory capacity and coupling control decline with age in human skeletal muscle.” *American Journal of Physiology-Endocrinology and Metabolism* (2015). [cross-sectional mechanistic human study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/26037248/) · [DOI](https://doi.org/10.1152/ajpendo.00125.2015)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1152/japplphysiol.00583.2016": {
+    "doi": "10.1152/japplphysiol.00583.2016",
+    "pmid": "27539499",
+    "citation": "Kent JA, Fitzgerald LF. “In vivo mitochondrial function in aging skeletal muscle: capacity, flux, and patterns of use.” *Journal of Applied Physiology* (2016). [human mechanistic review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/27539499/) · [DOI](https://doi.org/10.1152/japplphysiol.00583.2016)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1152/japplphysiol.01146.2017": {
+    "doi": "10.1152/japplphysiol.01146.2017",
+    "pmid": "30161009",
+    "citation": "Møller AB, Vendelbo MH, Christensen B, et al. “Training state and skeletal muscle autophagy in response to 36 h of fasting.” *Journal of Applied Physiology* (2019). [mechanistic human study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/30161009/) · [DOI](https://doi.org/10.1152/japplphysiol.01146.2017)",
+    "pages": [
+      "concepts/aging-biology/autophagy-and-lysosomal-quality-control.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1159/000056341": {
+    "doi": "10.1159/000056341",
+    "pmid": null,
+    "citation": "Rogiers V, EEMCO Group. “EEMCO Guidance for the Assessment of Transepidermal Water Loss in Cosmetic Sciences.” *Skin Pharmacology and Applied Skin Physiology*, 2001. [professional measurement guideline]. [doi:10.1159/000056341](https://doi.org/10.1159/000056341)",
+    "pages": [
+      "concepts/skin-and-hair/visible-aging-outcomes-and-evidence.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1159/000504063": {
+    "doi": "10.1159/000504063",
+    "pmid": null,
+    "citation": "Rodrigues LM, Fluhr JW, EEMCO Group. “EEMCO Guidance for the In Vivo Assessment of Biomechanical Properties of the Human Skin and Its Annexes: Revisiting Instrumentation and Test Modes.” *Skin Pharmacology and Physiology*, 2020. [professional measurement guideline]. [doi:10.1159/000504063](https://doi.org/10.1159/000504063)",
+    "pages": [
+      "concepts/skin-and-hair/visible-aging-outcomes-and-evidence.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1159/000509296": {
+    "doi": "10.1159/000509296",
+    "pmid": null,
+    "citation": "Imhof L, Leuthard D. “Topical Over-the-Counter Antiaging Agents: An Update and Systematic Review.” *Dermatology*, 2021. [systematic review of in-vivo studies]. [doi:10.1159/000509296](https://doi.org/10.1159/000509296)",
+    "pages": [
+      "concepts/skin-and-hair/topical-visible-aging-interventions.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1161/circulationaha.122.059410": {
+    "doi": "10.1161/CIRCULATIONAHA.122.059410",
+    "pmid": null,
+    "citation": "Ridker PM, et al. “Effects of Icosapent Ethyl and Mineral Oil on Lipoproteins, Inflammatory Markers, and Biomarkers in REDUCE-IT.” *Circulation*, 2022. [randomized-trial biomarker substudy]. [doi:10.1161/CIRCULATIONAHA.122.059410](https://doi.org/10.1161/CIRCULATIONAHA.122.059410)",
+    "pages": [
+      "interventions/omega-3-fatty-acids.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1177/1090820x13510170": {
+    "doi": "10.1177/1090820X13510170",
+    "pmid": null,
+    "citation": "Panchapakesan V, Klassen AF, Cano SJ, Scott AM, Pusic AL. “Development and Psychometric Evaluation of the FACE-Q Aging Appraisal Scale and Patient-Perceived Age Visual Analog Scale.” *Aesthetic Surgery Journal*, 2013. [multicenter psychometric validation study]. [doi:10.1177/1090820X13510170](https://doi.org/10.1177/1090820X13510170)",
+    "pages": [
+      "concepts/skin-and-hair/visible-aging-outcomes-and-evidence.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1177/15563316251355551": {
+    "doi": "10.1177/15563316251355551",
+    "pmid": null,
+    "citation": "Vasireddi N, et al. “Regeneration or Risk? A Systematic Review of BPC-157 for Musculoskeletal Healing.” *Orthopaedic Journal of Sports Medicine*, 2025. [systematic review]. [doi:10.1177/15563316251355551](https://doi.org/10.1177/15563316251355551)",
+    "pages": [
+      "interventions/experimental-peptides.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "doi:10.1186/gb-2013-14-10-r115": {
+    "doi": "10.1186/gb-2013-14-10-r115",
+    "pmid": null,
+    "citation": "Horvath S. “DNA methylation age of human tissues and cell types.” *Genome Biology*, 2013. [human biomarker development study]. [DOI](https://doi.org/10.1186/gb-2013-14-10-r115)",
+    "pages": [
+      "concepts/aging-biology/epigenetic-alterations-and-reprogramming.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1186/s13195-020-00641-2": {
+    "doi": "10.1186/s13195-020-00641-2",
+    "pmid": "32560738",
+    "citation": "Kepchia D, Huang L, Dargusch R, et al. “Diverse proteins aggregate in mild cognitive impairment and Alzheimer's disease brain.” *Alzheimer's Research & Therapy* (2020). [cross-sectional human postmortem study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/32560738/) · [DOI](https://doi.org/10.1186/s13195-020-00641-2)",
+    "pages": [
+      "concepts/aging-biology/loss-of-proteostasis.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.1519/jsc.0000000000003530": {
+    "doi": "10.1519/JSC.0000000000003530",
+    "pmid": "32058357",
+    "citation": "Graham T, Cleather DJ. “Autoregulation in Resistance Training: A Comparison of Subjective Versus Objective Methods.” *Journal of Strength and Conditioning Research* (2022). [randomized crossover trial]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/32058357/) · [DOI](https://doi.org/10.1519/JSC.0000000000003530)",
+    "pages": [
+      "hypotheses/performance-gated-recovery-progression.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.3389/fphys.2015.00422": {
+    "doi": "10.3389/fphys.2015.00422",
+    "pmid": "26793123",
+    "citation": "Romanello V, Sandri M. “Mitochondrial Quality Control and Muscle Mass Maintenance.” *Frontiers in Physiology* (2016). [mechanistic review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/26793123/) · [DOI](https://doi.org/10.3389/fphys.2015.00422)",
+    "pages": [
+      "concepts/aging-biology/mitochondrial-dysfunction.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.3389/fphys.2021.651112": {
+    "doi": "10.3389/fphys.2021.651112",
+    "pmid": "33776802",
+    "citation": "Zhang X, Li H, Bi S, et al. “Auto-Regulation Method vs. Fixed-Loading Method in Maximum Strength Training for Athletes: A Systematic Review and Meta-Analysis.” *Frontiers in Physiology* (2021). [systematic review and meta-analysis]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/33776802/) · [DOI](https://doi.org/10.3389/fphys.2021.651112)",
+    "pages": [
+      "hypotheses/performance-gated-recovery-progression.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.3389/fphys.2025.1544286": {
+    "doi": "10.3389/fphys.2025.1544286",
+    "pmid": "40236824",
+    "citation": "Kong Y, Yu B, Guan G, Wang Y, He H. “Effects of sleep deprivation on sports performance and perceived exertion in athletes and non-athletes: a systematic review and meta-analysis.” *Frontiers in Physiology* (2025). [systematic review and meta-analysis of randomized studies]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/40236824/) · [DOI](https://doi.org/10.3389/fphys.2025.1544286)",
+    "pages": [
+      "hypotheses/performance-gated-recovery-progression.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.3390/ijms20092126": {
+    "doi": "10.3390/ijms20092126",
+    "pmid": null,
+    "citation": "Shin JW, Kwon SH, Choi JY, Na JI, Huh CH, Choi HR, Park KC. “Molecular Mechanisms of Dermal Aging and Antiaging Approaches.” *International Journal of Molecular Sciences*, 2019. [narrative review]. [doi:10.3390/ijms20092126](https://doi.org/10.3390/ijms20092126)",
+    "pages": [
+      "concepts/skin-and-hair/visible-skin-and-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.36849/jdd.7332": {
+    "doi": "10.36849/JDD.7332",
+    "pmid": null,
+    "citation": "Sanabria B, et al. “Topical Vitamin C and the Skin: Mechanisms of Action and Clinical Applications.” *Journal of Drugs in Dermatology*, 2023. [systematic review]. [doi:10.36849/JDD.7332](https://doi.org/10.36849/JDD.7332)",
+    "pages": [
+      "concepts/skin-and-hair/topical-visible-aging-interventions.md",
+      "interventions/topical-vitamin-c.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.4085/1062-6050-0528.19": {
+    "doi": "10.4085/1062-6050-0528.19",
+    "pmid": "32991706",
+    "citation": "Duignan C, Doherty C, Caulfield B, Blake C. “Single-Item Self-Report Measures of Team-Sport Athlete Wellbeing and Their Relationship With Training Load: A Systematic Review.” *Journal of Athletic Training* (2020). [systematic review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/32991706/) · [DOI](https://doi.org/10.4085/1062-6050-0528.19)",
+    "pages": [
+      "hypotheses/performance-gated-recovery-progression.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.5935/1518-0557.20250012": {
+    "doi": "10.5935/1518-0557.20250012",
+    "pmid": "40674550",
+    "citation": "González-Comadran M, Alwane Olmos E, Agüero Mariño MA, Checa Vizcaíno MA. “Utility of GnRH Agonists before embryo transfer in women with adenomyosis: Systematic review and meta-analysis.” *JBRA Assisted Reproduction* (2025). [systematic review and meta-analysis]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/40674550/) · [DOI](https://doi.org/10.5935/1518-0557.20250012)",
+    "pages": [
+      "concepts/reproductive-health/adenomyosis.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.7717/peerj.10663": {
+    "doi": "10.7717/peerj.10663",
+    "pmid": "33520457",
+    "citation": "Larsen S, Kristiansen E, van den Tillaar R. “Effects of subjective and objective autoregulation methods for intensity and volume on enhancing maximal strength during resistance-training interventions: a systematic review.” *PeerJ* (2021). [systematic review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/33520457/) · [DOI](https://doi.org/10.7717/peerj.10663)",
+    "pages": [
+      "hypotheses/performance-gated-recovery-progression.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "doi:10.7759/cureus.65961": {
+    "doi": "10.7759/cureus.65961",
+    "pmid": null,
+    "citation": "Wen Y, et al. “Nicotinamide Mononucleotide Supplementation and Physical Performance.” *Cureus*, 2024. [systematic review]. [doi:10.7759/cureus.65961](https://doi.org/10.7759/cureus.65961)",
+    "pages": [
+      "debates/nad-precursors-and-healthy-aging.md",
+      "interventions/nad-supplementation.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "pmid:1550366": {
+    "doi": null,
+    "pmid": "1550366",
+    "citation": "Griffiths CEM, Wang TS, Hamilton TA, Voorhees JJ, Ellis CN. “A Photonumeric Scale for the Assessment of Cutaneous Photodamage.” *Archives of Dermatology*, 1992. [measurement validation study]. [PubMed PMID: 1550366](https://pubmed.ncbi.nlm.nih.gov/1550366/)",
+    "pages": [
+      "concepts/skin-and-hair/visible-aging-outcomes-and-evidence.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "pmid:16029679": {
+    "doi": null,
+    "pmid": "16029679",
+    "citation": "Bissett DL, Oblong JE, Berge CA. “Niacinamide: A B Vitamin That Improves Aging Facial Skin Appearance.” *Dermatologic Surgery*, 2005. [manufacturer-authored randomized double-blind split-face controlled trial]. [PubMed PMID: 16029679](https://pubmed.ncbi.nlm.nih.gov/16029679/)",
+    "pages": [
+      "concepts/skin-and-hair/topical-visible-aging-interventions.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "pmid:21102320": {
+    "doi": null,
+    "pmid": "21102320",
+    "citation": "Shammas MA. “Telomeres, lifestyle, cancer, and aging.” *Current Opinion in Clinical Nutrition and Metabolic Care*, 2011. [narrative mechanistic review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21102320/)",
+    "pages": [
+      "concepts/aging-biology/telomere-biology.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "pmid:23732711": {
+    "doi": null,
+    "pmid": "23732711",
+    "citation": "Hughes MCB, Williams GM, Baker P, Green AC. “Sunscreen and Prevention of Skin Aging: A Randomized Trial.” *Annals of Internal Medicine*, 2013. [community randomized controlled trial]. [PubMed PMID: 23732711](https://pubmed.ncbi.nlm.nih.gov/23732711/)",
+    "pages": [
+      "concepts/skin-and-hair/topical-visible-aging-interventions.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "pmid:24531378": {
+    "doi": null,
+    "pmid": "24531378",
+    "citation": "Cosgrove BD, Gilbert PM, Porpiglia E, et al. “Rejuvenation of the muscle stem cell population restores strength to injured aged muscles.” *Nature Medicine*, 2014. [mouse cell-culture and transplantation experiment]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/24531378/)",
+    "pages": [
+      "concepts/aging-biology/stem-cell-exhaustion.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "pmid:33840310": {
+    "doi": null,
+    "pmid": "33840310",
+    "citation": "Vraga EK, Bode L. “The Effects of a News Literacy Video and Real-Time Corrections to Video Misinformation Related to Sunscreen and Skin Cancer.” *Health Communication*. 2021. [randomized online experiment]. [PubMed PMID: 33840310](https://pubmed.ncbi.nlm.nih.gov/33840310/)",
+    "pages": [
+      "concepts/environment-and-society/health-misinformation-and-media-incentives.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "pmid:34830368": {
+    "doi": null,
+    "pmid": "34830368",
+    "citation": "Lee H, Hong Y, Kim M. “Structural and Functional Changes and Possible Molecular Mechanisms in Aged Skin.” *International Journal of Molecular Sciences*, 2021. [narrative review]. [PubMed PMID: 34830368](https://pubmed.ncbi.nlm.nih.gov/34830368/)",
+    "pages": [
+      "concepts/skin-and-hair/visible-skin-and-facial-aging.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "pmid:34980969": {
+    "doi": null,
+    "pmid": "34980969",
+    "citation": "Spierings NMK. “Evidence for the Efficacy of Over-the-Counter Topical Vitamin A Cosmetic Products in the Improvement of Facial Skin Aging: A Systematic Review.” *Journal of Clinical and Aesthetic Dermatology*, 2021. [systematic review of randomized vehicle-controlled trials]. [PubMed PMID: 34980969](https://pubmed.ncbi.nlm.nih.gov/34980969/)",
+    "pages": [
+      "concepts/skin-and-hair/topical-visible-aging-interventions.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "pmid:35029144": {
+    "doi": null,
+    "pmid": "35029144",
+    "citation": "Belsky DW, Caspi A, Corcoran DL, et al. “DunedinPACE, a DNA methylation biomarker of the pace of aging.” *eLife*, 2022. [longitudinal human biomarker development and validation study]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35029144/)",
+    "pages": [
+      "concepts/aging-biology/epigenetic-alterations-and-reprogramming.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "pmid:35235716": {
+    "doi": null,
+    "pmid": "35235716",
+    "citation": "Chondronasiou D, Gill D, Mosteiro L, et al. “Multi-omic rejuvenation of naturally aged tissues by a single cycle of transient reprogramming.” *Aging Cell*, 2022. [transgenic mouse experiment]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35235716/)",
+    "pages": [
+      "concepts/aging-biology/epigenetic-alterations-and-reprogramming.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "pmid:36599349": {
+    "doi": null,
+    "pmid": "36599349",
+    "citation": "López-Otín C, Blasco MA, Partridge L, Serrano M, Kroemer G. “Hallmarks of Aging: An Expanding Universe.” *Cell*, 2023. [expert narrative review and framework]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/36599349/)",
+    "pages": [
+      "concepts/aging-biology/epigenetic-alterations-and-reprogramming.md",
+      "concepts/aging-biology/stem-cell-exhaustion.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "pmid:36871150": {
+    "doi": null,
+    "pmid": "36871150",
+    "citation": "Gill D, Parry A, Santos F. “Epigenetic rejuvenation by partial reprogramming.” *Aging Cell*, 2023. [narrative review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/36871150/)",
+    "pages": [
+      "concepts/aging-biology/epigenetic-alterations-and-reprogramming.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "pmid:38515302": {
+    "doi": null,
+    "pmid": "38515302",
+    "citation": "Casado-Espada NM, et al. “Hormonal Contraceptives, Female Sexual Dysfunction, and Managing Strategies.” 2024. [narrative review]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/38515302/)",
+    "pages": [
+      "interventions/hormonal-contraception.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  },
+  "pmid:39666211": {
+    "doi": null,
+    "pmid": "39666211",
+    "citation": "Cozzolino M, et al. “Medical treatment before in-vitro fertilization in patients with adenomyosis: a systematic review and meta-analysis.” (2024). [systematic review and meta-analysis]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/39666211/)",
+    "pages": [
+      "concepts/reproductive-health/adenomyosis.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "pmid:41924746": {
+    "doi": null,
+    "pmid": "41924746",
+    "citation": "Nukaly HY, et al. “Oral and Topical Peptides for Skin Aging: Systematic Review and Meta-analysis of Randomized Controlled Trials.” *Frontiers in Medicine*, 2026. [systematic review and meta-analysis of RCTs]. [PubMed PMID: 41924746](https://pubmed.ncbi.nlm.nih.gov/41924746/)",
+    "pages": [
+      "concepts/skin-and-hair/topical-visible-aging-interventions.md"
+    ],
+    "status": "unresolved",
+    "checked": "2026-09-01"
+  },
+  "pmid:42530810": {
+    "doi": null,
+    "pmid": "42530810",
+    "citation": "“RENEWAL-NAD+: Oral NAD Pharmacokinetics and Pharmacodynamics.” 2026. [industry-supported phase 0/1b trial]. [PubMed](https://pubmed.ncbi.nlm.nih.gov/42530810/)",
+    "pages": [
+      "debates/nad-precursors-and-healthy-aging.md",
+      "interventions/nad-supplementation.md"
+    ],
+    "status": "unverified",
+    "checked": null
+  }
+}

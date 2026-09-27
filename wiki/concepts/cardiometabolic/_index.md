@@ -1,0 +1,6 @@
+# Cardiometabolic health
+
+- [[insulin-resistance]] — tissue-specific signaling failure, compensation, ectopic fat, measurement, and reversal levers
+- [[metabolic-drivers-of-pancreatic-cancer]] — hyperinsulinemia-driven acinar injury, glucose-driven proliferation and EMT, and cohort risk associations
+
+This section connects energy distribution, vascular biology, physical capacity, and clinical risk. Start with [[visceral-and-ectopic-fat]] and [[lipoprotein-retention-and-atherogenesis]], then connect those mechanisms to [[coronary-ct-angiography]], [[erectile-dysfunction-and-vascular-health]], and [[inflammaging-and-il-6]]. [[metabolic-liver-disease]] traces how caloric surplus, visceral fat, alcohol, and low muscle mass converge on the organ that both expresses and amplifies systemic metabolic dysfunction. [[blood-pressure-targets-and-frailty]] covers the second major modifiable arterial exposure and why its treatment target is individualized by frailty rather than age. [[cardiorespiratory-fitness]] and [[muscle-strength-and-mortality]] explain functional reserve, while [[nmr-blood-analysis]] illustrates the distinction between prediction and causation. [[endurance-exercise-and-coronary-atherosclerosis]] shows where those two threads collide: an imaging association at the extreme upper end of training volume, with the outcome question still open.

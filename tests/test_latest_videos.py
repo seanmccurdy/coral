@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 import youtube_latest
@@ -5,6 +6,11 @@ from youtube_latest import latest_videos
 
 FIXTURES = Path(__file__).parent / "fixtures"
 MKBHD_ID = "UCBJycsmduvYEL83R_U4JriQ"
+
+
+def test_http_identity_is_not_explicitly_bot_labeled():
+    assert "Mozilla/5.0" in youtube_latest._USER_AGENT
+    assert "bot" not in youtube_latest._USER_AGENT.lower()
 
 
 def route_fetch(monkeypatch, fail_feeds=(), no_uulf=(), empty_uulf=()):
@@ -135,3 +141,35 @@ def test_include_shorts_skips_uulf_and_uses_mixed_channel_feed(monkeypatch):
     titles = [r["title"] for r in results]
     assert titles == ["Newest Video", "Middle Video", "Oldest Video"]
     assert not any("playlist_id=UULF" in u for u in calls)
+
+
+def test_http_feed_failure_uses_ytdlp_fallback(monkeypatch):
+    page = (FIXTURES / "channel_page.html").read_text()
+
+    def fake_fetch(url):
+        if "feeds/videos.xml" in url:
+            raise youtube_latest.urllib.error.HTTPError(url, 404, "gone", {}, None)
+        return page
+
+    class Result:
+        returncode = 0
+        stderr = ""
+        stdout = json.dumps(
+            {
+                "id": "fallback001",
+                "title": "Fallback video",
+                "description": "description",
+                "webpage_url": "https://www.youtube.com/watch?v=fallback001",
+                "upload_date": "20260810",
+                "thumbnail": "thumb.jpg",
+                "view_count": 123,
+                "channel": "Fallback Channel",
+            }
+        )
+
+    monkeypatch.setattr(youtube_latest, "_fetch", fake_fetch)
+    monkeypatch.setattr(youtube_latest.subprocess, "run", lambda *a, **k: Result())
+    result = latest_videos(["@mkbhd"], n=1)[0]
+    assert result["video_id"] == "fallback001"
+    assert result["channel_name"] == "Fallback Channel"
+    assert result["published"].date().isoformat() == "2026-08-10"

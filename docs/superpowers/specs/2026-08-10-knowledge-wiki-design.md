@@ -74,7 +74,42 @@ failed runs re-process, nothing is silently dropped.
 ## The updater (`update_wiki.py`)
 
 One command: `uv run python update_wiki.py [--limit-videos N] [--dry-run]
-[--channels-only | --queries-only]`
+[--channels-only | --queries-only] [--videos-per-channel N]`
+
+An editorial refresh is available separately as `uv run python
+update_wiki.py --refresh-wiki`. It retrieves no videos and audits every
+existing page, restructuring accumulated material into subject-led textbook
+chapters while preserving cited knowledge, uncertainty, and disagreements.
+
+Evidence enrichment is a separate, web-enabled pass: `uv run python
+update_wiki.py --enrich-wiki --pages 3 [--engine codex]`. It reads the
+prioritized backlog in `wiki/_research-queue.md`, researches no more than the
+requested number of items, and adds or improves textbook chapters using an
+explicit evidence hierarchy. Episode links remain as provenance; underlying
+papers, guidelines, and consensus statements are cited as Markdown footnotes
+in each chapter's `References` section. Daily ingestion and evidence enrichment
+remain separate so a retrieval failure cannot interrupt research work and a
+research failure cannot incorrectly mark a video processed.
+`uv run python update_wiki.py --validate-wiki` performs a deterministic
+structural check that scholarly footnotes resolve, definitions are unique and
+used, and every reference carries an evidence-type label and a linked source.
+The daily ingestion job remains at 6:00 AM local time. A separate launchd job,
+`com.coral.wiki-enrich`, runs Sundays at 7:00 AM local time, enriches two queue
+items with Codex, and runs reference validation before reporting success.
+
+Concept chapters are grouped by primary teaching domain under ten nested
+folders, each with an `_index.md` reading path. Stem-based wikilinks remain
+stable across moves, and `--validate-wiki` detects unresolved links or duplicate
+stems. Evidence-review metadata distinguishes genuinely reviewed chapters from
+legacy pages (`evidence_reviewed: never`, `review_status: review-due`). A monthly
+audit on the first day at 8:00 AM checks stale or corrected evidence and
+reconciles materially affected synthesis pages.
+
+The writing engine defaults to `--engine auto`: Claude Code is attempted
+first and a failed operation is retried with non-interactive Codex in the
+workspace-write sandbox. `--engine claude` and `--engine codex` pin a single
+engine. State is committed only after the selected engine (or fallback)
+finishes successfully.
 
 1. **Retrieve**: `latest_videos_from_file("channels.txt", n=15,
    include_transcripts=True)` and `search_videos` over `queries.txt`
@@ -83,7 +118,9 @@ One command: `uv run python update_wiki.py [--limit-videos N] [--dry-run]
 2. **Diff**: drop videos already in `processed_videos`; drop videos with no
    transcript (retried next run, since None transcripts are never cached).
 3. **Stage**: write each new video to `staging/<video_id>.md` (frontmatter:
-   channel, title, published, url, views; body: transcript).
+   channel, title, published, url, views; body: video description followed by
+   transcript). Descriptions are retained because creators often list the
+   underlying papers, DOI links, and other source material there.
 4. **Integrate**: in batches of 3 videos, invoke headless Claude Code:
    `claude -p <prompt> --allowedTools Read Glob Grep Write Edit`
    (cwd = repo root). The prompt instructs it to read `_index.md` and
