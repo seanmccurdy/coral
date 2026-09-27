@@ -2,7 +2,7 @@
 type: concept
 title: Pre-sleep routines and stimulus control
 tags: [sleep-brain, longevity]
-updated: 2026-08-11
+updated: 2026-09-02
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -31,7 +31,7 @@ flowchart TD
   QUIET --> SLEEP
 ```
 
-Stimulus control becomes especially important when attempts to compensate for insomnia—going to bed early, remaining in bed while alert, or sleeping in irregularly—teach wakefulness in the sleep environment. The behavioral rule is to go to bed when sleepy, leave the bed during sustained wakefulness for a quiet activity in dim light, and return only when sleepy. This is one component of evidence-based insomnia treatment; it does not exclude apnea, circadian misalignment, medication effects, pain, or other causes of fragmented sleep. (@NutritionMadeSimple (Nutrition Made Simple!) — "The #1 WORST Sleep Mistake Destroying Your Heart", 2026-05-21, [link](https://www.youtube.com/watch?v=2BAX8mJ27gA)) [[sleep-quality-and-circadian-alignment]]
+Stimulus control becomes especially important when attempts to compensate for insomnia—going to bed early, remaining in bed while alert, or sleeping in irregularly—teach wakefulness in the sleep environment. The behavioral rule is to go to bed when sleepy, leave the bed during sustained wakefulness for a quiet activity in dim light, and return only when sleepy. This is one component of evidence-based insomnia treatment; it does not exclude apnea, circadian misalignment, medication effects, pain, or other causes of fragmented sleep. (@NutritionMadeSimple (Nutrition Made Simple!) — "The #1 WORST Sleep Mistake Destroying Your Heart", 2026-05-21, [link](https://www.youtube.com/watch?v=2BAX8mJ27gA)) [[sleep-quality-and-circadian-alignment]] For diagnosed chronic insomnia, stimulus control is delivered inside the full multi-component package — cognitive behavioral therapy for insomnia, which adds sleep-diary monitoring and a temporary sleep-restriction phase — with randomized evidence across twelve trials that the bundle resolves insomnia in a majority of treated patients ([[cognitive-behavioral-therapy-for-insomnia]]). (@Physionic (Physionic) — "Cure Insomnia: Use this Science backed Therapy", 2026-07-02, [link](https://www.youtube.com/watch?v=YOtHe5qQCe0))
 
 ## What the reading trial establishes
 
@@ -39,11 +39,16 @@ In a randomized trial of about 1,000 people, 42% assigned to read for 15–30 mi
 
 The hypothesis that reading works mainly by replacing phones and laptops is plausible but was not isolated. Meditation or breathing may provide comparable routines, but the trial did not compare them. The Hawthorne effect labels behavior change under observation, yet it is one of several explanations and cannot be measured here without a no-intervention comparator. (@NutritionMadeSimple (Nutrition Made Simple!) — "STOP Doing This Before Bed (1,000-Person Study)", 2026-07-03, [link](https://www.youtube.com/watch?v=bWXF65SZJps))
 
+## Cognitive offloading at lights-out
+
+A distinct failure mode of the wind-down is idea flooding: removing daytime stimulation releases a surge of plans and thoughts precisely at bedtime, and rehearsing them to avoid forgetting maintains arousal. The countermeasure is offloading — a paper notepad at the bedside for dumping every idea, chosen over a phone to avoid reintroducing the screen. Psychiatrist Sasha Hamdani, who attributes her own version of this pattern to ADHD (where a motivational reluctance to end the day compounds delayed melatonin onset), reports it moved her sleep onset roughly two hours earlier by removing the urgency of remembering. This is a single-clinician n-of-1, but it is mechanistically aligned with the stimulus-control principle of taking cognitive work out of the sleep context, and small trials of pre-sleep worry journaling and to-do-list writing point the same direction. (@maxlugavere (Max Lugavere) — "The ADHD Expert: The Best Natural Ways to Manage ADHD", 2026-08-26, [link](https://www.youtube.com/watch?v=1Q21PEDlNRk)) [[adhd-dysregulation-and-rejection-sensitivity]]
+
 ## Practical implications
 
 - **Nightly for at least one week: reserve 15–30 minutes for a repeatable, low-arousal, dim-light routine — moderate for the reading package, emerging for alternatives.** A paper book or dim e-reader is reasonable; meditation or breathing is plausible but not established here. Keep stimulating work and scrolling outside the routine. (@NutritionMadeSimple (Nutrition Made Simple!) — "STOP Doing This Before Bed (1,000-Person Study)", 2026-07-03, [link](https://www.youtube.com/watch?v=bWXF65SZJps))
 - **If experimenting with slow breathing: use about five comfortable minutes as part of the routine — emerging for the combined protocol.** Avoid forceful breathing and assess whether it actually improves arousal, sleep, and next-day function. (@drandygalpin (Andy Galpin) — "5 Tools for Reducing Chronic Stress in Your Body | Dr. Andy Galpin & Jill Miller", 2026-07-24, [link](https://www.youtube.com/watch?v=70Gi-IE21oM)) [[breathing-mechanics-and-state-regulation]]
 - **Daily: keep wake time reasonably consistent and obtain outdoor light within the first one to two hours after waking — moderate support in the source.** Treat this as circadian anchoring, not a guarantee that every sleep disorder will resolve. (@NutritionMadeSimple (Nutrition Made Simple!) — "STOP Doing This Before Bed (1,000-Person Study)", 2026-07-03, [link](https://www.youtube.com/watch?v=bWXF65SZJps))
+- **Nightly if racing thoughts delay sleep: write everything onto a bedside paper notepad before lights-out, and review it in the morning — investigational practice (n-of-1 plus mechanistic fit), low cost.** (@maxlugavere (Max Lugavere) — "The ADHD Expert: The Best Natural Ways to Manage ADHD", 2026-08-26, [link](https://www.youtube.com/watch?v=1Q21PEDlNRk))
 
 ## Gaps & open questions
 
@@ -54,4 +59,4 @@ The hypothesis that reading works mainly by replacing phones and laptops is plau
 
 ## Related
 
-[[sleep-quality-and-circadian-alignment]] · [[pre-sleep-protein-feeding]] · [[breathing-mechanics-and-state-regulation]] · [[neuromodulators-and-state-control]] · [[cognitive-reserve-and-brain-health]] · [[environmental-pollution-and-health]] · [[practice-playbook]] · [[aging-model]]
+[[sleep-quality-and-circadian-alignment]] · [[cognitive-behavioral-therapy-for-insomnia]] · [[adhd-dysregulation-and-rejection-sensitivity]] · [[pre-sleep-protein-feeding]] · [[breathing-mechanics-and-state-regulation]] · [[neuromodulators-and-state-control]] · [[cognitive-reserve-and-brain-health]] · [[environmental-pollution-and-health]] · [[practice-playbook]] · [[aging-model]]

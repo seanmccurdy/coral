@@ -2,7 +2,7 @@
 type: concept
 title: Ovarian aging and tissue cryopreservation
 tags: [hormones, longevity]
-updated: 2026-08-11
+updated: 2026-08-13
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -28,6 +28,10 @@ flowchart TD
 ## Reproductive-axis sensitivity is not a menopause clock
 
 Energy deficit, intensive training, illness, and psychological stress can suppress ovulation through hypothalamic signaling. That demonstrates that reproductive function responds to environment, but temporary hypothalamic suppression is not the same mechanism as depletion of ovarian reserve. Pearlman proposes lifestyle and metabolic optimization as ways to support a healthy transition and possibly avoid unusually early menopause in susceptible people; the interview does not quantify how much ordinary lifestyle change delays natural menopause. (@matt.kaeberlein (Healthspan Medicine) — "The Best Women’s Health Tips on the Planet with Dr. Jennifer Pearlman", 2026-03-20, [link](https://www.youtube.com/watch?v=b_LAI4oG0_w)) [[low-energy-availability-and-menstrual-function]]
+
+## What moves menopause timing
+
+Menopause timing cannot yet be deliberately delayed, but it can be accelerated, and the asymmetry is instructive: follicle attrition responds to insult more readily than to protection. Mary Claire Haver's summary of the exposure literature lists smoking; hysterectomy even with ovaries retained (about four years earlier — a consequence she notes was never part of her own surgical counseling); tubal ligation and other abdominal surgery or inflammatory processes; chemotherapy and radiation; and severe psychological trauma, with one study she describes reporting substantially earlier ovarian failure — on the order of nine years — in women with compounded childhood and intergenerational sexual-abuse trauma, presumably via chronic stress physiology. Ovulatory history matters at the margin (nulliparity means more lifetime ovulations and slightly earlier menopause). These are reported observational findings of mixed quality — surgical effects are better established than the trauma estimate — but the common thread is that systemic inflammation chips away at the follicle pool. On the delay side, anti-Müllerian-hormone-derivative pharmacology is in animal testing with encouraging early results and no human trials; no supplement is known to extend ovarian lifespan, and marketing that claims otherwise is a reliability signal against the seller. (@RenaMalikMD (Rena Malik, M.D.) — "Why Your Vagina Doesn't Get 'Loose' From Sex (Despite What Social Media Says)", 2026-07-24, [link](https://www.youtube.com/watch?v=DnbhB-6vy80))
 
 ## What ovarian tissue cryopreservation does
 
@@ -61,7 +65,9 @@ Endometrial-derived stem cells and rejuvenation of older ovarian tissue are stil
 - Does delaying endocrine menopause through grafts reproduce the health associations of naturally later menopause?
 - Can ovarian or endometrial tissues be rejuvenated safely without tumorigenesis or loss of function?
 - Can prediction models identify early menopause accurately enough to justify irreversible preventive surgery?
+- Through what mechanism does hysterectomy with ovarian conservation advance menopause, and can surgical technique mitigate it?
+- Do AMH-derivative drugs slow follicle loss safely in humans, and does pharmacologically delayed menopause carry the health associations of naturally later menopause?
 
 ## Related
 
-[[oocyte-aneuploidy-and-reproductive-aging]] · [[perimenopause-assessment-and-testing]] · [[menopause-hormone-therapy]] · [[low-energy-availability-and-menstrual-function]] · [[jennifer-pearlman]] · [[aging-model]]
+[[oocyte-aneuploidy-and-reproductive-aging]] · [[perimenopause-assessment-and-testing]] · [[menopause-hormone-therapy]] · [[genitourinary-syndrome-of-menopause]] · [[low-energy-availability-and-menstrual-function]] · [[jennifer-pearlman]] · [[aging-model]]

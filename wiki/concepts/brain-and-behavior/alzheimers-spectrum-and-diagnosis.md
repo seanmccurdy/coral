@@ -2,7 +2,7 @@
 type: concept
 title: Alzheimer's disease spectrum and diagnosis
 tags: [longevity, sleep-brain, hormones]
-updated: 2026-08-11
+updated: 2026-09-02
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -60,6 +60,8 @@ Difficulty retrieving proper names is common and usually benign: names are arbit
 
 Even before disease-modifying drugs, care followed an HIV-style cocktail model: cholinesterase inhibitors (donepezil, galantamine), memantine (an NMDA-receptor antagonist framed as improving neural signal-to-noise and possibly limiting apoptosis), antiviral suppression (valacyclovir) in selected patients, immune-modifying treatment when indicated, aggressive comorbidity control, ventriculoperitoneal shunting for hydrocephalus, and off-label neuronavigated transcranial magnetic stimulation (used since 2008; targets include dorsolateral prefrontal cortex, Broca's area, precuneus, and Wernicke's area) to maintain circuit function regardless of pathology source, with particular reported benefit for language. Anti-amyloid monoclonal antibodies now add a disease-modifying layer: see [[anti-amyloid-immunotherapy]]. Devi's own headline belief change after three decades in the field: "I never thought that patients with Alzheimer's could get better. Ever." — she now believes, on biomarker-confirmed cases, that they can. (Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
 
+A stronger causal reframing than the vascular-and-comorbidity view above is the immunometabolic convergence thesis — that disrupted metabolism acting on microglia is the shared upstream event across neurodegenerative disease, with midlife metabolic dysfunction (diabetes carrying a roughly two-to-three-fold Alzheimer's risk in the account given) sowing the seeds decades before symptoms. That model, its evidence, and its limits are treated at [[microglia-and-neuroinflammation]]; it competes with rather than replaces the amyloid-and-tau framework on this page. (@maxlugavere (Max Lugavere) — "What to Eat to BEAT Alzheimer's - Dr. David Perlmutter", 2026-08-19, [link](https://www.youtube.com/watch?v=HiL3Phwl2d0))
+
 ## Practical implications
 
 - **Ongoing, from midlife: treat hypertension, dyslipidemia, insulin resistance, and obesity as brain interventions — strong for vascular risk, moderate for Alzheimer's specifically.** Anything good for the heart is presented as good for the brain regardless of pathology. (Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
@@ -78,4 +80,4 @@ Even before disease-modifying drugs, care followed an HIV-style cocktail model: 
 
 ## Related
 
-[[alzheimers-diagnosis-biological-vs-clinical]] · [[anti-amyloid-immunotherapy]] · [[lewy-body-disease-and-synucleinopathies]] · [[menopause-related-cognitive-impairment]] · [[cognitive-reserve-and-brain-health]] · [[gayatri-devi]] · [[inflammaging-and-il-6]] · [[proactive-health-monitoring]] · [[glp-1-receptor-agonists]] · [[aging-model]] · [[practice-playbook]]
+[[alzheimers-diagnosis-biological-vs-clinical]] · [[anti-amyloid-immunotherapy]] · [[microglia-and-neuroinflammation]] · [[lewy-body-disease-and-synucleinopathies]] · [[menopause-related-cognitive-impairment]] · [[cognitive-reserve-and-brain-health]] · [[gayatri-devi]] · [[inflammaging-and-il-6]] · [[proactive-health-monitoring]] · [[glp-1-receptor-agonists]] · [[glucosamine]] · [[aging-model]] · [[practice-playbook]]

@@ -2,7 +2,7 @@
 type: concept
 title: Male fertility and exogenous testosterone
 tags: [hormones]
-updated: 2026-08-11
+updated: 2026-08-17
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -30,7 +30,11 @@ Exogenous testosterone can raise circulating testosterone while lowering the muc
 
 Symptoms attributed to low testosterone—fatigue, low libido, mood change, and sometimes ED—are nonspecific. A defensible diagnosis therefore combines compatible symptoms with properly timed repeated measurements and evaluation for causes or mimics. The transcript describes checking LH, FSH, prolactin, estradiol, and blood count in context and monitoring erythrocytosis and estrogen-related effects during treatment. Its clinician supports time-limited therapeutic trials in selected symptomatic men within the broad laboratory reference range, with discontinuation when symptoms do not improve; this is a distinctive clinical position rather than evidence that higher-normal values benefit all men. (@RenaMalikMD (Rena Malik, M.D.) — "A Birth Control Gel for Men Could Be Approved Soon (Would You Actually Trust It?)", 2026-08-07, [link](https://www.youtube.com/watch?v=Z0yWylSfND8))
 
+The same boundary is reinforced by a later expert panel: physiological replacement requires symptoms plus low measurements, whereas an asymptomatic low value or a robustly normal level is not itself an indication. The panel emphasizes fertility counseling before TRT and distinguishes monitored replacement from supraphysiological anabolic exposure; its more permissive views about borderline thresholds and temporary treatment to enable lifestyle change remain clinician positions rather than settled selection criteria. (@RenaMalikMD (Rena Malik, M.D.) — "Think Low Testosterone Is Ruining Your Life? Watch This Before Starting TRT", 2026-07-17, [link](https://www.youtube.com/watch?v=8KcBB_1sHwE)) [[testosterone-replacement-therapy]]
+
 Selective estrogen-receptor modulators such as clomiphene or enclomiphene can increase endogenous LH and FSH and may raise testosterone while preserving or increasing sperm production. The transcript notes that enclomiphene was not FDA-approved and was being compounded; mechanistic plausibility and laboratory response do not remove product-quality, long-term-outcome, or indication-specific uncertainties. Gonadotropin regimens are another specialist option, especially when sperm production is the treatment target. (@RenaMalikMD (Rena Malik, M.D.) — "A Birth Control Gel for Men Could Be Approved Soon (Would You Actually Trust It?)", 2026-08-07, [link](https://www.youtube.com/watch?v=Z0yWylSfND8))
+
+A symptomatic caveat now accompanies that fertility advantage: two clinicians independently report that men on clomiphene often normalize serum testosterone yet remain dissatisfied symptomatically, responding far better to exogenous testosterone — possibly because clomiphene's central estrogen-receptor blockade deprives the brain of estradiol/androgen signaling even as peripheral numbers rise. They regard hCG, which stimulates the testis peripherally without a central block, as the better fertility-preserving route when injections, cost, and product fragility are acceptable. This laboratory–symptom mismatch is convergent clinical experience, not trial evidence, and does not overturn clomiphene's fertility rationale. ([[testosterone-replacement-therapy]]) (@PeterAttiaMD (Peter Attia MD) — "404 ‒ Mental health beyond neurotransmitters: hormones in psychiatry, psychedelic therapies, & more", 2026-08-17, [link](https://www.youtube.com/watch?v=fs89fhQCfj4))
 
 The source also raises possible fertility effects from five-alpha-reductase inhibitors, cannabis, smoking, and other medicines, while emphasizing that reproductive effects are poorly characterized for many approved drugs. Its discussion of persistent post-finasteride sexual symptoms presents a minority clinical concern with uncertain mechanism and incompletely characterized incidence; it should prompt informed monitoring, not a claim that persistent dysfunction is common or proven in every case. (@RenaMalikMD (Rena Malik, M.D.) — "A Birth Control Gel for Men Could Be Approved Soon (Would You Actually Trust It?)", 2026-08-07, [link](https://www.youtube.com/watch?v=Z0yWylSfND8))
 
@@ -49,4 +53,4 @@ The source also raises possible fertility effects from five-alpha-reductase inhi
 
 ## Related
 
-[[male-contraception]] · [[erectile-dysfunction-and-vascular-health]] · [[hair-loss-diagnosis-and-scalp-health]] · [[practice-playbook]]
+[[male-contraception]] · [[testosterone-replacement-therapy]] · [[erectile-dysfunction-and-vascular-health]] · [[hair-loss-diagnosis-and-scalp-health]] · [[practice-playbook]]

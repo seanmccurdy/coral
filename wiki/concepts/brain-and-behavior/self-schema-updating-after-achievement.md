@@ -2,7 +2,7 @@
 type: concept
 title: Self-schema updating after achievement
 tags: [sleep-brain, fitness]
-updated: 2026-08-11
+updated: 2026-08-25
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -33,6 +33,8 @@ Mike Israetel proposes two reinforcing mechanisms. First, many years of earlier 
 
 Negative self-talk can also be protected by a control belief: the person fears that self-criticism is what prevents regression. Yet the same critical voice may have been present before improvement, so coexistence does not show that it caused achievement. A more testable model asks whether criticism improves adherence and performance relative to specific planning, accurate feedback, and supportive accountability—and whether its costs include anxiety, avoidance, inability to savor progress, or burnout. (@MikeIsraetelMakingProgress (Mike Israetel) — "Why Success Still Feels Like Failure | Episode #159", 2026-07-30, [link](https://www.youtube.com/watch?v=lUwPaKZqId8))
 
+A third mechanism, from Arthur Brooks, is developmental: a child who receives adult attention and affection contingent on performance can encode the belief that love is earned by achievement, which in adulthood manifests as success addiction — compulsive chasing of wins organized, in his account, around the fear that stopping means no longer being loved. He reports this pattern in himself and treats it as the usual origin of dominant fame or power motives. This is a clinically resonant hypothesis from self-observation and practice, not longitudinal evidence; contingent-self-worth research provides adjacent but not confirmatory support. The same framework explains why arrival at a goal fails to update the schema: reward systems are tuned to progress, so attainment produces a brief payoff and then a return of the deficit feeling — his striver's curse, including the attributed (uncited) claim of frequent post-victory depression in Olympic medalists — which the schema then reads as further proof of insufficiency rather than as ordinary hedonic dynamics ([[durable-well-being-and-hedonic-adaptation]]). (FoundMyFitness — "How To Build Lasting Happiness | Dr. Arthur Brooks", 2026-03-24, [link](https://www.youtube.com/watch?v=IVVVvbfRiDo))
+
 This produces a real distinction rather than a contradiction: negative valence does not automatically make a thought dysfunctional. Wiersma’s functional criterion retains accurate corrective self-talk when it improves action and rejects both harsh global attacks and implausible positive claims when they do not. The contested practical question is therefore whether a given style supplies usable feedback or preserves shame and threat; the available transcripts offer frameworks but no head-to-head outcome evidence. (@drandygalpin (Andy Galpin) — "Tool for Reducing Negative Self-Talk | Dr. Andy Galpin &  Dr. Lenny Wiersma", 2026-07-17, [link](https://www.youtube.com/watch?v=Fr97nAnACMU))
 
 ## Updating requires credible counterevidence
@@ -56,7 +58,8 @@ Credibility matters. A statement such as having completed three planned training
 - Does reducing negative self-talk preserve motivation when paired with concrete planning and accountability?
 - What cadence and duration of evidence logging, savoring, or imagery produces durable generalization?
 - Do self-perception gains transfer across body image, academic competence, relationships, and work, or remain domain-specific?
+- Does achievement-contingent parental attention in childhood predict adult success addiction and post-achievement dysphoria prospectively, or is the link retrospective narrative?
 
 ## Related
 
-[[durable-well-being-and-hedonic-adaptation]] · [[mental-strength-and-behavioral-skills]] · [[social-evaluative-threat-and-criticism]] · [[stress-threat-discrimination]] · [[practice-playbook]]
+[[durable-well-being-and-hedonic-adaptation]] · [[mental-strength-and-behavioral-skills]] · [[social-evaluative-threat-and-criticism]] · [[stress-threat-discrimination]] · [[arthur-brooks]] · [[practice-playbook]]

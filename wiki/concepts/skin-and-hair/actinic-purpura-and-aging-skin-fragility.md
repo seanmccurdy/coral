@@ -2,7 +2,7 @@
 type: concept
 title: Actinic purpura and aging skin fragility
 tags: [skincare, longevity]
-updated: 2026-08-12
+updated: 2026-09-01
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -43,7 +43,7 @@ Skin fragility matters beyond appearance. Delayed closure after a tear, biopsy, 
 
 Reducing future ultraviolet dose is foundational because it acts upstream of continued matrix damage. Broad-spectrum sunscreen must cover the backs of the hands and be restored after washing or rubbing; clothing or UPF gloves can provide more durable protection during prolonged driving or outdoor exposure. Side windows may block much UVB while transmitting clinically relevant UVA, so absence of sunburn inside a vehicle does not imply absence of collagen-damaging exposure. [[photoprotection]] (@DrDrayzday (Dr Dray) — "Why Do My Hands Bruise So Easily? Dermatologist Explains", 2026-08-06, [link](https://www.youtube.com/watch?v=0o0bMXOL-Lo))
 
-Moisturizers improve surface hydration, flexibility, and friction tolerance but do not rebuild deep collagen or reverse DNA damage. Petrolatum strongly limits water loss and irritant entry; glycerin, urea, and ceramide-containing products can support hydration and barrier function. A source-cited small evidence base suggests that 12% ammonium lactate used twice daily can increase dermal as well as epidermal thickness, but the clinical magnitude and direct effect on bruising are less certain than its hydration and texture effects. [[skin-barrier-and-moisturization]] (@DrDrayzday (Dr Dray) — "Why Do My Hands Bruise So Easily? Dermatologist Explains", 2026-08-06, [link](https://www.youtube.com/watch?v=0o0bMXOL-Lo))
+Moisturizers improve surface hydration, flexibility, and friction tolerance but do not rebuild deep collagen or reverse DNA damage. Petrolatum strongly limits water loss and irritant entry; glycerin, urea, and ceramide-containing products can support hydration and barrier function. A source-cited small evidence base suggests that 12% ammonium lactate used twice daily can increase dermal as well as epidermal thickness, but the clinical magnitude and direct effect on bruising are less certain than its hydration and texture effects. [[skin-barrier-and-moisturization]] The supporting studies — a 16-week facial comparison in which 12% but not 5% lactic acid thickened the dermis on biopsy, and a trial in which 12% ammonium lactate mitigated clobetasol-induced epidermal and dermal atrophy — are developed with the class's exposure logic at [[alpha-hydroxy-acids]], where dorsal-hand fragility is named as a population in which this affordable at-home option could matter beyond cosmetics. (@DrDrayzday (Dr Dray) — "Amlactin vs. Glycolic Acid: Which Is Better for Anti-Aging?", 2026-08-31, [link](https://www.youtube.com/watch?v=pnlFKtIQSNE)) (@DrDrayzday (Dr Dray) — "Why Do My Hands Bruise So Easily? Dermatologist Explains", 2026-08-06, [link](https://www.youtube.com/watch?v=0o0bMXOL-Lo))
 
 Tretinoin has the longest evidence history among topical retinoids for photoaged skin and may gradually increase collagen, thicken skin, lighten photodamage-associated discoloration, and reduce formation of actinic keratoses; other prescription retinoids and over-the-counter adapalene act through related pathways, while cosmetic retinol and retinaldehyde have less direct treatment evidence. Properly formulated ascorbic acid is a plausible antioxidant and collagen-support adjunct, but formulation quality is decisive and its incremental benefit is less certain. [[topical-retinoids]] (@DrDrayzday (Dr Dray) — "Why Do My Hands Bruise So Easily? Dermatologist Explains", 2026-08-06, [link](https://www.youtube.com/watch?v=0o0bMXOL-Lo))
 
@@ -64,4 +64,4 @@ Procedures address different targets rather than offering a single reversal. Fra
 
 ## Related
 
-[[photoprotection]] · [[skin-barrier-and-moisturization]] · [[topical-retinoids]] · [[procedural-skin-remodeling]] · [[extracellular-matrix-aging]] · [[dr-dray]] · [[practice-playbook]]
+[[photoprotection]] · [[skin-barrier-and-moisturization]] · [[topical-retinoids]] · [[alpha-hydroxy-acids]] · [[procedural-skin-remodeling]] · [[extracellular-matrix-aging]] · [[dr-dray]] · [[practice-playbook]]

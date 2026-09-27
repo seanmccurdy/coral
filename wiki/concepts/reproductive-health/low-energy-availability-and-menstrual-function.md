@@ -2,7 +2,7 @@
 type: concept
 title: Low energy availability and menstrual function
 tags: [fitness, hormones, nutrition, longevity]
-updated: 2026-08-11
+updated: 2026-08-24
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -36,6 +36,12 @@ Energy scarcity shifts resources away from reproduction and tissue building. Dur
 
 Under-fueling need not look like an eating disorder. Training can blunt hunger, gastrointestinal symptoms may discourage food near exercise, and young athletes may lack time between early practice and class. Smith-Ryan's practical response is to treat food as performance and recovery substrate: plan intake rather than relying exclusively on hunger, use energy-dense foods when volume is hard to tolerate, and retain carbohydrate rather than replacing it with a protein-only diet. (@PeterAttiaMD (Peter Attia MD) — "378 ‒ Women’s health & performance: how training, nutrition, & hormones interact across life stages", 2026-01-05, [link](https://www.youtube.com/watch?v=CDsH60jt34o))
 
+## Healthy versus problematic low energy availability
+
+A deliberate energy deficit necessarily produces a degree of low energy availability, and the early phase typically feels good — less gastrointestinal distension, lighter training, visible progress. Performance coach Dan Garner's operational distinction is between this expected state and problematic low energy availability, which he identifies by a characteristic sequence of marker decline: leptin and insulin fall first, then testosterone and thyroid (T3), with white-blood-cell and immune markers deteriorating last. His monitoring protocol during a planned deficit: baseline blood work at the start; a mid-diet check where benign LEA is expected and cross-checked against subjective signals (training performance, recovery, sleep, gastrointestinal symptoms); and, when labs and symptoms together show problematic LEA, a two-week return to maintenance calories rather than pushing through. Without blood access, the validated LEAF-Q and LEAM-Q questionnaires (females and males respectively) substitute, with menstrual-cycle status the key signal in women. One differential he emphasizes: feeling terrible in the first week of a modest deficit is not LEA — the adaptation has not had time to occur — and points instead to something pre-existing in the blood, such as iron deficiency. The marker-sequence and two-week-break protocol are coaching practice with mechanistic coherence, not trial-validated thresholds. (@drandygalpin (Andy Galpin) — "How to Reach Your Fitness Goals (Hard-to-Grow Muscles, Lose Fat, Busy Schedule & More) | Dan Garner", 2026-08-19, [link](https://www.youtube.com/watch?v=-M50mes3nig))
+
+The same logic makes a maintenance diet break restorative rather than a setback: glycogen refills, cortisol and water retention fall, training performance and sleep improve, and body composition often continues to improve through the break; Garner structures long fat-loss phases around it deliberately (details in [[energy-balance-and-calorie-counting]]). Low testosterone in dieting or hard-training men most often traces to the same triad — low energy availability, poor sleep, stress — and is answered with calories and recovery before any hormonal intervention ([[blood-marker-variability-and-reference-change]]). (@drandygalpin (Andy Galpin) — "How to Reach Your Fitness Goals (Hard-to-Grow Muscles, Lose Fat, Busy Schedule & More) | Dan Garner", 2026-08-19, [link](https://www.youtube.com/watch?v=-M50mes3nig))
+
 ## GLP-1 therapy and diagnostic confusion
 
 Appetite-suppressing therapy can reproduce the upstream energy deficit while weight loss also removes lean and bone mass. Resistance training and sufficiently protein-dense meals are proposed safeguards, but they cannot guarantee tissue preservation if total energy remains too low. A crucial differential diagnosis follows: fatigue, cycle disruption, and low estrogen or progesterone during midlife may reflect low intake, the menopausal transition, or both. Assuming every symptom is ovarian aging can miss a modifiable energy deficit; assuming it is only under-fueling can miss clinically important menopause care. (@PeterAttiaMD (Peter Attia MD) — "378 ‒ Women’s health & performance: how training, nutrition, & hormones interact across life stages", 2026-01-05, [link](https://www.youtube.com/watch?v=CDsH60jt34o))
@@ -57,4 +63,4 @@ Appetite-suppressing therapy can reproduce the upstream energy deficit while wei
 
 ## Related
 
-[[womens-exercise-across-the-lifespan]] · [[performance-nutrition-and-hydration]] · [[youth-resistance-training]] · [[glp-1-receptor-agonists]] · [[perimenopause-assessment-and-testing]] · [[resistance-training]] · [[aging-model]] · [[practice-playbook]]
+[[womens-exercise-across-the-lifespan]] · [[performance-nutrition-and-hydration]] · [[energy-balance-and-calorie-counting]] · [[blood-marker-variability-and-reference-change]] · [[dan-garner]] · [[youth-resistance-training]] · [[glp-1-receptor-agonists]] · [[perimenopause-assessment-and-testing]] · [[resistance-training]] · [[aging-model]] · [[practice-playbook]]

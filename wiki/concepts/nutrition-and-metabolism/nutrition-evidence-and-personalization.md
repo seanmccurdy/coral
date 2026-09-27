@@ -2,7 +2,7 @@
 type: concept
 title: Nutrition evidence and personalization
 tags: [nutrition, longevity]
-updated: 2026-08-11
+updated: 2026-09-03
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -157,4 +157,4 @@ Ultra-processed food illustrates addition and displacement simultaneously: addit
 
 ## Related
 
-[[visceral-and-ectopic-fat]] · [[dietary-fiber]] · [[free-sugars-and-glycemic-response]] · [[food-label-literacy-and-health-halos]] · [[food-patterns-and-gut-ecology]] · [[evolutionary-mismatch-and-weight-regulation]] · [[resistant-starch]] · [[olive-oil-and-cognitive-aging]] · [[omega-3-fatty-acids]] · [[supplement-evidence-and-safety]] · [[nattokinase]] · [[caloric-restriction-and-meal-timing]] · [[ketogenic-diet-apob-and-atherosclerosis]] · [[performance-nutrition-and-hydration]] · [[muscle-strength-and-mortality]] · [[microplastics-exposure-and-measurement]] · [[colorectal-cancer-prevention-and-screening]] · [[practice-playbook]] · [[dr-dray]]
+[[visceral-and-ectopic-fat]] · [[dietary-fiber]] · [[dietary-protein-and-cardiovascular-risk]] · [[free-sugars-and-glycemic-response]] · [[food-label-literacy-and-health-halos]] · [[food-patterns-and-gut-ecology]] · [[evolutionary-mismatch-and-weight-regulation]] · [[resistant-starch]] · [[olive-oil-and-cognitive-aging]] · [[omega-3-fatty-acids]] · [[supplement-evidence-and-safety]] · [[nattokinase]] · [[caloric-restriction-and-meal-timing]] · [[ketogenic-diet-apob-and-atherosclerosis]] · [[performance-nutrition-and-hydration]] · [[muscle-strength-and-mortality]] · [[microplastics-exposure-and-measurement]] · [[colorectal-cancer-prevention-and-screening]] · [[practice-playbook]] · [[dr-dray]]

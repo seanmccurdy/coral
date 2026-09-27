@@ -2,10 +2,10 @@
 type: intervention
 title: Caloric restriction and meal timing
 tags: [longevity, nutrition]
-updated: 2026-08-11
+updated: 2026-09-02
 evidence_reviewed: 2026-08-12
 evidence_cutoff: 2026-08-12
-review_status: current
+review_status: under-review
 review_interval: 180d
 ---
 
@@ -35,6 +35,8 @@ In mouse studies, time restriction produces little or no lifespan benefit when c
 
 Earlier calorie distribution may produce a small metabolic advantage over otherwise comparable late eating, but the effect is inconsistent and much smaller than food quality and total energy intake. A six-hour morning eating window ending before noon is therefore an optional lifestyle arrangement, not an evidence-based requirement for longevity. The same source cautions that further restriction in an already lean, physically active person could trade speculative longevity benefit for loss of muscle, bone, or reproductive and endocrine function. (@NutritionMadeSimple (Nutrition Made Simple!) — "Bryan Johnson´s $2M Anti-AgingPlan, Fact-Checked", 2026-06-12, [link](https://www.youtube.com/watch?v=zqDW_Ouz1M0))
 
+On the recurring social-media claim that intermittent fasting is dangerous for women specifically: Tim Spector notes that the trial literature is dominated by young men, but reports that ZOE's Big IF community study — around 150,000 participants, roughly two-thirds women, using modest 12–14-hour overnight fasts — found about two-thirds of participants of both sexes reporting better mood, energy, and less bloating, with a third not benefiting, and no evidence of harm at non-extreme durations. This is a large, self-selected, non-blinded, self-report study by a commercial actor: good enough to undercut a categorical women-shouldn't-fast claim, not to establish benefit. Federica Amati adds the boundary condition that women subjected to diet culture can turn fasting into another restriction rule, where harm arises psychologically; Sarah Berry's position, drawing on ZOE's peri- and post-menopausal research (reporting altered food metabolism, hunger perception, and more exaggerated late-evening metabolic responses in postmenopausal women), is that fast *timing* matters more than duration — avoiding late-evening calories rather than policing a window's length, since eating late worsens next-day hunger and metabolic responses. These are consistent with, and add a population nuance to, the timing evidence above; the postmenopausal specifics are company-run research summarized in conversation. (@joinzoe (ZOE) — "Tim Spector: They're fooling you! The 3 nutrition scams he wants banned | Live Audience Q&A", 2026-06-25, [link](https://www.youtube.com/watch?v=g3J4phCrvvw))
+
 The mechanistic account most often offered for the animal lifespan result is a reallocation from production toward maintenance. Reducing energy intake slows metabolism, which plausibly lowers the rate at which endogenous damage is generated, and simultaneously shifts cells toward upregulated autophagy, lysosomal function, and repair systems that recycle existing material and clear damaged components. mTOR inhibition is treated as acting through the same growth-versus-maintenance tradeoff rather than a separate route. [[autophagy-and-lysosomal-quality-control]] [[mtor-and-rapamycin]] (@TheSheekeyScienceShow (The Sheekey Science Show) — "How Randomness Drives Aging - DNA Repair, Clocks & Rejuvenation (David Meyer)", 2025-07-04, [link](https://www.youtube.com/watch?v=Buj07nWt7o0))
 
 One molecular readout supports the reallocation account more specifically than a lifespan curve can. Calorie-restricted mice score younger not only on conventional aging clocks but on stochastic clocks built to measure accumulated dispersion — implying that the accumulated-noise quantity itself is modifiable, either through a reduced rate of damage introduction or an increased rate of correction. That is a mechanistically interesting result about what caloric restriction does to a molecular measure in mice; it is not human evidence, and it does not change what anyone should eat. [[stochastic-aging-and-molecular-noise]] (@TheSheekeyScienceShow (The Sheekey Science Show) — "How Randomness Drives Aging - DNA Repair, Clocks & Rejuvenation (David Meyer)", 2025-07-04, [link](https://www.youtube.com/watch?v=Buj07nWt7o0))
@@ -53,6 +55,7 @@ If timing is easy to change, place more energy earlier in the day and avoid rout
 - What restriction is sustainable without frailty or lean-mass loss across age groups?
 - How much of animal longevity benefit translates to humans?
 - Which earlier-eating effects remain after rigorous control of energy intake, sleep, and chronotype?
+- Do postmenopausal women show a genuinely larger penalty from late-evening eating, and does shifting intake earlier change weight, glycemic, or hunger outcomes for them in controlled designs?
 - Does the reduction in stochastic-clock age under caloric restriction reflect slower damage generation, faster correction, or both — and does anything comparable occur in humans?
 
 ## Related

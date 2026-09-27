@@ -2,7 +2,7 @@
 type: intervention
 title: Anti-amyloid immunotherapy
 tags: [longevity, sleep-brain]
-updated: 2026-08-12
+updated: 2026-09-02
 evidence_reviewed: 2026-08-12
 evidence_cutoff: 2026-08-12
 review_status: under-review
@@ -43,6 +43,8 @@ Aducanumab's approval was controversial and it was later discontinued commercial
 
 Individual dramatic responses and comparisons between treated and untreated relatives are anecdotes. They can generate hypotheses but cannot estimate treatment efficacy or identify a responder subgroup. (Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
 
+**Evidence conflicts.** Neurologist David Perlmutter cites a Cochrane review released in mid-2026 — reported as 17 studies, 20,342 participants, 18-month trials — whose characterization of anti-amyloid effectiveness he summarizes as trivial, alongside an approximately 25% risk of brain hemorrhage or swelling, and concludes the drug class does not work and functions mainly to expose patients to ARIA, atrophy, and roughly $40,000-per-year cost. The direction of this reading is compatible with the pivotal-trial numbers above (the debate is over clinical meaningfulness of −0.45 to −0.70 CDR-SB points, which this page already records as contested); the 25% figure is plausible only as any-ARIA incidence including asymptomatic radiographic findings, not as symptomatic hemorrhage, and the review's exact wording is unverified from the transcript. His position conflicts with Attia's area-under-the-curve defense recorded below and with the appropriate-use consensus that selected early-stage patients may reasonably choose treatment; both readings are preserved. (@maxlugavere (Max Lugavere) — "What to Eat to BEAT Alzheimer's - Dr. David Perlmutter", 2026-08-19, [link](https://www.youtube.com/watch?v=HiL3Phwl2d0)) [[david-perlmutter]] [[microglia-and-neuroinflammation]]
+
 Attia frames the underlying logic: like LDL-lowering and atherosclerosis, chronic-disease benefit is about time and area under the curve, so short trials late in disease may understate what early, sustained amyloid lowering could do—an alternative explanation to the drugs don't work, but one that remains unproven pending the low-slow-early trial nobody has yet funded. (Peter Attia MD — "399 - The evolution of Alzheimer's disease and dementia care | Gayatri Devi, M.D.", 2026-07-13, [link](https://www.youtube.com/watch?v=x7NhqMOwdOM))
 
 ## Investigational practice: slow titration and steroids
@@ -73,6 +75,7 @@ IVIG (pooled immunoglobulin, studied by Norman Relkin's group at Cornell) was ab
 - How much of the clinical-benefit shortfall reflects late treatment and trial-population misdiagnosis (~30% historically) versus a wrong or incomplete amyloid hypothesis?
 - Which patients account for dramatic responses (amyloid- and tau-negative after treatment), and can immune phenotype predict them?
 - Will neuroinflammation-targeted drugs outperform or complement amyloid clearance?
+- What does the 2026 Cochrane review actually conclude, verbatim, about effect size, ARIA composition, and certainty of evidence? The characterization above is second-hand and needs checking against the published review.
 
 ## References
 

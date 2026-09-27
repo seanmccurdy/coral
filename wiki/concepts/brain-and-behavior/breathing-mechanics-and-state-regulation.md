@@ -2,7 +2,7 @@
 type: concept
 title: Breathing mechanics and state regulation
 tags: [sleep-brain, fitness]
-updated: 2026-08-12
+updated: 2026-09-03
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -58,6 +58,10 @@ flowchart LR
 
 The described drill uses side-lying support with a soft, yielding ball under the lateral ribs and a pillow or block under the head. The person inhales to expand the rib cage, briefly holds and gently contracts, then exhales without recruiting the face and shoulders; after an ordinary exhale, additional gentle exhalation can explore rib recoil. Both sides are practiced. This may provide sensory feedback and an acute mobility experience, but assertions about baroreceptor stimulation, a vagal surge, costovertebral mobility, spinal rotation, or lasting correction remain mechanistic hypotheses in the available source. (@drandygalpin (Andy Galpin) — "3 Zones of Breathing: How to Improve Performance & Recovery | Dr. Andy Galpin & Jill Miller", 2026-07-29, [link](https://www.youtube.com/watch?v=I0muXgmTDBY))
 
+## Why a chosen breath calms: the safety-inference account
+
+Psychiatrist David Rabin supplies an evolutionary logic for why slow voluntary breathing down-regulates arousal at all. Under genuine acute danger, the sympathetic system does not permit leisurely attention to the breath; therefore the act of choosing a slow, deep breath is itself evidence the brain can use — a top-down signal that the environment no longer dictates breathing rate, so no predator-grade threat is present. On his account the loop closes quickly: within roughly three to six breath cycles (sometimes nine to twelve — one to two minutes) heart rate begins to slow and vagal activity rises in most people, redirecting blood flow from the skeletal-muscle-dominated fight-or-flight distribution back toward recovery. The numbers and the 80–90%-of-people claim are clinical teaching estimates, not trial data, and the blood-flow percentages are illustrative; but the practice itself matches the slow-breathing evidence summarized above, and the framing adds a usable instruction — no counting or technique is required beyond breathing slowly and deeply *by choice* and noticing the air move. Rabin also treats returning attention to the breath as portable attention training in its own right, the same muscle metaphor as mindfulness practice ([[meditation-and-contemplative-training]]). His companion claim that touch and familiar music reach the same vagal pathway is covered at [[emotion-regulation]]. (@maxlugavere (Max Lugavere) — "'You Are Not Your Thoughts!' How to Stop Negative Thoughts Instantly", 2026-07-08, [link](https://www.youtube.com/watch?v=vEY4oGH1x_0))
+
 ## HRV biofeedback and performance composure
 
 Heart-rate variability (HRV) is variation in the intervals between successive heartbeats, not simply a low heart rate. During slow breathing, heart rate ordinarily rises during inhalation and falls during exhalation; pacing near an individual’s resonant frequency can produce a large, regular oscillation. Biofeedback displays this changing signal so the learner can connect a controllable action—breathing—with an otherwise hard-to-perceive physiological response. The performance target is composure and flexible control, not maximal relaxation or the highest possible score. (@drandygalpin (Andy Galpin) — "Heart Rate Variability (HRV): How to Stay Calm Under Pressure | Dr. Andy Galpin & Dr. Lenny Wiersma", 2026-07-13, [link](https://www.youtube.com/watch?v=BSdURZ4NVSc))
@@ -100,4 +104,4 @@ Wiersma’s starting protocol is an approximately ten-second cycle—about four 
 
 ## Related
 
-[[neuromodulators-and-state-control]] · [[stress-threat-discrimination]] · [[protective-threat-responses]] · [[mental-imagery-for-performance]] · [[daily-movement-mobility-and-pain]] · [[spinal-traction-and-fascial-decompression]] · [[pre-sleep-routines-and-stimulus-control]] · [[sleep-quality-and-circadian-alignment]] · [[practice-playbook]]
+[[neuromodulators-and-state-control]] · [[stress-threat-discrimination]] · [[protective-threat-responses]] · [[mental-imagery-for-performance]] · [[daily-movement-mobility-and-pain]] · [[spinal-traction-and-fascial-decompression]] · [[pre-sleep-routines-and-stimulus-control]] · [[sleep-quality-and-circadian-alignment]] · [[emotion-regulation]] · [[david-rabin]] · [[practice-playbook]]

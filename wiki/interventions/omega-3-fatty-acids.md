@@ -1,82 +1,92 @@
 ---
 type: intervention
 title: Omega-3 fatty acids
-tags: [longevity, nutrition, sleep-brain, fitness]
-updated: 2026-08-11
-evidence_reviewed: never
-evidence_cutoff: unknown
-review_status: under-review
+tags: [nutrition, longevity, sleep-brain]
+updated: 2026-09-02
+evidence_reviewed: 2026-09-02
+evidence_cutoff: 2026-09-02
+review_status: current
 review_interval: 180d
 ---
 
 # Omega-3 fatty acids
 
-Long-chain omega-3 fatty acids include docosahexaenoic acid (DHA) and eicosapentaenoic acid (EPA). DHA is a major structural component of neuronal membranes, where membrane composition can affect fluidity, receptor behavior, and cell signaling; EPA is present at lower concentrations in brain tissue and is more closely associated with inflammatory and chemical signaling. This makes supplementation biologically plausible, but plausibility alone does not establish cognitive benefit. (@NutritionMadeSimple (Nutrition Made Simple!) — "Watch This Before You Take Fish Oil (Protect Your Heart)", 2026-08-10, [link](https://www.youtube.com/watch?v=GpzX3NQzmio))
-
-## Mechanism and sources
+Omega-3 fatty acids are not one intervention. Alpha-linolenic acid (ALA) is a plant-derived essential fatty acid; eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) come mainly from marine foods and supplements; icosapent ethyl is a prescription, highly purified EPA ethyl ester. Evidence from one molecule, dose, formulation, population, or indication does not transfer automatically to another.
 
 ```mermaid
 flowchart TD
-  SRC[Fatty fish, seafood, fish oil or algae oil] --> IN[Ingested EPA + DHA]
-  IN --> ABS[Absorption with dietary fat]
-  ABS --> BLOOD[Circulating and red-cell EPA + DHA]
-  BLOOD --> DHA[DHA-rich neuronal membranes]
-  BLOOD --> EPA[EPA-related inflammatory signaling]
-  DHA --> COG[Potential support of cognition]
-  EPA --> ENV[Neural and cardiovascular chemical environment]
-  DOSE[Supplement dose] --> BLOOD
-  DOSE --> AF[Atrial-fibrillation risk signal]
-  BASE[Baseline omega-3 status] -->|modifies room to benefit| COG
-  STAGE[Established neurodegeneration] -->|may limit reversibility| COG
-  BLOOD --> MEM[Muscle-cell membrane incorporation]
-  MEM -. proposed signaling bridge .-> MPS[Stimulated muscle protein synthesis]
-  MPS -. may contribute .-> STR[Muscle strength]
-  MOTOR[Motor-unit recruitment] --> STR
-  BLOOD -. observed association .-> MOTOR
+  FOOD[Fish and dietary omega-3] --> STATUS[Fatty-acid status]
+  SUPP[Nonprescription EPA/DHA supplements] --> STATUS
+  IPE[Prescription icosapent ethyl 4 g/day] --> RX[High-risk statin-treated population with elevated triglycerides]
+  STATUS --> BIO[Membranes, mediators, triglycerides]
+  BIO -. biomarker not surrogate .-> OUT[Cardiovascular, cognitive, muscle, or longevity outcomes]
+  RX --> BENEFIT[REDUCE-IT event reduction]
+  RX --> HARM[Atrial fibrillation and bleeding]
+  SUPP --> AF[Dose-related atrial-fibrillation concern]
 ```
 
-Fish obtain much of their EPA and DHA ultimately from algae. A cited feeding trial found salmon and algae oil similarly effective at raising blood omega-3 levels, supporting algae oil as a direct alternative rather than a different class of nutrient. Product labels must be read for actual EPA plus DHA: total fish-oil mass can greatly exceed the active long-chain omega-3 dose, and some algae products contain mostly DHA with little EPA. (@NutritionMadeSimple (Nutrition Made Simple!) — "Watch This Before You Take Fish Oil (Protect Your Heart)", 2026-08-10, [link](https://www.youtube.com/watch?v=GpzX3NQzmio))
+## Strongest fair synthesis
 
-The route from gut to brain is now described step by step: whether ingested as triglyceride (most supplements) or phospholipid (krill oil), pancreatic lipases cleave the carrier so that free EPA/DHA — or a lysophospholipid still bearing an omega-3 — is absorbed (free fatty acids via the transporter CD36), re-esterified in the enterocyte, packaged into chylomicrons, and released to plasma. After lipase action at muscle and fat, omega-3-bearing phospholipids bind phospholipid transfer protein, and a specific blood–brain-barrier receptor internalizes the lysophospholipid form of DHA or EPA into the brain, where it enters cell membranes or is trafficked by the brain's ApoE-based lipoproteins ([[brain-cholesterol-homeostasis]]). Practically, the ingestion vehicle matters little; verified label content matters more. DHA dominates brain omega-3 content, but EPA is increasingly viewed as required there too, and not everyone converts EPA to DHA. (@PeterAttiaMD (Peter Attia MD) — "395 – Brain lipidology: understanding APOE, cholesterol homeostasis, Alzheimer’s disease, & more", 2026-06-09, [link](https://www.youtube.com/watch?v=KWNgAyurXFY))
+For general primary or secondary cardiovascular prevention, increasing long-chain omega-3 intake has little or no effect on all-cause mortality or overall cardiovascular events in the most comprehensive Cochrane synthesis. VITAL similarly found no reduction in its primary composite cardiovascular endpoint with 1 g/day EPA+DHA in generally healthy older adults. These results do not show that fish is unhealthy; they show that ordinary fish-oil capsules should not be sold as a general cardiovascular drug.[^abdelhamid-2020][^vital-2019]
 
-Absorption may improve when the supplement is taken with a meal containing fat. The source also describes evidence that adequate B-vitamin status may support transport of omega-3 fatty acids into the brain, but this does not show that adding B vitamins to an already adequate diet improves cognitive outcomes. (@NutritionMadeSimple (Nutrition Made Simple!) — "Watch This Before You Take Fish Oil (Protect Your Heart)", 2026-08-10, [link](https://www.youtube.com/watch?v=GpzX3NQzmio))
+The important exception is prescription icosapent ethyl in a selected high-risk population. REDUCE-IT randomized statin-treated patients with established cardiovascular disease or diabetes plus risk factors and triglycerides of 135–499 mg/dL: the primary composite occurred in 17.2% with icosapent ethyl versus 22.0% with mineral-oil comparator over a median 4.9 years (absolute difference 4.8 percentage points; number needed to treat about 21). Hospitalization for atrial fibrillation or flutter and serious bleeding were more frequent. The 2025 ESC/EAS update therefore says 2 g twice daily should be considered with a statin for high- or very-high-risk patients in this triglyceride range; it does not recommend generic fish oil or self-treatment.[^reduce-it-2019][^esc-2025] [Current FDA label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508)
 
-## Benefits, modifiers, and harms
+STRENGTH tested 4 g/day EPA+DHA carboxylic acids against corn oil in 13,078 statin-treated high-risk patients and stopped for futility: events were 12.0% versus 12.2%. The divergence means that REDUCE-IT cannot be generalized to high-dose EPA+DHA mixtures.[^strength-2020]
 
-Omega-3 exposure can alter skeletal-muscle phospholipid composition because ingested fatty acids become acyl chains in membrane phospholipids. Small interventional studies reported no change in fasting muscle-protein synthesis but a larger synthesis response during amino-acid and insulin exposure after supplementation. A membrane-to-signaling-to-protein-synthesis pathway is plausible, but the studies did not directly demonstrate that complete causal chain, and an inflammation-mediated explanation is also unsettled. (@Physionic (Physionic) — "The Unexpected Muscle Effect of… Omega-3 Fats?", 2026-08-10, [link](https://www.youtube.com/watch?v=r__LqzSrU0c))
+Evidence for cognition, dementia prevention, strength, disuse atrophy, mood, erectile function, and biological aging is weaker or population-specific. Small trials and secondary endpoints can generate hypotheses, but no reviewed evidence admits a healthy-person dose or omega-3-index target for any of these outcomes. DO-HEALTH's epigenetic-clock change is a biomarker result, not added lifespan, and its prefrailty and cancer findings were secondary and require replication. [[biological-age-biomarkers]]
 
-Motor-unit measurements add a neural or neuromuscular route: resistance-training studies reported greater post-intervention electrical activity with omega-3 supplementation, correlated with increased force. Across clinical trials summarized separately, the average strength benefit was small, appeared in some data even without exercise, and was seen from roughly 1.4–1.5 g/day combined EPA and DHA. Mechanistic studies used approximately 2–5 g/day, but their small samples and frequent lack of placebo or control groups make them inferior for dosing decisions. (@Physionic (Physionic) — "The Unexpected Muscle Effect of… Omega-3 Fats?", 2026-08-10, [link](https://www.youtube.com/watch?v=r__LqzSrU0c)) (@Physionic (Physionic) — "I analyzed 1,000 Health Studies: Here are 10 Things I Learned", 2026-08-06, [link](https://www.youtube.com/watch?v=sx8MyamJf3g))
+### Bipolar disorder is not an admitted high-dose protocol
 
-A meta-analysis of 58 randomized trials reported modest improvements in several cognitive domains, while other analyses and trials found no clear benefit. The heterogeneity is partly consistent with effect modification: an analysis that was null overall found memory improvement among participants with low baseline omega-3 status, and trials in cognitively healthy people are more consistently favorable than trials in established Alzheimer disease. These subgroup patterns are plausible and useful for decision-making, but they are weaker than a consistently positive primary effect across trials. (@NutritionMadeSimple (Nutrition Made Simple!) — "Watch This Before You Take Fish Oil (Protect Your Heart)", 2026-08-10, [link](https://www.youtube.com/watch?v=GpzX3NQzmio))
+One early randomized trial in 30 adults reported improvement after four months of 9.6 g/day fish oil versus olive oil, and the transcript uses it to characterize high-dose omega-3 as a promising adjunct for bipolar disorder. Later synthesis is substantially less favorable: the 2023 VA/DoD guideline found that most trials showed no difference from placebo for manic or depressive symptoms, judged certainty very low because samples were small and results inconsistent and imprecise, and found evidence insufficient to recommend for or against nutritional-supplement augmentation. CANMAT/ISBD lists omega-3 as not recommended for acute mania. The early signal may justify research in a defined bipolar-depression subgroup, but it does not establish the formulation, dose, phase of illness, or benefit–harm balance needed for clinical use. [[mood-disorder-pharmacology]] (@hubermanlab (Andrew Huberman) — "The Science & Treatment of Bipolar Disorder | Huberman Lab Essentials", 2026-07-16, [link](https://www.youtube.com/watch?v=UTB5gAkjevk))[^vadod-bipolar-omega][^canmat-bipolar-omega]
 
-Observational fish-intake data place lower Alzheimer and dementia risk around several hundred milligrams of combined EPA and DHA per day, and one trial using 900 mg/day reported cognitive benefit. These data suggest a moderate-intake range rather than proving a universal target, because food associations can reflect the foods displaced, lifestyle differences, and nutrients other than EPA and DHA. (@NutritionMadeSimple (Nutrition Made Simple!) — "Watch This Before You Take Fish Oil (Protect Your Heart)", 2026-08-10, [link](https://www.youtube.com/watch?v=GpzX3NQzmio))
+## Adversarial pass: REDUCE-IT and the mineral-oil conflict
 
-The principal dose-dependent safety concern discussed is atrial fibrillation. Across randomized trials, doses above 1 g/day were associated with roughly a 49–50% relative increase in atrial-fibrillation risk, versus a smaller roughly 12% relative increase below 1 g/day. Relative increases do not state an individual's absolute risk; baseline arrhythmia risk, indication, formulation, and the medical value of prescription high-dose therapy all matter. Prescription omega-3 treatment for a defined cardiovascular indication should therefore not be conflated with over-the-counter use for cognition. (@NutritionMadeSimple (Nutrition Made Simple!) — "Watch This Before You Take Fish Oil (Protect Your Heart)", 2026-08-10, [link](https://www.youtube.com/watch?v=GpzX3NQzmio))
+The mineral-oil comparator in REDUCE-IT is a credible threat to effect-size interpretation. In the biomarker substudy, the comparator arm's LDL cholesterol rose about 10.9% at 12 months while multiple inflammatory and atherogenic markers worsened; STRENGTH's corn-oil arm did not show the same pattern. This supports the alternative explanation that some of REDUCE-IT's apparent benefit reflects comparator harm.[^ridker-2022]
 
-The red-cell omega-3 index captures longer-term EPA and DHA status and can differ between people consuming the same dose. Higher values are observationally associated with lower disease and mortality risk, and one trial found executive-function improvement up to an index around 5%; neither result validates a universal treatment threshold or proves that chasing a higher index improves clinical outcomes. This reinforces the biomarker caution in [[supplement-evidence-and-safety]]. (@NutritionMadeSimple (Nutrition Made Simple!) — "Watch This Before You Take Fish Oil (Protect Your Heart)", 2026-08-10, [link](https://www.youtube.com/watch?v=GpzX3NQzmio)) A separate expert framing places the brain evidence honestly in the hierarchy: observational data link the omega-3 index and low omega-3 status to neurological outcomes, sudden death, and atherosclerotic disease, but level-one randomized evidence is limited to one EPA trial in insulin-resistant, high-risk people with controlled ApoB. Attia's guest lipidologist treats Bill Harris's 8–9% omega-3 index as the point at which cell membranes have the proper omega-3 amount, and regards pushing higher (e.g. 10%) for brain benefit as guesswork justified only by low downside — a plausibility argument, explicitly not guideline-grade, and one to weigh against the dose-dependent atrial-fibrillation signal above. (@PeterAttiaMD (Peter Attia MD) — "395 – Brain lipidology: understanding APOE, cholesterol homeostasis, Alzheimer’s disease, & more", 2026-06-09, [link](https://www.youtube.com/watch?v=KWNgAyurXFY))
+That concern does not erase the trial. FDA reviewers estimated that LDL-C and hsCRP worsening could explain only a small fraction—about 3% of the observed net clinical benefit—although this estimate is model-dependent and cannot replace a direct neutral-placebo replication. Current 2025 ESC/EAS guidance retained an indication-specific icosapent-ethyl recommendation while explicitly acknowledging formulation, population, and placebo as possible explanations for REDUCE-IT/STRENGTH discordance. The conflict therefore narrows confidence in the magnitude and mechanism, not the existence of an approved, guideline-supported option for the trial-matched population.
 
-## Product quality
+Other falsifiers and boundaries:
 
-EPA and DHA are oxidation-prone. Opaque packaging, protection from heat and light, antioxidant ingredients such as tocopherols, refrigeration when appropriate, and independent testing can reduce product-quality uncertainty. A strongly sour, rotten, or putrid smell or taste is a reason not to use an oil, but sensory screening cannot quantify early oxidation or verify active dose. (@NutritionMadeSimple (Nutrition Made Simple!) — "Watch This Before You Take Fish Oil (Protect Your Heart)", 2026-08-10, [link](https://www.youtube.com/watch?v=GpzX3NQzmio))
+- Atrial-fibrillation risk rises in several high-dose trials and meta-analyses; absolute harm depends on baseline rhythm risk. One-gram VITAL did not significantly increase incident AF, so a single sharp threshold is not established.
+- Bleeding risk matters most with antithrombotic therapy and at prescription exposure; “fish oil always causes dangerous bleeding” is also too broad.
+- The omega-3 index is a useful exposure biomarker, but observational associations and assay repeatability do not validate an 8–12% treatment target or prove that raising the index improves outcomes.
+- Fish-food associations are confounded by dietary substitution and lifestyle; capsule trials do not test the full food matrix.
+
+## Evidence update — 2026-09-01
+
+> **What changed:** The prior page mixed prescription icosapent ethyl, ordinary EPA/DHA supplements, food, and index-targeted protocols too freely. The current conclusion separates them. The REDUCE-IT mineral-oil criticism is now supported and retained as an unresolved effect-size conflict, while FDA review and 2025 ESC/EAS guidance show that it does not justify discarding the entire icosapent-ethyl result. Podcast-derived sub-1-g/day, 2-g/day index targeting, and 5-g/day preoperative protocols were removed from practical guidance because no applicable guideline or outcome trial admits them for healthy users.
+
+> **2026-09-02 bipolar update:** An episode-derived 9.6-g/day bipolar protocol was reviewed against VA/DoD and CANMAT/ISBD guidance and not admitted. Most later trials were null, certainty is very low, acute-mania guidance recommends against omega-3, and no reviewed source establishes a broadly applicable adjunctive dose. (@hubermanlab (Andrew Huberman) — "The Science & Treatment of Bipolar Disorder | Huberman Lab Essentials", 2026-07-16, [link](https://www.youtube.com/watch?v=UTB5gAkjevk))[^vadod-bipolar-omega][^canmat-bipolar-omega]
 
 ## Practical implications
 
-- **At baseline: estimate habitual fatty-fish or seafood intake and review atrial-fibrillation history and risk before supplementing — moderate.** People already consuming ample EPA and DHA have less room to benefit; people with atrial fibrillation or substantial risk should discuss use with a clinician. (@NutritionMadeSimple (Nutrition Made Simple!) — "Watch This Before You Take Fish Oil (Protect Your Heart)", 2026-08-10, [link](https://www.youtube.com/watch?v=GpzX3NQzmio))
-- **Daily, if supplementation is chosen: read the EPA-plus-DHA amount rather than total oil mass, take it with a meal containing fat, and avoid assuming that more is better — moderate.** A moderate dose below 1 g/day is the source's risk-conscious general strategy, not a universal prescription; prescribed high doses follow a different clinical decision. (@NutritionMadeSimple (Nutrition Made Simple!) — "Watch This Before You Take Fish Oil (Protect Your Heart)", 2026-08-10, [link](https://www.youtube.com/watch?v=GpzX3NQzmio))
-- **With each new bottle and during storage: inspect the product, limit heat and light, and prefer independently tested products — moderate for quality control, weak for a demonstrated clinical-outcome effect.** Do not consume obviously rancid oil. (@NutritionMadeSimple (Nutrition Made Simple!) — "Watch This Before You Take Fish Oil (Protect Your Heart)", 2026-08-10, [link](https://www.youtube.com/watch?v=GpzX3NQzmio))
-- **Do not use omega-3 supplementation as the primary dementia-prevention strategy — strong.** Blood-pressure and glucose control, hearing care, and avoiding social isolation act on larger established risk domains; see [[cognitive-reserve-and-brain-health]]. (@NutritionMadeSimple (Nutrition Made Simple!) — "Watch This Before You Take Fish Oil (Protect Your Heart)", 2026-08-10, [link](https://www.youtube.com/watch?v=GpzX3NQzmio))
-- **Do not replace resistance training or adequate protein with omega-3 supplements — strong.** If supplementation is already appropriate after dose and atrial-fibrillation review, a small strength benefit is possible, but evidence does not support using the higher 2–5 g/day mechanistic-study doses as a muscle prescription. (@Physionic (Physionic) — "The Unexpected Muscle Effect of… Omega-3 Fats?", 2026-08-10, [link](https://www.youtube.com/watch?v=r__LqzSrU0c))
+- **Prefer food-pattern guidance over routine capsules for generally healthy people—moderate.** Fish can replace less favorable foods, but supplements have not shown a general mortality or cardiovascular-event benefit.
+- **Do not substitute nonprescription fish oil for LDL/ApoB lowering, blood-pressure control, smoking cessation, diabetes care, exercise, or prescribed cardiovascular therapy—strong.**
+- **Consider prescription icosapent ethyl only through clinician-guided, indication-matched care—strong for the selected high-risk population.** Review triglycerides despite statin therapy, atrial-fibrillation history, bleeding risk, and antithrombotic medicines.[^esc-2025]
+- **Do not use an omega-3 index to self-prescribe a dose or claim biological-age reversal—strong against current protocol admission.** The marker has no validated outcome-improving target.
+- **Do not use high-dose omega-3 as a muscle, surgical-preload, dementia, erectile-function, or longevity protocol outside a trial—moderate-to-strong.** Existing evidence is indirect, small, secondary, or mismatched to the proposed population.
+- **Do not self-treat bipolar disorder with high-dose fish oil or replace mood-stabilizing care with it—strong against replacement; insufficient evidence for adjunctive use.** The 9.6-g/day early trial is too small and contradicted by the broader later evidence to establish a protocol. (@hubermanlab (Andrew Huberman) — "The Science & Treatment of Bipolar Disorder | Huberman Lab Essentials", 2026-07-16, [link](https://www.youtube.com/watch?v=UTB5gAkjevk))[^vadod-bipolar-omega]
 
 ## Gaps & open questions
 
-- What are the absolute atrial-fibrillation risks at different doses within clinically relevant baseline-risk groups?
-- Which baseline omega-3 measures reliably identify cognitive responders, and what threshold should trigger treatment?
-- Do DHA-to-EPA ratios materially change long-term cognitive, mood, or cardiovascular outcomes?
-- Does treating low omega-3 status prevent dementia, rather than modestly changing cognitive-test performance?
-- Which oxidation measures and storage practices predict clinically meaningful harm?
-- Does membrane remodeling causally change anabolic signaling, and is the observed strength effect muscular, neural, or both?
-- Which ages, baseline omega-3 levels, and training states obtain a clinically meaningful muscle benefit?
+- Would icosapent ethyl reproduce REDUCE-IT's effect against a demonstrably inert comparator?
+- What are dose- and baseline-risk-specific absolute atrial-fibrillation and bleeding effects?
+- Can any biomarker identify a group in whom ordinary EPA/DHA supplementation improves a patient-important outcome?
+- Do the DO-HEALTH prefrailty and cancer findings replicate in trials powered for those endpoints?
+- Does preoperative omega-3 reduce functional loss after real surgery without rhythm or bleeding harm?
+- Is there a reproducible bipolar-depression subgroup that benefits from a specified EPA/DHA formulation after baseline status, concomitant treatment, and polarity are controlled?
 
 ## Related
 
-[[cognitive-reserve-and-brain-health]] · [[brain-cholesterol-homeostasis]] · [[supplement-evidence-and-safety]] · [[nutrition-evidence-and-personalization]] · [[performance-nutrition-and-hydration]] · [[practice-playbook]]
+[[cognitive-reserve-and-brain-health]] · [[brain-cholesterol-homeostasis]] · [[supplement-evidence-and-safety]] · [[blood-marker-variability-and-reference-change]] · [[nutrition-evidence-and-personalization]] · [[performance-nutrition-and-hydration]] · [[erectile-dysfunction-and-vascular-health]] · [[biological-age-biomarkers]] · [[inflammaging-and-il-6]] · [[lipoprotein-retention-and-atherogenesis]] · [[muscle-strength-and-mortality]] · [[mood-disorder-pharmacology]] · [[practice-playbook]]
+
+## References
+
+[^abdelhamid-2020]: Abdelhamid AS, et al. “Omega-3 Fatty Acids for the Primary and Secondary Prevention of Cardiovascular Disease.” *Cochrane Database of Systematic Reviews*, 2020. [systematic review]. [doi:10.1002/14651858.CD003177.pub5](https://doi.org/10.1002/14651858.CD003177.pub5)
+[^vital-2019]: Manson JE, et al. “Marine n−3 Fatty Acids and Prevention of Cardiovascular Disease and Cancer.” *New England Journal of Medicine*, 2019. [RCT]. [doi:10.1056/NEJMoa1811403](https://doi.org/10.1056/NEJMoa1811403)
+[^reduce-it-2019]: Bhatt DL, et al. “Cardiovascular Risk Reduction with Icosapent Ethyl for Hypertriglyceridemia.” *New England Journal of Medicine*, 2019. [RCT]. [doi:10.1056/NEJMoa1812792](https://doi.org/10.1056/NEJMoa1812792)
+[^esc-2025]: European Society of Cardiology and European Atherosclerosis Society. “2025 Focused Update of the ESC/EAS Guidelines for the Management of Dyslipidaemias.” *European Heart Journal*, 2025. [professional guideline]. [doi:10.1093/eurheartj/ehaf190](https://doi.org/10.1093/eurheartj/ehaf190)
+[^strength-2020]: Nicholls SJ, et al. “Effect of High-Dose Omega-3 Fatty Acids vs Corn Oil on Major Adverse Cardiovascular Events.” *JAMA*, 2020. [RCT]. [doi:10.1001/jama.2020.22258](https://doi.org/10.1001/jama.2020.22258)
+[^ridker-2022]: Ridker PM, et al. “Effects of Icosapent Ethyl and Mineral Oil on Lipoproteins, Inflammatory Markers, and Biomarkers in REDUCE-IT.” *Circulation*, 2022. [randomized-trial biomarker substudy]. [doi:10.1161/CIRCULATIONAHA.122.059410](https://doi.org/10.1161/CIRCULATIONAHA.122.059410)
+[^vadod-bipolar-omega]: U.S. Department of Veterans Affairs and Department of Defense. *VA/DoD Clinical Practice Guideline for Management of Bipolar Disorder*. 2023. [professional guideline; evidence reviewed through 2021]. [guideline](https://www.healthquality.va.gov/guidelines/MH/bd/VA-DOD-CPG-BD-Full-CPGFinal508.pdf)
+[^canmat-bipolar-omega]: Keramatian K, Chithra NK, Yatham LN. “The CANMAT and ISBD Guidelines for the Treatment of Bipolar Disorder: Summary and a 2023 Update of Evidence.” *Focus*, 2023. [professional guideline summary]. [doi:10.1176/appi.focus.20230009](https://doi.org/10.1176/appi.focus.20230009)

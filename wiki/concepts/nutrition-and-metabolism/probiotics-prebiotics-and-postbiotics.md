@@ -2,7 +2,7 @@
 type: concept
 title: Probiotics, prebiotics, and postbiotics
 tags: [nutrition, longevity]
-updated: 2026-08-11
+updated: 2026-09-02
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -41,11 +41,15 @@ Commercial probiotic capsules add identity and delivery problems. Labels may not
 
 After antibiotics, spontaneous ecological recovery is not necessarily accelerated by adding an arbitrary consortium. In one study summarized in the source, an 11-species probiotic delayed microbiome recovery relative to no probiotic; this is a product- and endpoint-specific warning, not proof that all probiotics after every antibiotic are harmful. Conversely, evidence for the yeast *Saccharomyces boulardii* in preventing *C. difficile* infection is characterized as limited but sufficient to make selected clinical use defensible. Pouchitis and preterm-infant care are other specialist contexts in which particular products may be used. (@NutritionMadeSimple (Nutrition Made Simple!) — "If YOU Have Probiotics, You NEED To Stop!", 2026-06-19, [link](https://www.youtube.com/watch?v=YKSR4TRLd70))
 
+Vaginal candidiasis is a worked example of the indication-specific rule failing a popular use. Repopulating vaginal flora with oral probiotics, yogurt, or fermented foods sounds logical after antibiotics or recurrent yeast infections, but the clinical evidence for treating, preventing, or reducing the risk of vulvovaginal candidiasis this way is not compelling; these remain foods rather than treatments, and recurrent infections call for diagnosis rather than dietary self-treatment ([[vulvovaginal-candidiasis]]). (@DrDrayzday (Dr Dray) — "How to Prevent Yeast Infections | Dermatologist Explains", 2026-08-14, [link](https://www.youtube.com/watch?v=vexU74uqAT0))
+
 Gas, bloating, and discomfort are usually mild and temporary, but live microorganisms can cause infection in immunocompromised people, including some people receiving chemotherapy. Risk therefore depends on organism, preparation, host defenses, and indication rather than on the friendly-bacteria label. (@NutritionMadeSimple (Nutrition Made Simple!) — "If YOU Have Probiotics, You NEED To Stop!", 2026-06-19, [link](https://www.youtube.com/watch?v=YKSR4TRLd70))
 
 ## Fermented foods are a different exposure
 
 Fermented foods may combine multiple bacteria and yeasts with a food matrix, substrates, fermentation metabolites, protein, fatty acids, and amino acids. This differs from an isolated capsule in ecological diversity, relative abundance, survival context, and nonmicrobial nutrition; pasteurization timing and later heating determine whether cultures remain live. A trial in generally healthy adults summarized by the source found greater microbiome diversity and lower inflammation with fermented foods, but no study identifier or effect size is supplied, and those intermediate outcomes do not establish long-term disease prevention. (@NutritionMadeSimple (Nutrition Made Simple!) — "If YOU Have Probiotics, You NEED To Stop!", 2026-06-19, [link](https://www.youtube.com/watch?v=YKSR4TRLd70))
+
+One strain-in-food trial extends the fermented-food evidence to brain endpoints. A placebo-controlled trial randomized 40 healthy women to 130 mL daily of a commercial yogurt drink carrying a common added probiotic strain, or a closely matched placebo, for 8 weeks: the yogurt group showed increased hippocampal volume, increased hippocampus–frontal connectivity correlating with the probiotic organism's abundance in their microbiomes, and a suggestion of higher brain glutathione. This is a small, healthy-population, industry-partnered result — a proof that a specific fermented product can move brain measurements, not evidence for probiotic capsules or for treating any disorder — and it illustrates this page's category rule: the exposure was a strain within a food matrix, and neither component can claim the effect alone. The wider interventional context lives at [[nutritional-psychiatry]]. (@joinzoe (ZOE) — "How to build a better brain: Your doctor won't mention THIS for mood, memory and dementia", 2026-07-02, [link](https://www.youtube.com/watch?v=yO-myhWDV98))
 
 Food form also limits category-wide rankings. Kefir generally contains a broader cultured community than yogurt and is described as improving glucose and inflammatory measures in randomized trials, but substrate, strains, viability, added sugar, and comparator vary. Kombucha has weaker human outcome evidence; its clearest practical value may be replacing sugar-sweetened soda rather than treating disease. Feeding resident organisms with varied fiber and resistant starch is a complementary exposure, not proof that ingested organisms permanently colonize the gut. (@NutritionMadeSimple (Nutrition Made Simple!) — "8 Foods That Actually Fix Your Gut (Not Probiotics)", 2026-05-30, [link](https://www.youtube.com/watch?v=ykpITcKqWCo)) [[food-patterns-and-gut-ecology]]
 
@@ -83,4 +87,4 @@ Mechanistic plausibility becomes useful only when joined to product identity, do
 
 ## Related
 
-[[dietary-fiber]] · [[food-patterns-and-gut-ecology]] · [[colorectal-cancer-prevention-and-screening]] · [[microbiome-directed-cancer-therapy]] · [[resistant-starch]] · [[energy-balance-and-calorie-counting]] · [[supplement-evidence-and-safety]] · [[practice-playbook]] · [[aging-model]]
+[[dietary-fiber]] · [[food-patterns-and-gut-ecology]] · [[nutritional-psychiatry]] · [[vulvovaginal-candidiasis]] · [[colorectal-cancer-prevention-and-screening]] · [[microbiome-directed-cancer-therapy]] · [[resistant-starch]] · [[energy-balance-and-calorie-counting]] · [[supplement-evidence-and-safety]] · [[practice-playbook]] · [[aging-model]]

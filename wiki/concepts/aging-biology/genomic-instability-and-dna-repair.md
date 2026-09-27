@@ -2,7 +2,7 @@
 type: concept
 title: Genomic instability and DNA repair
 tags: [longevity]
-updated: 2026-08-11
+updated: 2026-08-25
 evidence_reviewed: 2026-08-11
 evidence_cutoff: 2026-08-11
 review_status: current
@@ -32,6 +32,8 @@ flowchart LR
 DNA is chemically reactive and must also be opened, copied, and transcribed. Endogenous sources include hydrolysis, reactive metabolic products, and replication errors; exogenous sources include ultraviolet and ionizing radiation, tobacco smoke, and some therapies. Nuclear and mitochondrial genomes face different environments and maintenance systems. Damage burden is therefore a balance among lesion formation, repair fidelity, replication, cell turnover, and selection—not a single count that rises uniformly in every tissue.[^schumacher-2021]
 
 Cells match repair to lesion type. Base-excision repair replaces many small base lesions; nucleotide-excision repair removes bulky helix-distorting lesions; mismatch repair corrects replication mismatches; homologous recombination and non-homologous end joining address double-strand breaks with different template and fidelity constraints; crosslink repair coordinates several pathways. Checkpoints mediated by proteins including ATM, ATR, and p53 pause the cell cycle or direct senescence or apoptosis when repair is incomplete. These defenses prevent propagation of damaged genomes, but persistent arrest or cell loss can impair tissue maintenance—the same response can suppress cancer locally while contributing to aging phenotypes at tissue scale.[^schumacher-2021]
+
+Repair has a metabolic price paid in NAD. PARP1, activated by DNA damage, cleaves NAD+ to build poly(ADP-ribose) signals that assemble repair enzymes at the lesion, and when repair fails, related signaling can route the cell to death rather than tolerate a damaged genome. Because innate immunity induces PARP-superfamily transcription in response to signatures such as double-stranded RNA, infection and inflammatory stress draw down the same NAD supply that damage repair depends on — one mechanistic account of why disease states disturb tissue NAD pools ([[nad-metabolism]]). Human randomized trials show nicotinamide reduces non-melanoma skin cancer in high-risk Australian populations, consistent with precursor-supported repair, though the mediating mechanism was not directly established in those trials. (FoundMyFitness — "How To Boost NAD Levels To Fight Inflammation, Improve Recovery, and Slow Aging", 2026-02-10, [link](https://www.youtube.com/watch?v=ELcVYRJJdK4))
 
 Repair capacity is itself a regulated quantity, not a fixed property of the genome a cell carries. The DREAM complex represses cell-cycle and DNA-repair genes in somatic cells; reducing its activity raises repair gene expression and improves survival after ultraviolet, ionizing, and chemical damage in *C. elegans* and raises repair capacity in human cells. Repair genes are commonly downregulated with age, and DREAM-mediated repression is a candidate cause — though the alternative, that repair genes drift toward silence along with everything else as regulatory maintenance decays, is not excluded, and the two are not currently distinguishable. Since noise landing on maintenance machinery degrades the system that corrects noise, either account implies a self-reinforcing loop. [[dream-complex-and-repair-capacity]] [[stochastic-aging-and-molecular-noise]] (@TheSheekeyScienceShow (The Sheekey Science Show) — "How Randomness Drives Aging - DNA Repair, Clocks & Rejuvenation (David Meyer)", 2025-07-04, [link](https://www.youtube.com/watch?v=Buj07nWt7o0))
 
@@ -84,4 +86,4 @@ Commercial “DNA repair” scores and supplements also face a mediation problem
 
 ## Related
 
-[[aging-model]] · [[cellular-senescence]] · [[immune-aging-and-rejuvenation]] · [[inflammaging-and-il-6]] · [[mitochondrial-dysfunction]] · [[biological-age-biomarkers]] · [[dream-complex-and-repair-capacity]] · [[stochastic-aging-and-molecular-noise]] · [[programmed-versus-stochastic-aging]] · [[photoprotection]]
+[[aging-model]] · [[cellular-senescence]] · [[immune-aging-and-rejuvenation]] · [[inflammaging-and-il-6]] · [[mitochondrial-dysfunction]] · [[nad-metabolism]] · [[biological-age-biomarkers]] · [[dream-complex-and-repair-capacity]] · [[stochastic-aging-and-molecular-noise]] · [[programmed-versus-stochastic-aging]] · [[photoprotection]]

@@ -2,7 +2,7 @@
 type: concept
 title: Cognitive reserve and brain health
 tags: [longevity, sleep-brain, fitness, nutrition]
-updated: 2026-08-11
+updated: 2026-09-02
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -64,6 +64,8 @@ Childhood activity may begin building both maintenance and reserve decades befor
 
 Several dietary associations illustrate the hierarchy from exposure to outcome. Long-term cohort evidence links caffeinated coffee—up to roughly three 240-mL cups/day—with about 20% lower all-cause dementia risk, while decaffeinated coffee did not show the same association; this implicates caffeine or correlated behavior but does not establish causality. Cohorts and limited cognitive trials do not show higher dementia risk from cheese, including higher-fat cheese, and some observational estimates favor intake above 50 g/day. That finding rebuts a simple inference from saturated-fat content, but it does not prove that adding cheese prevents dementia because substitution and residual confounding remain. (@Physionic (Physionic) — "I analyzed 1,000 Health Studies: Here are 10 Things I Learned", 2026-08-06, [link](https://www.youtube.com/watch?v=sx8MyamJf3g))
 
+Diet-quality and processing evidence adds a gut-mediated maintenance route. A BMJ (2024) umbrella review across more than 10 million people associated higher ultra-processed food intake with roughly 70% of examined health outcomes, with strong evidence for cardiometabolic disease — itself a dementia-risk pathway via the diabetes and vascular branches above — and for depression and anxiety. Tim Spector's stronger unification — that mental health and dementia share a common substrate (he characterizes genetic analyses as supporting at most two brain-disease types) and that the dietary evidence for avoiding dementia matches the depression evidence — is expert interpretation, recorded with attribution rather than adopted; the interventional diet–brain evidence (the SMILES depression trial, fermented-dairy hippocampal imaging) is structured at [[nutritional-psychiatry]]. The same source repeats the vaccination–dementia association covered above: shingles and annual influenza vaccination associate with lower dementia risk, mechanism unknown, framed by Spector as immune "tickling" comparable to fermented-food effects. (@joinzoe (ZOE) — "How to build a better brain: Your doctor won't mention THIS for mood, memory and dementia", 2026-07-02, [link](https://www.youtube.com/watch?v=yO-myhWDV98))
+
 Olive-oil trials demonstrate why baseline function and endpoint choice matter: barrier and connectivity measures improved in one six-month study while MMSE results across three trials were null, yet a dementia-specific rating showed a small benefit in mild cognitive impairment. Observationally lower dementia-related mortality adds long-term support without proving causality. [[olive-oil-and-cognitive-aging]] (@Physionic (Physionic) — "Your Brain on Olive Oil - Many Studies Later", 2026-08-03, [link](https://www.youtube.com/watch?v=OW8gyDLTt1s))
 
 ## Practical implications
@@ -84,7 +86,7 @@ Olive-oil trials demonstrate why baseline function and endpoint choice matter: b
 - What explains the falling age-specific incidence of dementia, and which components generalize across populations?
 - Can correcting low EPA and DHA status prevent dementia, and which baseline measure identifies likely responders?
 - Do cognitive gains from childhood resistance training persist, transfer across domains, or contribute measurably to late-life reserve?
-- Is caffeinated coffee itself protective, and why does decaffeinated coffee lack the same association?
+- Is caffeinated coffee itself protective, and why does decaffeinated coffee lack the same association? The cohort pattern and preclinical adenosine, amyloid-clearance, tau, and astrocyte mechanisms are structured in [[caffeinated-coffee-and-cognitive-aging]], but clinical prevention remains unproven. (@Physionic (Physionic) — "Only One Type of Coffee Protects against Dementia - Why?", 2026-08-20, [link](https://www.youtube.com/watch?v=gy0FW6xj21o))
 - Do neutral-to-favorable cheese associations persist under controlled substitutions and hard dementia outcomes?
 - Do olive-oil-related barrier and connectivity changes predict later clinical function?
 - How should high-reserve individuals be screened so that compensation does not delay diagnosis by a decade?
@@ -95,4 +97,4 @@ Olive-oil trials demonstrate why baseline function and endpoint choice matter: b
 
 ## Related
 
-[[aging-model]] · [[alzheimers-spectrum-and-diagnosis]] · [[anti-amyloid-immunotherapy]] · [[menopause-related-cognitive-impairment]] · [[exercise-enhanced-learning]] · [[human-centered-ai-and-learning]] · [[neuromodulators-and-state-control]] · [[olive-oil-and-cognitive-aging]] · [[omega-3-fatty-acids]] · [[lipoprotein-retention-and-atherogenesis]] · [[protective-threat-responses]] · [[social-evaluative-threat-and-criticism]] · [[stress-threat-discrimination]] · [[youth-resistance-training]] · [[practice-playbook]] · [[supplement-evidence-and-safety]]
+[[aging-model]] · [[alzheimers-spectrum-and-diagnosis]] · [[anti-amyloid-immunotherapy]] · [[menopause-related-cognitive-impairment]] · [[exercise-enhanced-learning]] · [[memory-encoding-retrieval-and-reconstruction]] · [[human-centered-ai-and-learning]] · [[neuromodulators-and-state-control]] · [[caffeinated-coffee-and-cognitive-aging]] · [[olive-oil-and-cognitive-aging]] · [[nutritional-psychiatry]] · [[omega-3-fatty-acids]] · [[lipoprotein-retention-and-atherogenesis]] · [[protective-threat-responses]] · [[social-evaluative-threat-and-criticism]] · [[stress-threat-discrimination]] · [[youth-resistance-training]] · [[practice-playbook]] · [[supplement-evidence-and-safety]]

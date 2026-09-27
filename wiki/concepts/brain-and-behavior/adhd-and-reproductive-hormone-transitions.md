@@ -2,7 +2,7 @@
 type: concept
 title: ADHD and reproductive hormone transitions
 tags: [hormones, sleep-brain]
-updated: 2026-08-11
+updated: 2026-09-02
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -39,7 +39,7 @@ Symptoms and perceived medication effectiveness may vary across the menstrual cy
 
 Emotional dysregulation means difficulty modulating the speed, intensity, or duration of an emotional response. It can accompany ADHD even though it is not a core diagnostic criterion in the framework discussed. Small triggers may produce rapid anger or panic-like distress before reflective control catches up; sleep debt, hormonal transitions, anxiety, trauma, and mood disorders can intensify the same pattern. Hamdani argues that omitting emotional regulation contributes to women being labeled only with anxiety or depression, a useful diagnostic warning but not evidence that those diagnoses are usually wrong. (@drmaryclaire (Dr. Mary Claire Haver, MD) — "An ADHD and Menopause Toolkit: What Actually Helps with Dr. Sasha Hamdani", 2026-08-07, [link](https://www.youtube.com/watch?v=tzXxiD9xJW8))
 
-Rejection-sensitive dysphoria (RSD) is an informal label for unusually intense distress in response to perceived criticism, rejection, disapproval, or a change in social tone. It may lead to avoidance, quitting, reassurance seeking, or selecting only low-risk situations. The construct can describe a trigger-response pattern, but the transcripts do not establish it as a distinct disorder, a validated test, or a phenomenon unique to ADHD or women. Assessment must still consider social anxiety, depression, trauma-related threat learning, autism, personality structure, and ordinary sensitivity to consequential rejection. (@drmaryclaire (Dr. Mary Claire Haver, MD) — "An ADHD and Menopause Toolkit: What Actually Helps with Dr. Sasha Hamdani", 2026-08-07, [link](https://www.youtube.com/watch?v=tzXxiD9xJW8)) [[social-evaluative-threat-and-criticism]] [[stress-threat-discrimination]]
+Rejection-sensitive dysphoria (RSD) is an informal label for unusually intense distress in response to perceived criticism, rejection, disapproval, or a change in social tone. It may lead to avoidance, quitting, reassurance seeking, or selecting only low-risk situations. The construct can describe a trigger-response pattern, but the transcripts do not establish it as a distinct disorder, a validated test, or a phenomenon unique to ADHD or women. Assessment must still consider social anxiety, depression, trauma-related threat learning, autism, personality structure, and ordinary sensitivity to consequential rejection. (@drmaryclaire (Dr. Mary Claire Haver, MD) — "An ADHD and Menopause Toolkit: What Actually Helps with Dr. Sasha Hamdani", 2026-08-07, [link](https://www.youtube.com/watch?v=tzXxiD9xJW8)) [[social-evaluative-threat-and-criticism]] [[stress-threat-discrimination]] The proposed mechanism (fast amygdala-led response outrunning prefrontal appraisal), Hamdani's near-universal-in-ADHD prevalence impression, and the interruption toolkit — pattern mapping, naming, present-moment acceptance, movement, then medication assessment — are developed in full on [[adhd-dysregulation-and-rejection-sensitivity]]. (@maxlugavere (Max Lugavere) — "The ADHD Expert: The Best Natural Ways to Manage ADHD", 2026-08-26, [link](https://www.youtube.com/watch?v=1Q21PEDlNRk))
 
 ## Differential assessment and treatment layers
 
@@ -87,4 +87,4 @@ Medication options discussed include stimulants and nonstimulants such as atomox
 
 ## Related
 
-[[perimenopause-assessment-and-testing]] · [[neuromodulators-and-state-control]] · [[social-evaluative-threat-and-criticism]] · [[stress-threat-discrimination]] · [[cognitive-reserve-and-brain-health]] · [[glp-1-receptor-agonists]] · [[supplement-evidence-and-safety]] · [[practice-playbook]] · [[aging-model]]
+[[adhd-dysregulation-and-rejection-sensitivity]] · [[perimenopause-assessment-and-testing]] · [[neuromodulators-and-state-control]] · [[social-evaluative-threat-and-criticism]] · [[stress-threat-discrimination]] · [[cognitive-reserve-and-brain-health]] · [[glp-1-receptor-agonists]] · [[supplement-evidence-and-safety]] · [[practice-playbook]] · [[aging-model]]

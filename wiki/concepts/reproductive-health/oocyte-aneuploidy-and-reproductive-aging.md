@@ -2,7 +2,7 @@
 type: concept
 title: Oocyte aneuploidy and reproductive aging
 tags: [hormones, longevity]
-updated: 2026-08-11
+updated: 2026-08-13
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: under-review
@@ -33,11 +33,17 @@ flowchart TD
   E -->|per-transfer implantation and loss rates| LB[Live birth]
 ```
 
+An illustrative calculation in the new source makes the conditional nature of IVF success explicit. For a representative 40-year-old retrieval, it assumes 10 oocytes, about 80% fertilization, half reaching blastocyst, and about 25% euploidy, leaving roughly one euploid embryo; the source then reports about 65% live birth per euploid-embryo transfer. These are rounded counseling assumptions, not a personalized forecast or a guarantee, and the transcript does not identify the clinic, registry, patient selection, testing strategy, or uncertainty intervals behind them. Per-transfer success therefore must not be presented as per-cycle or per-patient success. (@RenaMalikMD (Rena Malik, M.D.) — "Perimenopause and Still Want Kids? Your HRT Plan May Need to Look Completely Different", 2026-08-12, [link](https://www.youtube.com/watch?v=HFZwBaIVHq4))
+
+Family-size goals change the decision horizon. Pregnancy, birth, and recovery consume time while ovarian reserve and euploid-oocyte probability continue to decline; a person beginning later who wants multiple children may therefore discuss embryo or oocyte banking before attempting the first conception. IVF can also generate diagnostic information through observed fertilization and blastocyst attrition, but a poor cycle is an imperfect sample rather than a complete assay of natural fertility. (@RenaMalikMD (Rena Malik, M.D.) — "Perimenopause and Still Want Kids? Your HRT Plan May Need to Look Completely Different", 2026-08-12, [link](https://www.youtube.com/watch?v=HFZwBaIVHq4))
+
 At 40, a typical AMH is around 1 ng/mL and a typical retrieval yields about eight oocytes — usually insufficient for even one euploid embryo once more than half are aneuploid and the blastocyst attrition is applied. At 25, about 15 frozen eggs give better than an 80% chance of at least one live birth by calculator estimates. Ovarian-reserve measures themselves need careful reading: antral follicle count varies between follicular and luteal phases, so a discouraging count should be rechecked in another phase before conclusions are drawn. Infertility is defined only after a year of trying — a couple's disease requiring evaluation of both partners (semen analysis, karyotype, hysterosalpingogram and other uterine studies) before any cause is assigned. (Peter Attia MD — "397 - Endometriosis and adenomyosis: diagnosis, fertility, reproductive aging, & emerging treatments", 2026-06-22, [link](https://www.youtube.com/watch?v=IxHRYDM64dQ))
 
 ## Egg freezing: biology versus economics
 
 Biologically, freezing earlier is strictly better; economically it is not, and the tension is quantifiable. In Brazil a harvest cycle costs about $5,000 (roughly one-third medication, one-third clinic/procedure, one-third laboratory) plus about $150 per year of storage, with about a 1% procedural risk (ovarian torsion, bleeding, infection). Attia's position is that a 25-year-old with unclear timelines who can afford it has capped her downside at $5,000 for high-quality eggs. The guest's counterweight is a striking statistic: only about 10% of women who freeze eggs ever return to use them — many conceive naturally, others change plans — so the cost-effectiveness sweet spot lands around 32–35, old enough that use is likelier, young enough that quality holds. In practice women arrive far too late: the guest's median social-freezing age is 37–38 (his infertility patients are around 40), and the saddest pattern is a woman who froze eight eggs at 34, returns at 40, and thaws them into a single blastocyst that does not implant. The episode also raises a policy angle: in below-replacement-fertility countries, subsidized earlier freezing and IVF (Israel already funds unlimited cycles; Japan faces the demographic pressure) could be framed as prevention of the disease of infertility. (Peter Attia MD — "397 - Endometriosis and adenomyosis: diagnosis, fertility, reproductive aging, & emerging treatments", 2026-06-22, [link](https://www.youtube.com/watch?v=IxHRYDM64dQ))
+
+Modern vitrification reduces, but does not remove, attrition at thaw. Crawford reports an average oocyte survival near 90% in contemporary laboratories and rejects calling egg freezing an insurance policy: survival, fertilization, embryo development, euploidy, transfer, future sperm factors, and whether the eggs are ever used all remain uncertain. Her preferred analogy is an investment in a future opportunity. She favors oocyte rather than donor-sperm embryo freezing for a single person who does not currently want donor conception, while noting that embryo creation with a committed partner reveals more of the attrition funnel. Cost, legal control, relationship uncertainty, desired family size, and time to intended conception all affect the choice. These are counseling positions; the transcript does not provide comparative live-birth data sufficient to establish one universal strategy. (@RenaMalikMD (Rena Malik, M.D.) — "Perimenopause and Still Want Kids? Your HRT Plan May Need to Look Completely Different", 2026-08-12, [link](https://www.youtube.com/watch?v=HFZwBaIVHq4))
 
 ## What can and cannot be rejuvenated
 
@@ -56,6 +62,8 @@ The guest's conservatism extends to IVF itself: for a couple with no fertility p
 - **After a year of trying (sooner at older ages), evaluate both partners — strong.** Include semen analysis and structural uterine assessment; consider endometriosis and adenomyosis in the differential, since 30–50% of infertile women have endometriosis. [[endometriosis]] [[adenomyosis]] (Peter Attia MD — "397 - Endometriosis and adenomyosis: diagnosis, fertility, reproductive aging, & emerging treatments", 2026-06-22, [link](https://www.youtube.com/watch?v=IxHRYDM64dQ))
 - **Recheck a discouraging antral follicle count in a different cycle phase — moderate.** The measure varies between follicular and luteal phases; do not anchor decisions to one scan. (Peter Attia MD — "397 - Endometriosis and adenomyosis: diagnosis, fertility, reproductive aging, & emerging treatments", 2026-06-22, [link](https://www.youtube.com/watch?v=IxHRYDM64dQ))
 - **Be skeptical of "egg rejuvenation" marketing — strong.** Mitochondrial replacement does not fix nuclear aneuploidy; ovarian-cortex grafting for menopause postponement has no publications; stem-cell oocytes are not yet a clinical option. (Peter Attia MD — "397 - Endometriosis and adenomyosis: diagnosis, fertility, reproductive aging, & emerging treatments", 2026-06-22, [link](https://www.youtube.com/watch?v=IxHRYDM64dQ))
+- **When planning a later or larger family, obtain individualized fertility counseling before the first pregnancy consumes additional reproductive time — moderate planning principle.** Ask for age- and reserve-specific estimates across the complete retrieval-to-live-birth funnel and distinguish success per euploid transfer from success per initiated cycle. (@RenaMalikMD (Rena Malik, M.D.) — "Perimenopause and Still Want Kids? Your HRT Plan May Need to Look Completely Different", 2026-08-12, [link](https://www.youtube.com/watch?v=HFZwBaIVHq4))
+- **Treat egg or embryo freezing as risk management, not guaranteed fertility insurance — strong counseling principle.** At each decision point review desired family size, age, reserve, sperm source, relationship and legal context, cost, laboratory performance, and the possibility that stored material will not yield a live birth. (@RenaMalikMD (Rena Malik, M.D.) — "Perimenopause and Still Want Kids? Your HRT Plan May Need to Look Completely Different", 2026-08-12, [link](https://www.youtube.com/watch?v=HFZwBaIVHq4))
 
 ## Gaps & open questions
 
@@ -64,6 +72,8 @@ The guest's conservatism extends to IVF itself: for a couple with no fertility p
 - Are the epigenetic differences in IVF-conceived children attributable to the technology, and can prospective designs escape the parental-age and affluence confounding?
 - Does autologous ovarian-cortex transplantation deliver hormone profiles or outcomes superior to conventional menopausal hormone therapy, and at what surgical cost?
 - Would state-subsidized early egg freezing measurably change completed fertility in below-replacement countries, given the ~10% utilization rate?
+- How portable are reported vitrification survival and euploid-transfer success rates across laboratories, patient populations, biopsy strategies, and reporting denominators?
+- Does using IVF as a diagnostic probe improve family-building outcomes enough to justify cost and treatment burden in people without established infertility?
 
 ## Related
 

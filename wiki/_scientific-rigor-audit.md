@@ -71,6 +71,8 @@ P1 pages contain human-facing actions or consequential causal claims but general
 - Brain and behavior: [[sleep-quality-and-circadian-alignment]], [[cognitive-reserve-and-brain-health]], [[addiction-recovery-and-emotional-sobriety]], [[adhd-and-reproductive-hormone-transitions]], [[menopause-related-cognitive-impairment]], and any page offering a timed or symptom-treatment protocol.
 - Skin and hair: [[topical-retinoids]], [[photoprotection]], [[hair-loss-diagnosis-and-scalp-health]], [[procedural-skin-remodeling]], and [[actinic-purpura-and-aging-skin-fragility]].
 
+Visible aging is also a coverage gap rather than only a verification problem. The research queue now prioritizes a multi-compartment model of skin and facial aging, interpretable visible-aging outcomes, comparative topical evidence, target-layer procedural evidence, and systemic modifiers. Expansion should remain consolidated: fashionable ingredients and branded devices do not each warrant a chapter unless they introduce a genuinely distinct mechanism, decision, or evidence dispute.
+
 ## P2 — lower-risk or contextual review
 
 P2 includes people pages, descriptive frameworks, exercise-selection details, broad psychology exposition, urbanism, research culture, and low-risk general behavior. Examples include researcher profiles, [[human-centered-ai-and-learning]], [[open-data-and-research-infrastructure]], [[replication-and-research-incentives]], [[public-trust-in-longevity-science]], transport and safe-streets pages, and low-stakes movement or skincare-selection chapters.
@@ -87,7 +89,13 @@ P2 includes people pages, descriptive frameworks, exercise-selection details, br
 
 ## Completion criteria
 
-A page leaves the queue only when material concept, outcome, and protocol claims have nearby authoritative citations; grades match design and endpoint; contradictory and null evidence is represented; safety and applicability are explicit; frontmatter records a real cutoff; and material changes are propagated to synthesis. Until then, it remains `review-due` or `under-review`.
+A page leaves the queue only when material concept, outcome, and protocol claims have nearby authoritative citations; grades match design and endpoint; contradictory and null evidence is represented; safety and applicability are explicit; frontmatter records a real cutoff and consequence-sensitive review interval; and material changes are propagated to synthesis. P0 completion additionally requires an adversarial second pass seeking falsification, harms, alternative explanations, applicability failures, conflicts of interest, and source non-independence. Automated DOI, PubMed, and retraction checks establish bibliographic integrity but do not establish citation entailment. Until these conditions are met, the page remains `review-due` or `under-review`.
+
+## Rigor infrastructure roadmap
+
+- **Implemented:** claim states, protocol-admission rules, applicability boundaries, outcome hierarchy, absolute-effect and harm reporting, conflict and source-independence checks, visible contradiction handling, retirement criteria, consequence-sensitive evidence decay, and adversarial P0 review.
+- **Partially automated:** DOI/PubMed resolution, source registry, retraction signals, freshness status, review prioritization, and reverse-dependency propagation. These systems find candidates for human or agent judgment; they do not certify scientific correctness.
+- **Still requires claim-level judgment:** whether a citation entails the exact sentence, whether apparently independent papers reuse one dataset, whether an endpoint matters clinically, and whether conflicting evidence changes the conclusion. These must be documented during page review rather than inferred from reference counts.
 
 ## Current state
 

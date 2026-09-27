@@ -2,10 +2,10 @@
 type: concept
 title: Dietary fat quality and cardiovascular risk
 tags: [nutrition, longevity]
-updated: 2026-08-11
-evidence_reviewed: never
-evidence_cutoff: unknown
-review_status: review-due
+updated: 2026-09-03
+evidence_reviewed: 2026-09-02
+evidence_cutoff: 2026-09-02
+review_status: under-review
 review_interval: 365d
 ---
 
@@ -14,6 +14,14 @@ review_interval: 365d
 Dietary fats differ by bond chemistry, and that chemistry propagates to lipoprotein behavior and cardiovascular outcomes. A saturated fatty acid has no double bonds; its straight chains pack tightly, which is why saturated-rich fats are solid at room temperature. A monounsaturated fatty acid has one cis double bond and a polyunsaturated fatty acid several; each cis bond kinks the chain, loosening packing and increasing membrane fluidity — a property that matters for LDL-receptor recognition and particle aggregation ([[lipoprotein-retention-and-atherogenesis]]). A trans double bond leaves the chain straight, so trans fats pack like saturated fat while still carrying an oxidizable double bond — the worst of both configurations — and their atherogenicity is clear enough that the FDA has effectively banned them. Industrial trans fats entered the food supply precisely because they mimic saturated fat's solidity: margarines built to replace butter ran roughly 25–40% trans fat before the harm was recognized. (@PeterAttiaMD (Peter Attia MD) — "380 ‒ The seed oil debate: are they uniquely harmful relative to other dietary fats?", 2026-01-19, [link](https://www.youtube.com/watch?v=iB49uq-t1UM))
 
 Because eating less of one macronutrient means eating more of another, fat-quality questions are inherently substitution questions: the measurable quantity is the effect of isocalorically replacing saturated fat with polyunsaturated fat, monounsaturated fat, or carbohydrate, not the effect of a fat in isolation. Replacing saturated with polyunsaturated fat lowers LDL cholesterol by roughly 15% in feeding studies; monounsaturated fat lowers it less but remains directionally protective; carbohydrate substitution is roughly neutral on average and probably depends on carbohydrate quality. (@PeterAttiaMD (Peter Attia MD) — "380 ‒ The seed oil debate: are they uniquely harmful relative to other dietary fats?", 2026-01-19, [link](https://www.youtube.com/watch?v=iB49uq-t1UM))
+
+## From dietary fat to circulating particles
+
+Fat is hydrophobic, so digestion and transport require packaging. Most dietary fat arrives as triglyceride—three fatty acids attached to glycerol—is hydrolyzed in the intestine, reassembled inside intestinal cells, and exported in chylomicrons. Lipoprotein lipase releases fatty acids to tissues, while particle remnants return to the liver. Linoleic acid and alpha-linolenic acid are essential because humans cannot synthesize their defining double-bond structures; the requirement for some dietary fat does not imply that every fat source or intake level has the same health effect. (@joinzoe (ZOE) — "The 'HEALTHY' foods you SHOULD NOT eat to protect your heart & live longer", 2026-08-27, [link](https://www.youtube.com/watch?v=bC4ZYd5eUEo))
+
+Dietary saturated fat tends to raise LDL cholesterol relative to polyunsaturated fat through changes in hepatic particle production and clearance, although the exact contribution of each route varies by fatty acid, food matrix, and person. Dietary cholesterol is a different exposure: cells synthesize cholesterol and can down-regulate synthesis when more is absorbed, so food cholesterol is not the main determinant of circulating LDL for most people. This is not permission to ignore cholesterol-rich foods, because many also supply saturated fat and because individual responses differ; the operative measurement remains the person's LDL/ApoB response and overall dietary substitution. [[lipoprotein-retention-and-atherogenesis]] (@joinzoe (ZOE) — "The 'HEALTHY' foods you SHOULD NOT eat to protect your heart & live longer", 2026-08-27, [link](https://www.youtube.com/watch?v=bC4ZYd5eUEo))
+
+Replacing fat indiscriminately with refined starch or added sugar can raise hepatic fatty-acid synthesis and triglyceride-rich lipoproteins, particularly under high energy intake or insulin resistance. That does not make saturated and unsaturated fats equivalent; it shows why the old low-fat label was an incomplete instruction. Current AHA pattern guidance combines unsaturated-for-saturated substitution with whole grains over refined grains, plant protein and fish, limited added sugar and sodium, energy balance, and cultural and economic feasibility. WHO likewise recommends replacing saturated fat with polyunsaturated fat, plant monounsaturated fat, or fiber-rich carbohydrate rather than treating total carbohydrate as one comparator. (@joinzoe (ZOE) — "The 'HEALTHY' foods you SHOULD NOT eat to protect your heart & live longer", 2026-08-27, [link](https://www.youtube.com/watch?v=bC4ZYd5eUEo))[^aha-pattern-2021][^who-fat-2023]
 
 ## The substitution-trial record and its great confounder
 
@@ -73,6 +81,8 @@ Fat-quality effects are real but mid-sized levers. Class 3–4 obesity carries m
 - Which carbohydrate qualities make carbohydrate-for-saturated-fat substitution protective versus neutral remains unquantified here.
 - Real-world exposure to oxidation products from repeatedly reused restaurant frying oil is unmeasured at the population level.
 - Do coconut- or palm-oil-based meat substitutes improve or worsen clinical outcomes compared with the specific animal or legume food they replace?
+- How much do fermentation and the dairy food matrix alter the LDL and event effects predicted from saturated-fat content alone? The transcript acknowledges this uncertainty but does not resolve it. (@joinzoe (ZOE) — "The 'HEALTHY' foods you SHOULD NOT eat to protect your heart & live longer", 2026-08-27, [link](https://www.youtube.com/watch?v=bC4ZYd5eUEo))
+- At equal calories and fatty-acid composition, do soybean, canola, and olive oils differ on cardiovascular events, or are their practical differences mainly nutrient profile, taste, price, and what they replace? (@joinzoe (ZOE) — "The 'HEALTHY' foods you SHOULD NOT eat to protect your heart & live longer", 2026-08-27, [link](https://www.youtube.com/watch?v=bC4ZYd5eUEo))
 
 ## Practical implications
 
@@ -80,7 +90,14 @@ Fat-quality effects are real but mid-sized levers. Class 3–4 obesity carries m
 - **If avoiding seed oils, replace them with something that still displaces saturated fat (leaner proteins, monounsaturated oils), and keep fiber adequate — moderate-to-strong.** Avoidance itself is harmless; recreating a high-saturated-fat diet in its place is the failure mode. (@PeterAttiaMD (Peter Attia MD) — "Cooking with Lard vs Seed Oils | Layne Norton, Ph.D.", 2026-01-21, [link](https://www.youtube.com/watch?v=7_cbaDXAWYM))
 - **Treat deep-fried food as an infrequent food regardless of the frying medium, and distrust thin-layer or long-reused frying oil — moderate mechanistic evidence.** Do not read a switch to tallow or lard as making fries healthy; that marketing pivot serves sales, not health. (@PeterAttiaMD (Peter Attia MD) — "Cooking with Lard vs Seed Oils | Layne Norton, Ph.D.", 2026-01-21, [link](https://www.youtube.com/watch?v=7_cbaDXAWYM))
 - **Rank the levers: energy balance and physical activity dominate fat-quality choices at the population level — moderate (expert judgment on relative hazard ratios, no direct comparison trials).** Fat quality is worth optimizing after, not instead of, the big levers. (@PeterAttiaMD (Peter Attia MD) — "Cooking with Lard vs Seed Oils | Layne Norton, Ph.D.", 2026-01-21, [link](https://www.youtube.com/watch?v=7_cbaDXAWYM))
+- **At the next grocery order and then monthly, audit the repeated substitutions in the pantry, refrigerator, and usual restaurant orders — strong for the direction of the dietary change; pragmatic rather than trial-validated for the monthly cadence.** Replace butter, tallow, lard, and fatty processed meat where feasible with liquid non-tropical plant oils, nuts, legumes, fish, or leaner proteins; replace refined-grain or high-added-sugar low-fat products with fiber-rich carbohydrate rather than treating low fat as the goal. (@joinzoe (ZOE) — "The 'HEALTHY' foods you SHOULD NOT eat to protect your heart & live longer", 2026-08-27, [link](https://www.youtube.com/watch?v=bC4ZYd5eUEo))[^aha-pattern-2021]
+- **Do not treat grass-fed beef as a meaningful omega-3 substitute for fish or alpha-linolenic-acid-rich plant foods — moderate for composition, weak for any direct outcome comparison.** A relative increase over grain-fed beef can remain nutritionally small in absolute terms. (@joinzoe (ZOE) — "The 'HEALTHY' foods you SHOULD NOT eat to protect your heart & live longer", 2026-08-27, [link](https://www.youtube.com/watch?v=bC4ZYd5eUEo))
 
 ## Related
 
-[[seed-oils]] · [[lipoprotein-retention-and-atherogenesis]] · [[nutrition-evidence-and-personalization]] · [[food-label-literacy-and-health-halos]] · [[energy-balance-and-calorie-counting]] · [[omega-3-fatty-acids]] · [[olive-oil-and-cognitive-aging]] · [[ketogenic-diet-apob-and-atherosclerosis]] · [[ezetimibe]] · [[pcsk9-inhibition]] · [[layne-norton]] · [[peter-attia]] · [[practice-playbook]]
+[[seed-oils]] · [[lipoprotein-retention-and-atherogenesis]] · [[nutrition-evidence-and-personalization]] · [[dietary-protein-and-cardiovascular-risk]] · [[food-label-literacy-and-health-halos]] · [[energy-balance-and-calorie-counting]] · [[omega-3-fatty-acids]] · [[olive-oil-and-cognitive-aging]] · [[ketogenic-diet-apob-and-atherosclerosis]] · [[ezetimibe]] · [[pcsk9-inhibition]] · [[layne-norton]] · [[peter-attia]] · [[alice-lichtenstein]] · [[practice-playbook]]
+
+## References
+
+[^aha-pattern-2021]: Lichtenstein AH, et al. “2021 Dietary Guidance to Improve Cardiovascular Health: A Scientific Statement From the American Heart Association.” *Circulation*, 2021. [professional scientific statement]. [doi:10.1161/CIR.0000000000001031](https://doi.org/10.1161/CIR.0000000000001031)
+[^who-fat-2023]: World Health Organization. *Saturated Fatty Acid and Trans-Fatty Acid Intake for Adults and Children*. 2023. [professional guideline]. [WHO publication](https://www.who.int/publications/i/item/9789240073630)

@@ -2,10 +2,10 @@
 type: intervention
 title: Creatine
 tags: [fitness, nutrition]
-updated: 2026-08-11
+updated: 2026-09-02
 evidence_reviewed: 2026-08-12
 evidence_cutoff: 2026-08-12
-review_status: current
+review_status: under-review
 review_interval: 180d
 ---
 
@@ -31,6 +31,8 @@ Multiple clinical trials and meta-analyses consistently show creatine improves s
 
 A second evidence review places the routine dose at 3–5 g/day with resistance training and finds incremental improvements in body composition over training alone. Kaeberlein sees no good long-term evidence that the influencer-promoted 20 g/day maintenance dose outperforms 5 g/day; possible benefit during brain energetic stress, including sleep deprivation, remains less established than the muscular effect. (@matt.kaeberlein (Healthspan Medicine) — "Dr. Matt Ranks Longevity Supplements: The Winners and Total Scams", 2026-02-15, [link](https://www.youtube.com/watch?v=mD_DfRDXklc))
 
+In Alzheimer's disease, neurologist David Perlmutter cites an interventional pilot from 2025 using 10 g twice daily that he reports showed significant positive changes in patients with existing disease, with no adverse events, and characterizes the results as better than the anti-amyloid drug class has achieved. The underlying study (a University of Kansas open-label creatine pilot in Alzheimer's) was small, short, and uncontrolled: it supports feasibility and hypothesis generation, not efficacy, and an open-label pilot cannot be compared against randomized drug trials. His enthusiasm — that if creatine were proprietary, neurologists would be prescribing it on this evidence — is attributed opinion; the 20 g/day dose used also exceeds the maintenance range above and lacks long-term safety data in older adults. (@maxlugavere (Max Lugavere) — "What to Eat to BEAT Alzheimer's - Dr. David Perlmutter", 2026-08-19, [link](https://www.youtube.com/watch?v=HiL3Phwl2d0)) [[david-perlmutter]] [[microglia-and-neuroinflammation]]
+
 Women's-specific hypotheses should remain below that established ergogenic evidence. Smith-Ryan describes laboratory work in which creatine shifted fluid toward the intracellular compartment across menstrual phases and an ongoing perimenopause study using a five-day loading phase followed by 5 g/day. She regards creatine as useful but not magical or the first response to every midlife concern. Claims that 10 g/day is preferable for brain health or that creatine reliably relieves luteal bloating remain emerging and are not established here. (@PeterAttiaMD (Peter Attia MD) — "378 ‒ Women’s health & performance: how training, nutrition, & hormones interact across life stages", 2026-01-05, [link](https://www.youtube.com/watch?v=CDsH60jt34o)) (@PeterAttiaMD (Peter Attia MD) — "How Early Training Choices Shape Women’s Health for Life | Abbie Smith-Ryan, Ph.D.", 2026-01-09, [link](https://www.youtube.com/watch?v=bsw0pKcWf5c))
 
 ## Practical implications
@@ -44,7 +46,8 @@ Women's-specific hypotheses should remain below that established ergogenic evide
 - What dose, timing, and cycling (if any) optimize response, and who are non-responders?
 - Does creatine meaningfully preserve muscle or function in older adults or during caloric deficit independent of training quality?
 - Do cognitive or mood effects replicate in well-controlled trials, and through what mechanism?
+- Does the open-label Alzheimer's pilot's signal survive a randomized, controlled trial at any dose, and is 20 g/day safe long-term in older adults?
 
 ## Related
 
-[[creatine-for-depression]] · [[resistance-training]] · [[womens-exercise-across-the-lifespan]] · [[muscle-strength-and-mortality]] · [[performance-nutrition-and-hydration]] · [[supplement-evidence-and-safety]] · [[practice-playbook]] · [[aging-model]]
+[[creatine-for-depression]] · [[microglia-and-neuroinflammation]] · [[resistance-training]] · [[womens-exercise-across-the-lifespan]] · [[muscle-strength-and-mortality]] · [[performance-nutrition-and-hydration]] · [[supplement-evidence-and-safety]] · [[practice-playbook]] · [[aging-model]]

@@ -2,7 +2,7 @@
 type: concept
 title: Human-centered AI and learning
 tags: [sleep-brain]
-updated: 2026-08-11
+updated: 2026-09-01
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -40,6 +40,8 @@ Human learning differs in data efficiency and embodiment. A child can generalize
 
 An AI tutor lowers the cost of asking preliminary and follow-up questions, can adapt explanations, and can help a learner expose exactly where understanding fails. Its educational value depends on an active loop: the learner poses specific questions, tests the response, asks for counterexamples or derivations, and applies the result. Passive answer collection can remove the retrieval, generation, and error-correction work through which durable learning is built. Li frames prompting as a form of Socratic inquiry and argues that schools should teach it, while also warning that both banning the tool and letting it displace motivation can reduce student agency. This is an educational framework, not trial evidence that chatbot use improves long-term learning. (@hubermanlab (Andrew Huberman) — "Using AI to Increase Your Intelligence & Enrich Humanity | Dr. Fei-Fei Li", 2026-08-10, [link](https://www.youtube.com/watch?v=N5AQFYtqx8Q))
 
+A sharper boundary comes from schooling practice: Joe Liemandt reports that general-purpose chatbots dropped into ordinary schools are used overwhelmingly to cheat, at every grade level, and lower learning — while structured AI tutoring succeeds only as a closed loop that assesses the learner's actual level, generates a lesson there, holds progression to a mastery criterion, and schedules spaced review. On this view the educational value of AI is architectural, not conversational, and the per-learner data stream doubles as a measurement instrument for learning science itself — finer-grained than classroom studies, whose effect sizes are dominated by prerequisite mismatch and motivation noise. This partially tensions with Li's teach-prompting-as-Socratic-inquiry framing: both positions oppose passive answer collection, but Liemandt's holds that unstructured access harms by default, while Li emphasizes training better use of the open tool. The mastery mechanics are developed at [[mastery-learning-and-individualized-tutoring]]. (@hubermanlab (Andrew Huberman) — "How to Accelerate Learning & Improve Education | Joe Liemandt", 2026-08-31, [link](https://www.youtube.com/watch?v=Uzoe1RYVjiA))
+
 ```mermaid
 flowchart TD
   Q[Define a question and current belief] --> P[Prompt for explanation, assumptions and examples]
@@ -59,6 +61,8 @@ Robotic systems can augment people where perception, precision, repetition, or p
 
 Market demand alone cannot resolve questions of consent, dignity, bias, liability, acceptable failure, or distribution of benefits. Li’s human-centered position assigns joint responsibility to developers, affected communities, educators, professional bodies, and government; high-stakes applications such as medicine require domain regulation and prospective safety evidence. This connects to [[ai-guided-therapeutic-design]]: faster generation or prediction changes the research funnel but does not waive experimental and clinical validation. (@hubermanlab (Andrew Huberman) — "Using AI to Increase Your Intelligence & Enrich Humanity | Dr. Fei-Fei Li", 2026-08-10, [link](https://www.youtube.com/watch?v=N5AQFYtqx8Q))
 
+Human-centered assistance must also preserve epistemic agency. In science communication, fluent generation can anchor the user, inflate confidence, hide distorted citations, and shift more labor to readers and reviewers; a system that accelerates drafting while eroding source checking or causal organization has not improved the whole task. [[ai-assisted-science-communication]] develops this verification asymmetry and treats durable skill loss from cognitive offloading as an open empirical question rather than an established consequence. (@LabMuffinBeautyScience (Lab Muffin Beauty Science) — "AI slop has hit the science communicators", 2026-04-03, [link](https://www.youtube.com/watch?v=xcq5XYkFJfY))
+
 ## Practical implications
 
 - **For each consequential use: define the question, request assumptions and uncertainty, then verify against a primary source, calculation, test, or qualified professional — strong methodological principle.** Fluency is not validation, and the appropriate check becomes stricter as harm increases. (@hubermanlab (Andrew Huberman) — "Using AI to Increase Your Intelligence & Enrich Humanity | Dr. Fei-Fei Li", 2026-08-10, [link](https://www.youtube.com/watch?v=N5AQFYtqx8Q))
@@ -72,7 +76,8 @@ Market demand alone cannot resolve questions of consent, dignity, bias, liabilit
 - What tests distinguish a world model that supports causal intervention from visual sequence prediction?
 - How much real-world data is enough for safe robotic autonomy in rare or changing conditions?
 - Which governance arrangements give affected people meaningful agency rather than consultation without control?
+- Which forms of AI assistance preserve source verification, independent problem formulation, and durable reasoning skill?
 
 ## Related
 
-[[ai-guided-therapeutic-design]] · [[cognitive-reserve-and-brain-health]] · [[exercise-enhanced-learning]] · [[automation-employment-and-population]]
+[[ai-guided-therapeutic-design]] · [[ai-assisted-science-communication]] · [[mastery-learning-and-individualized-tutoring]] · [[open-data-and-research-infrastructure]] · [[cognitive-reserve-and-brain-health]] · [[exercise-enhanced-learning]] · [[automation-employment-and-population]]

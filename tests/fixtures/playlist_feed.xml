@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015"
+      xmlns:media="http://search.yahoo.com/mrss/"
+      xmlns="http://www.w3.org/2005/Atom">
+  <title>Videos</title>
+  <author>
+    <name>Marques Brownlee</name>
+    <uri>https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ</uri>
+  </author>
+  <entry>
+    <id>yt:video:vid00000001</id>
+    <yt:videoId>vid00000001</yt:videoId>
+    <title>Newest Long-Form Video</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=vid00000001"/>
+    <published>2026-08-08T15:00:00+00:00</published>
+    <media:group>
+      <media:title>Newest Long-Form Video</media:title>
+      <media:description>A deep dive into the newest gadget.</media:description>
+      <media:thumbnail url="https://i.ytimg.com/vi/vid00000001/hqdefault.jpg" width="480" height="360"/>
+      <media:community>
+        <media:statistics views="1234567"/>
+      </media:community>
+    </media:group>
+  </entry>
+  <entry>
+    <id>yt:video:vid00000002</id>
+    <yt:videoId>vid00000002</yt:videoId>
+    <title>Older Long-Form Video</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=vid00000002"/>
+    <published>2026-08-05T12:30:00+00:00</published>
+    <media:group>
+      <media:title>Older Long-Form Video</media:title>
+      <media:thumbnail url="https://i.ytimg.com/vi/vid00000002/hqdefault.jpg" width="480" height="360"/>
+      <media:community>
+        <media:statistics views="89000"/>
+      </media:community>
+    </media:group>
+  </entry>
+</feed>

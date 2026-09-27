@@ -56,4 +56,4 @@ Small, short studies have not revealed frequent adverse events, while isolated b
 
 ## Related
 
-[[supplement-evidence-and-safety]] · [[lipoprotein-retention-and-atherogenesis]] · [[ezetimibe]] · [[nutrition-evidence-and-personalization]] · [[aging-model]]
+[[supplement-evidence-and-safety]] · [[lipoprotein-retention-and-atherogenesis]] · [[vitamin-k2]] · [[ezetimibe]] · [[nutrition-evidence-and-personalization]] · [[aging-model]]

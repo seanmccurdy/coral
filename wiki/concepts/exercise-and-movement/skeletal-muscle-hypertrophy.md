@@ -2,7 +2,7 @@
 type: concept
 title: Skeletal muscle hypertrophy
 tags: [fitness, longevity]
-updated: 2026-08-11
+updated: 2026-08-25
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -47,6 +47,8 @@ About six hard weekly sets per muscle may produce appreciable growth, while Mike
 
 Older muscle remains trainable but may show anabolic resistance. In Roberts's datasets, adults roughly 50–70 years old gained about half as much muscle as college-aged adults under comparable 12-week programs. An unpublished analysis described in the interview associates this attenuation with less remodeling of the muscle proteome, including proteostasis- and ribosome-related proteins, rather than attributing it primarily to menopausal estrogen loss or age-related testosterone decline. Because the analysis was unpublished at recording, both the magnitude and mechanism are preliminary. (@drandygalpin (Andy Galpin) — "What Drives Muscle Growth & What Doesn't | Dr. Mike Roberts", 2026-07-08, [link](https://www.youtube.com/watch?v=CoU8-R0Id-g))
 
+A separate candidate locus for anabolic resistance sits in the sarcolemma rather than the proteome. Amino acids enter muscle through membrane transporters whose function depends on the surrounding lipid environment, so membrane fatty-acid composition is a plausible upstream modifier of how strongly a given amino-acid load signals. Work from Stuart Phillips's group (Chris McGlory) exploits this: a four-week 5 g/day omega-3 preload — the interval required for incorporation into muscle-cell membranes — roughly halved the atrophy of a subsequently immobilized limb in young women, and follow-up work attributes the protection to restored amino-acid sensitivity rather than to reduced inflammation, effectively reproducing part of what training does to the same signal. This is a small literature in an immobilization model, not a demonstration that membrane remodeling augments hypertrophy in training adults; dose, safety, and applicability limits are recorded in [[omega-3-fatty-acids]]. (FoundMyFitness — "How Omega-3s May Slow Biological Aging (New Evidence)", 2026-04-06, [link](https://www.youtube.com/watch?v=nmReeTIZMos))
+
 Resistance training does not simply dilute or damage mitochondria. A growing fiber can contain more mitochondria in absolute terms even when mitochondrial density falls, and older deconditioned adults showed mitochondrial-biogenesis signals after resistance training. This does not make lifting equivalent to endurance training for aerobic adaptation. High endurance volume can still interfere with maximal hypertrophy through competing molecular programming, energetic demand, and recovery cost; the simple model in which AMPK switches off mTOR is inadequate. When both goals matter, the source favors a low dose of high-intensity cycling—about two sessions weekly—as a lower-eccentric-load compromise, but this is a goal-specific synthesis rather than a universal concurrent-training prescription. (@drandygalpin (Andy Galpin) — "What Drives Muscle Growth & What Doesn't | Dr. Mike Roberts", 2026-07-08, [link](https://www.youtube.com/watch?v=CoU8-R0Id-g)) [[time-efficient-concurrent-training]]
 
 ## What does not yet count as a primary driver
@@ -54,6 +56,10 @@ Resistance training does not simply dilute or damage mitochondria. A growing fib
 Human lactate infusion around resistance exercise did not augment post-exercise muscle-protein synthesis, weakening the claim that lactate accumulation independently explains growth from metabolite-heavy methods such as blood-flow restriction. Stretch under sufficient load can itself provide mechanical tension, and training at longer muscle lengths may enhance growth, but passive stretching protocols and exercise range-of-motion effects cannot be treated as interchangeable. Muscle damage and soreness often accompany loading but are not established requirements; that conflict is examined in [[muscle-damage-and-hypertrophy]]. (@drandygalpin (Andy Galpin) — "What Drives Muscle Growth & What Doesn't | Dr. Mike Roberts", 2026-07-08, [link](https://www.youtube.com/watch?v=CoU8-R0Id-g))
 
 Whether adult human training adds new fibers—hyperplasia—remains unsettled. Mike Roberts takes the minority position that a small contribution is plausible, citing fiber splitting and the mismatch between whole-muscle size and sampled fiber size in highly trained people. Troy Hornberger and Stuart Phillips reject that interpretation; changes in fiber pennation angle can make cross-sections appear to contain more fibers, biopsies are only tiny snapshots, and some suggestive evidence comes from rodents or anabolic-steroid users. Existing evidence does not support programming specifically to induce hyperplasia. (@drandygalpin (Andy Galpin) — "What Drives Muscle Growth & What Doesn't | Dr. Mike Roberts", 2026-07-08, [link](https://www.youtube.com/watch?v=CoU8-R0Id-g))
+
+## Endogenous brakes on growth
+
+Growth is regulated by inhibitory signaling as well as by anabolic stimulus. Myostatin (GDF8), a secreted TGF-beta-family protein, and the related ligand activin A both signal through the type II activin receptor to restrain muscle protein accretion; blocking either arm raises muscle mass in preclinical models. Pharmacological attempts to exploit this — apitegromab against the myostatin precursor, bimagrumab against the receptor — have moved body-composition endpoints in humans while so far failing to move muscle-function endpoints, which is the reverse of the pattern resistance training produces and a reminder that the mechanotransduction route to growth is not the only route to *usable* muscle. [[myostatin-pathway-inhibition]] (@Physionic (Physionic) — "The Ultimate Peptide Stack? Gain Muscle, Lose Fat!", 2026-07-23, [link](https://www.youtube.com/watch?v=AvDrlcsdCBg))
 
 ## Practical implications
 
@@ -69,9 +75,10 @@ Whether adult human training adds new fibers—hyperplasia—remains unsettled. 
 - How much of responder variation is stable biology versus training quality, nutrition, recovery, and measurement error?
 - Is roughly 20 weekly sets truly optimal for most trained people when tested in randomized parallel-dose trials?
 - Which proteostasis, ribosome, chromatin, or nutrient-sensing changes cause age-related anabolic resistance, and can they be modified?
+- Does membrane fatty-acid composition modify amino-acid sensitivity during ordinary training, or only in the immobilization model where it has been tested?
 - Does mitochondrial expansion directly enable hypertrophy, or merely accompany the energy and perfusion adaptations of training?
 - Does exercise-induced hyperplasia occur in adult humans, and if so, does it contribute meaningfully to ordinary training gains?
 
 ## Related
 
-[[resistance-training]] · [[training-frequency-and-hypertrophy]] · [[muscle-damage-and-hypertrophy]] · [[muscle-strength-and-mortality]] · [[time-efficient-concurrent-training]] · [[performance-nutrition-and-hydration]] · [[aging-model]] · [[practice-playbook]]
+[[resistance-training]] · [[training-frequency-and-hypertrophy]] · [[muscle-damage-and-hypertrophy]] · [[omega-3-fatty-acids]] · [[myostatin-pathway-inhibition]] · [[muscle-strength-and-mortality]] · [[time-efficient-concurrent-training]] · [[performance-nutrition-and-hydration]] · [[aging-model]] · [[practice-playbook]]

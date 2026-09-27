@@ -2,7 +2,7 @@
 type: concept
 title: Multi-cancer early detection
 tags: [longevity]
-updated: 2026-08-11
+updated: 2026-08-18
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: under-review
@@ -30,7 +30,7 @@ flowchart TD
 
 The causal promise has several links: detect an otherwise occult cancer, identify it at an earlier stage, treat it more successfully, and thereby reduce late-stage disease or mortality. Each link must work for screening to improve outcomes. A higher detection count alone can include indolent disease that would never cause harm, while preferential sensitivity for larger or more aggressive tumors can make a test better at finding late disease than at producing the desired stage shift. (@matt.kaeberlein (Healthspan Medicine) — "The NHS Galleri Trial: What you need to know about early cancer detection", 2026-03-27, [link](https://www.youtube.com/watch?v=LSLHw4bqXwI))
 
-The NHS-Galleri trial randomized more than 140,000 asymptomatic adults aged 50–77 to usual care or annual Galleri plus usual care, with three tests and up to three years of follow-up. It did not show a statistically significant reduction in its prespecified combined stage III/IV endpoint. Company-reported secondary descriptions included more early-stage detection, a fourfold higher overall detection rate, and a 20% stage-IV reduction in later screening rounds, but these were press-release results rather than a published full analysis at the time of the source. They are hypothesis-generating and do not rescue a failed primary endpoint or establish mortality benefit. (@matt.kaeberlein (Healthspan Medicine) — "The NHS Galleri Trial: What you need to know about early cancer detection", 2026-03-27, [link](https://www.youtube.com/watch?v=LSLHw4bqXwI))
+The NHS-Galleri trial randomized more than 140,000 asymptomatic adults aged 50–77 to usual care or annual Galleri plus usual care, with three tests and up to three years of follow-up. It did not show a statistically significant reduction in its prespecified combined stage III/IV endpoint. Company-reported secondary descriptions included more early-stage detection, a fourfold higher overall detection rate, and a 20% stage-IV reduction in later screening rounds, but these were press-release results rather than a published full analysis at the time of the source. They are hypothesis-generating and do not rescue a failed primary endpoint or establish mortality benefit. (@matt.kaeberlein (Healthspan Medicine) — "The NHS Galleri Trial: What you need to know about early cancer detection", 2026-03-27, [link](https://www.youtube.com/watch?v=LSLHw4bqXwI)) A second, later source corroborates the outcome plainly: the NHS-funded trial's 2026 result failed to meet its primary endpoint — the test did not improve cancer outcomes — while framing the residual decision as individual choice rather than prohibition. That framing (present the data, let the informed person decide) is Brad Stanfield's patient-autonomy position, discussed with the broader screening-cascade evidence in [[cancer-screening-and-overdiagnosis]]. (@DrBradStanfield (Dr Brad Stanfield) — "'Lie to Your Doctor'", 2026-07-23, [link](https://www.youtube.com/watch?v=ZSLxwF1h9ik))
 
 ## Sensitivity, specificity, and prior probability
 
@@ -70,4 +70,4 @@ Repeating an initial positive blood test before invasive work-up might appear to
 
 ## Related
 
-[[proactive-health-monitoring]] · [[breast-cancer-screening]] · [[colorectal-cancer-prevention-and-screening]] · [[longevity-intervention-prioritization]]
+[[proactive-health-monitoring]] · [[cancer-screening-and-overdiagnosis]] · [[breast-cancer-screening]] · [[colorectal-cancer-prevention-and-screening]] · [[longevity-intervention-prioritization]] · [[brad-stanfield]]

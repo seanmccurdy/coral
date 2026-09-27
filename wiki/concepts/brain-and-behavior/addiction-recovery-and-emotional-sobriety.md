@@ -2,7 +2,7 @@
 type: concept
 title: Addiction recovery and emotional sobriety
 tags: [sleep-brain]
-updated: 2026-08-11
+updated: 2026-08-25
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -70,6 +70,8 @@ flowchart LR
   COMP --> D
 ```
 
+The transfer risk has independent expert corroboration: Arthur Brooks, reading the Harvard Study of Adult Development, describes exercise mania in later life as sometimes representing compensation — former alcoholics becoming exercise-addicted, a pattern he calls being a "dry drunk" — and notes that the happy-and-healthy cohort members exercised regularly but moderately, with a curvilinear rather than more-is-better relationship. His related prevention heuristic is that potentially addictive pleasures consumed alone (drinking, eating, gambling, scrolling) carry higher addiction risk than the same pleasures shared, because social consumption recruits management and memory rather than pure reward-lever pressing; this is expert interpretation with an evolutionary rationale, not comparative-trial evidence. His categorical claim that "all euphoric substances are neurotoxic" is an overbroad expert generalization — neurotoxicity is substance-, dose-, and pattern-specific — and is recorded here as an attributed position rather than a pharmacological fact. (FoundMyFitness — "How To Build Lasting Happiness | Dr. Arthur Brooks", 2026-03-24, [link](https://www.youtube.com/watch?v=IVVVvbfRiDo))
+
 Rideout's distinctive claim that discipline and chosen suffering can create peace should be read narrowly. Bounded effort can reduce unstructured time, create immediate behavioral evidence of persistence, and deliver a reliable completion signal. But suffering is not intrinsically therapeutic: depletion, injury, shame, and exercise dependence can reproduce avoidance or self-punishment. He explicitly presents his extreme training as personal survival practice rather than a general prescription. (@drandygalpin (Andy Galpin) — "How to Find Peace Through Suffering | Ken Rideout & Dr. Andy Galpin", 2026-07-06, [link](https://www.youtube.com/watch?v=EfbtNG5P3gU))
 
 ## Treatment quality and conflicts of interest
@@ -98,4 +100,4 @@ Price, luxury setting, and extensive testing do not establish effective continui
 
 ## Related
 
-[[mental-strength-and-behavioral-skills]] · [[stress-threat-discrimination]] · [[durable-well-being-and-hedonic-adaptation]] · [[myth-moral-injury-and-homecoming]] · [[practice-playbook]]
+[[mental-strength-and-behavioral-skills]] · [[stress-threat-discrimination]] · [[durable-well-being-and-hedonic-adaptation]] · [[myth-moral-injury-and-homecoming]] · [[arthur-brooks]] · [[practice-playbook]]

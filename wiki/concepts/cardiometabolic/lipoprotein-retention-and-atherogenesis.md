@@ -2,7 +2,7 @@
 type: concept
 title: Lipoprotein retention and atherogenesis
 tags: [nutrition, longevity]
-updated: 2026-08-11
+updated: 2026-09-03
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -30,12 +30,20 @@ flowchart LR
   RET2 --> LESS[Lower atherosclerotic risk]
 ```
 
+Particle concentration is not the only determinant of how much ApoB crosses into the wall; the pressure driving it across matters too. Higher arterial pressure both injures the endothelium — stretch and shear stress producing endothelial dysfunction that admits more particles — and drives convective entry directly, with animal work from the 1970s reporting more than 60% greater LDL entry into susceptible aortic segments under raised pressure. This makes blood pressure a partly independent input to the retention step rather than only a parallel risk factor, and it explains why a population with normal clinic blood pressure but abnormal 24-hour readings can accumulate plaque that adjustment on clinic measurements fails to explain away. [[endurance-exercise-and-coronary-atherosclerosis]] (@Physionic (Physionic) — "More Exercise = More Plaque - Why?", 2026-08-13, [link](https://www.youtube.com/watch?v=ibfahpJWOWQ))
+
+A further proposed input acts on clearance rather than on entry, and is worth recording as mechanism rather than as established pathway. Lipoproteins participate in innate immunity by binding bacterial lipopolysaccharide (endotoxin), which reaches circulation in small amounts after ordinary meals as intestinal tight junctions transiently loosen. The proposal is that bound LPS obscures the ApoB epitope the hepatic LDL receptor recognizes, so the particle escapes clearance, circulates longer, is remodeled toward a small dense phenotype, and is retained in the wall — where the LPS it carries additionally signals macrophages to attempt phagocytosis they cannot complete, accelerating foam-cell formation. If correct, this makes postprandial endotoxin exposure a modifiable input to retention that is invisible to a fasting lipid panel, and gives a distinct rationale for meal composition and gut-barrier integrity beyond their effects on particle number. The steps are individually plausible and partly demonstrated in human and animal work, but the chain has not been shown to cause plaque in humans, and the immediate practical consequence is narrower: acute infection or major stress can transiently raise measured LDL, so a panel drawn under either should be repeated ([[blood-marker-variability-and-reference-change]]). [[omega-3-fatty-acids]] [[inflammaging-and-il-6]] (FoundMyFitness — "How Omega-3s May Slow Biological Aging (New Evidence)", 2026-04-06, [link](https://www.youtube.com/watch?v=nmReeTIZMos))
+
+Retained plaque later differentiates by composition, and composition is not a mere descriptive detail: calcified plaque is generally the more stable phenotype and soft (non-calcified, low-attenuation) plaque the more event-prone one. A measurement of one compartment therefore cannot stand in for total atherosclerotic burden, which is what makes calcium-score-only endpoints ambiguous in both directions. [[vitamin-k2]] [[coronary-ct-angiography]] (@Physionic (Physionic) — "Could this change Everything about Vitamin K2 and Calcified Arteries? [New Study]", 2026-08-17, [link](https://www.youtube.com/watch?v=STML7Yugs70))
+
 ## Gaps & open questions
 
 - How much of the cardiovascular effect of dietary fat substitution is mediated through ApoB versus blood pressure, thrombosis, inflammation, or other pathways?
 - Once ApoB is pharmacologically controlled, does saturated-fat intake retain an independent outcome effect?
 - Which particle properties add useful risk information beyond particle number and cumulative exposure?
+- How much of arterial-wall particle entry is attributable to pressure-driven convection versus endothelial dysfunction versus particle concentration, and does ambulatory rather than clinic blood pressure change that partition?
 - How much dementia risk attributed to LDL is mediated by large-vessel atherosclerosis, cerebral small-vessel disease, mixed pathology, or correlated metabolic exposures?
+- Does endotoxin binding to ApoB particles measurably delay clearance in free-living humans, and does reducing postprandial endotoxemia slow plaque progression?
 
 ## Practical implications
 
@@ -44,4 +52,4 @@ flowchart LR
 
 ## Related
 
-[[dietary-fat-quality-and-cardiovascular-risk]] · [[food-label-literacy-and-health-halos]] · [[cognitive-reserve-and-brain-health]] · [[seed-oils]] · [[ezetimibe]] · [[pcsk9-inhibition]] · [[ketogenic-diet-apob-and-atherosclerosis]] · [[aging-model]] · [[practice-playbook]]
+[[dietary-fat-quality-and-cardiovascular-risk]] · [[dietary-protein-and-cardiovascular-risk]] · [[omega-3-fatty-acids]] · [[inflammaging-and-il-6]] · [[food-label-literacy-and-health-halos]] · [[cognitive-reserve-and-brain-health]] · [[endurance-exercise-and-coronary-atherosclerosis]] · [[vitamin-k2]] · [[coronary-ct-angiography]] · [[seed-oils]] · [[ezetimibe]] · [[pcsk9-inhibition]] · [[ketogenic-diet-apob-and-atherosclerosis]] · [[aging-model]] · [[practice-playbook]]

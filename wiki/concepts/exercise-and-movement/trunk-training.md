@@ -2,7 +2,7 @@
 type: concept
 title: Trunk training
 tags: [fitness]
-updated: 2026-08-12
+updated: 2026-08-17
 evidence_reviewed: never
 evidence_cutoff: unknown
 review_status: review-due
@@ -37,6 +37,12 @@ Anti-movement exercises train force production without allowing the imposed dire
 
 For flexion work, the mechanical endpoint should match the intended function. A top-down curl flexes the trunk as the shoulder blades leave the floor; a bottom-up curl requires pelvic and spinal motion rather than leg movement alone. Sequencing long-lever bottom-up work before combined movements and simpler top-down curls is one way to manage fatigue, but the source does not compare that order with alternatives. Exhaling while narrowing the abdominal wall may cue trunk control, whereas claims of selective lower-abdominal recruitment from squeezing the knees or a leaner appearance from this breathing strategy remain untested in the transcript. (@athleanx (ATHLEAN-X™) — "I'm 51. Here's How I Still Have Visible Abs (WORKS AT ANY AGE)", 2026-08-04, [link](https://www.youtube.com/watch?v=ZOMKA0qCQ_w))
 
+## Fiber type and the daily-abs rationale
+
+A popular programming rule holds that the abdominal muscles are slow-twitch postural muscles that are active all day, and therefore either need more training or recover fast enough to be trained daily at high repetitions. The premise fails on the available tissue data: autopsy studies going back to the early 1990s report that most core muscles are approximately 50/50 fast-twitch and slow-twitch — nearly the same fiber-type profile as the vastus lateralis of the quadriceps — and Galpin states there is no literature suggesting that training principles should differ between the abdominal muscles and the quadriceps. The trunk muscles are ordinary skeletal muscle whose training dose should follow the goal (hypertrophy, pain management, performance), exactly as it would for a thigh muscle, rather than a special daily high-repetition scheme. (@drandygalpin (Andy Galpin) — "Should You Train Abs Every Day? | Dr. Andy Galpin", 2026-08-14, [link](https://www.youtube.com/watch?v=mbA5uDx2_c0))
+
+What is genuinely different is not the muscle but its neighborhood: the spine and hips constrain loading in a way the knee does not. A five-sets-of-one true maximal trunk lift is technically possible but carries a high likelihood of causing or exacerbating back or hip injury, so very heavy, fully isolated trunk loading is avoided for reasons of associated-tissue risk rather than muscle physiology. Within flexion training, evidence on safety is mixed and contested: some data link high-repetition lumbar-spine flexion loading (sit-up-style movements) to elevated injury risk, while the pro-and-con literature on the crunch specifically (Galpin edited such an exchange in the Strength and Conditioning Journal) concludes that appropriately performed flexion exercises are not shown to guarantee back injury. Practitioners working with back-pain populations reasonably prefer alternative exercises for those muscles, but that population-specific caution does not justify declaring the crunch categorically dangerous. (@drandygalpin (Andy Galpin) — "Should You Train Abs Every Day? | Dr. Andy Galpin", 2026-08-14, [link](https://www.youtube.com/watch?v=mbA5uDx2_c0))
+
 ## Programming load and variation
 
 Heavy work can use roughly 6–12 repetitions for two or three working sets, provided technique remains controlled. External resistance can turn familiar low-load exercises into strength tasks: a dead bug may be loaded with a kettlebell, ankle weights, or bands, while a suitcase carry can progress toward the heaviest load that grip and posture allow. The aim is task failure near the intended repetition range, not accumulating dozens of easy repetitions. (@drandygalpin (Andy Galpin) — "Simple Weekly Core Workout Plan | Dr. Andy Galpin", 2026-08-08, [link](https://www.youtube.com/watch?v=A6nlC-632nM))
@@ -60,6 +66,7 @@ The cue to flex and extend the spine one vertebra at a time may help some people
 ## Practical implications
 
 - **Each week: include flexion, rotation, anti-extension, and anti-rotation or anti-lateral-flexion work — moderate as a comprehensive programming framework.** The categories may be distributed across sessions rather than performed every day. (@drandygalpin (Andy Galpin) — "Simple Weekly Core Workout Plan | Dr. Andy Galpin", 2026-08-08, [link](https://www.youtube.com/watch?v=A6nlC-632nM))
+- **Do not train abs daily with hundreds of repetitions on a slow-twitch-postural rationale — moderate; the fiber-type premise is contradicted by autopsy data and no literature supports different training principles for abs versus quads.** Program trunk muscles like other skeletal muscle for the chosen goal, while respecting spinal loading limits: avoid true maximal isolated trunk loading, and treat appropriately performed flexion exercises (including crunches) as acceptable rather than categorically unsafe, with individualized selection for existing back pain. (@drandygalpin (Andy Galpin) — "Should You Train Abs Every Day? | Dr. Andy Galpin", 2026-08-14, [link](https://www.youtube.com/watch?v=mbA5uDx2_c0))
 - **For a strength-focused session: use two or three controlled working sets of about 6–12 repetitions and add load progressively — moderate coaching evidence.** Stop or reduce load when spinal position or intended motion can no longer be controlled. (@drandygalpin (Andy Galpin) — "Simple Weekly Core Workout Plan | Dr. Andy Galpin", 2026-08-08, [link](https://www.youtube.com/watch?v=A6nlC-632nM))
 - **Across six- to eight-week blocks or within the week: vary heavy and higher-repetition work according to the goal — plausible but not established as superior.** Track load, repetitions, and technical quality rather than novelty alone. (@drandygalpin (Andy Galpin) — "Simple Weekly Core Workout Plan | Dr. Andy Galpin", 2026-08-08, [link](https://www.youtube.com/watch?v=A6nlC-632nM))
 - **During flexion-focused sets: verify shoulder-blade or pelvic motion and stop when limb momentum substitutes for trunk motion — moderate biomechanical rationale, limited outcome evidence for the cues.** Exercise order can place the hardest stable or highest-priority pattern first; it need not always follow one fixed sequence. (@athleanx (ATHLEAN-X™) — "I'm 51. Here's How I Still Have Visible Abs (WORKS AT ANY AGE)", 2026-08-04, [link](https://www.youtube.com/watch?v=ZOMKA0qCQ_w))
@@ -68,6 +75,8 @@ The cue to flex and extend the spine one vertebra at a time may help some people
 ## Gaps & open questions
 
 - What weekly volume and frequency optimize trunk strength, hypertrophy, pain prevention, or sport transfer for different populations?
+- What are the actual fiber-type distributions of individual core muscles in living, training humans, given that the 50/50 estimate rests on a small autopsy literature?
+- At what repetition and load thresholds does repeated lumbar flexion measurably raise injury risk, and in whom?
 - Does category-balanced trunk training outperform compound lifting alone for injury or functional outcomes?
 - How should loading be modified for existing spinal pain, pregnancy, osteoporosis, or prior surgery?
 - Which tests validly measure anti-rotation and anti-lateral-flexion capacity outside the gym?
